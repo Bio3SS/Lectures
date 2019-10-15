@@ -1,4 +1,3 @@
-
 ## This is 3SS/Lectures, a screens project directory
 ## makestuff/project.Makefile
 
