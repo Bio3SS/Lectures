@@ -13,12 +13,21 @@ current: target
 
 ######################################################################
 
-# Content
-
 vim_session:
 	bash -cl "vmt"
 
 Sources += Makefile content.mk
+
+## Keeping track of schedule
+Sources += lectures.txt
+
+## See .lmk rule
+Drop = Define_image_drop_in_local.mk
+
+-include $(ms)/newtalk.def
+-include $(ms)/perl.def
+-include local.mk
+## -include $(ms)/repos.def
 
 ######################################################################
 
