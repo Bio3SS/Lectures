@@ -1,0 +1,378 @@
+
+INTRO
+
+----------------------------------------------------------------------
+
+CLASS DEFHEAD Overview
+
+TOC
+
+----------------------------------------------------------------------
+
+
+SEC Course structure
+
+----------------------------------------------------------------------
+
+CHANGE CC: Need to check the links on the slides for the polls. Outlines broken. Apparently old versions of the slides. Add a slide about taking notes.
+
+Course overview
+
+	Lecture notes for each section will be available on AtL the afternoon
+	before you need them
+
+		Check AtL frequently for announcements and new information
+
+	The professor is Jonathan Dushoff
+
+		Office hours Tue 9:30-10:20 AM, Wed 2:30-3:20 PM,
+		or \emph{by appointment,} LSB 332
+
+		{\tt dushoff@mcmaster.ca}
+
+	The lecture TA is Caroline Cauret
+
+		Contact through the Facebook group, or AtL
+
+----------------------------------------------------------------------
+
+Expectations of professor
+
+	Start and end on time
+
+	Focus on conceptual understanding
+
+	Make clear what terminology and facts must be learned
+
+	Open to questions -- both in class (within reason) and at office
+	hours
+
+	Responsive to questions on class forums (Facebook and AtL)
+
+----------------------------------------------------------------------
+
+Expectations of students
+
+	Don't talk while other students are talking, or while I am
+	responding to student questions
+
+	If you must talk at other times, be unobtrusive
+
+	Don't use the internet for non-class activities
+
+	Give the professor his 50 min
+
+	Lectures are required
+
+	Tutorials are required, unless otherwise specified
+
+		If you don't go to tutorials, don't bother us about anything
+		covered in tutorials
+
+----------------------------------------------------------------------
+
+Texts
+
+	The primary text for this course is the lecture notes
+
+	You will be given readings, which will be posted to AtL
+
+	You are required to have an Ecology textbook
+
+		Molles and Cahill, Second Canadian edition is recommended
+
+		If you would like to use a different textbook, let your TA know, so we
+		can attempt to provide readings.
+
+----------------------------------------------------------------------
+
+Structure of presentation
+
+	Required material will be clearly outlined in the notes
+
+		ANS This is an answer: it was omitted from the notes for
+		discussion purposes, you should probably write it in
+
+		COMMENT This is a comment: I omitted from the notes because I
+		thought it wasn't necessary for you to study.  If you write it
+		in, make a note to yourself that it's a comment.
+
+	Required terminology will be presented in {\bf bold}
+
+	General ideas and approaches presented in class may also be required;
+	you should take notes on these in your own words
+
+----------------------------------------------------------------------
+
+Polling
+
+	You can obtain extra credit by responding to in-class polls
+
+		Text from your cell phone, or answer on the web
+
+	POLL  Why are you taking this class?
+
+----------------------------------------------------------------------
+
+SEC People
+
+----------------------------------------------------------------------
+
+TAs
+
+	Awesome
+
+----------------------------------------------------------------------
+
+Dushoff
+
+	Loves math
+
+	Lived in four countries
+
+	Studies evolution and spread of infectious diseases
+
+		HIV, rabies, ebola, influenza, \ldots
+
+		SHORT See notes for more info.
+		
+		NOTES HLINK http://lalashan.mcmaster.ca/theobio/DushoffLab/
+		
+		NOTES HLINK https://twitter.com/jd_mathbio
+
+----------------------------------------------------------------------
+
+RSLIDE Squaring the circle
+
+HIGHFIG filledCircle.Rout-4.pdf
+
+----------------------------------------------------------------------
+
+RSLIDE Which country? 
+
+WIDEFIG webpix/phila_skyline.jpg
+
+--------------------------------------------------------------------
+
+RSLIDE Which country? 
+
+WIDEFIG webpix/big_bend.jpg
+
+--------------------------------------------------------------------
+
+RSLIDE Which country? 
+
+WIDEFIG webpix/taiwan_street.jpg
+
+--------------------------------------------------------------------
+
+RSLIDE Which country? 
+
+WIDEFIG webpix/tims.jpg
+
+----------------------------------------------------------------------
+
+RSLIDE Ebola research
+
+WIDEFIG weitz_full.pdf
+
+----------------------------------------------------------------------
+
+Students
+
+	POLL  What year are you in?
+
+	POLL  What kind of career are you aiming for?
+
+----------------------------------------------------------------------
+
+SEC Course content
+
+----------------------------------------------------------------------
+
+TSS Learning goals
+
+	Ecology and population ecology
+
+	Quantitative thinking
+
+	Dynamical modeling
+
+----------------------------------------------------------------------
+
+	POLL  What is ecology?
+
+	My answer
+
+		ANS The study of how organisms interact with each other and with
+		the environment
+
+		ANS Ecology is not environmentalism 
+
+----------------------------------------------------------------------
+
+	POLL  What is population ecology?
+
+	My answer
+
+		ANS The study of how organisms interact with each other and with
+		the environment at the population scale
+
+		ANS Larger spatial scale, longer temporal scale
+
+		ANS We use \emph{dynamical models} to link from the individual level to
+		the population level
+
+----------------------------------------------------------------------
+
+Dynamical modeling
+
+BC
+
+	Investigates the links between local, short-term processes, and
+	large-scale, long-term outcomes
+
+	Allows us to explore what assumptions we're making, and how
+	assumptions affect the link
+
+NC
+
+SIDEFIG webpix/touching.jpg
+
+SIDEFIG webpix/ew_measles.png
+
+EC
+
+----------------------------------------------------------------------
+
+Math
+
+	Population ecology uses math
+
+		Math is a critical tool for linking processes to outcomes
+
+		Math will play a central role in the course 
+
+	We will keep it {\em simple}
+
+		But we understand that simple does not always mean easy
+
+	MATREF math.handouts.pdf Review the math supplement
+
+----------------------------------------------------------------------
+
+Humans and abstract thought
+
+BC
+
+	People are evolved to be concrete thinkers, not conceptual thinkers
+
+	A goal of this course is to build conceptual thinking skills
+
+NC
+
+SIDEFIG webpix/hockey.jpg
+
+SIDEFIG webpix/emc.png
+
+EC
+
+----------------------------------------------------------------------
+
+SS Examples
+
+----------------------------------------------------------------------
+
+Malaria 
+
+BC
+
+	A nasty, mosquito-borne disease
+
+	In some places (e.g., the southeastern US), it has been eradicated
+	almost by accident
+
+		Mosquitoes are still present
+
+	In other places it persists at high levels despite concerted
+	efforts at elimination 
+
+	\emph{What factors determine when and where malaria spreads?}
+
+NC
+
+SIDEFIG webpix/us_malaria_1935.jpg
+
+EC
+
+----------------------------------------------------------------------
+
+Red squirrels
+
+BC
+
+	Red squirrels are rapidly disappearing from England
+
+		Loss of suitable habitat?
+
+		Competition from gray squirrels introduced from North America?
+
+		Diseases carried by gray squirrels?
+
+	NOTES HLINK http://en.wikipedia.org/wiki/Eastern_grey_squirrels_in_Europe
+
+NC
+
+SIDEFIG webpix/red_squirrel.jpg
+
+SIDEFIG webpix/grey_squirrel.jpg
+
+EC
+
+----------------------------------------------------------------------
+
+Cod fisheries
+
+BC
+
+	Is the ocean too big for people to affect?
+
+	What happened to the cod?
+
+	NOTES HLINK http://en.wikipedia.org/wiki/Collapse_of_the_Atlantic_northwest_cod_fishery 
+
+NC
+
+SIDEFIG webpix/cod.jpg
+
+SIDEFIG ts/cod1678.simple.Rout-0.pdf
+
+EC
+
+----------------------------------------------------------------------
+
+Populations 
+
+	POLL  What population of organisms interests you?
+
+----------------------------------------------------------------------
+
+Dandelions
+
+BC
+
+	Start with one dandelion; it produces 100 seeds, of which only
+	4% survive to reproduce the next year.
+
+		How many dandelions after 3 years?
+
+			ANS 64?
+
+			ANS 125?
+
+NC
+
+SIDEFIG webpix/dandy_field.jpg
+
+EC
+

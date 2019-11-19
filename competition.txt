@@ -1,0 +1,991 @@
+
+UNIT 6: Competition
+
+----------------------------------------------------------------------
+
+SEC Introduction
+
+----------------------------------------------------------------------
+
+Inter-species interactions
+
+	Competition: interaction hurts the growth rate of both species
+
+		NOANS
+
+	Exploitation: interaction is good for one species but bad for the
+	other
+
+		NOANS
+
+	Mutualism: interaction is good for both species
+
+		NOANS
+
+	Commensalism: interaction is good for one species, and close to
+	neutral for the other
+
+		NOANS
+
+CHANGE Ask for examples. 
+
+----------------------------------------------------------------------
+
+Competition
+
+	Competition occurs when two species both depend on the same
+	resource, or resources
+
+	Each species' ability to reproduce successfully is reduced by the
+	presence of the other 
+	
+	Via effects on any component of successful reproduction:
+
+		ANS Survival, growth, producing offspring
+
+	Species may be very similar, or very different
+
+		ANS Oaks and maples competing for light
+
+		ANS Ants and mammals competing for leaves
+
+		ANS Mussels and algae competing for space in the intertidal zone
+
+----------------------------------------------------------------------
+
+PSLIDE Competition
+
+FIG webpix/larches.jpg
+
+----------------------------------------------------------------------
+
+PSLIDE Competition
+
+BC
+
+FIG webpix/leaf_cutters.jpg
+
+NC
+
+WIDEFIG webpix/tapir.jpg
+
+EC
+
+----------------------------------------------------------------------
+
+PSLIDE Competition
+
+FIG webpix/mussels_algae.jpg
+
+----------------------------------------------------------------------
+
+
+Competition in ecology
+
+	What factors determine which species survive in which habitats?
+
+	What factors determine how many similar species can co-exist?
+
+	Why do similar species coexist at all?
+
+----------------------------------------------------------------------
+
+Flour beetles
+
+	There is a series of experiments where researchers allow two
+	species of flour beetles to compete in different laboratory
+	environments 
+
+	The larger species survives better in drier conditions, and the
+	smaller species reproduces faster in moister conditions
+
+	POLL  What outcomes do you expect under wet vs dry conditions?
+
+		ANS Each species wins when conditions are better for it
+
+	POLL  What if I ``tune" the conditions to something in between? What if I tune the conditions to something in between?
+
+		ANS The species could both survive together
+
+		ANS Sometimes one survives, and sometimes the other
+
+			ANS Whichever species got a ``head start'' would survive
+
+----------------------------------------------------------------------
+
+PSLIDE Outcomes of competition
+
+FIG webpix/confusum.jpg
+
+COMMENT The confused flour beetle
+
+----------------------------------------------------------------------
+
+Outcomes of competition
+
+	In a given stable environment, we generally expect the competitive
+	interaction between two species to have one of the following results
+
+		{\bf Dominance}: one species wins every time
+
+		{\bf Co-existence}: if both species are present, they will both
+		persist
+
+		{\bf Founder control}: whichever species gets established first
+		will exclude the other
+
+
+----------------------------------------------------------------------
+
+TSEC Population model with competition
+
+	We modeled a single species using the equation:
+
+		$\ds \frac{dN}{dt} = (b(N)-d(N)) N$
+
+	We want to modify this for a species which is competing
+	with another species
+
+		$\ds \frac{dN_1}{dt} = ? $
+
+	The amount of competition seen by species 1 is $\tilde N_1 = N_1 +
+	\alpha_{21} N_2$
+
+	How should our equation change?
+
+		ANS $\ds \frac{dN_1}{dt} = (b_1(\tilde N_1) - d_1(\tilde N_1))
+		N_1 $
+
+		ANS $\ds \frac{dN_2}{dt} = (b_2(\tilde N_2) - d_2(\tilde N_2))
+		N_2 $
+
+----------------------------------------------------------------------
+
+Carrying capacity
+
+	For this unit, we will mostly ignore Allee effects
+
+	Therefore, we expect each species to converge to its \emph{carrying
+	capacity} $K$ (or $K_1$ and $K_2$) when it is alone
+
+	How do we define carrying capacity in this system?
+
+		ANS The birth rate equals the death rate: $b(K) = d(K)$
+
+----------------------------------------------------------------------
+
+Carrying capacity with competition
+
+	$\ds \frac{dN_1}{dt} = (b_1(\tilde N_1) - d_1(\tilde N_1))
+	N_1 $
+
+	How can this population be at equilibrium?
+
+		ANS $\tilde N_1 = K_1$:  the species has the right amount of
+		competitive pressure to make $\R=1$
+
+		ANS $N_1 = 0$: the species is not present
+
+----------------------------------------------------------------------
+
+Logistic model
+
+	You've probably learned about the logistic model, if not you may
+	learn about it later
+
+	This model is similar to the logistic model, except:
+
+		Birth and death are tracked separately
+
+		We don't assume functions are straight lines
+
+	Everything we say about this model also applies to the logistic model
+
+----------------------------------------------------------------------
+
+SS Balanced competition
+
+----------------------------------------------------------------------
+
+Equal competition
+
+	If the $\alpha$s are both equal to one, we have equal competition.
+	This means that the competitive effect of an individual from either
+	species is the same.
+
+	If $\bar N = N_1 + N_2$, then:
+
+		$\ds \frac{dN_1}{dt} = (b_1(\bar N) - d_1(\bar N)) N_1 $
+
+		$\ds \frac{dN_2}{dt} = (b_2(\bar N) - d_2(\bar N)) N_2 $
+
+	What happens in this case?
+
+		ANS Competition is mediated by only one quantity, $\bar N$.
+
+		ANS Whichever species has a higher value of $K$ can survive at a density
+		where the other one can't 
+		
+		ANS Dominance!
+
+----------------------------------------------------------------------
+
+CSLIDE Dominance time plot
+
+FIG competition/first.comp.Rout-2.pdf
+
+----------------------------------------------------------------------
+
+PSLIDE Dominance phase plot
+
+DOUBLEFIG competition/first.comp.Rout-2.pdf competition/first.comp.Rout-0.pdf
+
+----------------------------------------------------------------------
+
+Dominance
+
+DOUBLEFIG competition/second.comp.Rout-4.pdf competition/second.comp.Rout-0.pdf
+
+----------------------------------------------------------------------
+
+CSLIDE Dominance
+
+DOUBLEFIG competition/second.comp.Rout-2.pdf competition/second.comp.Rout-0.pdf
+
+----------------------------------------------------------------------
+
+Time plots and phase plots
+
+	\emph{Time plots} have time on one axis and show population
+	quantities on another
+
+		Fixed parameters (usually)
+
+		Single starting points
+
+	\emph{Phase plots} have population quantities on both axes
+
+		Fixed parameters (usually)
+
+		Multiple starting points (usually)
+
+		Better for seeing overall pattern of results
+
+		Worse for seeing rates (how quickly things change)
+
+----------------------------------------------------------------------
+
+Reading phase plots
+
+	Log or linear (per capita vs.~total perspective)
+
+	Open circles are starting points
+
+	Closed circles are ending points
+
+	Arrows show direction of time
+
+----------------------------------------------------------------------
+
+Dominance again
+
+DOUBLEFIG competition/third.comp.Rout-4.pdf competition/third.comp.Rout-0.pdf
+
+----------------------------------------------------------------------
+
+REPSLIDE What's the difference?
+
+DOUBLEFIG competition/second.comp.Rout-4.pdf competition/second.comp.Rout-0.pdf
+
+----------------------------------------------------------------------
+
+Log plots and linear plots
+
+	We will look at \emph{population} quantities on either a \emph{log}
+	or \emph{linear} scale
+
+	Log plots show \emph{proportional} differences
+
+	Linear plots show \emph{absolute} differences
+
+----------------------------------------------------------------------
+
+Different scales
+
+DOUBLEPDF competition/second.comp.Rout
+
+----------------------------------------------------------------------
+
+
+Units of $\alpha$
+
+	$\tilde N_1 = N_1 + \alpha_{21} N_2$;
+	$\tilde N_2 = N_2 + \alpha_{12} N_1$
+
+	$\alpha_{21}$ measures the strength of the competitive effect
+	\emph{of} individuals of species 2 \emph{on} the growth rate
+	of species 1.  
+	
+	What are the units of $\alpha_{21}$?
+
+		ANS $\indiv_1/\indiv_2$
+
+	Since $\alpha$ has units, we don't expect there to be anything
+	special about $\alpha=1$
+
+	Equal competition (both species have the same effect on each other)
+	is a special case of balanced competition (both species have the
+	same \emph{relative} effect on each other)
+
+----------------------------------------------------------------------
+
+Balanced competition example
+
+	Two plants compete with each other for water.  The value of
+	$\alpha_{21}$ is $4 \indiv_1/\indiv_2$
+
+	POLL  Which species is bigger? 1; 2
+
+		ANS $4 indiv_1$ have as much impact as $indiv_2$
+
+		ANS Species 2 individuals are bigger
+
+	If they're only competing for water, what's the value of
+	$\alpha_{12}$?
+
+		ANS $\alpha_{12} = 1\indiv_2/4\indiv_1$
+
+		ANS $1 indiv_2$ has as much impact as $4 indiv_1$
+
+----------------------------------------------------------------------
+
+PSLIDE Balanced competition example
+
+FIG webpix/water_compete.jpg
+
+----------------------------------------------------------------------
+
+Balanced competition
+
+	POLL  What results do we expect from balanced competition? Bigger species wins; founder effects; coexistence; something else
+
+		ANS It seems like the bigger species should win
+
+		ANS But that's not always the case
+
+	Balanced competition works just like equal competition
+
+		ANS Both species experience total density in the same way
+
+		ANS So the species with the higher carrying capacity (compared
+		using the same units) will dominate
+
+	Balanced competition means (exactly) no tendency for founder
+	control or for coexistence
+
+----------------------------------------------------------------------
+
+Measuring competitive effects
+
+	It makes sense that we have a range of parameters that give us
+	balanced competition, because we know qualitative changes in
+	dynamics are explained by unitless parameters
+
+	What's the unitless parameter here?
+
+		ANS $C = \alpha_{21}\alpha_{12}$
+
+	$C$ measures the relative effect of between-species and
+	within-species competition
+
+		$C=1$ means competition is balanced 
+
+		$C<1$ means there is more competition within species (tendency
+		for coexistence)
+
+		$C>1$ means there is more competition between species (tendency
+		for founder control)
+
+----------------------------------------------------------------------
+
+
+TSS Unbalanced competition
+
+BC
+
+	If two species are competing by using a simple resource, we expect
+	competition to be balanced
+
+		Both $\alpha$s measure the relative effect of the two species on
+		the resource
+
+	In more realistic situations, competition may not be balanced
+
+NC
+
+SIDEFIG webpix/toe_balance.jpg
+
+EC
+
+----------------------------------------------------------------------
+
+Coexistence
+
+	Coexistence \emph{may} occur when $C<1$
+
+	POLL  Why might individuals have relatively weaker competitive interactions with members of the other species?
+
+		ANS They may compete for mates or mating sites
+
+			ANS Example: birds with different nesting preferences
+
+		ANS Organisms may use resources in different ways
+
+			ANS Trees may produce leaves at different times
+
+----------------------------------------------------------------------
+
+PSLIDE Coexistence
+
+FIG webpix/cliff_swallows.jpg
+
+----------------------------------------------------------------------
+
+PSLIDE Coexistence
+
+FIG webpix/robins_nest.jpg
+
+----------------------------------------------------------------------
+
+CSLIDE Coexistence
+
+FIG competition/coexist.comp.Rout-7.pdf
+
+----------------------------------------------------------------------
+
+Coexistence
+
+DOUBLEFIG competition/coexist.comp.Rout-2.pdf competition/coexist.comp.Rout-7.pdf
+
+----------------------------------------------------------------------
+
+PSLIDE Coexistence phase plot
+
+FIG competition/coexist.comp.Rout-0.pdf
+
+----------------------------------------------------------------------
+
+PSLIDE Coexistence phase plot (log scale)
+
+FIG competition/coexist.comp.Rout-1.pdf
+
+----------------------------------------------------------------------
+
+Coexistence phase plots
+
+DOUBLEFIG competition/coexist.comp.Rout-0.pdf competition/coexist.comp.Rout-1.pdf
+
+----------------------------------------------------------------------
+
+Founder control
+
+	Founder control \emph{may} occur when $C>1$
+
+	POLL  Why might individuals have relatively stronger competitive interactions with members of the other species?
+
+		ANS Conspecifics might co-operate to defend resources
+
+			ANS Example: dogs and leopards
+
+		ANS Organisms might change the environment in a way that favors
+		their own species
+
+			ANS Example: trees and grasses
+
+----------------------------------------------------------------------
+
+PSLIDE Founder control
+
+FIG webpix/wild_dogs.jpg
+
+COMMENT Co-operation
+
+----------------------------------------------------------------------
+
+PSLIDE Founder control
+
+FIG webpix/leopard.jpg
+
+COMMENT Co-operation
+
+----------------------------------------------------------------------
+
+PSLIDE Founder control
+
+FIG webpix/savanna_burn.jpg
+
+COMMENT Changing the environment
+
+----------------------------------------------------------------------
+
+CSLIDE Founder control
+
+FIG competition/mutual.comp.Rout-3.pdf
+
+----------------------------------------------------------------------
+
+CSLIDE Founder control
+
+FIG competition/mutual.comp.Rout-5.pdf
+
+----------------------------------------------------------------------
+
+Founder control
+
+DOUBLEFIG competition/mutual.comp.Rout-3.pdf competition/mutual.comp.Rout-5.pdf
+
+----------------------------------------------------------------------
+
+CSLIDE Founder control phase plot
+
+FIG competition/mutual.comp.Rout-0.pdf
+
+----------------------------------------------------------------------
+
+CSLIDE Founder control phase plot (log scale)
+
+FIG competition/mutual.comp.Rout-1.pdf
+
+----------------------------------------------------------------------
+
+Founder control phase plots
+
+DOUBLEFIG competition/mutual.comp.Rout-0.pdf competition/mutual.comp.Rout-1.pdf
+
+----------------------------------------------------------------------
+
+Founder control can be complicated
+
+WFIG 0.6 competition/mutual.comp.Rout-4.pdf
+
+	Founder control really means each species can win with a \emph{big
+	enough} head start
+
+----------------------------------------------------------------------
+
+Results of competition
+
+	$C$ measures the relative effect of each species on each other, but
+	it doesn't reflect growth rates or how strongly each species is
+	affected by competition
+
+	$C$ may stay (about) the same, even as we switch conditions so that
+	one or the other species dominates
+
+	POLL  $C$ tells us what will happen \emph{if} neither species is dominating. What are the possible results, other than dominance? What are the possible results, other than dominance?
+
+		ANS Founder effects, neutrality or coexistence
+
+----------------------------------------------------------------------
+
+SEC Population-level interactions
+
+----------------------------------------------------------------------
+
+TSS Invasion theory
+
+	The competitive relationship between two species can be
+	investigated by studying two \textbf{invasion} scenarios:
+
+	What happens if one species is established, and the other one tries
+	to invade (ie., some individuals are introduced)?
+
+		ANS Dominance occurs when one species can invade the other
+
+		ANS Coexistence occurs when each species can invade the other
+
+		ANS Founder control occurs when neither species can invade the
+		other
+
+----------------------------------------------------------------------
+
+Allee effects
+
+	This analysis assumes that species that can be successful under a
+	certain competitive environment can also invade that environment
+
+	That is, it neglects Allee effects
+
+	Would this assumption work with Allee effects?
+
+		ANS No. With Allee effects a species may be able to do well if established, but not be able to ``invade" if it's rare
+
+----------------------------------------------------------------------
+
+Competitive results
+
+	The competitive effect felt by species 1 is measured by $\tilde
+	N_1$ 
+
+	The \emph{amount} of competition needed for species 1 to be at
+	equilibrium is:
+
+		ANS $\tilde N_1 = K_1$
+
+	The amount of competition species 1 feels when trying to invade a
+	population of species 2 is:
+
+		ANS $\tilde N_1 = \alpha_{21} N_2$
+
+		ANS = $\alpha_{21} K_2$, if species 2 is at equilibrium
+
+	If species 1 feels more competition from invading species two than
+	it feels at its own equilibrium, it cannot invade.   And
+	\textbf{conversely}.
+
+----------------------------------------------------------------------
+
+Population-level competitive effects
+
+	The population-level competitive effect of species 2 on species one
+	is $E_{21} \equiv \alpha_{21} K_2/K_1$
+
+	This is the unitless ratio of the two measures of effect on
+	species 1 from the previous slide.
+
+	The two values of $E$ determine the competitive dynamics between
+	the two species.
+
+	If $E_{21} > 1$ species 2 can exclude species 1 (species 1 cannot
+	invade).  And \textbf{conversely}.
+
+----------------------------------------------------------------------
+
+Results of competition
+
+	If both $E$s are $<1$, neither can exclude the other
+
+		ANS We expect coexistence
+
+	If both $E$s are $>1$, they both exclude each other
+	
+		ANS which species wins will depend on starting conditions:
+		founder control
+
+	If one $E$ is $>1$, the large-$E$ species can exclude the other
+
+		ANS We expect that species to always win: dominance
+
+----------------------------------------------------------------------
+
+PSLIDE Results of competition
+
+FIG competition/bifurcation.Rout-0.pdf
+
+----------------------------------------------------------------------
+
+PSLIDE Results of competition
+
+FIG competition/bifurcation.Rout-1.pdf
+
+----------------------------------------------------------------------
+
+
+PSLIDE Results of competition
+
+FIG competition/bifurcation.Rout-2.pdf
+
+----------------------------------------------------------------------
+
+PSLIDE Results of competition
+
+FIG competition/bifurcation.Rout-3.pdf
+
+----------------------------------------------------------------------
+
+PSLIDE Results of competition
+
+FIG competition/bifurcation.Rout-4.pdf
+
+----------------------------------------------------------------------
+
+PSLIDE Results of competition
+
+FIG competition/bifurcation.Rout-5.pdf
+
+----------------------------------------------------------------------
+
+Results of competition
+
+FIG competition/bifurcation.Rout-6.pdf
+
+----------------------------------------------------------------------
+
+Measuring competition
+
+	$\alpha$ measures competitive effects at the individual level
+	
+		has units (ratios of types of individuals)
+
+	$E$ measures competitive effects at the population level, using
+	equilibrium populations
+
+		unitless
+
+	$C = \alpha_{21}\alpha_{12} = E_{21} E_{12}$ 
+
+		$C$ tells us: do the species have a \emph{tendency} for founder
+		control or coexistence?
+
+	For specific conditions, we also need to know values of $E$
+
+		Each species may dominate when conditions are good for it
+
+		We see the tendency for founder control or coexistence in
+		intermediate conditions
+
+----------------------------------------------------------------------
+
+Neutral competition
+
+	If competition is balanced, and neither species dominates, this is
+	called neutral competition
+
+	No tendency for either species to win
+
+	No tendency for founder control or for coexistence
+
+	If there's any small difference between the species, one may
+	dominate
+
+	Even if there's no difference, one should win eventually, by random
+	``drift"
+
+----------------------------------------------------------------------
+
+Founder control 
+
+	Up until now, we've thought of founder control as a single outcome
+
+	But from the point of view of the competing species, it's pretty
+	important which one of them gets control
+
+	POLL  What factors determine who gets control?
+
+		ANS Who gets there first
+
+		ANS Initial maximum growth rate
+
+		ANS How strongly they affect each other 
+
+----------------------------------------------------------------------
+
+PSLIDE Growth rate and founder control
+
+FIG competition/rmutual.comp.Rout-0.pdf
+
+----------------------------------------------------------------------
+
+PSLIDE Growth rate and founder control
+
+FIG competition/rmutual.comp.Rout-1.pdf
+
+----------------------------------------------------------------------
+
+Growth rate and founder control
+
+DOUBLEFIG competition/rmutual.comp.Rout-0.pdf competition/rmutual.comp.Rout-1.pdf
+
+----------------------------------------------------------------------
+
+TSS Colonization and co-existence
+
+	Up until now, we've thought about the question of which species
+	controls a particular area in the long term
+
+	But if available habitat is changing, it also matters what happens
+	in the short term
+
+	$rK$ tradeoff
+
+		$r$ strategists do better in the short term; $K$ strategists do
+		better do better in the long term
+	
+	POLL  When can you survive by doing better in the short term?
+
+		ANS When new opportunities (empty habitat) keep coming available
+
+			ANS When there is a lot of disturbance: fire, flood \ldots
+
+----------------------------------------------------------------------
+
+Growth rates
+
+	The maximum growth rate (for each species) is $r_0 = (b(0) - d(0))$:
+
+		ANS The net growth rate when crowding pressure is very low
+
+	The species with the better $r_0$ should do better in the short run
+
+		Faster exponential growth
+
+	If patches are very stable, then $K$ species wins
+
+	If they are very unstable, then $r$ species wins
+
+	In between, we get coexistence at the level of multiple populations
+
+		i.e., at the landscape level species may coexist
+
+----------------------------------------------------------------------
+
+rK tradeoff
+
+FIG competition/rK.comp.Rout-4.pdf
+
+----------------------------------------------------------------------
+
+SEC Niches and coexistence
+
+----------------------------------------------------------------------
+
+Ecological niches
+
+BC
+
+	An ecological niche refers to the way an organism makes a living:
+
+		What resources does it need?
+
+		What sort of environmental conditions does it need?
+
+NC
+
+SIDEFIG my_images/Seuss.pdf
+
+EC
+
+----------------------------------------------------------------------
+
+PSLIDE Seuss
+
+HIGHFIG my_images/Seuss.pdf
+
+----------------------------------------------------------------------
+
+Fundamental niches
+
+	A {\bf fundamental} niche is defined as the conditions under which an
+	organism could make a living (in other words, survive with $\R>1$)
+	{\em in the absence of competition}.
+
+	Many plants have very large fundamental niches
+
+		The reason spruce trees don't grow in Cootes Paradise is not that
+		they can't grow there
+		
+		ANS They can't compete with the other trees that
+		grow there
+
+----------------------------------------------------------------------
+
+Realized niche
+
+BC
+
+	The realized niche is defined as the conditions under which an
+	organism can make a living, including the effects of competing
+	species
+
+		The realized niche of spruce trees does not include Cootes
+		Paradise
+
+NC
+
+SIDEFIG webpix/spruce.jpg
+
+EC
+
+----------------------------------------------------------------------
+
+PSLIDE Example: chipmunks
+
+FIG webpix/chipmunk.jpg
+
+----------------------------------------------------------------------
+
+Example: chipmunks
+
+	There are several species of chipmunks in the Sierra Nevada mountains
+
+		The most aggressive can only survive where the rainfall is good,
+		and it out-competes all the other species
+
+		The least aggressive can survive anywhere in the mountain range,
+		but it cannot co-exist with any of the other species
+
+	What are the fundamental and realized niches of these species?
+
+		ANS The aggressive species has the same fundamental and realized
+		niches: the places where rainfall is good
+
+		ANS The mild-mannered species has a large fundamental niche, but
+		its realized niche is the area that's too dry for the other
+		species
+
+----------------------------------------------------------------------
+
+TSS The competitive exclusion principle
+
+	If two species use resources in the same way, we expect that
+	$C=1$.
+
+		The effect of an individual of each species can be measured by
+		its impact on resources.  If individuals of species one have
+		(e.g.) twice the impact, this should be seen by both species
+		equally.
+
+	If two species use resources in the same way, we do not expect them
+	to co-exist
+
+		One species will use the resources more efficiently (nothing in
+		biology is exactly equal)
+
+----------------------------------------------------------------------
+
+Exclusion and drift
+
+	Even if the two species were \emph{exactly} equal
+	in efficiency, we expect one species to go extinct at random
+
+	Due to the randomness of births and deaths, we expect the
+	proportions to fluctuate at random until one proportion reaches 0
+	and gets stuck there
+
+		We call this process ``drift", and it is strongly analogous to
+		genetic drift
+
+----------------------------------------------------------------------
+
+Competitive exclusion and biodiversity
+
+	Two species that use resources the same way cannot co-exist in a
+	stable environment in the long term due to their competitive
+	dynamics
+
+	This statement can be justified mathematically, and it has
+	important implications for real populations \ldots\
+	
+	\ldots but it must also break down 
+
+	POLL  How? Why do we observe species co-existing?
+
+		ANS Species may not use resources in the same way
+
+		ANS The environment may not be stable
+
+		ANS Co-existence may not be ``long term"!
+
+		ANS There may be stabilizing factors outside competitive dynamics
+		(e.g., natural enemies)
+

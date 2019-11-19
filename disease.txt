@@ -1,0 +1,842 @@
+UNIT 8: Infectious disease
+
+----------------------------------------------------------------------
+
+SEC Introduction
+
+----------------------------------------------------------------------
+
+Infectious disease
+
+	Extremely common
+
+	Huge impacts on ecological interactions
+
+	A form of exploitation, but doesn't fit well into our previous
+	modeling framework
+
+		How many people are there?
+
+		How many influenza viruses are there?
+
+		How do they find each other?
+
+----------------------------------------------------------------------
+
+Disease agents
+
+	POLL  Name an infectious agent that causes disease in humans.
+
+	Disease agents vary tremendously:
+
+		Most \textbf{viruses} have just a handful of genes that allow
+		them to hijack a cell and get it to make virus copies
+
+			ANS influenza virus, Ebola virus, HIV, measles
+
+		\textbf{Bacteria} are independent, free-living cells with
+		hundreds or thousands of chemical pathways
+
+			ANS Tuberculosis, anthrax, pertussis
+
+		\textbf{Eukaryotic} pathogens are nucleated cells who are more
+		closely related to you than they are to bacteria
+
+			ANS Malaria, various worms
+
+----------------------------------------------------------------------
+
+PSLIDE Influenza virus
+
+FIG webpix/flu_virus.jpg
+
+----------------------------------------------------------------------
+
+PSLIDE Tuberculosis bacilli
+
+FIG webpix/tb.jpg
+
+----------------------------------------------------------------------
+
+PSLIDE Malaria sporozoite
+
+FIG webpix/sporozoite.jpg
+
+----------------------------------------------------------------------
+
+Microparasites
+
+	For infections with small pathogens (viruses and bacteria), we don't
+	attempt to count pathogens, but instead divide disease into stages
+
+		Latently infected
+
+		Productively infected
+
+		Recovered
+
+----------------------------------------------------------------------
+
+Microparasite models
+
+	We model microparasites by counting the number of hosts in various
+	\textbf{states}:
+
+		\textbf{Susceptible} individuals can become infected
+
+		\textbf{Infectious} individuals are infected and can infect others
+
+		\textbf{Resistant} individuals are not infected and cannot become
+		infected
+
+	More complicated models might include other states, such as
+	latently infected hosts who are infected with the pathogen but
+	cannot yet infect others
+
+----------------------------------------------------------------------
+
+Models as tools
+
+BC
+
+	Models are the tools that we use to connect scales:
+
+		individuals to populations
+		
+		single actions to trends through time
+
+NC
+
+SIDEFIG boxes/trans.jpg
+
+SIDEFIG dd/ewmeas.Rout.pdf
+
+EC
+
+----------------------------------------------------------------------
+
+TSEC Rate of spread
+
+	POLL  For many diseases, especially new diseases, we can \emph{observe}
+	and \emph{estimate} $r$. | What is r?
+
+		ANS Instantaneous rate of increase (per capita)
+
+			ANS Units of 1/t
+
+			ANS Gives the exponential rate of spread
+
+	POLL  Want to know what factors contribute to that, and how it relates to
+	\R. | What is R in a disease model?
+
+		ANS number of new cases per case
+
+		ANS Unitless
+
+----------------------------------------------------------------------
+
+Basic reproductive number
+
+	People in the disease field love to talk specifically about \Ro
+
+	But they don't always mean the same thing when they say \Ro:
+
+		Actual value of \R\ before an epidemic
+
+		Hypothetical value assuming no immunity
+
+		Hypothetical value assuming no immunity and no control efforts whatsoever
+
+	Often easier to talk simply about \R.
+
+----------------------------------------------------------------------
+
+Example: the West African Ebola epidemic
+
+DOUBLEPDF WA_Ebola_Outbreak/liberia.npc.tsplot.Rout
+
+----------------------------------------------------------------------
+
+LONGSLIDE Generation intervals
+
+BC
+
+	Researchers try to estimate the \emph{proportion} of transmission
+	that happens for different \textbf{ages of infection}
+
+	How long from the time you are \emph{infected} to the time you
+	\emph{infect someone else}?
+
+	Analogous to a life table
+
+	The effective generation time $\hat G$ has units of time
+
+NC
+
+SIDEFIG boxes/generationTime.Rout-0.pdf
+
+EC
+
+----------------------------------------------------------------------
+
+LONGSLIDE Generation intervals
+
+DOUBLEFIG boxes/generationTime.Rout-0.pdf boxes/generationTime.Rout-1.pdf
+
+----------------------------------------------------------------------
+
+LONGSLIDE Speed and risk
+
+BC
+
+	Which is more dangerous, a fast disease, or a slow disease?
+
+		How are we measuring speed?
+
+		How are we measuring danger?
+
+		\emph{What do we already know?}
+
+NC
+
+SIDEFIG boxes/generationTime.Rout-0.pdf
+
+EC
+
+----------------------------------------------------------------------
+
+LONGSLIDE PSLIDE Fighting Ebola
+
+FIG webpix/burial_team.jpg
+
+----------------------------------------------------------------------
+
+LONGSLIDE Generation time and risk
+
+	If we know $\R$, what does the generation time tell us about $r$?
+
+		ANS The faster the generations (small $\hat G$), the faster the
+		exponential growth (large $r$)
+
+	If we know $r$, what does the generation time tell us about $\R$?
+
+		ANS The faster the generations (small $\hat G$), the  the
+		\emph{smaller} the strength of the epidemic (small reproductive
+		number $\R$)
+
+	$\R = \exp(r \hat G)$
+
+----------------------------------------------------------------------
+
+LONGSLIDE RSLIDE Generation time and risk
+
+FIG boxes/steps.Rout-0.pdf
+
+----------------------------------------------------------------------
+
+LONGSLIDE RSLIDE Generation time and risk
+
+FIG boxes/steps.Rout-1.pdf
+
+----------------------------------------------------------------------
+
+LONGSLIDE Generation time and risk
+
+DOUBLEPDF boxes/steps.Rout
+
+----------------------------------------------------------------------
+
+LONGSLIDE Generation time and risk
+
+	$\R = \exp(r \hat G)$
+
+	An intuitive view:
+
+		Epidemic speed = Generation strength $\times$ Generation speed
+
+		COMMENT Mathematically: $r = \log(\R) * (1/\hat G)$
+
+	If we know generation speed, then a faster epidemic speed means:
+
+		ANS More strength required (greater $\R$)
+
+	If we know epidemic speed, a faster generation speed means
+
+		ANS Less strength required (smaller $\R$)
+
+----------------------------------------------------------------------
+
+TSEC Single-epidemic model
+
+PRESENT WIDEFIG boxes/sir.np.three.pdf
+
+	Susceptible $\to$ Infectious $\to$ Recovered
+
+	We also use $N$ to mean the total population
+
+----------------------------------------------------------------------
+
+Transition rates
+
+WIDEFIG boxes/sir.three.pdf
+
+	What factors govern movement through the boxes?
+
+		People get better independently
+
+		People get infected by infectious people
+
+----------------------------------------------------------------------
+
+Conceptual modeling
+
+BC
+
+	POLL  What happens in the long term if we introduce an infectious individual?
+
+		ANS The \emph{may be} an \textbf{epidemic} -- an outbreak of
+		disease
+
+		ANS Disease burns out
+
+		ANS Everyone winds up either recovered or susceptible
+
+		ANS Not everyone gets infected!
+
+NC
+
+SIDEFIG boxes/sir.three.pdf
+
+EC
+
+----------------------------------------------------------------------
+
+Interpreting
+
+	Why might there not be an epidemic?
+
+		ANS If the disease can't spread well enough in the population
+
+			ANS Could depend on season, or immunity \ldots
+
+		ANS Demographic stochasticity: if we only start with one
+		individual, we expect an element of chance
+
+	Why doesn't everyone get infected?
+
+		NOANS
+
+----------------------------------------------------------------------
+
+LONGSLIDE Implementing the model
+
+BC
+
+	The {simplest} way to implement this conceptual
+	model is with differential equations:
+
+		$$\frac{dS}{dt}  =  - \beta \frac{SI}{N} $$
+
+		$$\frac{dI}{dt}  = \beta \frac{SI}{N}- \gamma I $$
+
+		$$\frac{dR}{dt}  = \gamma I $$
+
+		$$ N = S+I+R $$
+
+NC
+
+SIDEFIG boxes/sir.three.pdf
+
+EC
+
+----------------------------------------------------------------------
+
+Quantities
+
+CLASS WIDEFIG boxes/sir.three.pdf
+
+State variables
+
+	$S, I, R, N$: [people] or [people/ha]
+
+
+----------------------------------------------------------------------
+
+CONT Quantities
+
+Parameters
+
+	Susceptible people have \textbf{potentially effective} contacts at rate
+	$\beta$ (units [1/time])
+
+		These are contacts that would lead to infection if the person
+		contacted is infectious
+
+		Total infection rate is $\beta I/N$, because $I/N$ is the
+		proportion of the population infectious
+
+	Infectious people recover at \emph{per capita}
+	rate $\gamma$ (units [1/time])
+
+		Total recovery rate is $\gamma I$
+
+		Mean time infectious is $D = 1/\gamma$ (units [time])
+
+----------------------------------------------------------------------
+
+RSLIDE Simulating the model
+
+DOUBLEPDF sims/burnout.plots.Rout
+
+----------------------------------------------------------------------
+
+Simulating the model
+
+DOUBLEFIG sims/burnouts.plots.Rout-0.pdf sims/burnouts.plots.Rout-4.pdf
+
+----------------------------------------------------------------------
+
+Basic reproductive number
+
+	POLL  What \emph{unitless} parameter can you make from the model above?
+	How can you make a unitless parameter reflecting disease spread?
+
+		ANS $\Ro = \beta D = \beta/\gamma$ is the \textbf{basic
+		reproductive number}
+
+		ANS The \emph{potential} number of infections caused by an
+		average infectious individual
+
+			ANS That is: the number they would cause on average if
+			everyone else were susceptible
+
+		ANS The product of the rate $\beta$ (units [1/t]) and the
+		duration $D$ ([t])
+
+----------------------------------------------------------------------
+
+Basic reproductive number implications
+
+	POLL  What happens early in the epidemic if $\Ro>1$?
+	What happens early in the epidemic if Ro>1?
+
+		ANS Number of infected individuals grows exponentially
+
+	What happens early in the epidemic if $\Ro<1$?
+
+		ANS Number of infected individuals does not grow (disease cannot
+		invade)
+
+----------------------------------------------------------------------
+
+Effective reproductive number
+
+	The effective reproductive number gives the number of new infections
+	per infectious individual in a partially susceptible population:
+
+		ANS $\Reff = \Ro S/N$
+
+	Is the disease increasing or decreasing?
+
+		ANS It will increase when $\Reff > 1$ (more than one case per case)
+
+		ANS This happens when $S/N > 1/\Ro$
+
+	Why doesn't everyone get infected?
+
+		ANS When susceptibles are low enough $\Reff<1$
+
+		ANS When $\Reff<1$, the disease dies out on its own (less than one case per case)
+
+----------------------------------------------------------------------
+
+TSS Epidemic size
+
+	In this model, the epidemic always burns out
+
+		No source of new susceptibles
+
+	Epidemic size is determined by:
+
+		ANS \Ro: larger \Ro\ leads to a bigger epidemic
+
+		ANS The number of susceptibles at the beginning of the epidemic
+
+			ANS More susceptibles leads to a bigger epidemic
+
+			ANS \ldots and \emph{fewer} susceptibles at the end
+
+		LONG ANS The number of infected individuals at the beginning of the epidemic
+
+			LONG ANS Usually relatively small (and a relatively small effect)
+
+
+----------------------------------------------------------------------
+
+Overshoot 
+
+BC
+
+	Why does more susceptibles at the beginning mean fewer susceptibles at the end?
+
+		ANS More susceptibles $\implies$
+
+		ANS Faster initial growth $\implies$
+
+		ANS Bigger epidemic $\implies$
+
+		ANS More infections at peak (same number of susceptibles) $\implies$
+
+		ANS More generations needed for disease to fade out $\implies$
+
+		ANS More infections after peak \ldots
+
+NC
+
+SIDEFIG sims/burnouts.plots.Rout-4.pdf
+
+EC
+
+----------------------------------------------------------------------
+
+Ebola example
+
+BC
+
+	In September, the US CDC predicted ``as many as'' 1.5 million Ebola
+	cases in Liberia by January
+
+	In fact, their model predicted many \emph{more} cases than that by April
+
+	What happened?
+
+NC
+
+SIDEFIG WA_Ebola_Outbreak/liberia.npc.tsplot.Rout
+
+EC
+
+----------------------------------------------------------------------
+
+What limits epidemics?
+
+	POLL  What limits epidemics in our simple models?
+
+		ANS Depletion of susceptibles
+
+	POLL  What else limits epidemics in real life?
+
+		ANS Interventions
+
+		ANS Behaviour change
+
+		ANS Heterogeneity (differences between hosts, locations, etc.)
+
+----------------------------------------------------------------------
+
+TSEC Recurrent epidemic models
+
+BC
+
+	POLL 
+	If epidemics tend to burn out, why do we often see repeated
+	epidemics?
+
+		ANS People might lose immunity
+
+		ANS Births and deaths; newborns are susceptible
+
+NC
+
+SIDEFIG dd/ewmeas.Rout.pdf
+
+EC
+
+----------------------------------------------------------------------
+
+Recurrent epidemics
+
+FIG dd/ewmeas.Rout.pdf
+
+----------------------------------------------------------------------
+
+Closing the circle
+
+WIDEFIG boxes/sirs.four.pdf
+
+	ANS Loss of immunity
+
+----------------------------------------------------------------------
+
+Closing the circle
+
+WIDEFIG boxes/sirbd.four.pdf
+
+	ANS Births and deaths
+
+		ANS Effect on dynamics is similar to loss of immunity
+
+----------------------------------------------------------------------
+
+LONGSLIDE Births and deaths
+
+BC
+
+	$$\frac{dS}{dt}  =  b N - \beta \frac{SI}{N} - d S$$
+
+	$$\frac{dI}{dt}  = \beta \frac{SI}{N}- \gamma I -d I $$
+
+	$$\frac{dR}{dt}  = \gamma I - d R$$
+
+	We often assume $b=d$
+
+		$\implies$ population is constant
+
+NC
+
+SIDEFIG boxes/sirbd.four.pdf
+
+EC
+
+----------------------------------------------------------------------
+
+SS Dynamics
+
+----------------------------------------------------------------------
+
+Equilibrium
+
+	At equilibrium, we know that $\Reff=1$
+
+		One case per case
+
+		Number of susceptibles at equilibrium determined by the number required
+		to keep infection in balance
+
+			$S/N = 1/\Ro$
+
+	What does this remind you of?
+
+		ANS Reciprocal control!
+
+----------------------------------------------------------------------
+
+CONT Equilibrium
+
+	Number of infectious individuals determined by number required to keep susceptibles in balance.
+
+	As susceptibles go up, what happens?
+
+		Per capita replenishment goes down
+
+		Infections required goes down
+
+----------------------------------------------------------------------
+
+Reciprocal control
+
+	What happens to \emph{equilibrium} if we protect susceptibles (move them to $R$ class)?
+
+		ANS Equation for $dI/dt$ does not change
+
+		ANS Number of susceptibles at equilibrium does not change
+
+		ANS Fewer susceptibles removed by infection (some are removed
+		by us)
+		
+		ANS Less disease
+
+	What else could happen?
+
+		ANS If we remove susceptibles fast enough, infection could go extinct
+
+		ANS If we keep increasing the rate \ldots
+
+			ANS Number of susceptibles goes down
+
+----------------------------------------------------------------------
+
+Reciprocal control
+
+	POLL  What happens if we remove infectious individuals at a constant rate (find them and cure them or isolate them)?
+	What happens if we remove infectious individuals at a constant rate?
+
+		ANS We need more susceptibles to balance $dI/dt$
+
+		ANS If we have more susceptibles, then per capita replenishment goes down
+
+			ANS So the number of infectious individuals required for balance goes
+			down
+
+		ANS If we remove infectious individuals fast enough, the infection could
+		go extinct
+
+----------------------------------------------------------------------
+
+Tendency to oscillate
+
+DOUBLEPDF sims/recurrent.plots.Rout
+
+----------------------------------------------------------------------
+
+Tendency to oscillate
+
+	``Closed-loop'' SIR models (ie., with births or loss of immunity):
+
+		Tend to oscillate
+
+		Oscillations tend to be damped
+
+			System reaches an \textbf{endemic} equilibrium -- disease
+			persists
+
+----------------------------------------------------------------------
+
+Source of oscillations
+
+	Similar to predator-prey systems
+
+	What happens if we start with too many susceptibles?
+
+		ANS There will be a big epidemic
+
+		ANS \ldots then a very low number of susceptibles
+
+		ANS \ldots then a very low level of disease
+
+		ANS \ldots then an increase in the number of susceptibles
+
+----------------------------------------------------------------------
+
+Persistent oscillations
+
+BC
+
+	POLL  If oscillations tend to be damped in simple models, why do they
+	persist in real life?
+
+		ANS Weather
+
+			ANS Seasonality
+
+			ANS Environmental stochasticity
+
+		ANS School terms
+
+		ANS Demographic stochasticity
+
+		ANS Changes in Behaviour
+		
+			ANS People are more careful when disease levels are high
+
+NC
+
+SIDEFIG dd/ewmeas.Rout.pdf
+
+EC
+
+----------------------------------------------------------------------
+
+TSEC Reproductive numbers and risk
+
+	At equilibrium, the proportion of people who are susceptible to
+	disease should be approximately $S/N = 1/\Ro$
+
+	Proportion ``affected'' (infectious or immune) should be
+	approximately $V/N = 1-1/\Ro$
+
+	If you have a single, fast epidemic, the size is also predicted by
+	\Ro.
+
+----------------------------------------------------------------------
+
+RSLIDE Reproductive numbers and risk
+
+DOUBLEPDF sims/recurrent.plots.Rout
+
+----------------------------------------------------------------------
+
+CONT Reproductive numbers and risk
+
+DOUBLEPDF sims/fs.Rout
+
+----------------------------------------------------------------------
+
+Examples
+
+	Ronald Ross predicted 100 years ago that reducing mosquito densities
+	by a factor of 5 or so would \emph{eliminate} malaria
+
+	Gradual disappearance of polio, typhoid, etc., without risk factors
+	going to zero
+
+	Eradication of smallpox!
+
+----------------------------------------------------------------------
+
+Threshold for elimination
+
+	What proportion of the population should be vaccinated to eliminate
+	a disease?
+
+		ANS Transmission should be reduced by a factor of $\R$, so at least
+		fraction $1-1/\R$ should be vaccinated
+
+
+----------------------------------------------------------------------
+
+Examples: 
+
+	Polio has an $\Ro$ of about 5.
+
+	POLL  What proportion of the population
+	should be vaccinated to eliminate polio?
+
+		ANS At least 1-1/5 = 80%
+
+	Measles has an $\Ro$ of about 20. What proportion of the population
+	should be vaccinated to eliminate measles?
+
+		ANS At least 1-1/20 = 95%
+
+	If gonorrhea has an $\Ro$ of about 2, what proportion of unprotected sexual
+	encounters should be protected to eliminate gonorrhea?
+
+		ANS At least 1-1/2 = 50%
+
+----------------------------------------------------------------------
+
+Persistence of infectious disease
+
+	Why have infectious diseases persisted?
+
+		The pathogens \emph{evolve}
+
+		Human populations are \textbf{heterogeneous}
+
+			People differ in: nutrition, exposure, access to care
+
+		Information and misinformation
+
+			Vaccine scares, trust in health care in general
+
+----------------------------------------------------------------------
+
+Heterogeneity and persistence
+
+	Heterogeneity \emph{increases} \Ro
+
+		When disease is rare, it is concentrated in the most vulnerable
+		populations 
+
+			Cases per case is high	
+
+			Elimination is harder
+
+	Marginal populations
+
+		Heterogeneity could make it easier to concentrate on the most
+		vulnerable populations and eliminate disease
+
+		Humans rarely do this, however: the populations that need the
+		most support typically have the least access

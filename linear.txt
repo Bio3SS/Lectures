@@ -1,0 +1,1174 @@
+UNIT 2: Linear population models
+
+----------------------------------------------------------------------
+
+SEC Constructing models
+
+----------------------------------------------------------------------
+
+TSS Dynamical models
+
+BC
+
+Tools to link scales
+
+	Models are what we use to link:
+
+		Individual-level to population-level processes
+
+		Short time scales to long time scales
+
+	In both directions
+
+NC
+
+SIDEFIG webpix/touching.jpg
+
+SIDEFIG webpix/ew_measles.png
+
+EC
+
+----------------------------------------------------------------------
+
+Assumptions
+
+BC
+
+	Models are always simplifications of reality
+
+		``The map is not the territory''
+
+		``All models are wrong, but some are useful''
+
+	Models are useful for:
+
+		linking assumptions to outcomes
+
+		identifying where assumptions are broken
+
+NC
+
+SIDEFIG webpix/flat.png
+
+EC
+
+----------------------------------------------------------------------
+
+Dynamical models
+
+	\textbf{Dynamical models} describe rules for how a system changes at
+	each point in time
+
+	We will see what these assumptions about how the system
+	\emph{changes} lead to conclusions about what the system \emph{does}
+	over longer time periods
+
+----------------------------------------------------------------------
+
+States and state variables
+
+	Our dynamic models imagine that a system has a \textbf{state} at any
+	given time, described by one or more \textbf{state variables}
+
+	These are the things that follow our rules and change
+
+	Examples:
+
+		Dandelions: state is population size, described by one state
+		variable (the number of individuals)
+
+		Bacteria: state is population density, described by one state
+		variable (the number of individuals per ml)
+
+		Pine trees: state is amount of wood, described by one state
+		variable (tons per hectare)
+
+	Limiting the number of state variables is key to simple models
+
+----------------------------------------------------------------------
+
+Parameters
+
+	CORRECTION \textbf{Parameters} are the quantities that describe how the
+	rules for our system work
+
+	Examples:
+
+		Birth rate, death rate, fecundity, survival probability
+
+----------------------------------------------------------------------
+
+How do populations change?
+
+	I survey a population in 2009, and again in 2013.  I get a different
+	answer the second time.
+
+	POLL  What are some reasons why this answer might change?
+
+		ANS Birth
+
+		ANS Death
+
+		ANS Immigration and emigration
+
+		ANS Sampling (ie., my counts are not perfectly correct)
+
+----------------------------------------------------------------------
+
+Censusing and intermediate variables
+
+	Often, our population models will imagine that the population is
+	\textbf{censused} (counted) at particular periods of time
+
+	Calculations of what happens between census times may be part of how
+	we make our population model, without showing up in the main model
+	itself
+
+		For example, our moth and dandelion examples
+
+----------------------------------------------------------------------
+
+Linear population models
+
+	We will focus mostly on births and deaths
+
+	Births and deaths are done by individuals
+
+		We model the rate of each individual (per capita rates)
+
+		Total rate is the per capita rate multiplied by population size
+
+	If per capita rates are constant, we say that our population
+	\emph{models} are \textbf{linear}
+
+		Linear models do not usually correspond to linear growth!
+
+		ANS They usually correspond to exponential growth
+
+			ANS \ldots or exponential decline
+
+----------------------------------------------------------------------
+
+SS Examples
+
+----------------------------------------------------------------------
+
+REPSLIDE Gypsy moths
+
+BC
+
+	A pest species that feeds on deciduous trees
+
+	Introduced to N. America from Europe ~ 150 years ago
+
+	Capable of wide-scale defoliation
+
+NC
+
+SIDEFIG webpix/gm_caterpillar.jpg
+
+SIDEFIG webpix/gm_defoliation.jpg
+
+EC
+
+----------------------------------------------------------------------
+
+REPSLIDE Gypsy moth populations
+
+DOUBLEPDF ts/gm10165.simple.Rout
+
+----------------------------------------------------------------------
+
+Moth example
+
+BC
+
+	POLL State variable | What might be a state variable in this system?
+
+		ANS Number of moths/ha
+
+	Parameters 
+
+		ANS Number of eggs
+		
+		ANS sex ratio
+		
+		ANS larval survival, pupal survival, adult survival
+
+		ANS Time step
+
+	Census time
+
+		ANS Annually; use the same time (and stage) each year
+
+NC
+
+SIDEFIG webpix/cool_moth.jpg
+
+EC
+
+
+----------------------------------------------------------------------
+
+Bacteria
+
+BC
+
+	State variables
+
+		ANS Number of bacteria/ml
+
+	POLL Parameters | What might be a parameter in this system?
+
+		ANS Division rate, death rate, washout rate
+
+	Census time
+
+		ANS Always!
+
+NC
+
+SIDEFIG webpix/violet_bacteria.jpg
+
+EC
+
+----------------------------------------------------------------------
+
+Dandelions
+
+BC
+
+	State variables
+
+		ANS Number of dandelions in a field
+
+		POLL Are there intermediate variables?
+
+			CORRECTION Number of seeds
+
+	Parameters 
+
+		ANS Seed production, survival to adulthood, adult survival
+
+	Census time
+
+		ANS Annually, before reproduction
+
+		ANS When new and returning individuals are most similar
+
+NC
+
+SIDEFIG webpix/dandy_flower.jpg
+
+SIDEFIG webpix/dandy_seeds.jpg
+
+EC
+
+----------------------------------------------------------------------
+
+SS A simple discrete-time model
+
+----------------------------------------------------------------------
+
+Assumptions
+
+	If we have $N$ individuals after $T$ time steps, what determines how
+	many individuals we have after $T+1$ time steps?
+
+		A fixed proportion $p$ of the population (on
+		average) survives to be counted at time step $T+1$
+
+		Each individual creates (on average) $f$ new individuals
+		that will be counted at time step $T+1$
+
+	How many individuals do we expect in the next time step?
+
+		ANS $N_{T+1} = (pN_T+fN_T) = (p+f)N_T$
+
+	Diagram
+
+----------------------------------------------------------------------
+
+CONT Assumptions
+
+BC
+
+	Individuals are \textbf{independent}: what I do does not depend on
+	how many other individuals are around
+
+	The population is censused at regular time intervals $\Delta
+	t$
+
+		Usually $\Delta t$ = 1\yr
+
+	All individuals are the same at the time of census
+
+	Population changes deterministically
+
+NC
+
+SIDEFIG webpix/flat.png
+
+EC
+
+----------------------------------------------------------------------
+
+Definitions
+
+	$p$ is the \textbf{survival probability}
+
+	$f$ is the \textbf{fecundity}
+
+	$\lambda \equiv p + f$ is the \textbf{finite rate of increase}
+
+		... associated with the time step $\Delta t$
+
+		($\Delta t$ has units of time)
+
+----------------------------------------------------------------------
+
+Model
+
+	Dynamics: 
+
+		$N_{T+1} = \lambda N_T$ 
+
+		$t_{T+1} = t_T + \Delta t$
+
+	Solution: 
+
+		$N_T = N_0 \lambda^T$
+
+		$t_T = T \Delta t$
+
+	POLL  How does $N$ behave in this model? | How does N behave in this model?
+
+		ANS Increases exponentially (geometrically) when $\lambda>1$
+
+		ANS Decreases exponentially when $\lambda<1$
+
+----------------------------------------------------------------------
+
+PSLIDE Example
+
+BC
+
+SIDEFIG webpix/dandy_field.jpg
+
+SIDEFIG webpix/spreadsheet.png
+
+NC
+
+	HREF http://tinyurl.com/DandelionModel2019 Spreadsheet (see resource page)
+
+EC
+
+----------------------------------------------------------------------
+
+Interpretation
+
+	Assumptions are simplifications based on reality
+
+	We can understand why populations change exponentially sometimes
+
+	We can look for \emph{reasons} when they don't
+
+----------------------------------------------------------------------
+
+Examples
+
+BC
+
+	Moths
+
+		$p=0$, so $\lambda=f$. 
+
+			Moths are \textbf{semelparous} (reproduce once); they have
+			an \textbf{annual} population
+
+	Dandelions
+
+		If $p>0$, then the dandelions are \textbf{iteroparous}; they are
+		a \textbf{perennial} population
+
+NC
+
+SIDEFIG webpix/cool_moth.jpg
+
+SIDEFIG webpix/dandy_flower.jpg
+
+EC
+
+----------------------------------------------------------------------
+
+SS A simple continuous-time model
+
+----------------------------------------------------------------------
+
+Assumptions
+
+	If we have $N$ individuals at time $t$, how does the population
+	change?
+
+		Individuals are giving birth at per-capita rate $b$
+
+		Individuals are dying at per-capita rate $d$
+
+	How we describe the population dynamics?
+
+		ANS $\ds \frac{dN}{dt} = (b-d)N $
+
+		ANS That's what calculus is \emph{for} -- describing
+		instantaneous rates of change
+
+----------------------------------------------------------------------
+
+CONT Assumptions
+
+	Individuals are \textbf{independent}: what I do does not depend on
+	how many other individuals are around
+
+	The population can be censused at any time
+
+	Population size changes continuously
+
+	All individuals are the same all the time
+
+----------------------------------------------------------------------
+
+
+Definitions
+
+	$b$ is the \textbf{birth rate}
+
+	$d$ is the \textbf{death rate}
+
+	$r \equiv b-d$ is the {\bf instantaneous rate of increase}.
+
+	These quantities are not associated with a time period, but they
+	have units:
+
+		ANS 1/[time]
+
+			ANS $\equiv$ (indiv/[time])/indiv
+
+----------------------------------------------------------------------
+
+Model
+
+	Dynamics: 
+
+		$\ds \frac{dN}{dt} = rN $
+
+	Solution: 
+
+		$N(t) = N_0 \exp(rt)$
+
+	Behaviour
+
+		ANS Increases exponentially when $r>0$
+
+		ANS Decreases exponentially when $r<0$
+
+----------------------------------------------------------------------
+
+Bacteria
+
+	Conceptually, this is just as simple as the dandelions or the moths
+
+		In fact, simpler
+
+	But we can't do an infinite number of simulation steps on the
+	computer
+
+		 We need fancier methods
+
+----------------------------------------------------------------------
+
+CONT Bacteria
+
+DOUBLEFIG exponential/growth.Rout-0.pdf exponential/growth.Rout-1.pdf
+
+----------------------------------------------------------------------
+
+
+Summary
+
+	We can construct simple, conceptual models and make them into
+	dynamic models
+
+	If we assume that \emph{individuals} behave independently, then
+
+		we expect \emph{populations} to grow (or decline) exponentially
+
+----------------------------------------------------------------------
+
+SEC Units and scaling
+
+----------------------------------------------------------------------
+
+Units are our friends
+
+BC
+
+	Keep track of units at all times
+
+	Use units to confirm that your answers make sense
+
+		Or to find quick ways of getting the answer
+
+	What is $3\dd \cdot 4 \esp/\dd$?
+
+		ANS $12\esp$
+
+	What is $1\wk \cdot 0.02/\dd$?
+
+		ANS $1\wk \cdot 0.02/\dd$
+
+		ANS $1\wk \cdot 0.02/\dd \cdot \frac{7\dd}{\wk}$
+
+		ANS 0.14
+
+NC
+
+SIDEFIG webpix/espresso.jpg
+
+ADD Use hour not week
+
+EC
+
+----------------------------------------------------------------------
+
+Manipulating units
+
+BC
+
+	We can {multiply} quantities with different units by keeping track
+	of the units
+
+	We \emph{cannot} {add} quantities with different units (unless they
+	can be converted to the same units)
+
+	POLL  How many seconds are there in a day?
+
+		ANS
+		$\bigeq \frac{60 \uname{sec}}{\uname{min}} $ 
+		$\bigeq  \cdot \frac{60 \uname{min}}{\uname{hr}} $ 
+		$\bigeq \cdot \frac{24\uname{hr}}{\uname{day}}$ 
+
+		ANS 86400 \uname{sec}/\uname{day}
+
+	NOTES http://www.alysion.org/dimensional/fun.htm
+
+NC
+
+SIDEFIG webpix/clock.jpg
+
+EC
+
+----------------------------------------------------------------------
+
+Scaling
+
+	Quantities with units set scales, which can be changed
+
+		If I multiply all the quantities with units of time in my model
+		by 10, I should get an answer that looks the same, but
+		with a different time scale
+
+		If a multiply all the quantities with units of dandelions in my
+		model by 10, I should get an answer that looks the same, but with
+		a different number of dandelions
+
+----------------------------------------------------------------------
+
+PSLIDE Scaling time in bacteria
+
+DOUBLEFIG exponential/growth.Rout-0.pdf exponential/growth.Rout-1.pdf
+
+----------------------------------------------------------------------
+
+Scaling time in bacteria
+
+DOUBLEFIG exponential/growth.Rout-0.pdf exponential/growth.Rout-2.pdf
+
+----------------------------------------------------------------------
+
+ASLIDE Scaling population
+
+DOUBLEFIG exponential/growth.Rout-0.pdf exponential/growth.Rout-3.pdf
+
+----------------------------------------------------------------------
+
+ASLIDE Scaling population
+
+DOUBLEFIG exponential/growth.Rout-0.pdf exponential/growth.Rout-4.pdf
+
+----------------------------------------------------------------------
+
+
+Thinking about units 
+
+	POLL  What is $10^{3 \dd}$? | What is 10 to the power of 3d?
+
+		NOANS
+
+	What is $10^{72\hr}$?
+
+		ANS Nonsense! $72\hr$ means \emph{exactly} the same thing as
+		$3\dd$ -- there is no way to resolve this to make sense.
+
+	What is $3\dd \cdot 3\dd$?
+
+		ANS $9\dd^2$ -- this \emph{could} make sense, but it's very
+		different from $9\dd$.
+
+----------------------------------------------------------------------
+
+Unit-ed quantities
+
+	Quantities with units \emph{scale}
+
+		If you change everything with the same units by the same factor,
+		you should not change the behaviour of your system
+
+	We typically make sense of quantities with units by comparing them
+	to other quantities with the same units, e.g.: 
+
+		birth rate vs.\ death rate
+
+		characteristic time of exponential growth vs.\ observation time
+
+----------------------------------------------------------------------
+
+Unitless quantities
+
+	Quantities in exponents must be unitless
+
+	Quantities with variable exponents (quantities that can be
+	multiplied by themselves over and over) must be unitless
+
+	Quantities that determine \emph{how} a system behaves must have a
+	unitless form
+
+		Otherwise, they could be scaled
+
+		Zero works as a unitless quantity:
+
+			0km = 0cm
+
+	Examples include $\lambda$ and $\R$.
+
+----------------------------------------------------------------------
+
+REPSLIDE Moth calculation
+
+	Researchers studying a gypsy moth population make the following
+	estimates:
+
+		The average reproductive female lays 600 eggs
+
+		10% of eggs hatch into larvae
+
+		10% of larvae mature into pupae
+
+		50% of pupae mature into adults
+
+		50% of adults survive to reproduce
+
+		All adults die after reproduction
+
+----------------------------------------------------------------------
+
+Moths
+
+	$600 \uname{egg}/\uname{rF}$
+
+	$\cdot 0.1 \uname{larva}/\uname{egg}$
+
+	$\cdot 0.1 \uname{pupa}/\uname{larva}$
+
+	$\cdot 0.5 \uname{A}/\uname{pupa}$
+
+	$\cdot 0.5 \uname{rA}/\uname{A}$
+
+	POLL  What's the product?
+
+		ANS $1.5\uname{rA}/\uname{rF}$
+
+		ANS Need to multiply by something with units rF/rA to close the
+		loop
+
+----------------------------------------------------------------------
+
+Closing the loop
+
+	Once we close the loop, it doesn't matter where we start:
+
+		Reproductive adults to reproductive adults
+
+		Larvae to larvae
+
+		Pupae to pupae is common in real studies
+
+			ANS Pupae are easy to count
+
+	If we don't close the loop, we can't correctly move from step to step
+
+----------------------------------------------------------------------
+
+Calculating $\lambda$
+
+	$\lambda \equiv p + f$ is the \textbf{finite rate of increase}
+
+	If $N_{T+1} = \lambda N_T$, what are the units of $\lambda$?
+
+		ANS We multiply by $\lambda$ over and over
+
+		ANS Therefore $\lambda$ must be unitless
+
+	Therefore $p$ and $f$ must be unitless
+
+		example, rA/rA; seed/seed
+
+		to do it right, we close the loop
+
+----------------------------------------------------------------------
+
+SEC Key parameters
+
+----------------------------------------------------------------------
+
+TSS Discrete-time model
+
+	$N_{T+1} = \lambda N_T$ 
+
+	$\lambda \equiv p + f$
+
+----------------------------------------------------------------------
+
+Calculating fecundity
+
+	Fecundity $f$ in our model must be unitless
+
+	Multiply:
+
+		Probability of surviving from census to reproduction
+
+		Expected number of offspring when reproducing (maternity)
+
+		Probability of offspring surviving to census
+
+	Need to end where we started
+
+	Diagram
+
+----------------------------------------------------------------------
+
+Calculating survival
+
+	Survival $p$ must be unitless
+
+	Multiply:
+
+		Probability of surviving from census to reproduction
+
+		Probability of surviving the reproduction period
+
+		Probability of surviving until the next census
+
+----------------------------------------------------------------------
+
+Finite rate of increase
+
+	Population increases when $\lambda>1$
+
+	So $\lambda$ must be unitless
+
+	But it is \emph{associated with} the time step $\Delta t$
+
+		This means it is potentially confusing. It is often better to
+		use $\R$ or $r$ (see below).
+
+----------------------------------------------------------------------
+
+Reproductive number 
+
+	The reproductive number \R\ measures the average number of offspring
+	produced by a single individual over the course of its lifetime
+
+	POLL  The population will increase when \R\ldots:| The population will increase when R … .
+
+		ANS $\R>1$
+
+	POLL  What are the units of \R?  |What are the units of R?
+
+		ANS \R\ must be unitless
+
+----------------------------------------------------------------------
+
+Lifespan
+
+	In this model world, how long do individuals live, on average in this model?
+
+	If $p$ is the proportion of individuals that survive, then the
+	proportion that die is:
+
+		ANS $\mu = 1-p$
+
+	How many time steps do you expect to survive, on average?  
+
+		ANS $1/\mu$ 
+
+			ANS Roughly makes sense, and is also right
+
+		ANS Average lifetime is $1/\mu * \Delta t$
+
+----------------------------------------------------------------------
+
+Calculating \R
+
+	\R\ is fecundity multiplied by lifespan
+
+	$\R = f/\mu = f/(1-p)$
+
+	Why do we multiply by time \emph{steps} instead of lifetime?
+
+		ANS Because $f$ is also measured per time step
+
+		ANS \R\ must be unitless
+
+----------------------------------------------------------------------
+
+Comparison
+
+BCC
+
+\emph{Lifetime reproduction}
+
+	$\R = f/\mu = f/(1-p)$
+
+	Unitless
+
+	Population behaviour depends on the comparison $\R:1$
+
+		Equivalent to $f:\mu$
+
+NCC
+
+\emph{Reproduction over one time step}
+
+	$\lambda = f+p = f+(1-\mu)$
+
+	Unitless
+
+	Population behaviour depends on the comparison $\lambda:1$
+
+		Equivalent to $f:\mu$
+
+EC
+
+----------------------------------------------------------------------
+
+Is the population increasing?
+
+	What does $\lambda$ tell us about whether the population is
+	increasing?
+
+		ANS Population is increasing each time step when $\lambda>1$
+
+	What does $\R$ tell us about whether the population is increasing?
+
+		ANS Population is increasing when $\R>1$.  Each individual is (on
+		average) more than replacing itself over its lifetime
+
+	Therefore, these two criteria must be the same!
+
+		ANS Both come down to $f>\mu$.  
+
+----------------------------------------------------------------------
+
+SS Continuous-time model
+
+----------------------------------------------------------------------
+
+Calculating birth rate
+
+	The birth rate $b$ in the continuous-time model is new individuals
+	per individual per unit time
+
+		An instaneous rate
+
+		Units of [1/time] -- implies what assumption?
+
+			ANS New individuals are effectively the same as old individuals
+
+			ANS Not very realistic -- a potential problem with our model world
+
+----------------------------------------------------------------------
+
+Calculating death rate
+
+	The death rate $d$ in the continuous-time model is deaths per
+	individual per unit time
+
+		An instaneous rate
+
+		Units of [1/time]
+
+----------------------------------------------------------------------
+
+Instaneous rate of increase
+
+	Population increases when $r=b-d > 0$
+
+	$r$ is not unitless, units are:
+
+		ANS [1/time]
+
+	So how can $r=0$ be a criterion? 
+	
+		ANS Because 0 anything is unitless!
+
+		ANS Does 0km = 0cm?
+
+----------------------------------------------------------------------
+
+Calculating \R
+
+	The mean lifespan is $L = 1/d$
+
+		Equivalent to the characteristic time for the death process
+
+	\R\ is the average number of births expected over that time frame:
+
+		$\R = bL = b/d$
+
+----------------------------------------------------------------------
+
+Comparison
+
+BCC
+
+\emph{Lifetime reproduction}
+
+	$\R = bL = b/d$
+
+	Unitless
+
+	Population behaviour depends on the comparison $\R:1$
+
+		Equivalent to $b:d$
+
+NCC
+
+\emph{Instantaneous change}
+
+	$r = b-d $
+
+	Units [1/t] (a rate)
+
+	Population behaviour depends on the comparison $r:0$
+
+		Equivalent to $b:d$
+
+EC
+
+----------------------------------------------------------------------
+
+Is the population increasing?
+
+	What does $r$ tell us about whether the population is
+	increasing?
+
+		ANS Population is increasing at any particular time step when
+		$r>0$
+
+	What does $\R$ tell us about whether the population is increasing?
+
+		ANS Population is increasing when $\R>1$.  Each individual is (on
+		average) more than replacing itself over its lifetime
+
+	Therefore, these two criteria must be the same!
+
+		ANS Both come down to $b>d$.  
+
+----------------------------------------------------------------------
+
+TSS Links
+
+	After one time step in a discrete-time model
+
+		$N_0 \rightarrow N_0 \lambda$
+
+		$t \rightarrow t + \Delta t$
+
+	In a continuous model
+
+		$N_0 \rightarrow N_0 \exp(r\Delta t)$ in the same time period
+
+	To link them, we
+	set:
+
+		$\lambda = \exp(r\Delta t)$
+
+	In the other direction:
+
+		ANS $r = \log_e(\lambda)/\Delta t$
+
+----------------------------------------------------------------------
+
+Characteristic time
+
+	We can now find characteristic times of exponential change:
+
+		$T_c = 1/r$ for exponential growth when $r>0$
+
+		$T_c = -1/r$ for exponential decline when $r<0$
+
+	Rule of thumb: population changes by a factor of 20 after 3
+	characteristic times
+
+----------------------------------------------------------------------
+
+SEC Growth and regulation
+
+----------------------------------------------------------------------
+
+PRESLIDE Long-term growth rate
+
+BC
+
+	What is the long-term average exponential growth rate (using either
+	$r$ or $\lambda$) of:
+
+		A successful population?
+
+			NOANS
+
+		An unsuccessful population?
+
+			NOANS
+
+NC
+
+SIDEFIG webpix/humans.jpg
+
+SIDEFIG webpix/wolves.jpg
+
+EC
+
+----------------------------------------------------------------------
+
+Example: Human population growth
+
+	In the last 50,000 years, the population of modern humans has
+	increased from about 1000 to about 7 billion
+
+	What value of $r$ does this correspond to?  If we use a time step of
+	20-year generations, what value of $\lambda$ does it correspond to?
+
+		ANS $N(t) = N(0) \exp(rt)$
+
+			ANS $r = \log_e(N/N(0))/t$
+
+			ANS $r = \log_e(7000000000/1000)/50000\uname{yr}$ $=
+			0.0003/\uname{yr}$
+
+		ANS $N_T = N_0 \lambda^T$
+
+			ANS $T = {t/\Delta t} = 50000\uname{yr}/20\uname{yr} = 2500$
+
+			ANS $\lambda = (N_T/N_0)^{1/T}$
+
+			ANS $\lambda = (7000000000/1000)^{1/2500}$ $= 1.006$
+
+----------------------------------------------------------------------
+
+Long-term growth rate
+
+	What is the long-term average exponential growth rate (using either
+	$r$ or $\lambda$) of:
+
+		A successful population?
+
+			ANS Very close to $r=0$ or $\lambda=1$
+
+			ANS But a little larger
+
+		An unsuccessful population?
+
+			ANS \emph{Probably} very close to $r=0$ or $\lambda=1$ 
+
+			ANS But a little smaller
+
+			ANS If much smaller, it would disappear very fast
+
+----------------------------------------------------------------------
+
+Time scales
+
+	Estimated characteristic time scales for exponential growth or decay
+	are usually a few (or a few tens) of generations
+
+		years to a few kiloyears
+
+	Species typically persist for far longer
+
+		many kiloyears to megayears
+
+----------------------------------------------------------------------
+
+Balance
+
+	If populations grow and shrink proportionally to their size, why
+	don't they go exponentially to zero or infinity?
+
+		ANS \R\ is extremely close to 1 for every species
+
+	How is this possible
+
+		ANS Growth rates change through time
+
+----------------------------------------------------------------------
+
+Changing growth rates
+
+	POLL  What sort of factors can make species growth rates change?
+
+		ANS Seasonality
+
+		ANS Environmental changes (gradual or dramatic)
+
+		ANS Competition within species
+
+		ANS Competition between species
+
+		ANS Predators and diseases
+
+		ANS Resources (food and space)
+
+----------------------------------------------------------------------
+
+Regulation
+
+	What do we expect to happen if a population's growth rate is
+	affected only by seasons and climate?
+
+		ANS In the long-term, it will grow or shrink according to some
+		average value
+
+		ANS We don't expect perfect balance, so we don't expect
+		population to stay under control
+
+	What sort of mechanism could keep a population in a reasonable range
+	for a long time?
+
+		ANS If the growth rate is directly or indirectly affected by the
+		size of the population
+
+		ANS There should be some mechanism that decreases population
+		growth rate when population is large
+
+	This is even true for modern humans!
+

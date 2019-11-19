@@ -1,0 +1,87 @@
+
+## What are webnotes? destroy?
+
+######################################################################
+
+## Titles
+
+INTRO \section*{Bio 3SS %%}
+draft final: NOFRAME \title{%%}
+
+CHAPTER \section*{Bio 3SS Unit %%}
+draft final: NOFRAME \title{%%}
+
+######################################################################
+
+## Polls
+## For the notes, we want to just get rid of link text
+## No obvious mechanism in current dmu
+
+## Even-year poll question (current)
+## POLL Poll: \href{https://www.polleverywhere.com/%}{\color{pollcolor}%|}%!
+## handouts complete: Poll: \href{https://www.polleverywhere.com/%}{%|}%!
+## outline: %!
+
+POLL Poll: %| %!
+draft: {\color{pollcolor} %|} %!
+outline: %!
+
+## Show poll question in notes before it's made. Flag in draft
+NEWPOLL Poll: %| %!
+draft: {\color{pollcolor}Unlinked poll!:} %| %!
+outline: %!
+
+## Useful syntax? Not used.
+POLLTEXT %? %| %!
+
+# Comments are shown in class, but not in the notes
+OLDCOMMENT %!
+complete: {\em\underline{Comment}: }%%
+draft final: {\color{oldshortcolor}\sl %%}
+
+######################################################################
+
+### Special reference
+MATREF ^HREF https://bio3ss.github.io/materials/% %%
+
+ADD %!
+draft: Aadd %%
+
+######################################################################
+
+### Adaptive control
+
+LONGSLIDE NULLSLIDE
+
+LONG %!
+
+######################################################################
+
+
+## Old formatting stuff. Merge into main file some day?
+
+CLASS %!
+draft final: ^%%
+
+# Answer slide for class only (and complete notes)
+ASLIDE %!
+handouts: NULLSLIDE
+draft final: ^DEFHEAD {\sl \underline{%%}}
+webnotes complete: ^DEFHEAD {\underline{Answer slide}: \sl %%}
+
+# Comment slide (like an answer slide, but less important)
+CSLIDE %!
+handouts: NULLSLIDE
+draft final: ^DEFHEAD {\sl %%}
+webnotes complete: ^DEFHEAD {\underline{Comment slide}: \sl %%}
+
+# Question slide for class and _incomplete_ notes
+QSLIDE ^DEFHEAD %%
+complete: NULLSLIDE
+
+# Continue a slide with the same heading
+CONT %!
+webnotes draft final: ^DEFHEAD {\sl %%}
+
+# Fit a highfig that doesn't fit in frame
+FIGHFIG ^HFIG 0.9 %%

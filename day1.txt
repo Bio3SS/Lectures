@@ -1,0 +1,336 @@
+
+UNIT 1: Introduction
+
+----------------------------------------------------------------------
+
+SEC Course overview
+
+----------------------------------------------------------------------
+
+SS Course structure
+
+----------------------------------------------------------------------
+
+Communication
+
+	Lecture notes for each section will be available the afternoon
+	before you need them
+
+		Check AtL frequently for announcements and new information
+
+		All info will also be on the course resource page
+
+			HLINK http://bio3ss.github.io/
+
+	The professor is Jonathan Dushoff
+
+		{\tt dushoff@mcmaster.ca}
+
+		Office hours will be announced
+
+		Or ask questions electronically
+
+			We need a forum!
+
+----------------------------------------------------------------------
+
+Expectations of professor
+
+	Start and end on time
+
+	Focus on conceptual understanding
+
+	Make clear what terminology and facts must be learned
+
+	Open to questions -- both in class (within reason) and at office
+	hours
+
+	Responsive to questions on class forums (to be decided)
+
+----------------------------------------------------------------------
+
+Expectations of students
+
+	Start and end on time
+
+	Don't talk while other students are talking, or while I am
+	responding to student questions
+
+	If you must talk at other times, be unobtrusive
+
+	Don't use the internet for non-class activities
+
+	Attend the lecture, and the mandatory tutorials
+
+----------------------------------------------------------------------
+
+Texts
+
+	The primary text for this course is the lecture notes
+
+	You will be given readings, which will be posted to AtL
+
+	You are required to have an Ecology textbook
+
+		Molles and Cahill, Second Canadian edition is recommended
+
+		If you would like to use a different textbook, let your TA know, so we
+		can attempt to provide readings.
+
+----------------------------------------------------------------------
+
+Structure of presentation
+
+	Required material will be clearly outlined in the notes
+
+		ANS This is an answer: it was omitted from the notes for
+		discussion purposes, you should probably write it in
+
+		COMMENT This is a comment: I omitted from the notes because I
+		thought it wasn't necessary for you to study.  If you write it
+		in, make a note to yourself that it's a comment.
+
+	Required terminology will be presented in {\bf bold}
+
+	General ideas and approaches presented in class may also be required;
+	you should take notes on these in your own words
+
+----------------------------------------------------------------------
+
+Taking notes
+
+	You will do best if you take notes
+
+		You should know by now what works for you
+		
+		Or else that you need to keep working on it
+
+	If a new concept is making sense to you right now, write something
+	that will help you remember
+
+	If there's something specific I think you all need to write down, I will
+	write it for you (or mark it as an answer)
+
+----------------------------------------------------------------------
+
+Polling
+
+	You can obtain extra credit by responding to in-class polls
+
+		Text from your cell phone, or answer on the web
+
+	POLL  Why are you taking this class? Fits my career plans; Prerequisite for another course; Need a biology elective; Fits my schedule; Interested in ecology; Interested in quantitative biology
+
+----------------------------------------------------------------------
+
+SS People
+
+----------------------------------------------------------------------
+
+Dushoff
+
+	Loves math
+
+	Lived in four countries
+
+	Studies evolution and spread of infectious diseases
+
+		HIV, rabies, ebola, influenza, \ldots
+
+		SHORT See notes for more info.
+		
+		NOTES HLINK http://lalashan.mcmaster.ca/theobio/DushoffLab/
+		
+		NOTES HLINK https://twitter.com/jd_mathbio
+
+----------------------------------------------------------------------
+
+PSLIDE Pythagorean triples
+
+HIGHFIG webpix/pythagoras.pdf
+
+----------------------------------------------------------------------
+
+PSLIDE Which country?
+
+WIDEFIG webpix/independenceHall.jpg
+
+--------------------------------------------------------------------
+
+PSLIDE Which country? 
+
+WIDEFIG webpix/mantenga.jpg
+
+--------------------------------------------------------------------
+
+
+PSLIDE Which country? 
+
+WIDEFIG webpix/101.jpg
+
+--------------------------------------------------------------------
+
+PSLIDE Which country? 
+
+WIDEFIG webpix/timHamilton.jpg
+
+----------------------------------------------------------------------
+
+PSLIDE Ebola research
+
+WIDEFIG my_images/weitz_full.pdf
+
+----------------------------------------------------------------------
+
+EXTRA TAs
+
+BC
+
+	Morgan Kain
+
+		Current: ecology and evolution of infectious diseases
+
+		Forest ecology, animal behaviour
+
+			Focused on statistical approaches
+
+
+	Michael Li
+
+		Research: Disease forecasting and control
+
+		Interests: Math, science, business, politics, philosophy.
+
+			How everything is connected
+
+NC
+
+SIDEFIG my_images/kain_outside.jpg
+
+SIDEFIG my_images/li_peace.jpg
+
+EC
+
+----------------------------------------------------------------------
+
+TAs
+
+	Morgan Kain
+
+		Ecology and evolution of infectious diseases
+
+	Michael Li
+
+		Disease forecasting and control
+
+	Steve Cygu
+
+		Machine learning and health
+
+----------------------------------------------------------------------
+
+Students
+
+	POLL   What year are you in? First; Second; Third; Fourth; other
+
+	POLL   What kind of career are you aiming for?  Health care or medicine; Government or public health; Research; Teaching; Corporate; Entrepreneur or small business; Other
+
+----------------------------------------------------------------------
+
+SEC Course content
+
+----------------------------------------------------------------------
+
+TSS Learning goals
+
+	Ecology and population ecology
+
+	Quantitative thinking
+
+	Dynamical modeling
+
+----------------------------------------------------------------------
+
+Ecology
+
+	POLL   What is ecology?
+
+	My answer
+
+		ANS The study of how organisms interact with each other and with
+		the environment
+
+		ANS Ecology is not environmentalism 
+
+----------------------------------------------------------------------
+
+Population ecology
+
+	POLL   What is population ecology?
+
+	My answer
+
+		ANS The study of how organisms interact with each other and with
+		the environment at the population scale
+
+		ANS Larger spatial scale, longer temporal scale
+
+		ANS We use \emph{dynamical models} to link from the individual level to
+		the population level
+
+----------------------------------------------------------------------
+
+Dynamical modeling
+
+BC
+
+	Investigates the links between local, short-term processes, and
+	large-scale, long-term outcomes
+
+	Allows us to explore what assumptions we're making, and how
+	assumptions affect the link
+
+NC
+
+SIDEFIG webpix/touching.jpg
+
+SIDEFIG webpix/ew_measles.png
+
+EC
+
+----------------------------------------------------------------------
+
+Math
+
+	Population ecology uses math
+
+		Math is a critical tool for linking processes to outcomes
+
+		Math will play a central role in the course 
+
+	We will keep it {\em simple}
+
+		But we understand that simple does not always mean easy
+
+	MATREF math.handouts.pdf Review the math supplement
+
+----------------------------------------------------------------------
+
+Humans and abstract thought
+
+BC
+
+	People are evolved to be concrete thinkers, not conceptual thinkers
+
+	A goal of this course is to build conceptual thinking skills
+
+NC
+
+SIDEFIG webpix/hockey.jpg
+
+SIDEFIG webpix/emc.png
+
+EC
+
+----------------------------------------------------------------------
+

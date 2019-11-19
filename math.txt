@@ -1,0 +1,114 @@
+INTRO Math review
+
+----------------------------------------------------------------------
+
+Notation ($e$ is cool)
+
+	In this course log or $\log_e$ means the {\em natural} logarithm (written {\em ln} in
+	the textbooks)
+
+		If I mean $\log_{10}$, I will say so
+
+	exp() is a synonym for ``$e$ to the power of''
+
+----------------------------------------------------------------------
+
+Logarithms
+
+	Multiplying on the original scale is equivalent to adding on the log
+	scale
+
+		$\log(ab) = \log(a) + \log(b)$
+
+	Division is the opposite of multiplication and subtraction is the
+	opposite of addition:
+
+		$\bigeq \log(a/b) \equiv \log\left(\frac ab\right)
+		= \log(a) - \log(b)$
+
+	Exponentiation is to multiplication like multiplication is to
+	addition:
+
+		$\log(\lambda^k) = k\log(\lambda)$
+
+----------------------------------------------------------------------
+
+Complementarity
+
+	$\log_e$ and exp are complementary functions
+
+		$\exp(\log_e(x)) \equiv e^{\log_e(x)} = x$
+
+		$\log_e(\exp(x)) \equiv \log_e(e^x) = x$
+
+----------------------------------------------------------------------
+
+Exponentiation
+
+	The rules for exp are exactly complementary to those for log
+
+		$\exp(a+b) = \exp(a) \cdot \exp(b)$
+
+		$\bigeq \exp(a-b) = \exp(a) / \exp(b)$
+
+		$\exp(k\log_e(\lambda)) = \lambda^k$
+
+	Remember: you can't take the log or exponent of something with units
+
+----------------------------------------------------------------------
+
+Problems
+
+	You should be able to use these rules to solve simple problems,
+	algebraically, or on your calculator
+
+		If $\lambda^{20} = 0.1$, what is $\lambda$?
+
+	Also, word problems
+
+		If a population declines by 90% in 20 generations, what is its
+		reproductive number per generation?
+
+----------------------------------------------------------------------
+
+Algebra
+
+	If $\lambda^{20} = 0.1$, what is $\lambda$?
+
+		ANS $20 \log_e (\lambda) = \log_e(0.1)$
+
+		ANS $\log_e(\lambda) = \log_e(0.1)/20$
+
+		ANS $\lambda = \exp(\log_e(0.1)/20)$
+
+		ANS $\lambda=0.89$
+
+	If $\exp(rt) = 5$, and $r=0.1/\yr$, what is $t$?
+
+		ANS $rt = \log_e(5)$
+
+		ANS $t = \frac{\log_e(5)}{0.1/\yr}$
+
+		ANS $t = 16\yr$
+
+----------------------------------------------------------------------
+
+Units are our friends
+
+	Keep track of units at all times
+
+	Use units to confirm that your answers make sense
+
+		Or to find quick ways of getting the answer
+
+	Get used to manipulating and cancelling units
+
+	36 mpg = ?? L/100km
+
+		ANS
+		$\bigeq \frac{\uname{gal}}{36 \uname{mi}} $ 
+		$\bigeq  \cdot \frac{\uname{mi}}{1.6\uname{km}} $ 
+		$\bigeq \cdot \frac{3.8\uname{L}}{\uname{gal}}$ 
+		$\bigeq \cdot \frac{100\uname{km}}{100\uname{km}}$
+
+		ANS 6.6 L/100km

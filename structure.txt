@@ -1,0 +1,1387 @@
+
+UNIT 4: Structured populations
+
+----------------------------------------------------------------------
+
+TSEC Introduction
+
+	Up until now we've tracked populations with a single state variable
+	(population size or population density)
+
+	POLL  What assumption are we making?
+
+		ANS All individuals are similar enough to be counted together
+
+			ANS Always (continuous time) 
+
+			ANS At census time (discrete time)
+
+	What are some organisms for which this seems like a good
+	approximation?
+
+		ANS Dandelions, bacteria, insects
+
+	What are some organisms that don't work so well?
+
+		ANS Trees, people, codfish
+
+----------------------------------------------------------------------
+
+Structured populations
+
+	If we think age or size is important to understanding a population,
+	we might model it as an {\bf structured} population
+
+	Instead of just keeping track of the total number of individuals
+	in our population \ldots
+
+		Keeping track of how many individuals of each age
+
+			or size
+
+			or developmental stage
+
+----------------------------------------------------------------------
+
+TSS Example: biennial dandelions
+
+	Imagine a population of dandelions
+
+		Adults produce 80 seeds each year
+
+		1% of seeds survive to become adults
+
+		50% of first-year adults survive to reproduce again
+
+		Second-year adults never survive
+
+	Will this population increase or decrease through time?
+
+----------------------------------------------------------------------
+
+How to study this population
+
+	Choose a census time
+
+		Before reproduction or after
+
+		Since we have complete cycle information, either one should work
+
+	Figure out how to predict the population at the next census
+
+----------------------------------------------------------------------
+
+Census choices
+
+BC
+
+	Before reproduction
+
+		All individuals are adults
+
+		We want to know how many adults we will see next year
+
+	After reproduction
+
+		Seeds, one-year-olds and two-year-olds
+
+		Two-year-olds have already produced their seeds; once these seeds
+		are counted, the two-year-olds can be ignored, since they will
+		not reproduce or survive again
+
+NC
+
+SIDEFIG webpix/dandy_field.jpg
+
+SIDEFIG webpix/dandy_seeds.jpg
+
+EC
+
+----------------------------------------------------------------------
+
+REPSLIDE Example: biennial dandelions
+
+	Imagine a population of dandelions
+
+		Adults produce 80 seeds each year
+
+		1% of seeds survive to become adults
+
+		50% of first-year adults survive to reproduce again
+
+		Second-year adults never survive
+
+	Will this population increase or decrease through time?
+
+----------------------------------------------------------------------
+
+What determines $\lambda$?
+
+	If we have 20 adults before reproduction, how many do we expect to
+	see next time?
+
+	$\lambda = p + f$ is the total number of individuals per individual
+	after one time step
+
+	POLL  What is $f$ in this example? |  What is the fecundity in this example?
+
+		ANS 0.8
+
+	POLL  What is $p$ in this example? |  What is the survival probability in this example?
+
+		ANS 0.5 for 1-year-olds and 0 for 2-year-olds.
+
+		ANS We can't take an average, because we don't know the
+		population structure
+
+----------------------------------------------------------------------
+
+What determines $\R$?
+
+	$\R$ is the average total number of offspring produced by an
+	individual over their lifespan
+
+	Can start at any stage, but need to close the loop
+
+	POLL  What is the reproductive number?
+
+	ANS If you become an adult you produce (on average)
+
+		COMMENT Blackboard!
+
+		ANS 0.8 adults your first year
+
+		ANS 0.4 adults your second year
+
+	ANS $\R=1.2$
+
+----------------------------------------------------------------------
+
+What does \R\ tell us about $\lambda$?
+
+	ANS Population increases when $\R>1$, so $\lambda>1$ exactly
+	when  $\R>1$
+
+	If $\R=1.2$, then $\lambda$
+
+		ANS $>1$ -- the population is increasing
+
+		ANS $<1.2$ -- the life cycle takes more than 1 year, so it should
+		take more than one year for the population to increase 1.2 times
+
+----------------------------------------------------------------------
+
+TSS Modeling approach
+
+BC
+
+	In this unit, we will construct \emph{simple} models of structured
+	populations
+
+		To explore how structure might affect population dynamics
+
+		To investigate how to interpret structured data
+
+NC
+
+SIDEFIG webpix/israelpop.png
+
+EC
+
+----------------------------------------------------------------------
+
+Regulation
+
+	\emph{Simple} population models with regulation can have extremely
+	complicated dynamics
+
+	\emph{Structured} population models with regulation can have
+	insanely complicated dynamics
+
+	Here we will focus on understanding structured population models
+	\emph{without regulation}:
+
+		ANS Individuals behave independently, or (equivalently)
+
+		ANS Average per capita rates do not depend on population size
+
+----------------------------------------------------------------------
+
+CSLIDE Complexity
+
+FIG webpix/bifurcation.png
+
+----------------------------------------------------------------------
+
+
+Age-structured models
+
+BC
+
+	The most common approach is to structure by age
+
+	In age-structured models we model how many individuals there are in
+	each ``age class''
+
+		Typically, we use age classes of one year
+
+		Example: salmon live in the ocean for roughly a fixed number of
+		years; if we know how old a salmon is, that strongly affects how
+		likely it is to reproduce
+
+NC
+
+SIDEFIG webpix/salmon.jpg
+
+EC
+
+----------------------------------------------------------------------
+
+Stage-structured models
+
+BC
+
+	In stage-structured models, we model how many individuals there are
+	in different stages
+
+		Ie., newborns, juveniles, adults
+
+		More flexible than an age-structured model
+
+		Example: forest trees may survive on very little light for a long
+		time before they have the opportunity to recruit to the sapling
+		stage
+
+NC
+
+SIDEFIG webpix/tongass.jpg
+
+EC
+
+----------------------------------------------------------------------
+
+Discrete vs.\ continuous time in unstructured models
+
+	continuous-time models are structurally simpler (and smoother)
+
+	discrete-time models only need to assume everyone's the same sometimes
+
+		ANS At the census time
+
+		ANS More realistic
+
+----------------------------------------------------------------------
+
+DEFHEAD \ldots in structured models
+
+	We no longer assume everyone is the same (we keep track of age or size)
+
+	POLL So it should be mostly about reproduction | When might we prefer a continuous-time model?
+
+		ANS Populations with continuous reproduction (e.g. bacteria), may be
+		better suited to continuous-time models
+
+		ANS Populations with \textbf{synchronous} reproduction (e.g., moths) may
+		be better suited to discrete-time models
+
+	Continuous time with structure gives people headaches
+
+		So we won't do it here, even though it may be better for many applications
+
+----------------------------------------------------------------------
+
+TSEC Constructing a model
+
+	This section will focus on \textbf{linear, discrete-time,
+	age-structured} models
+
+	State variables: how many individuals of each age at any given time
+
+	Parameters: $p$ and $f$ \emph{for each age that we are modeling}
+
+----------------------------------------------------------------------
+
+When to count
+
+	We will choose a census time that is appropriate for our
+	study
+
+		Before reproduction, to have the fewest number of individuals
+
+		After reproduction, to have the most information about the
+		population processes
+
+		Some other time, for convenience in counting
+
+			ANS A time when individuals gather together
+
+			ANS A time when they are easy to find (insect pupae)
+
+----------------------------------------------------------------------
+
+The conceptual model
+
+	Once we choose a census time, we imagine we know the population for
+	each age $x$ after time step $T$.
+
+		We call these values $N_x(T)$
+
+	Now we want to calculate the expected number of individuals in each
+	age class at the next time step
+
+		We call these values $N_x(T+1)$
+
+	POLL  What do we need to know? | What do we need to know to calculate population for next time?
+
+		ANS The survival probability of each age group: $p_x$
+
+		ANS The average fecundity of each age group: $f_x$
+
+----------------------------------------------------------------------
+
+Closing the loop
+
+	$f_x$ and $p_x$ must close the loop back to the census time, so we
+	can use them to simulate our model:
+
+		$f_x$ has units [new indiv (at census time)]/[age $x$ indiv
+		(at census time)]
+
+		$p_x$ has units [age $x+1$ indiv (at census time)]/[age $x$ indiv
+		(at census time)]
+
+	COMMENT Diagram
+
+----------------------------------------------------------------------
+
+The structured model
+
+WIDEFIG my_images/structure_cc.png
+
+----------------------------------------------------------------------
+
+SS Model dynamics
+
+----------------------------------------------------------------------
+
+Short-term dynamics
+
+	This model's short-term dynamics will depend on parameters
+	\ldots
+
+		It is more likely to go up if fecundities and survival
+		probabilities are high
+
+	\ldots and starting conditions
+
+		If we start with mostly very old or very young individuals, it
+		might go down; with lots of reproductive adults it might go up
+
+----------------------------------------------------------------------
+
+Long-term dynamics
+
+	If a population follows a model like this, it will tend to reach
+
+		a \textbf{stable age distribution}:
+
+			the \emph{proportion} of individuals in each age class is
+			constant
+
+		a stable value of $\lambda$
+
+			if the proportions are constant, then we can average over
+			$f_x$ and $p_x$, and the system will behave like our simple
+			model
+
+	POLL  What are the long-term dynamics of such a system?
+
+		ANS Exponential growth or exponential decline
+
+	CLASS HREF http://tinyurl.com/DandelionModel2019 Spreadsheet
+
+	NOTES HLINK http://tinyurl.com/DandelionModel2019
+
+	ADD Make a command for this; it's cool
+
+----------------------------------------------------------------------
+
+Exception
+
+	Populations with \textbf{independent cohorts} do not tend to reach a
+	stable age distribution
+
+		A \textbf{cohort} is a group that enters the population at the
+		same time
+
+		We say my cohort and your cohort interact if my children
+		might be in the same cohort as your children
+
+		or my grandchildren might be in the same cohort as your
+		great-grandchlidren
+
+		\ldots
+
+	As long as all cohorts interact (none are independent), then the
+	unregulated model leads to a stable age distribution (SAD)
+
+----------------------------------------------------------------------
+
+Independent cohorts
+
+	Some populations might have independent cohorts:
+
+		If salmon reproduce \emph{exactly} every four years, then:
+
+			the 2015 cohort would have offspring in 2019, 2023, 2027,
+			2031, \ldots
+
+			the 2016 cohort would have offspring in 2020, 2024, 2028,
+			2032, \ldots
+
+			in theory, they could remain independent -- distribution would
+			not converge
+
+	Examples could include 17-year locusts, century plants, \ldots
+
+----------------------------------------------------------------------
+
+TSEC Life tables
+
+	People often study structured models using \textbf{life tables}
+
+	A life table is made \emph{from the perspective of a particular
+	census time}
+
+	It contains the information necessary to project to the next census:
+
+		How many survivors do we expect at the next census for each
+		individual we see at this census? ($p_x$ in our model)
+
+		How many offspring do we expect at the next census for each
+		individual we see at this census? ($f_x$ in our model)
+
+----------------------------------------------------------------------
+
+Cumulative survivorship
+
+	The first key to understanding how much each organism will
+	contribute to the population is {\bf survivorship}
+
+	In the field, we estimate the probability of survival from age $x$
+	to age $x+1$: $p_x$
+
+		This is the probability you will be \emph{counted} at age $x+1$,
+		given that you were \emph{counted} at age $x$.
+
+	To understand how individuals contribute to the population, we are
+	also interested in the overall probability that individuals survive
+	to age $x$: $\ell_x$.
+
+		ANS $\ell_x = p_1 \times \ldots p_{x-1}$
+
+		ANS $\ell_x$ measures the probability that an
+		individual survives to be counted at age $x$, given that it is
+		ever counted at all (ie., it survives to its first census)
+
+----------------------------------------------------------------------
+
+Calculating \R
+
+	We calculate \R\ by figuring out the estimated contribution at each
+	age group, \emph{per individual who was ever counted}
+
+		We figure out expected contribution given you were ever counted by
+		multiplying:
+
+		ANS $f_x \times \ell_x$
+
+----------------------------------------------------------------------
+
+SS Examples
+
+----------------------------------------------------------------------
+
+Dandelion example
+
+CLASS FIG webpix/dandy_field.jpg
+
+----------------------------------------------------------------------
+
+REPSLIDE Example: biennial dandelions
+
+	Adults produce 80 seeds each
+
+	1% of seeds survive to become adults
+
+	50% of first-year adults survive to reproduce again
+
+	Second-year adults never survive
+
+	What does the life table look like?
+
+----------------------------------------------------------------------
+
+QSLIDE Dandelion life table
+
+INPUT life_tables/dandy.skeleton.tab.tex
+
+----------------------------------------------------------------------
+
+REPSLIDE Dandelion life table
+
+INPUT life_tables/dandy.empty.tab.tex
+
+----------------------------------------------------------------------
+
+ASLIDE Dandelion life table
+
+INPUT life_tables/dandy.tab.tex
+
+----------------------------------------------------------------------
+
+Dandelion dynamics
+
+FIG structure/dandy.Rout-0.pdf
+
+----------------------------------------------------------------------
+
+PSLIDE Dandelion population dynamics
+
+FIG structure/dandy.Rout-1.pdf
+
+----------------------------------------------------------------------
+
+PSLIDE Dandelion age dynamics
+
+FIG structure/dandy.Rout-2.pdf
+
+----------------------------------------------------------------------
+
+Dandelion dynamics
+
+DOUBLEFIG structure/dandy.Rout-1.pdf structure/dandy.Rout-2.pdf
+
+----------------------------------------------------------------------
+
+Squirrel example
+
+CLASS FIG webpix/grey_squirrel.jpg
+
+----------------------------------------------------------------------
+
+QSLIDE Gray squirrel population example
+
+INPUT life_tables/sq.empty.tab.tex
+
+----------------------------------------------------------------------
+
+Squirrel observations
+
+	POLL  Do you notice anything strange about the squirrel life table?
+
+		ANS Older age groups seem to be grouped for fecundity.
+
+		ANS Strange pattern in survivorship; do we really believe
+		nobody survives past the last year?
+
+		ANS Might be better to use a model where they keep track of 1
+		year, 2 year, and ``adult" -- not much harder.
+
+----------------------------------------------------------------------
+
+ASLIDE Gray squirrel population example
+
+INPUT life_tables/sq.tab.tex
+
+----------------------------------------------------------------------
+
+Gray squirrel dynamics
+
+FIG structure/squirrels.Rout-0.pdf
+
+----------------------------------------------------------------------
+
+PSLIDE Gray squirrel population dynamics
+
+FIG structure/squirrels.Rout-1.pdf
+
+----------------------------------------------------------------------
+
+PSLIDE Gray squirrel age dynamics
+
+FIG structure/squirrels.Rout-2.pdf
+
+----------------------------------------------------------------------
+
+Gray squirrel dynamics
+
+DOUBLEFIG structure/squirrels.Rout-2.pdf structure/squirrels.Rout-1.pdf
+
+----------------------------------------------------------------------
+
+REPSLIDE The structured model
+
+WIDEFIG my_images/structure_cc.png
+
+----------------------------------------------------------------------
+
+Salmon example
+
+	What happens when a population has independent cohorts?
+
+		Does not necessarily converge to a SAD
+
+----------------------------------------------------------------------
+
+QSLIDE Salmon example
+
+INPUT life_tables/salmon.empty.tab.tex
+
+----------------------------------------------------------------------
+
+ASLIDE Salmon example
+
+INPUT life_tables/salmon.tab.tex
+
+----------------------------------------------------------------------
+
+PSLIDE Salmon example
+
+WIDEFIG webpix/salmon.jpg
+
+----------------------------------------------------------------------
+
+PSLIDE Salmon dynamics
+
+FIG structure/salmon.Rout-0.pdf
+
+----------------------------------------------------------------------
+
+PSLIDE Salmon population dynamics
+
+FIG structure/salmon.Rout-1.pdf
+
+----------------------------------------------------------------------
+
+PSLIDE Salmon age dynamics
+
+FIG structure/salmon.Rout-2.pdf
+
+----------------------------------------------------------------------
+
+
+Salmon dynamics
+
+DOUBLEFIG structure/salmon.Rout-2.pdf structure/salmon.Rout-1.pdf
+
+----------------------------------------------------------------------
+
+SS Calculation details
+
+----------------------------------------------------------------------
+
+DEFHEAD $f_x$ vs.~$m_x$
+
+	Here we focus on $f_x$ -- the number of offspring seen at the
+	next census (next year) per organism of age $x$ seen at this census
+
+	An alternative perspective is $m_x$: the total number of offspring
+	per reproducing individual of age $x$
+
+	POLL  How would I calculate one from the other? 
+
+		ANS To get $f_x$ we multiply $m_x$ by one or more survival terms,
+		depending on when the census is
+
+		ANS $f_x$ needs to close the loop from one census to the next
+
+----------------------------------------------------------------------
+
+When do we start counting?
+
+	Is the first age class called 0, or 1?
+
+		In this course, we will start from age class 1
+
+		If we count right {\em after} reproduction, this means we are
+		calling newborns age class 1.  Don't get confused.
+
+----------------------------------------------------------------------
+
+REPSLIDE Example: biennial dandelions
+
+	Adults produce 80 seeds each ($m_x$)
+
+	1% of seeds survive to become adults
+
+	50% of first-year adults survive to reproduce again
+
+	Second-year adults never survive
+
+	What does the life table look like?
+
+----------------------------------------------------------------------
+
+
+ASLIDE Dandelion life table
+
+INPUT life_tables/pre.tab.tex
+
+----------------------------------------------------------------------
+
+ASLIDE Counting \emph{after} reproduction
+
+INPUT life_tables/post.tab.tex
+
+COMMENT There are two different approaches
+
+----------------------------------------------------------------------
+
+Calculating \R
+
+	The reproductive number \R\ gives the average lifetime reproduction
+	of an individual, and is a valuable summary of the information in
+	the life table 
+
+		$\R = \sum_x{\ell_x f_x}$
+
+		If $\R>1$ in the long (or medium) term, the population will
+		increase 
+
+		If $\R$ is persistently $<1$, the population is in trouble
+
+	We can ask (for example):
+
+		Which ages have a large \emph{contribution} to \R?
+
+		POLL  Which values of $p_x$ and $f_x$ is \R\ sensitive to? | Which values of p_x and f_x is R sensitive to?
+
+			ANS The $p$s for young individuals affect all the $\ell$s.
+
+----------------------------------------------------------------------
+
+The effect of old individuals
+
+	Estimating the effects of old individuals on a population can be
+	difficult, because both $f$ and $\ell$ can be extreme
+
+		The contribution of an age class to $\R$ is $\ell_x f_x$
+
+		POLL  Extreme how? |  How are these values extreme?
+
+			ANS In most populations $\ell$ can be very small for large $x$
+
+			ANS In many populations, $f$ can be very large for large $x$
+
+	Reproductive potential of old individuals \emph{may} or \emph{may
+	not} be important
+
+		ANS In many tree populations, most individuals don't survive to get huge,
+		but the huge trees may have most of the total reproduction
+
+		ANS In many bird populations, old birds produce well, but not
+		enough to outweigh the low probability of surviving to get old.
+
+----------------------------------------------------------------------
+
+CSLIDE Old individuals
+
+BC
+
+SIDEFIG webpix/big_tree.jpg
+
+NC
+
+HIDEFIG webpix/stork.jpg
+
+EC
+
+----------------------------------------------------------------------
+
+TSS Measuring growth rates
+
+	In a constant population, each age class replaces itself:
+
+		$\R = \sum_x \ell_x f_x = 1$
+
+	In an exponentially changing population, each year's {\bf cohort} is
+	a factor of $\lambda$ bigger (or smaller) than the previous one
+
+		$\lambda$ is the finite rate of increase, like before
+
+	Looking back in time, the cohort $x$ years ago is $\lambda^{-x}$ as
+	large as the current one
+
+	The existing cohorts need to make the next one:
+
+		$\sum_x \ell_x f_x \lambda^{-x} = 1$
+
+----------------------------------------------------------------------
+
+The Euler equation
+
+	If the life table doesn't change, then $\lambda$ is given by $\sum_x
+	\ell_x f_x \lambda^{-x} = 1$
+
+	We basically ask, if the population has the structure we would
+	expect from growing at rate $\lambda$, would it continue to grow at
+	rate $\lambda$.
+
+	On the left-side each cohort started as $\lambda$ times smaller than the
+	one after it
+
+		Then got multiplied by $\ell_x$.
+
+	Under this assumption, is the next generation $\lambda$ times bigger
+	again?
+
+	Example from spreadsheet
+
+----------------------------------------------------------------------
+
+DEFHEAD $\lambda$ and \R
+
+	If the life table doesn't change, then $\lambda$ is given by $\sum_x
+	\ell_x f_x \lambda^{-x} = 1$
+
+		What's the relationship between $\lambda$ and \R?
+
+	When $\lambda=1$, the left hand side is just \R.
+
+		If $\R>1$, the population more than replaces itself when
+		$\lambda=1$.  We must make $\lambda>1$ to decrease LHS and
+		balance.
+
+		If $\R<1$, the population fails to replace itself when
+		$\lambda=1$.  We must make $\lambda<1$ to increase LHS and
+		balance.
+
+	So \R\ and $\lambda$ tell the same story about whether the population
+	is increasing
+
+----------------------------------------------------------------------
+
+Time scales
+
+	$\lambda$ gives the number of individuals per individual \emph{every
+	year}
+
+	$\R$ gives the number of individuals per individual \emph{over a
+	lifetime}
+
+	POLL  What relationship do we expect for an annual population (individuals die every year)? |  What relationship do we expect for an annual population? R>lam; R<lam; R=lam; R between lam and 1; lam between R and 1.
+
+		ANS $\R=\lambda$; each organism observed reproduces \R\ offspring
+		on average, all in one time step
+
+	POLL  For a long-lived population? |  What relationship do we expect for a long-lived population? R>lam; R<lam; R=lam; R between lam and 1; lam between R and 1.
+
+		ANS The \R\ offspring are produced slowly, so population changes
+		slowly
+
+			ANS $\lambda$ should be closer to 1 than \R\ is.
+
+			ANS But on the same side (same answer about whether population
+			is growing)
+
+----------------------------------------------------------------------
+
+Studying population growth
+
+	$\lambda$ and \R\ give similar information about your population
+
+	\R\ is easier to calculate, and more generally useful
+
+	But $\lambda$ gives the actual rate of growth
+
+		More useful in cases where we expect the life table to be
+		constant with exponential growth or decline for a long time
+
+----------------------------------------------------------------------
+
+Growth and decline
+
+	If we think a particular period of growth or decline is important,
+	we might want to study how factors affect $\lambda$
+
+		Complicated, but well-developed, theory
+
+		In a growing population, what happens early in life is more
+		important to $\lambda$ than to \R.
+
+		In a declining population, what happens late in life is more
+		important to $\lambda$ than to \R.
+
+	POLL Which is likely to be more important to ecology and evolution?
+
+		ANS The two phases (growth and decline) will be roughly balanced
+
+		ANS Because otherwise the population would go to zero or infinity
+
+----------------------------------------------------------------------
+
+SEC Life-table patterns
+
+----------------------------------------------------------------------
+
+SS Survivorship
+
+----------------------------------------------------------------------
+
+Patterns of survivorship
+
+	POLL  What sort of patterns do you expect to see in $p_x$? | What sort of patterns do you expect to see in survival probabilities?
+
+		ANS Younger individuals usually have lower survivorship
+
+		ANS Older individuals often have lower survivorship
+
+	What about $\ell_x$?
+
+		ANS It goes down
+
+		ANS But sometimes faster and sometimes slower
+
+		ANS Best understood on a log scale
+
+----------------------------------------------------------------------
+
+Starting off
+
+	Recall: we always start from age \emph{class} 1
+
+		If we count newborns, we still call them class 1.  
+
+	POLL  What is $\ell_1$ when we count before reproduction? |  What is l_1 when we count before reproduction?
+
+		ANS 1
+
+		ANS $\ell_1$ is the probability you're counted at age class 1,
+		\emph{given that} you're counted at age class 1.
+
+		ANS We don't count individuals that we don't count
+
+----------------------------------------------------------------------
+
+PSLIDE Constant survivorship
+
+FIG age/const.Rout-0.pdf
+
+----------------------------------------------------------------------
+
+PSLIDE Constant survivorship
+
+FIG age/const.Rout-2.pdf
+
+----------------------------------------------------------------------
+
+PSLIDE Constant survivorship
+
+FIG age/const.Rout-1.pdf
+
+----------------------------------------------------------------------
+
+Constant survivorship
+
+DOUBLEFIG age/const.Rout-0.pdf age/const.Rout-1.pdf
+
+----------------------------------------------------------------------
+
+DEFHEAD ``Types'' of survivorship
+
+	There is a history of defining survivorship as:
+
+		Type I, II or III depending on whether it increases, stays
+		constant or decreases with age {\em (don't memorize this, just be
+		aware in case you encounter it later in life)}.
+
+		Real populations tend to be more complicated
+
+	Most common pattern is: high mortality at high and low ages, with
+	less mortality between
+
+----------------------------------------------------------------------
+
+PSLIDE Changing survivorship
+
+FIG age/arch.Rout-0.pdf
+
+----------------------------------------------------------------------
+
+PSLIDE Changing survivorship
+
+FIG age/arch.Rout-1.pdf
+
+----------------------------------------------------------------------
+
+Changing survivorship
+
+DOUBLEFIG age/arch.Rout-0.pdf age/arch.Rout-1.pdf
+
+----------------------------------------------------------------------
+
+TSS Fecundity
+
+	Just as in our simple population growth models, we define fecundity
+	as the expected number of offspring at the next census produced by
+	an individual observed at this census
+
+		Parent must survive from counting to reproduction
+
+		Parent must give birth
+
+		Offspring must survive from birth to counting
+
+	Remember to think clearly about gender when necessary
+
+		Are we tracking females, or everyone?
+
+----------------------------------------------------------------------
+
+Fecundity patterns
+
+	$f_x$ is the average number of new individuals \emph{counted} next
+	census per individual in age class $x$ \emph{counted} this census
+
+	Fecundity often goes up early in life and then remains constant
+
+		ANS Most birds, many large mammals
+
+	It may also go up and then come down
+
+		ANS people
+
+	It may also go up and up as organisms get older
+
+		ANS Many fish, many trees
+
+----------------------------------------------------------------------
+
+TSEC Age distributions
+
+	HLINK http://www.gapminder.org/population/tool/
+
+	HLINK https://en.wikipedia.org/wiki/Population_pyramid
+
+----------------------------------------------------------------------
+
+CSLIDE Age distributions
+
+WIDEFIG webpix/israelpop.png
+
+----------------------------------------------------------------------
+
+CSLIDE Age distributions
+
+WIDEFIG webpix/cypruspop.png
+
+----------------------------------------------------------------------
+
+CSLIDE Age distributions
+
+WIDEFIG webpix/iranpop.png
+
+----------------------------------------------------------------------
+
+CSLIDE Age distributions
+
+WIDEFIG webpix/canadapop.jpg
+
+----------------------------------------------------------------------
+
+CSLIDE Age distributions
+
+WIDEFIG webpix/bahrainpop.jpg
+
+----------------------------------------------------------------------
+
+CSLIDE Age distributions
+
+WIDEFIG webpix/cambodiapop.png
+
+----------------------------------------------------------------------
+
+Learning from the model
+
+	If a population has constant size (ie., the same number of
+	individuals are born every year), what determines the proportion of
+	individuals in each age class?
+
+		ANS Distribution should be proportional to $\ell_x$
+
+	What if population is growing?
+
+		ANS We expect proportionally more individuals in younger age
+		classes
+
+			ANS Number of births in more recent cohorts is larger
+
+----------------------------------------------------------------------
+
+Stable age distribution
+
+	If a population has reached a SAD, and is increasing at rate
+	$\lambda$ (given by the Euler equation):
+
+		the $x$ year old cohort, born $x$ years ago originally had a
+		size $\lambda^{-x}$ relative to the current one
+
+		a proportion $\ell_x$ of this cohort has survived
+
+		thus, the relative size of cohort $x$ is $\lambda^{-x} \ell_x$
+
+		SAD depends only on survival distribution $\ell_x$ and $\lambda$.
+
+----------------------------------------------------------------------
+
+Patterns
+
+	Populations tend to be bottom-heavy (more individuals at lower age
+	classes)
+
+		Many individuals born, few survive to older age classes
+
+	If population is growing, this increases the lower classes further
+
+		More individuals born more recently
+
+	If population is \emph{declining}, this shifts the age
+	distribution in the opposite direction 
+
+		Results can be complicated
+
+		Declining populations may be bottom-heavy, top-heavy or just
+		jumbled
+
+----------------------------------------------------------------------
+
+University cohorts
+
+	McMaster accepts only first-year students.  For any given stage
+	(e.g., end of third year) the same proportion drop out each year
+
+	What can you say about the relative size of the classes if:
+
+		The same number of students is admitted each year?
+
+			ANS The lower classes are larger
+
+		POLL  More students are admitted each year? |  If more students are admitted each year, lower classes will be: larger, smaller, it depends.
+
+			ANS The lower classes are larger (even more so)
+
+		POLL  Fewer students are admitted each year? |  If fewer students are admitted each year, lower classes will be: larger, smaller, it depends.
+
+			ANS Anything could happen (drop outs and size change are
+			operating in different directions)
+
+----------------------------------------------------------------------
+
+REPSLIDE Changing survivorship
+
+DOUBLEFIG age/arch.Rout-0.pdf age/arch.Rout-1.pdf
+
+----------------------------------------------------------------------
+
+Age distributions
+
+FIG age/arch_sad.Rout-0.pdf
+
+----------------------------------------------------------------------
+
+Age distributions
+
+FIG age/arch_sad.Rout-2.pdf
+
+----------------------------------------------------------------------
+
+Age distributions
+
+FIG age/arch_sad.Rout-1.pdf
+
+----------------------------------------------------------------------
+
+REPSLIDE The Euler equation
+
+	If the life table doesn't change, then $\lambda$ is given by $\sum_x
+	\ell_x f_x \lambda^{-x} = 1$
+
+	If the population has the structure we would
+	expect from growing at rate $\lambda$, would it continue to grow at
+	rate $\lambda$?
+
+	On the left-side each cohort started as $\lambda$ times smaller than the
+	one after it
+
+		Then got multiplied by $\ell_x$.
+
+	Under this assumption, is the next generation $\lambda$ times bigger
+	again?
+
+----------------------------------------------------------------------
+
+SEC Other structured models
+
+----------------------------------------------------------------------
+
+Forest example
+
+BC
+
+	Forests have obvious population structure
+
+	They also seem to remain stable for long periods of time
+
+	Populations are presumably \emph{regulated} at some time scale
+
+NC
+
+SIDEFIG webpix/larches.jpg
+
+EC
+
+----------------------------------------------------------------------
+
+Forest size classes
+
+	When we go to an apparently stable forest ecosystem, it seems to be
+	dominated by large trees, not small ones.  What up?
+
+	POLL  How is it possible that these systems are dominated by large trees?
+
+		ANS Large trees are larger
+
+		ANS Population may be declining
+
+		ANS Trees may spend longer in some size classes than in others
+
+		ANS Life table may not be constant (smaller trees may recruit at
+		certain times and places)
+
+----------------------------------------------------------------------
+
+
+TSS Stage structure
+
+	Stage structure works just like age structure, except that what
+	stage you are in is not strictly predicted by how old you are
+
+		Age-structured models need fecundity, and survival probability
+
+		ANS In stage-structured models survival is typically broken into:
+
+			ANS Survival into same stage
+
+			ANS Survival with recruitment (ie., to the next larger class
+			of individuals)
+
+		More complicated models are also possible
+
+----------------------------------------------------------------------
+
+Advantages
+
+	Stage structured models don't need a maximum age
+
+	Nor one box for every single age class
+
+----------------------------------------------------------------------
+
+Unregulated growth
+
+	What happens if you have a constant stage table (no regulation)?
+
+		Fecundity, and survival and recruitment probabilities are constant
+
+	Similar to constant life table
+
+		Can calculate \R\ and $\lambda$ (will be consistent with each
+		other)
+
+		Can calculate a stable stage distribution
+
+		COMMENT \R\ is about the same as in age structured model
+
+	Unregulated growth cannot persist
+
+----------------------------------------------------------------------
+
+Summary
+
+	If the life table remains constant (no regulation or stochasticity):
+
+		Reach a stable age (or stage) distribution
+
+		Grow or decline with a constant $\lambda$
+
+		Factors behind age distribution can be understood
+
+----------------------------------------------------------------------
+
+TSS Regulated growth
+
+	Our models up until now have assumed that individuals are independent
+
+	In this case, we expect populations to grow (or decline)
+	exponentially
+
+	We do not expect that the long-term average value of \R\ or
+	$\lambda$ will be exactly 1.
+
+----------------------------------------------------------------------
+
+The value of simple models
+
+	There is a lot of mathematical study of unregulated, age-structured
+	populations, but it should be taken with a grain of salt
+
+		ANS We know that real populations are regulated
+
+		ANS Populations can't increase or decrease exponentially for very
+		long
+
+	Understanding this behaviour is helpful:
+
+		interpreting age structures in real populations
+
+		beginning to understand more complicated systems
+
+----------------------------------------------------------------------
+
+Regulation and structure
+
+	We expect real populations to be regulated
+
+	The long-term average value of $\lambda$ under regulation
+	\emph{could} be exactly 1
+
+	There is also likely to be substantial variation from year to year,
+	due to changing conditions and other random-seeming forces
+
+----------------------------------------------------------------------
+
+Dynamics
+
+	We expect to see smooth behaviour in many cases
+
+	Cycles and complex behaviour should arise for reasons similar to our
+	unstructured models: 
+
+		Delays in the system
+
+		Strong population response to density
+
+	Age distribution will be determined by:
+
+		$\ell_x$, and
+
+		whether the population has been growing or declining recently
+
+----------------------------------------------------------------------
+
+EXTRA
+
+	Better conclusion?
+
+	More balance with non-exponential populations?

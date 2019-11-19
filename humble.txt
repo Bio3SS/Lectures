@@ -1,0 +1,69 @@
+
+\begin{center}
+\Huge{Pop ECO Star}
+\end{center}
+
+\onslide<2->{\color{red}\centering\large\emph{Dushoff4Real??}}
+
+----------------------------------------------------------------------
+
+\begin{center}
+\LARGE{Humility 1A03}
+\end{center}
+
+WFIG 0.8 webpix/kyoto.jpg
+
+----------------------------------------------------------------------
+
+McMaster Humble profs
+
+\begin{itemize}
+
+\item<2> {\color{red}\Large{Dushoff}}
+
+\item Kajiura
+
+\item Kim
+
+\item DaSilva
+
+\item Lock
+
+\end{itemize}
+
+----------------------------------------------------------------------
+
+Pop Equations
+
+BC
+
+	$f(N)=f_0 \exp(-N/N_f)$
+
+	$p(N) = p_0 \exp(-N/N_p)$
+
+NC
+
+SIDEFIG compensation/wild.plots.Rout-1.pdf
+
+EC
+
+----------------------------------------------------------------------
+
+PICSLIDE HIGHFIG webpix/question.png
+
+----------------------------------------------------------------------
+
+PICSLIDE WIDEFIG webpix/humility.jpg
+
+----------------------------------------------------------------------
+
+PICSLIDE WIDEFIG webpix/fool.jpg
+
+----------------------------------------------------------------------
+
+
+
+
+
+
+

@@ -1,0 +1,5 @@
+Colors
+
+	OLDCOMMENT This is an old-style comment
+
+	COMMENT This is a new-style comment

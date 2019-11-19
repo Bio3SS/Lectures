@@ -1,0 +1,1757 @@
+
+UNIT Midterm 1 extra notes
+
+----------------------------------------------------------------------
+
+TSEC Introduction
+
+	In \textbf{linear} population models, per capita rates are independent of
+	population size
+
+	In \textbf{non-linear} models, not so much
+
+	Why might per capita birth and death rates change with population size?
+
+	What does this imply about population \textbf{dynamics}
+
+----------------------------------------------------------------------
+
+The first law of population dynamics
+
+	If individuals are behaving independently:
+
+		the population-level rate of growth (or decline) is proportional
+		to the population size
+
+		the population grows (or declines) exponentially
+
+----------------------------------------------------------------------
+
+The second law of population dynamics
+
+	Exponential growth (or decline) cannot continue forever
+
+	Something is changing the average rate at which populations we
+	observe grow
+
+----------------------------------------------------------------------
+
+PICSLIDE
+
+FIG webpix/ecoli.jpg
+
+----------------------------------------------------------------------
+
+The third law of population dynamics
+
+	Exponential growth (or decline) cannot continue forever --
+	\emph{even on average}
+
+	Environmental variation cannot be the only thing that changes growth
+	rates
+
+	Populations are, directly or indirectly, limiting their own growth
+	rates
+
+	This is called \textbf{density dependence}
+
+----------------------------------------------------------------------
+
+Long-term growth rates
+
+	Populations maintain long-term growth rates very close to $r=0$
+
+	This is almost certainly because factors affecting their growth rate
+	change with the size of population.  
+
+
+----------------------------------------------------------------------
+
+Changing growth rates
+
+	POLL  What is an example of a density-dependent mechanism that
+	affects growth rate?
+
+		ANS Predators and diseases
+
+			ANS As populations go up, pressure from natural enemies could
+			go up \emph{even faster}
+
+			ANS If pressure increases at the same rate, per capita effects could
+			stay the same
+
+		ANS Insufficient resources
+
+			ANS Limitation: e.g., oak trees use all the available light
+
+			ANS Destruction: gypsy moths kill all the oak trees
+
+----------------------------------------------------------------------
+
+Population regulation
+
+	All the populations we see are \emph{regulated}
+
+		On average, population growth is higher when the population is
+		lower
+
+		Maybe with a time delay
+
+	Why is this interesting?
+
+		Lots of populations don't \emph{look like} they are regulated
+
+----------------------------------------------------------------------
+
+Sometimes regulation is apparent
+
+BC
+
+	Some species seem to fill a niche (mangroves)
+
+	or deplete their own food resources (gypsy moths)
+
+NC
+
+SIDEFIG webpix/mangroves.jpg
+
+SIDEFIG webpix/gm_defoliation.jpg
+
+EC
+
+----------------------------------------------------------------------
+
+Sometimes regulation is not apparent
+
+BC
+
+	Other species seem like they could easily be more common (pine trees)
+
+		May be controlled by cryptic (hard to see) natural enemies (like
+		disease or parasites)
+
+		May be controlled by limitations that occur only at certain times
+		(e.g., during regular droughts)
+
+NC
+
+SIDEFIG webpix/forest.jpg
+
+EC
+
+----------------------------------------------------------------------
+
+Regulation works over the long term
+
+	Not every species is experiencing population regulation at every
+	time
+
+	A species that we see now may be expanding into a niche (e.g.,
+	because of climate change)
+
+	Some species are controlled by big outbreaks of disease
+
+	Some species have big outbreaks into marginal habitat, and spend
+	most of their time contracting back to their ``core" habitat
+
+----------------------------------------------------------------------
+
+How do we know it's regulation?
+
+	POLL Why don't we believe that population growth is controlled by factors that don't depend on the population itself?
+
+		ANS Because the long-term average value of $r$ has to be
+		\emph{very} close to 0
+
+		ANS This is true for \emph{every} population
+
+		ANS This is unlikely to occur by chance
+
+		ANS Thus, it must be through direct or indirect responses to the
+		population size
+
+----------------------------------------------------------------------
+
+SS Population Examples
+
+----------------------------------------------------------------------
+
+PRESLIDE
+
+Elk
+
+DOUBLEPDF ts/elk.elkplot.Rout
+
+----------------------------------------------------------------------
+
+CSLIDE Ebola
+
+DOUBLEFIG WA_Ebola_Outbreak/liberia.npc.tsplot.Rout-0.pdf WA_Ebola_Outbreak/liberia.npc.tsplot.Rout-1.pdf
+
+----------------------------------------------------------------------
+
+PRESLIDE Paramecia
+
+DOUBLEPDF ts/paramecia.plot.Rout
+
+----------------------------------------------------------------------
+
+PRESLIDE Gypsy moths
+
+DOUBLEPDF ts/gm10165.plot.Rout
+
+----------------------------------------------------------------------
+
+Gypsy moths
+
+	POLL  What are some factors that limit gypsy-moth populations?
+
+	Which are likely to be affected by the moths?
+
+		Directly or indirectly, in the short or long term?
+
+----------------------------------------------------------------------
+
+SEC Continuous-time regulation
+
+----------------------------------------------------------------------
+
+Build on the linear model
+
+	Our linear population model is:
+
+		$\bigeq \frac{dN}{dt} = (b-d)N $
+
+	Per-capita rates are constant
+
+	\textbf{Population-level rates are linear}
+
+	Behaviour is exponential
+
+----------------------------------------------------------------------
+
+Individual perspective
+
+DOUBLEFIG bd_models/constant.bd.Rout-0.pdf bd_models/constant.bd.Rout-2.pdf
+
+----------------------------------------------------------------------
+
+CONT Individual perspective
+
+BC
+
+	Per capita rate shows birth and death per individual
+
+	Corresponds to the time plot showing growth on a log scale
+
+		On the log scale we see \emph{multiplicative} or \emph{proportional} change
+
+NC
+
+SIDEFIG bd_models/constant.bd.Rout-0.pdf
+
+SIDEFIG bd_models/constant.bd.Rout-2.pdf
+
+EC
+
+----------------------------------------------------------------------
+
+Population perspective
+
+DOUBLEFIG bd_models/constant.bd.Rout-1.pdf bd_models/constant.bd.Rout-3.pdf
+
+----------------------------------------------------------------------
+
+CONT Population perspective
+
+BC
+
+	Total rate shows birth and death for the whole population
+
+	Corresponds to the time plot showing growth on a linear scale
+
+		On the linear scale we see \emph{additive} or \emph{absolute}
+		change
+
+NC
+
+SIDEFIG bd_models/constant.bd.Rout-1.pdf
+
+SIDEFIG bd_models/constant.bd.Rout-3.pdf
+
+EC
+----------------------------------------------------------------------
+
+Non-linear model
+
+	Population has \emph{per capita} birth rate $b(N)$ and death
+	rate $d(N)$
+
+		Per-capita rates change with the population size
+
+	Our non-linear model is: $\bigeq \frac{dN}{dt} = (b(N)-d(N))N$
+	$\equiv r(N) N$
+
+		Defines how fast the population is changing at any instant
+
+----------------------------------------------------------------------
+
+Recruitment
+
+	{\bf Recruitment} is when an organism moves from one life stage to
+	another:
+
+		Seed \rec seedling \rec sapling \rec tree
+
+		Egg \rec larva \rec pupa \rec moth
+
+	In simple continuous-time population models, recruitment is included
+	in birth:
+
+		$b$ is the rate at which adults produce new adults; or seeds
+		produce new seeds -- we have to ``close the loop"
+
+----------------------------------------------------------------------
+
+Birth rates
+
+BC
+
+	When a population is crowded, the birth rate will usually go down
+
+		Resources are limited: space, food, light
+
+	But it may stay the same
+
+	Or even go up
+
+		If individuals shift their resources to reproduction instead of
+		survival
+
+NC
+
+SIDEFIG webpix/mussels.jpg
+
+SIDEFIG webpix/fir_wave.jpg
+
+EC
+----------------------------------------------------------------------
+
+Death rates
+
+BC
+
+	When a population is crowded, the death rate will often go up
+
+		Individuals are starving, or conflict increases
+
+		But it may stay the same
+
+			if reproduction is limited by competition for breeding sites,
+			or by recruitment of juveniles
+
+		Or even go down 
+
+			if organisms go into some sort of ``resting mode"
+
+NC
+
+SIDEFIG webpix/seagulls.jpg
+
+SIDEFIG webpix/spores.png
+
+EC
+----------------------------------------------------------------------
+
+Reproductive numbers
+
+	Our model is: $\bigeq \frac{dN}{dt} = (b(N)-d(N))N$
+	$\equiv r(N) N$
+
+	Reproductive number now also changes with $N$:
+
+		ANS $\R(N) = b(N)/d(N)$
+
+	When the population is crowded, individuals are stressed and
+	the reproductive number will typically go down.
+
+----------------------------------------------------------------------
+
+Carrying capacity
+
+	If a population has $\R(N) > 1$ when it's not crowded
+
+	The population should increase
+
+	Eventually, \R\ will decrease, and eventually cross $\R=1$
+
+	We call the special value of $N$ where $\R(N) = 1$, the
+	\textbf{carrying capacity}, $K$
+
+		$\R(K) \equiv 1$
+
+		$b(K) \equiv d(K)$
+
+	When $N=K$:
+
+		ANS Population stays the same, on average
+
+----------------------------------------------------------------------
+
+Logistic model
+
+	A popular model of density-dependent growth is the logistic model
+
+	Per capita instantaneous growth rate $r$ is a function of $N$
+
+		$r(N) = \rmax(1-N/K)$
+
+		Consistent with various assumptions about $b(N)$ and $d(N)$
+
+	Population increases to $K$ and remans there
+
+		Units of $N$ must match units of $K$
+
+	Not a linear model, because \emph{population-level} rates are not
+	linear
+
+----------------------------------------------------------------------
+
+Exponential-rates model
+
+	In this course, we'll mostly use another simple model:
+
+		$b(N) = b_0 \exp(-N/N_b)$
+
+		$d(N) = d_0 \exp(N/N_d)$ 
+
+	This is the simplest model that is smooth and keeps track
+	of birth and death rates separately
+
+		Birth rate goes down with characteristic scale $N_b$
+
+		Death rate goes up with characteristic scale $N_d$
+
+----------------------------------------------------------------------
+
+Exponential-rates vs.\ logistic
+
+	The exponential-rates model is conceptually clearer
+
+		Birth and death rates are clearly defined
+
+	Mathematically nicer
+
+		Rates always stay positive 
+
+	The logistic \emph{looks} less scary
+
+----------------------------------------------------------------------
+
+SS A simple, continuous-time model
+
+----------------------------------------------------------------------
+
+Assumptions
+
+	We model individual-level rates, but individuals are \emph{not}
+	independent: my rates depend on the number (or density) of
+	individuals in the population
+
+	The population can be censused at any time
+
+	Population size changes continuously
+
+	All individuals are the same all the time
+
+	Population changes deterministically
+
+----------------------------------------------------------------------
+
+Interpretation
+
+	If we have $N$ individuals at time $t$, how does the population
+	change?
+
+		Individuals are giving birth at per-capita rate $b(N)$
+
+		Individuals are dying at per-capita rate $d(N)$
+
+	Population dynamics follow:
+
+		$\bigeq \frac{dN}{dt} = (b(N)-d(N))N \equiv r(N) N$
+
+----------------------------------------------------------------------
+
+States and state variables
+
+	What variable or variables describe the state of this system?
+
+		ANS The same as before: population size (or density)
+
+		ANS We are still assuming that's all we need to know
+
+			ANS In other words, that all individuals are the same.
+
+----------------------------------------------------------------------
+
+Parameters
+
+	POLL What quantities describe the rules for this system?
+
+		ANS $b_0$ [1/time]
+
+		ANS $d_0$ [1/time]
+
+		ANS $N_b$ [indiv] (or [indiv/area])
+
+		ANS $N_d$ [indiv] (or [indiv/area])
+
+----------------------------------------------------------------------
+
+Characteristic \emph{scale}
+
+	A characteristic scale for density dependence is analogous to a
+	characteristic time
+
+	For example: $b(N) = b_0 \exp(-N/N_b)$
+
+		$N_b$ is the characteristic scale of density-dependence in birth
+		rate
+
+		If $N \ll N_b$, density dependence is linear (and relatively
+		small)
+
+		If $N \gg N_b$, density dependence is exponential, and very
+		large (virtually no births)
+
+----------------------------------------------------------------------
+
+Model
+
+	Dynamics: 
+
+		$\bigeq \frac{dN}{dt} = (b_0 \exp(-N/N_b) - d_0 \exp(N/N_d))N$
+
+	Exact solution: 
+
+		Insanely complicated
+
+	Behaviour of the solution:
+
+		Pretty easy!
+
+----------------------------------------------------------------------
+
+Dynamics
+
+	What sort of \textbf{dynamics} do we expect from our conceptual
+	model?
+
+		I.e., how will it change through time?
+
+	What will the population do if it starts
+
+		near zero?
+
+		near the equilibrium?
+
+		at a high value?
+
+----------------------------------------------------------------------
+
+PSLIDE What will this model do?
+
+FIG bd_models/birth.bd.Rout-0.pdf 
+
+----------------------------------------------------------------------
+
+PSLIDE What will this model do?
+
+FIG bd_models/birth.bd.Rout-6.pdf 
+
+----------------------------------------------------------------------
+
+PSLIDE What will this model do?
+
+FIG bd_models/birth.bd.Rout-8.pdf 
+
+----------------------------------------------------------------------
+
+What will this model do?
+
+BCC
+
+WIDEFIG bd_models/birth.bd.Rout-8.pdf 
+
+NCC
+
+	Increase when population is below equilibrium
+
+	Decrease when population is above equilibrium
+
+	Converge
+
+EC
+
+----------------------------------------------------------------------
+
+PSLIDE Low starting population example
+
+DOUBLEFIG bd_models/birth.bd.Rout-8.pdf bd_models/birth.bd.Rout-2.pdf
+
+----------------------------------------------------------------------
+
+PSLIDE High starting population example
+
+DOUBLEFIG bd_models/birth.bd.Rout-8.pdf bd_models/birth.bd.Rout-4.pdf
+
+----------------------------------------------------------------------
+
+Examples
+
+DOUBLEFIG bd_models/birth.bd.Rout-2.pdf bd_models/birth.bd.Rout-4.pdf
+
+----------------------------------------------------------------------
+
+SS Simulating model behaviour
+
+----------------------------------------------------------------------
+
+Simulations
+
+	We will simulate the behaviour of populations in continuous time
+	using the program R
+
+	This program generates the pictures in this section by implementing
+	our model of how the population changes instantaneously
+
+----------------------------------------------------------------------
+
+Individual-scale pictures
+
+	We can view graphs of our population assumptions on the
+	individual scale
+
+		per-capita birth and death rates
+
+			units [1/time]
+
+		what is each individual doing (on average)?
+
+		corresponds to the dynamics we visualize on a log-scale graph of
+		the population
+
+		NOTES See above
+
+----------------------------------------------------------------------
+
+REPSLIDE What will this model do?
+
+DOUBLEFIG bd_models/birth.bd.Rout-8.pdf bd_models/birth.bd.Rout-2.pdf 
+
+----------------------------------------------------------------------
+
+Population-scale pictures
+
+	We can view graphs of our population assumptions on the
+	population scale
+
+		total birth and death rates
+
+			units [indiv/time]
+
+			or [density/time] = [(indiv/area)/time]
+
+		what is changing at the population level?
+
+		corresponds to the dynamics we visualize on a linear-scale graph
+		of the population
+
+----------------------------------------------------------------------
+
+Population perspective picture
+
+DOUBLEFIG bd_models/birth.bd.Rout-9.pdf bd_models/birth.bd.Rout-3.pdf
+
+----------------------------------------------------------------------
+
+Decreasing birth rate
+
+BC
+
+	Decreasing birth rate (above) might be a good model for organisms
+	that experience density dependence primarily in the recruitment stage
+
+	For example, we might count adult trees, and these might not die
+	more at high density -- just fail to recruit younger ones
+
+NC
+
+SIDEFIG webpix/tongass.jpg
+
+EC
+
+----------------------------------------------------------------------
+
+REPSLIDE Decreasing birth rates
+
+FIG bd_models/birth.bd.Rout-0.pdf
+
+----------------------------------------------------------------------
+
+PSLIDE Increasing death rates
+
+FIG bd_models/death.bd.Rout-0.pdf
+
+----------------------------------------------------------------------
+
+Increasing death rate
+
+BC
+
+	Increasing death rate might be a good model for organisms
+	that experience density dependence primarily as adults
+
+	For example, in some environments, mussel density might be limited
+	by adult crowding. Although juvenile mussels tend to have a hard
+	time, this might not be density dependent
+
+NC
+
+SIDEFIG webpix/mussels.jpg
+
+EC
+
+----------------------------------------------------------------------
+
+Individual perspective
+
+DOUBLEFIG bd_models/death.bd.Rout-0.pdf bd_models/death.bd.Rout-2.pdf
+
+----------------------------------------------------------------------
+
+Population perspective
+
+DOUBLEFIG bd_models/death.bd.Rout-1.pdf bd_models/death.bd.Rout-3.pdf
+
+----------------------------------------------------------------------
+
+Decreasing death rate
+
+BC
+
+	Some organisms (such as many types of bacteria) slow down their
+	metabolisms under density dependence, so that death rate
+	\emph{decreases}
+
+	How is this consistent with density dependence?
+
+		ANS Birth rate must decrease even faster
+
+NC
+
+SIDEFIG webpix/spores.png
+
+EC
+----------------------------------------------------------------------
+
+Individual perspective
+
+DOUBLEFIG bd_models/slow.bd.Rout-0.pdf bd_models/slow.bd.Rout-2.pdf
+
+----------------------------------------------------------------------
+
+Population perspective
+
+DOUBLEFIG bd_models/slow.bd.Rout-1.pdf bd_models/slow.bd.Rout-3.pdf
+
+----------------------------------------------------------------------
+
+Other examples
+
+	There are two other possible scenarios for density dependence
+
+		For fun, you can try to think of what they are
+
+	But all of these examples have similar behaviour
+
+		Increase from low density
+
+		Decrease from high density
+
+		Approach carrying capacity
+
+----------------------------------------------------------------------
+
+PRESLIDE Maximum growth rates
+
+	POLL When does a population in this model have the fastest
+	\emph{per-capita} growth rate? | When is per capita growth fastest?
+
+		NOANS When density is low. 
+		
+		NOANS This is an assumption.
+
+	POLL When does a population in this model have the fastest \emph{total}
+	growth rate? | When is total growth fastest?
+
+		NOANS Intermediate between low density and the carrying capacity.
+		
+		NOANS This is something we learn from the model!
+
+----------------------------------------------------------------------
+
+REPSLIDE Individual perspective
+
+DOUBLEFIG bd_models/birth.bd.Rout-0.pdf bd_models/birth.bd.Rout-2.pdf
+
+----------------------------------------------------------------------
+
+REPSLIDE Population perspective
+
+DOUBLEFIG bd_models/birth.bd.Rout-1.pdf bd_models/birth.bd.Rout-3.pdf
+
+----------------------------------------------------------------------
+
+Maximum growth rates
+
+	When does a population in this model have the fastest
+	\emph{per-capita} growth rate?
+
+		ANS When density is low. 
+		
+		ANS This is an assumption.
+
+	When does a population in this model have the fastest \emph{total}
+	growth rate?
+
+		ANS Intermediate between low density and the carrying capacity.
+		
+		ANS This is a something we learn from the model
+
+----------------------------------------------------------------------
+
+REPSLIDE Individual perspective
+
+DOUBLEFIG bd_models/birth.bd.Rout-0.pdf bd_models/birth.bd.Rout-2.pdf
+
+----------------------------------------------------------------------
+
+REPSLIDE Population perspective
+
+DOUBLEFIG bd_models/birth.bd.Rout-1.pdf bd_models/birth.bd.Rout-3.pdf
+
+----------------------------------------------------------------------
+
+TSS Equilibria and time scales
+
+	We define \textbf{equilibrium} as when the population is not changing
+
+	Our simple model is $\bigeq \frac{dN}{dt} = (b(N)-d(N))N$
+
+	In this simple model, when does equilibrium occur?
+
+		ANS $b(N) = d(N)$ (the carrying capacity)
+
+		ANS $N=0$ (the population is absent)
+
+----------------------------------------------------------------------
+
+Stable and unstable equilibria
+
+	Aren't equilibria always stable?
+
+		If we are at an equilibrium we expect to stay there
+
+		(in our simplified model, at least)
+
+	An equilibrium is defined as stable if we expect to approach the
+	equilibrium \emph{when we are near it.}
+
+	An equilibrium is defined as unstable if we expect to move away from
+	the equilibrium \emph{when we are near it.}
+
+----------------------------------------------------------------------
+
+REPSLIDE Population perspective
+
+DOUBLEFIG bd_models/birth.bd.Rout-1.pdf bd_models/birth.bd.Rout-3.pdf
+
+----------------------------------------------------------------------
+
+What kind of equilibrium?
+
+	How can we tell an equilibrium is stable?
+
+		If population is just below the equilibrium:
+
+			ANS It should increase ($b>d$)
+
+		If population is just above the equilibrium:
+
+			ANS It should decrease ($d>b$)
+
+----------------------------------------------------------------------
+
+Basic reproductive number
+
+	The reproductive number of a population not affected by crowding is
+	called the \textbf{basic reproductive number}
+
+		Written \Ro\ or \Rmax.
+
+	In this model, when $\Ro<1$ the population:
+
+		ANS Always decreases
+
+	When $\Ro>1$ the population:
+
+		ANS Increases when it is small
+
+		ANS Eventually $\R$ will decrease
+
+----------------------------------------------------------------------
+
+CONT
+
+	POLL  What is \Ro\ in our current model? | What is R0?
+
+		ANS $\Ro=b(0)/d(0)$
+
+		ANS $\Ro$, $b(0)$, and $d(0)$ are limits
+
+			ANS Nothing actually grows or dies when $N=0$
+
+ADD A leading statement for the second question: how does that make sense?
+
+----------------------------------------------------------------------
+
+Invasion
+
+	We say a species can ``invade" a system if its rate of change is
+	positive when the population is small.
+
+	In other words, population can invade if the extinction equilibrium
+	is not stable
+
+	In this conceptual model, this is the same as saying $b(0) > d(0)$
+
+	Which is the same as saying $\Ro>1$
+
+----------------------------------------------------------------------
+
+Invasion examples
+
+	POLL What are some examples of biological invasions?
+
+		NOANS
+
+		NOANS
+
+		NOANS
+
+		NOANS
+
+----------------------------------------------------------------------
+
+Different behaviours
+
+	When $\Ro>1$, the population invades
+
+		Zero equilibrium is unstable, carrying capacity equilibrium is
+		stable
+
+	When $\Ro<1$, the population fails to invade
+
+		Zero equilibrium is stable, carrying capacity equilibrium does
+		not exist
+
+----------------------------------------------------------------------
+
+Individual perspective
+
+DOUBLEFIG bd_models/fail.bd.Rout-0.pdf bd_models/fail.bd.Rout-2.pdf
+
+	When $\Ro<1$ population always decreases
+
+----------------------------------------------------------------------
+
+Population perspective
+
+DOUBLEFIG bd_models/fail.bd.Rout-1.pdf bd_models/fail.bd.Rout-3.pdf
+
+	When $\Ro<1$ population always decreases
+
+----------------------------------------------------------------------
+
+REPSLIDE Individual perspective
+
+DOUBLEFIG bd_models/birth.bd.Rout-0.pdf bd_models/birth.bd.Rout-2.pdf
+
+	When $\Ro>1$ population increases when it is small
+
+----------------------------------------------------------------------
+
+REPSLIDE Population perspective
+
+DOUBLEFIG bd_models/birth.bd.Rout-1.pdf bd_models/birth.bd.Rout-3.pdf
+
+	When $\Ro>1$ population increases when it is small
+
+----------------------------------------------------------------------
+
+DEFHEAD \Ro\ and thresholds
+
+	A population with $\Ro<1$ in general cannot survive in an area
+
+	As conditions get worse for a species in a
+	particular area, or along a particular gradient:
+
+		It will suddenly disappear at the population level
+
+		Even while it can still survive and reproduce at an individual
+		level
+
+	This is why there are no white spruce trees in Cootes Paradise
+
+	And no malaria in the mainland United States
+
+----------------------------------------------------------------------
+
+Characteristic times
+
+	Just like in the simple model, an equilibrium will have a
+	characteristic time
+
+	If I'm close to an equilibrium, how long would it take:
+
+		to go the distance to the equilibrium at my current ``speed''
+
+		to actually get $e$ times closer, or $e$ times farther
+
+----------------------------------------------------------------------
+
+PSLIDE Characteristic times
+
+DOUBLEFIG bd_models/birth.bd.Rout-2.pdf bd_models/birth.bd.Rout-3.pdf
+
+----------------------------------------------------------------------
+
+Dynamics of density-dependent populations
+
+	Populations following this model change \emph{smoothly}
+
+		Equations tell how the population will change at each instant
+
+	They have no memory
+
+		Birth rate and death rate are determined by population size alone
+
+	Cycling is impossible
+
+		ANS If I went from A to B, I can't go from B to A by
+		following the same rules
+
+
+----------------------------------------------------------------------
+
+Paramecia
+
+DOUBLEPDF ts/paramecia.plot.Rout
+
+----------------------------------------------------------------------
+
+Elk
+
+DOUBLEPDF ts/elk.elkplot.Rout
+
+----------------------------------------------------------------------
+
+Dynamics of real-world populations
+
+	Initial exponential growth and leveling off frequently observed
+
+	Exponential approach to equilibrium hard to observe
+
+		Real populations are subject to {\bf stochastic} (random) effects 
+
+		Real populations are subject to changing conditions
+
+	Some species seem to cycle predictably
+
+----------------------------------------------------------------------
+
+Continuous-time regulation
+
+	Continuous-time regulation in simple models makes useful predictions:
+
+		Threshold value for populations to survive
+
+		Greatest population-level growth at intermediate density
+
+		Greatest individual-level growth at low density
+
+	Cannot explain complicated dynamics
+
+		More mechanisms are needed
+
+----------------------------------------------------------------------
+
+
+SEC Discrete-time regulation
+
+----------------------------------------------------------------------
+
+TSS A simple, discrete-time model
+
+	We extend our discrete-time model from the previous unit:
+
+		$N_{T+1} = (p+f)N_T \equiv \lambda N_T$
+
+		$t_{T+1} = t_T + \Delta t$ (does not change)
+
+	To:
+
+		$N_{T+1} = (p(N_T)+f(N_T))N_T \equiv \lambda(N_T) N_T$
+
+	This means:
+
+		ANS $p$ and $f$ can change when $N$ changes
+
+----------------------------------------------------------------------
+
+Assumptions
+
+	The population is censused at regular time intervals $\Delta
+	t$
+
+	All individuals are the same at the time of census
+
+	Population changes deterministically
+
+----------------------------------------------------------------------
+
+Specific assumptions
+
+	For our examples, we will assume:
+
+		$f(N)=f_0 \exp(-N/N_f)$
+
+		$p(N) = p_0 \exp(-N/N_p)$
+
+	This is the simplest model that is smooth and keeps track
+	of birth and death rates separately
+
+		Fecundity goes down with characteristic scale $N_f$
+
+		Survival goes down with characteristic scale $N_p$
+
+----------------------------------------------------------------------
+
+States and state variables
+
+	What variable or variables describe the state of this system?
+
+		The same as before: population size (or density)
+
+		We are still assuming that's all we need to know
+
+----------------------------------------------------------------------
+
+Parameters
+
+	What quantities describe the rules for this system?
+
+		ANS $f_0$ [1]
+
+		ANS $p_0$ [1]
+
+		ANS $N_f$ [indiv] (or [indiv/area])
+
+		ANS $N_p$ [indiv] (or [indiv/area])
+
+----------------------------------------------------------------------
+
+What is \Ro?
+
+	\R\ is the fecundity multiplied by the lifespan
+
+		ANS Lifespan = $1/\mu = 1/(1-p)$
+
+		ANS $\R = f/(1-p)$
+
+	\Ro\ is \R\ in the limit where density is low
+
+		ANS $f_0/(1-p_0)$
+
+----------------------------------------------------------------------
+
+Behaviours
+
+	When $\Ro<1$ population always declines
+
+	When $\Ro>1$, population can show:
+
+		Smooth behaviour (like the continuous-time model)
+
+		Damped oscillations (like the delayed model)
+
+		Two-year cycles (high \rec low \rec high \rec low)
+
+		All kinds of other stuff
+
+----------------------------------------------------------------------
+
+TSS Simulating this system
+
+	This system can be simulated very easily by following the rule for
+	$N_{T+1}$ as a function of $N_T$
+
+	We can even do it in the spreadsheet if we have time
+
+----------------------------------------------------------------------
+
+PSLIDE What dynamics do we expect?
+
+FIG compensation/stable.plots.Rout-0.pdf
+
+----------------------------------------------------------------------
+
+PSLIDE What dynamics do we expect?
+
+FIG compensation/stable.plots.Rout-1.pdf
+
+----------------------------------------------------------------------
+
+We expect simple dynamics
+
+DOUBLEPDF compensation/stable.plots.Rout
+
+----------------------------------------------------------------------
+
+PSLIDE What dynamics do we get?
+
+----------------------------------------------------------------------
+
+RSLIDE Simple dynamics
+
+DOUBLEPDF compensation/stable.plots.Rout
+
+----------------------------------------------------------------------
+
+Damped oscillations
+
+DOUBLEPDF compensation/damped.plots.Rout
+
+----------------------------------------------------------------------
+
+Persistent oscillations
+
+DOUBLEPDF compensation/two.plots.Rout
+
+----------------------------------------------------------------------
+
+Lots of other behaviours
+
+DOUBLEPDF compensation/wild.plots.Rout
+
+----------------------------------------------------------------------
+
+TSS Interpreting complex behaviour
+
+BC
+
+	In a simple cycle:
+
+		Low populations this year mean high populations next year
+
+		and vice versa
+
+NC
+
+HIDEFIG compensation/two.plots.Rout-0.pdf
+
+HIDEFIG compensation/two.plots.Rout-1.pdf
+
+EC
+
+----------------------------------------------------------------------
+
+REPSLIDE Interpreting complex behaviour 
+
+DOUBLEPDF compensation/two.plots.Rout
+
+----------------------------------------------------------------------
+
+Complex behaviour in our simulations
+
+	In our simple models, as $N_T$ increases, what happens to $\lambda$?
+
+		ANS We assume it goes down
+
+	POLL  In our simple models, as $N_T$ increases, what happens to next year's population? | What happens to next year's population as N_T increases?
+
+		ANS $\Nprime = \lambda(N) N_T$
+
+		ANS It's not obvious! $\lambda$ goes down, but $N$ goes up.
+
+		ANS In this model, $\Nprime$ always goes down eventually, but
+		other models may differ
+
+----------------------------------------------------------------------
+
+Response to population increase
+
+DOUBLEFIG compensation/stable.plots.Rout-2.pdf compensation/stable.plots.Rout-3.pdf
+
+----------------------------------------------------------------------
+
+Turnover
+
+BC
+
+	When $N_T$ is small, $\Nprime$ increases with $N$.
+
+	Complex behaviour arises when the relationship between $N_T$ and
+	\Nprime\ \textbf{turns over} below the equilibrium value
+
+		A small population this year leads to a large population next year
+
+NC
+
+SIDEFIG compensation/stable.plots.Rout-3.pdf
+
+EC
+
+----------------------------------------------------------------------
+
+Simple dynamics
+
+DOUBLEFIG compensation/stable.plots.Rout-3.pdf compensation/stable.plots.Rout-1.pdf
+
+----------------------------------------------------------------------
+
+Damped oscillations
+
+DOUBLEFIG compensation/damped.plots.Rout-3.pdf compensation/damped.plots.Rout-1.pdf
+
+----------------------------------------------------------------------
+
+Persistent oscillations
+
+DOUBLEFIG compensation/two.plots.Rout-3.pdf compensation/two.plots.Rout-1.pdf
+
+----------------------------------------------------------------------
+
+Complex behaviour in our conceptual model
+
+	Biologically, when might we expect \Nprime\ to ``turn over''?
+
+		ANS If resources are \emph{depleted}
+
+		ANS If there is a \emph{delayed} effect of individuals' not
+		having enough resources
+
+	When should the mapping \emph{not} turn over?
+
+		ANS When competition does not lead to depletion
+
+		ANS When effects of competition are immediate
+
+		ANS When dominant individuals are not affected by crowding
+
+----------------------------------------------------------------------
+
+Scramble competition
+
+	{\bf Scramble} competition refers to the case where all
+	individuals in a crowded population are gathering resources at
+	similar rates: as the density goes up there is less resource for
+	everyone, and everyone does less well
+
+		If there is any kind of delay, scramble competition can lead to
+		turning over
+
+----------------------------------------------------------------------
+
+Contest competition
+
+	{\bf Contest} competition refers to a case where some individuals
+		successfully control key resources and do well no matter how
+		large the population is
+
+		Contest competition doesn't usually lead to turning over, even
+		with delay
+
+	How does contest competition square with regulation?
+
+		ANS Regulation means that $\lambda$ has to go down with $N_T$ \ldots
+
+		ANS \emph{not} that \Nprime\ has to.
+
+----------------------------------------------------------------------
+
+PSLIDE Contest competition
+
+BC
+
+	How does contest competition square with regulation?
+
+		Regulation means that $\lambda$ has to go down with $N_T$ \ldots
+
+		\emph{not} that \Nprime\ has to.
+
+NC
+
+SIDEFIG compensation/monotonic.plots.Rout-2.pdf
+
+SIDEFIG compensation/monotonic.plots.Rout-3.pdf
+
+EC
+
+----------------------------------------------------------------------
+
+Contest regulation
+
+DOUBLEFIG compensation/monotonic.plots.Rout-2.pdf compensation/monotonic.plots.Rout-3.pdf
+
+----------------------------------------------------------------------
+
+Songbirds
+
+BC
+
+	Some songbird populations are limited primarily by competition for
+	breeding sites, whereas others are limited primarily by competition
+	for insects to eat
+
+		ANS Food can be depleted
+
+			ANS Making competition and turnover more likely
+
+		ANS Nest sites can be occupied, but they don't go away
+
+NC
+
+SIDEFIG webpix/swallows.jpg
+
+EC
+
+----------------------------------------------------------------------
+
+Plants
+
+BC
+
+	Some plant populations are limited by water, and some by light
+
+	POLL  Which is more likely to work out as a scramble?
+
+		ANS Light is very likely to work out as a ``contest'' -- the
+		taller individuals will win and do OK
+
+		ANS Water works as a scramble in some environments, and a contest
+		in others
+
+NC
+
+SIDEFIG webpix/poppies.jpg
+
+EC
+
+----------------------------------------------------------------------
+
+Complex behaviour from a simple model
+
+BC
+
+	It's interesting that we can get complicated behaviour from such
+	a dead-simple model	
+
+	Complex dynamics may have simple causes
+
+	People always tend to look for specific reasons, but sometimes the
+	changes we observe are just natural dynamics
+
+NC
+
+SIDEFIG compensation/wild.plots.Rout-1.pdf
+
+EC
+
+----------------------------------------------------------------------
+
+Complex behaviour in real populations
+
+	We can plot $\lambda$ and \Nprime\ vs.\ $N$ for real population data
+
+	We expect $\lambda$ to decrease (on average)
+
+	We're curious about \Nprime.
+
+----------------------------------------------------------------------
+
+REPSLIDE Paramecia
+
+DOUBLEPDF ts/paramecia.plot.Rout
+
+----------------------------------------------------------------------
+
+Paramecia
+
+DOUBLEFIG ts/paramecia.plot.Rout-3.pdf ts/paramecia.plot.Rout-2.pdf
+
+----------------------------------------------------------------------
+
+REPSLIDE Elk
+
+DOUBLEPDF ts/elk.elkplot.Rout
+
+----------------------------------------------------------------------
+
+Elk
+
+DOUBLEFIG ts/elk.elkplot.Rout-3.pdf ts/elk.elkplot.Rout-2.pdf
+
+----------------------------------------------------------------------
+
+Real populations
+
+	It's hard to find examples of turnover from real population data.
+
+	So how do we explain real population cycles?
+
+		Regulation may happen on a longer time scale
+
+		May be hard to see because of ``noise'' -- i.e., other sources of
+		variation
+
+		Cycles may be due to more complicated mechanisms
+
+----------------------------------------------------------------------
+
+TSEC Delayed regulation
+
+	One mechanism for population cycles might be if regulation is
+	\emph{delayed} in time
+
+		It takes time for individuals to complete their life cycle
+
+			Recall that the life cycle is implicit in our simple models
+
+		It takes time for the population to damage its resources or build
+		up natural enemies
+
+----------------------------------------------------------------------
+
+Time-delayed continuous models
+
+	How would change a simple continuous-time model into a (relatively)
+	simple time-delayed model?
+
+	Original model: $\bigeq \frac{dN}{dt} = (b(N)-d(N))N$
+
+	Be explicit about time: $\bigeq \frac{dN(t)}{dt} = (b(N(t))-d(N(t)))N(t)$
+
+----------------------------------------------------------------------
+
+CONT Time-delayed continuous models
+
+	Where should we add delays? Assume we leave the left-hand side alone
+	(that's what we're trying to model).
+
+		ANS \emph{rates} at time $t$ might depend on past conditions
+		(population at time $t-\tau$)
+
+		ANS \emph{population} at time $t$ is just population at time $t$ 
+		
+			ANS that is the population that is experiencing births and deaths
+
+		ANS $\bigeq \frac{dN(t)}{dt} = (b(N(t-\tau))-d(N(t-\tau)))N(t)$
+
+----------------------------------------------------------------------
+
+Our model
+
+	$\bigeq \frac{dN(t)}{dt} = (b(N(t-\tau))-d(N(t-\tau)))N(t)$
+
+	For simplicity, we assume that both rates are delayed by the same
+	amount of time
+
+	More realistic models might have different delays
+
+		or delay in only one quantity
+
+		or \emph{distributed} delays, so that the rate is some kind of
+		average
+
+----------------------------------------------------------------------
+
+PSLIDE Arrows with time delay
+
+FIG bd_models/birth.bd.Rout-8.pdf
+
+----------------------------------------------------------------------
+
+Model dynamics
+
+	POLL  If a population is growing, what will happen as it approaches the equilibrium? | What happens as a growing population approaches equilibrium?
+
+		ANS It \emph{keeps} growing
+
+		ANS It needs to \emph{pass} the equilibrium and look back in time
+		before it will stop growing
+
+	So what happens in the long term?
+
+----------------------------------------------------------------------
+
+Time-delayed dynamics
+
+FIG bd_models/delay_sims.Rout-0.pdf
+
+----------------------------------------------------------------------
+
+Time-delayed dynamics
+
+FIG bd_models/delay_sims.Rout-1.pdf
+
+----------------------------------------------------------------------
+
+Time-delayed dynamics
+
+FIG bd_models/delay_sims.Rout-2.pdf
+
+----------------------------------------------------------------------
+
+Time-delayed population models
+
+	Delayed population models show:
+
+		{\bf Damped} oscillations (growing smaller and smaller) for
+		shorter delays
+
+			These could be so small that you wouldn't expect to notice
+			them
+
+		{\bf Persistent} oscillations for longer delays
+
+----------------------------------------------------------------------
+
+Time scales
+
+	Oscillations will be bigger (and will switch from damped to
+	persistent) if the time delay in the model is ``long''
+
+	Long compared to what?
+
+		ANS It must be something else in the model with units of time
+
+		ANS It should have something to do with behaviour near the
+		equilibrium
+
+		ANS In fact, we compare the time delay to the characteristic time
+		of approach to the carrying capacity (calculated by ignoring
+		the delays)
+
+----------------------------------------------------------------------
+
+Unitless quantities
+
+	The behaviour of any particular delay system is determined by one or
+	more unitless quantities
+
+	Our simple model is controlled by the ratio $\tau/t_c$, where $t_c$
+	is the characteristic time of approach to the carrying capacity in
+	the absence of delay
+
+	In fact, cycles are persistent when $\tau/t_c > \pi/2$!
+
+----------------------------------------------------------------------
+
+Time-delayed regulation
+
+	Time-delayed regulation produces simple cycles
+
+		Damped when delay is short \ldots
+
+		Persistent when delay is long \ldots
+
+	\ldots compared to characteristic time of approach to equilibrium
+
+----------------------------------------------------------------------
+
+SEC Small populations and stochasticity
+
+----------------------------------------------------------------------
+
+Example
+
+BC
+
+	POLL  What would happen if I released one butterfly into a new, highly suitable habitat? | What happens to one happy butterfly
+
+		NOANS
+
+	What about two butterflies?
+
+		NOANS
+
+NC
+
+SIDEFIG webpix/viceroy.jpg
+
+EC
+
+----------------------------------------------------------------------
+
+Small populations
+
+	Population success (reproductive number) may be lower for very small
+	populations
+
+		We've already assumed reproductive numbers are low for very large
+		populations
+
+	Small populations are likely to be harder to predict
+
+		More affected by stochasticity
+
+----------------------------------------------------------------------
+
+TSS Allee effects
+
+	Effects which cause small populations to have low per-capita growth
+	rates are called Allee effects
+
+		Equivalent to saying that medium-sized populations have larger
+		per-capita growth rates than small ones
+
+----------------------------------------------------------------------
+
+CONT What causes Allee effects?
+
+	POLL  Why might growth rates be low when populations are small?
+
+		ANS Individuals may have trouble finding mates
+
+		ANS Individuals in larger populations may protect each other from
+		predators (birds) or from weather (plants)
+
+		ANS Individuals in larger populations may hunt co-operatively
+
+		ANS Genetic effects (inbreeding, loss of valuable variation)
+
+----------------------------------------------------------------------
+
+Types of Allee effect
+
+	Allee effects can affect the (per capita) birth rate
+
+		ANS if the rate is \emph{smaller} when density is low
+
+	... or the (per capita) death rate
+
+		ANS if the rate is \emph{larger} when density is low
+
