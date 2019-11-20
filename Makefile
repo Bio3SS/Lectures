@@ -29,7 +29,7 @@ Sources += lectures.txt
 
 # mdirs += age bd_models boxes compensation competition dd exploitation exponential life_history life_tables sims structure ts
 
-pardirs += exponential
+pardirs += exponential ts
 
 ######################################################################
 
