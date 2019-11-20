@@ -31,6 +31,8 @@ Sources += lectures.txt
 
 pardirs += exponential ts
 
+colddirs += $(pardirs)
+
 ######################################################################
 
 ## Lectures
@@ -197,6 +199,8 @@ makestuff/Makefile:
 -include makestuff/newtalk.mk
 -include makestuff/texdeps.mk
 -include makestuff/webpix.mk
+-include makestuff/hotcold.mk
+
 -include makestuff/git.mk
 -include makestuff/visual.mk
 -include makestuff/projdir.mk
