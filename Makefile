@@ -27,6 +27,12 @@ Sources += lectures.txt
 
 ######################################################################
 
+# mdirs += age bd_models boxes compensation competition dd exploitation exponential life_history life_tables sims structure ts
+
+pardirs += exponential
+
+######################################################################
+
 ## Lectures
 
 Sources += $(wildcard *.txt *.poll)
@@ -128,9 +134,11 @@ disease.handouts.pdf: disease.txt
 disease.complete.pdf: disease.txt
 
 ######################################################################
+
 ## Image directories
 
 imageDrop = ~/Dropbox/3SS
+## imageDrop = ~/Dropbox/courses/3SS
 Ignore += local.mk
 -include local.mk
 
