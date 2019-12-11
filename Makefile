@@ -140,7 +140,7 @@ disease.complete.pdf: disease.txt
 ## Image directories
 
 imageDrop = ~/Dropbox/3SS
-## echo "imageDrop = ~/Dropbox/courses/3SS" > local.mk
+## echo "imageDrop = ~/Dropbox/courses/3SS" > local.mk ##
 Ignore += local.mk
 -include local.mk
 
