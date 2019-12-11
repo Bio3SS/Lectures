@@ -13,10 +13,10 @@
 _This directory is under development, but intro stuff should be make-able_
 
 make:
-* <unit>.draft.pdf for draft slides
-* <unit>.final.pdf for final slides (with pauses, and less markup)
-* <unit>.handouts.pdf for handouts
-* <unit>.complete.pdf for complete notes
+* _unit_.draft.pdf for draft slides
+* _unit_.final.pdf for final slides (with pauses, and less markup)
+* _unit_.handouts.pdf for handouts
+* _unit_.complete.pdf for complete notes
 
 This seems to just work for intro.draft.pdf
 
