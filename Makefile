@@ -15,9 +15,9 @@ current: target
 ######################################################################
 
 vim_session:
-	bash -cl "vmt"
+	bash -cl "vmt README.md"
 
-Sources += Makefile content.mk
+Sources += Makefile content.mk README.md
 
 ## Keeping track of schedule
 Sources += lectures.txt
@@ -140,7 +140,7 @@ disease.complete.pdf: disease.txt
 ## Image directories
 
 imageDrop = ~/Dropbox/3SS
-## imageDrop = ~/Dropbox/courses/3SS
+## echo "imageDrop = ~/Dropbox/courses/3SS" > local.mk
 Ignore += local.mk
 -include local.mk
 
