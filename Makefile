@@ -22,9 +22,6 @@ Sources += Makefile content.mk README.md
 ## Keeping track of schedule
 Sources += lectures.txt
 
--include $(ms)/newtalk.def
--include $(ms)/perl.def
-
 ######################################################################
 
 # mdirs += age bd_models boxes compensation competition dd exploitation exponential life_history life_tables sims structure ts
