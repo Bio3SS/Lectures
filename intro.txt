@@ -1,3 +1,6 @@
+BIO3SS3: Population Ecology
+
+----------------------------------------------------------------------
 
 UNIT 1: Introduction
 
@@ -16,7 +19,7 @@ Communication
 	Lecture notes for each section will be available the afternoon
 	before you need them
 
-		Check AtL frequently for announcements and new information
+		Check Avenue frequently for announcements and new information
 
 		All info will also be on the course resource page
 
@@ -68,14 +71,7 @@ Texts
 
 	The primary text for this course is the lecture notes
 
-	You will be given readings, which will be posted to AtL
-
-	You are required to have an Ecology textbook
-
-		Molles and Cahill, Second Canadian edition is recommended
-
-		If you would like to use a different textbook, let your TA know, so we
-		can attempt to provide readings.
+	You will be given readings, which will be posted to Avenue
 
 ----------------------------------------------------------------------
 
@@ -126,6 +122,23 @@ Polling
 SS People
 
 ----------------------------------------------------------------------
+
+Li
+
+	Ex-TA
+	
+	Post-doc
+
+	Studies evolution and spread of infectious diseases
+
+		Rabies, ebola, influenza, \ldots
+
+		Statistics, math, theoretical biology, computations, \ldots 
+
+		Mechanisms and disease control
+
+----------------------------------------------------------------------
+
 
 Dushoff
 
@@ -215,17 +228,11 @@ EC
 
 TAs
 
-	Morgan Kain
-
-		Ecology and evolution of infectious diseases
-
-	Michael Li
-
-		Disease forecasting and control
-
 	Steve Cygu
 
-		Machine learning and health
+	Zachery Dickson
+		
+	Danielle Montocchio
 
 ----------------------------------------------------------------------
 
@@ -470,7 +477,7 @@ Dynamical models
 	Make rules about how things change on a small scale
 
 	Assumptions should be clear enough to allow you to calculate or simulate
-	population-level resuls
+	population-level results
 
 	Challenging and clarifying assumptions is a key advantage of models
 
@@ -936,31 +943,31 @@ DOUBLEFIG exponential/canada.Rout-2.pdf exponential/canada.Rout-3.pdf
 
 ----------------------------------------------------------------------
 
-PSLIDE Canada plus Room 1102
+PSLIDE Canada plus Room 1105
 
 DOUBLEFIG exponential/canada.Rout-2.pdf exponential/canada.Rout-2.pdf
 
 ----------------------------------------------------------------------
 
-PSLIDE Canada plus Room 1102
+PSLIDE Canada plus Room 1105
 
 DOUBLEFIG exponential/canada.Rout-2.pdf exponential/canada.Rout-4.pdf
 
 ----------------------------------------------------------------------
 
-PSLIDE Canada plus room Room 1102?
+PSLIDE Canada plus room Room 1105?
 
 DOUBLEFIG exponential/canada.Rout-3.pdf exponential/canada.Rout-3.pdf
 
 ----------------------------------------------------------------------
 
-PSLIDE Canada plus room Room 1102
+PSLIDE Canada plus room Room 1105
 
 DOUBLEFIG exponential/canada.Rout-3.pdf exponential/canada.Rout-5.pdf
 
 ----------------------------------------------------------------------
 
-ASLIDE Canada plus room Room 1102
+ASLIDE Canada plus room Room 1105
 
 DOUBLEFIG exponential/canada.Rout-4.pdf exponential/canada.Rout-5.pdf
 

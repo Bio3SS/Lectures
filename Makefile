@@ -26,7 +26,9 @@ Sources += lectures.txt
 
 # mdirs += age bd_models boxes compensation competition dd exploitation exponential life_history life_tables sims structure ts
 
-pardirs += exponential ts
+pardirs += exponential ts web
+
+pushdir = web/materials/
 
 colddirs += $(pardirs)
 
@@ -45,8 +47,6 @@ intro.outline.pdf: intro.txt
 
 intro.draft.pdf: intro.txt
 intro.final.pdf: intro.txt
-mli_intro.draft.pdf: mli_intro.txt
-mli_intro.final.pdf: mli_intro.txt
 intro.handouts.pdf: intro.txt
 intro.complete.pdf: intro.txt
 
