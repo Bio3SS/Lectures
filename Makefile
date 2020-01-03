@@ -185,6 +185,17 @@ Sources += pop.tex localcomm.tex
 
 ######################################################################
 
+Sources += $(wildcard *.pl)
+
+## Poll conversion
+## Use semi-colons for MC
+## | for separation (or ?; will that work for pdf outputs?)
+Ignore += *.poll.csv
+%.poll.csv: %.txt pollcsv.pl
+	$(PUSH)
+
+######################################################################
+
 ### Makestuff
 
 Ignore += makestuff

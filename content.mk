@@ -25,24 +25,6 @@ day1.txt: intro.txt Makefile
 	perl -npe "last if /Example/" $< | perl -npe "s/CHAPTER.*/CHAPTER Day 1 complete notes/" > $@
 day1.complete.pdf: intro.txt
 
-######################################################################
-
-Sources += $(wildcard *.pl)
-
-### NEWPOLL gone 2019 Feb 09 (Sat); don't use poll links anymore
-
-## This can go for 2020 (still using it to clean 2018 lectures)
-### Change NEWPOLL back to POLL once link is added
-%.pollclean: %.txt
-	perl -pi -e "s|NEWPOLL.*?everywhere.com/|POLL |" $<
-
-
-## Poll conversion
-## Use semi-colons for MC
-## | for separation (or ?; will that work for pdf outputs?)
-Ignore += *.poll.csv
-%.poll.csv: %.txt pollcsv.pl
-	$(PUSH)
 
 ######################################################################
 
