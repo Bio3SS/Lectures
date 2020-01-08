@@ -89,7 +89,7 @@ States and state variables
 
 Parameters
 
-	CORRECTION \textbf{Parameters} are the quantities that describe how the
+	\textbf{Parameters} are the quantities that describe how the
 	rules for our system work
 
 	Examples:
@@ -521,19 +521,17 @@ BC
 
 		ANS $12\esp$
 
-	What is $1\wk \cdot 0.02/\dd$?
+	What is $1\hr \cdot 0.2\cm/\dd$?
 
-		ANS $1\wk \cdot 0.02/\dd$
+		ANS $1\wk \cdot 0.2\cm/\dd$
 
-		ANS $1\wk \cdot 0.02/\dd \cdot \frac{7\dd}{\wk}$
+		ANS $1\wk \cdot 0.2\cm/\dd \cdot \frac{1\dd}{24\hr}$
 
-		ANS 0.14
+		ANS 0.0083\cm
 
 NC
 
 SIDEFIG webpix/espresso.jpg
-
-ADD Use hour not week
 
 EC
 
