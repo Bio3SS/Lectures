@@ -244,7 +244,7 @@ BC
 
 		POLL Are there intermediate variables?
 
-			CORRECTION Number of seeds
+			ANS Number of seeds
 
 	Parameters 
 
@@ -359,7 +359,7 @@ SIDEFIG webpix/spreadsheet.png
 
 NC
 
-	HREF http://tinyurl.com/DandelionModel2019 Spreadsheet (see resource page)
+	HREF http://tinyurl.com/DandelionModel2020 Spreadsheet (see resource page)
 
 EC
 
@@ -523,9 +523,9 @@ BC
 
 	What is $1\hr \cdot 0.2\cm/\dd$?
 
-		ANS $1\wk \cdot 0.2\cm/\dd$
+		ANS $1\hr \cdot 0.2\cm/\dd$
 
-		ANS $1\wk \cdot 0.2\cm/\dd \cdot \frac{1\dd}{24\hr}$
+		ANS $1\hr \cdot 0.2\cm/\dd \cdot \frac{1\dd}{24\hr}$
 
 		ANS 0.0083\cm
 
@@ -655,7 +655,9 @@ Unitless quantities
 
 			0km = 0cm
 
-	Examples include $\lambda$ and $\R$.
+	What unitless quantities have we already talked about?
+
+		ANS $\lambda$ and $\R$.
 
 ----------------------------------------------------------------------
 
@@ -693,6 +695,8 @@ Moths
 	POLL  What's the product?
 
 		ANS $1.5\uname{rA}/\uname{rF}$
+
+		ANS Not enough information to make a prediction!
 
 		ANS Need to multiply by something with units rF/rA to close the
 		loop
@@ -899,7 +903,9 @@ Calculating birth rate
 
 		Units of [1/time] -- implies what assumption?
 
-			ANS New individuals are effectively the same as old individuals
+			ANS New individuals are cancelling with old individuals in the equation
+
+			ANS New individuals are being treated the same as old individuals
 
 			ANS Not very realistic -- a potential problem with our model world
 
@@ -913,6 +919,8 @@ Calculating death rate
 		An instaneous rate
 
 		Units of [1/time]
+
+	Is there a concern with these units?
 
 ----------------------------------------------------------------------
 
