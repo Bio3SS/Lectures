@@ -17,7 +17,7 @@ current: target
 vim_session:
 	bash -cl "vmt README.md"
 
-Sources += Makefile content.mk README.md
+Sources += Makefile content.mk README.md notes.md
 
 ## Keeping track of schedule
 Sources += lectures.txt
