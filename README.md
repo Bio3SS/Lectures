@@ -19,7 +19,3 @@ make:
 * _unit_.complete.pdf for complete notes
 
 This seems to just work for intro.draft.pdf
-
-## Updating
-
-Knock yourself out, particularly with `intro.txt`
