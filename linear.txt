@@ -657,7 +657,7 @@ Unitless quantities
 
 	What unitless quantities have we already talked about?
 
-		ANS $\lambda$ and $\R$.
+		ANS $\lambda$, $f$ and $p$. 
 
 ----------------------------------------------------------------------
 
