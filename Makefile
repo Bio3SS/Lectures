@@ -67,7 +67,6 @@ linear.complete.pdf: linear.txt
 
 # Unit 3 (Non-linear population growth)
 nonlinear.pollnew: 
-## nonlinear.pollclean: 
 nonlinear.poll.csv: nonlinear.txt pollcsv.pl
 nonlinear.html: nonlinear.step
 nonlinear.outline.pdf: nonlinear.txt
