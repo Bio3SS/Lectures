@@ -922,6 +922,9 @@ Calculating death rate
 
 	Is there a concern with these units?
 
+		ANS Not really. The individuals dying are exactly the same ones we're
+		counting.
+
 ----------------------------------------------------------------------
 
 Instaneous rate of increase
@@ -1132,7 +1135,7 @@ Balance
 
 		ANS \R\ is extremely close to 1 for every species
 
-	How is this possible
+	How is this possible?
 
 		ANS Growth rates change through time
 

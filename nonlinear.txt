@@ -919,12 +919,13 @@ CONT
 
 		ANS $\Ro=b(0)/d(0)$
 
-		ANS $\Ro$, $b(0)$, and $d(0)$ are limits
+	Does this make sene?
 
-			ANS Nothing actually grows or dies when $N=0$
+		ANS Not really; nothing actually grows or dies when $N=0$
 
-ADD A leading statement for the second question: how does that make sense?
+		ANS we resolve this by think of $\Ro$, $b(0)$, and $d(0)$ as limits
 
+			ANS What are the values when density is very low?
 ----------------------------------------------------------------------
 
 Invasion
