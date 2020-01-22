@@ -1212,13 +1212,13 @@ TSS Simulating this system
 
 ----------------------------------------------------------------------
 
-PSLIDE What dynamics do we expect?
+PRESLIDE What dynamics do we expect?
 
 FIG compensation/stable.plots.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
-PSLIDE What dynamics do we expect?
+PRESLIDE What dynamics do we expect?
 
 FIG compensation/stable.plots.Rout-1.pdf
 
@@ -1234,7 +1234,7 @@ PSLIDE What dynamics do we get?
 
 ----------------------------------------------------------------------
 
-RSLIDE Simple dynamics
+REPSLIDE Simple dynamics
 
 DOUBLEPDF compensation/stable.plots.Rout
 
@@ -1755,7 +1755,11 @@ Types of Allee effect
 
 		ANS if the rate is \emph{larger} when density is low
 
-	ADD CUTOFF
+----------------------------------------------------------------------
+
+EXTRA
+
+	ADD CUTOFF 2020 Jan 21 (Tue): what does this mean?
 
 ----------------------------------------------------------------------
 
@@ -1863,7 +1867,7 @@ Invasion
 
 ----------------------------------------------------------------------
 
-RSLIDE \Ro\ and \Rmax
+REPSLIDE \Ro\ and \Rmax
 
 FIG bd_models/allee.bd.Rout-0.pdf
 
