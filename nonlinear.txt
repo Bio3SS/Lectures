@@ -69,16 +69,15 @@ Long-term growth rates
 
 Changing growth rates
 
-	POLL  What is an example of a density-dependent mechanism that
+	POLL What is an example of a density-dependent mechanism that
 	affects growth rate?
 
-		ANS Predators and diseases
+		ANS Predators
 
-			ANS As populations go up, pressure from natural enemies could
-			go up \emph{even faster}
+			ANS But! Unless the amount of predators increase, they might do
+			\emph{worse} at controlling the population
 
-			ANS If pressure increases at the same rate, per capita effects could
-			stay the same
+		ANS Diseases
 
 		ANS Insufficient resources
 
@@ -204,7 +203,7 @@ DOUBLEPDF ts/gm10165.plot.Rout
 
 Gypsy moths
 
-	POLL  What are some factors that limit gypsy-moth populations?
+	POLL What are some factors that limit gypsy-moth populations?
 
 	Which are likely to be affected by the moths?
 
@@ -915,7 +914,7 @@ Basic reproductive number
 
 CONT
 
-	POLL  What is \Ro\ in our current model? | What is R0?
+	POLL What is \Ro\ in our current model? | What is R0?
 
 		ANS $\Ro=b(0)/d(0)$
 
@@ -1291,7 +1290,7 @@ Complex behaviour in our simulations
 
 		ANS We assume it goes down
 
-	POLL  In our simple models, as $N_T$ increases, what happens to next year's population? | What happens to next year's population as N_T increases?
+	POLL In our simple models, as $N_T$ increases, what happens to next year's population? | What happens to next year's population as N_T increases?
 
 		ANS $\Nprime = \lambda(N) N_T$
 
@@ -1447,7 +1446,7 @@ BC
 
 	Some plant populations are limited by water, and some by light
 
-	POLL  Which is more likely to work out as a scramble?
+	POLL Which is more likely to work out as a scramble?
 
 		ANS Light is very likely to work out as a ``contest'' -- the
 		taller individuals will win and do OK
@@ -1597,7 +1596,7 @@ FIG bd_models/birth.bd.Rout-8.pdf
 
 Model dynamics
 
-	POLL  If a population is growing, what will happen as it approaches the equilibrium? | What happens as a growing population approaches equilibrium?
+	POLL If a population is growing, what will happen as it approaches the equilibrium? | What happens as a growing population approaches equilibrium?
 
 		ANS It \emph{keeps} growing
 
@@ -1691,7 +1690,7 @@ Example
 
 BC
 
-	POLL  What would happen if I released one butterfly into a new, highly suitable habitat? | What happens to one happy butterfly
+	POLL What would happen if I released one butterfly into a new, highly suitable habitat? | What happens to one happy butterfly?
 
 		NOANS
 
@@ -1733,7 +1732,7 @@ TSS Allee effects
 
 CONT What causes Allee effects?
 
-	POLL  Why might growth rates be low when populations are small?
+	POLL Why might growth rates be low when populations are small?
 
 		ANS Individuals may have trouble finding mates
 
@@ -1901,7 +1900,7 @@ Allee effect summary
 
 	Population may go extinct if it drops below a certain threshold
 
-	POLL  How come the population is there in the first place if there's an Allee effect?
+	POLL How come the population is there in the first place if there's an Allee effect?
 
 		ANS Maybe it's a weak effect
 
