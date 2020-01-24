@@ -74,10 +74,13 @@ Changing growth rates
 
 		ANS Predators
 
-			ANS But! Unless the amount of predators increase, they might do
-			\emph{worse} at controlling the population
+			ANS But! Unless the amount of predators increases as well, they might
+			do \emph{worse} at controlling the population
 
 		ANS Diseases
+
+			ANS Also but. But diseases are very likely to increase in large
+			populations.
 
 		ANS Insufficient resources
 
@@ -797,7 +800,7 @@ PRESLIDE Maximum growth rates
 
 		NOANS Intermediate between low density and the carrying capacity.
 		
-		NOANS This is something we learn from the model!
+		NOANS This is something we learn by making a dynamical model!
 
 ----------------------------------------------------------------------
 
