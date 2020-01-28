@@ -2,11 +2,11 @@ UNIT X Novel coronavirus
 
 ----------------------------------------------------------------------
 
-PIC FIG dd/coronaPlot.Rout-0.pdf
+PIC HFIG 1.0 dd/coronaPlot.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
-PIC FIG dd/coronaPlot.Rout-1.pdf
+PIC HFIG 1.0 dd/coronaPlot.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
@@ -20,7 +20,7 @@ Scales
 
 		ANS Both, but the log scale is more relevant
 
-		ANS What are individual cases doing?
+			ANS Focus on what individual cases are doing
 
 		ANS A slowdown on the log scale would be progress
 
@@ -57,7 +57,9 @@ Instantaneous rate of growth $r$
 	How do you think we estimate?
 
 		ANS People are estimating $r$ right now from the population-level
-		increase in disease; using that for $b$
+		increase in disease
+		
+			ANS Then using that to estimate $b$
 
 		ANS Models go both directions!
 
@@ -79,6 +81,18 @@ Finite rate of growth $\lambda$
 
 ----------------------------------------------------------------------
 
+Example
+
+	$r \approx 0.14/\dd$
+
+	What is $\lambda$?
+
+		At a time scale of a day?
+
+		At a time scale of a week?
+
+----------------------------------------------------------------------
+
 Reproductive number $\R$
 
 	What is it?
@@ -95,6 +109,17 @@ Reproductive number $\R$
 
 ----------------------------------------------------------------------
 
+Example
+
+	$r \approx 0.14/\dd$
+
+	What is our estimate of \R?
+
+		When average length of infection $L = 5\dd$?
+
+		When average length of infection $L = 10\dd$?
+
+----------------------------------------------------------------------
 
 Case fatality proportion
 
