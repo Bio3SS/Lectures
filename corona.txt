@@ -2,11 +2,141 @@ UNIT X Novel coronavirus
 
 ----------------------------------------------------------------------
 
-How is it spreading?
+PIC FIG dd/coronaPlot.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
-<C-F3>
+PIC FIG dd/coronaPlot.Rout-1.pdf
+
+----------------------------------------------------------------------
+
+DOUBLEPDF dd/coronaPlot.Rout
+
+----------------------------------------------------------------------
+
+Scales
+
+	Which scale should we look at?
+
+		ANS Both, but the log scale is more relevant
+
+		ANS What are individual cases doing?
+
+		ANS A slowdown on the log scale would be progress
+
+----------------------------------------------------------------------
+
+Population biology
+
+	What quantities do we want to look at?
+
+		ANS Speed of exponential growth $r$
+
+		ANS Finite rate of increase $\lambda$
+
+		ANS Lifetime reproduction
+
+----------------------------------------------------------------------
+
+Instantaneous rate of growth $r$
+
+	What are the components?
+
+		ANS Birth rate
+
+			ANS Instantaneous rate of a case producing new cases 
+
+			ANS [case/(case $\cdot$ time]
+
+		ANS Death rate
+
+			ANS Virus-centered!
+
+			ANS Rate of death, recovery, or effective quarantine
+
+	How do you think we estimate?
+
+		ANS People are estimating $r$ right now from the population-level
+		increase in disease; using that for $b$
+
+		ANS Models go both directions!
+
+----------------------------------------------------------------------
+
+Finite rate of growth $\lambda$
+
+	Why do we want this? 
+
+		ANS to communicate with policy-makers or the public
+
+		ANS maybe to make concrete predictions, though we could use $r$
+
+	How do we calculate it?
+
+		ANS Pick a time step (week? year?)
+
+		ANS Use a formula $\lambda = \exp(r\Delta t)$
+
+----------------------------------------------------------------------
+
+Reproductive number $\R$
+
+	What is it?
+
+		ANS Expected number of new cases per case over the lifetime of a case
+
+	Why do we want this? 
+
+		ANS An important measure of how hard the epidemic will be to stop
+
+	How do we calculate it?
+
+		ANS $\R = b/d$; if we can estimate those
+
+----------------------------------------------------------------------
 
 
+Case fatality proportion
+
+	If the disease spreads around the world, most of us will get it. 
+
+	How many will die?
+
+		This is a units question!
+
+	What proportion of people with the disease are dying?
+
+		People are often not careful enough with the denominator of this
+		proportion
+
+		People with (detected) severe disease; people with (detected)
+		recognizable disease; people who develop antibodies
+
+----------------------------------------------------------------------
+
+Population regulation
+
+	What are some reasons the virus's reproductive number may go down as it
+	spreads?
+
+		ANS People react by changing behaviour
+
+		ANS People die or become immune
+		
+		ANS Vaccination or treatment
+
+	Are there any reasons it might go \emph{up}?
+
+		ANS Evolution
+
+		ANS \emph{One} way evolution sometimes increases \R\ is by decreasing the
+		fatality proportion
+
+----------------------------------------------------------------------
+
+Other key questions
+
+	How is the disease transmitted?
+
+	Can it be transmitted before symptoms start? 
 

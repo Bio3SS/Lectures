@@ -26,11 +26,11 @@ Sources += lectures.txt
 
 # mdirs += age boxes competition dd exploitation life_history life_tables sims structure
 
-pardirs += exponential ts web compensation bd_models WA_Ebola_Outbreak
+pardirs += exponential ts web compensation bd_models WA_Ebola_Outbreak dd
 
 pushdir = web/materials/
 
-colddirs += $(pardirs)
+hotdirs += $(pardirs)
 
 ######################################################################
 
