@@ -76,6 +76,17 @@ nonlinear.draft.pdf: nonlinear.txt
 nonlinear.handouts.pdf: nonlinear.txt
 nonlinear.complete.pdf: nonlinear.txt
 
+# Special lesson
+corona.pollnew: 
+corona.poll.csv: corona.txt pollcsv.pl
+corona.html: corona.step
+corona.outline.pdf: corona.txt
+
+corona.final.pdf: corona.txt
+corona.draft.pdf: corona.txt
+corona.handouts.pdf: corona.txt
+corona.complete.pdf: corona.txt
+
 # Unit 4 (Structured populations)
 structure.poll.csv: structure.txt pollcsv.pl
 structure.html: structure.step
