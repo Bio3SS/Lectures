@@ -77,6 +77,8 @@ PIC FIG dd/coronaPlot.Rout-5.pdf
 
 ----------------------------------------------------------------------
 
+What's the difference?
+
 DOUBLEFIG dd/coronaPlot.Rout-1.pdf dd/coronaPlot.Rout-1.pdf
 
 ----------------------------------------------------------------------
@@ -180,5 +182,13 @@ Other key questions
 
 	How is the disease transmitted?
 
+		Probably air droplets and contaminated surfaces
+
 	Can it be transmitted before symptoms start? 
+
+		Probably
+
+	What is the likely age distribution of serious cases?
+
+		Probably mostly elderly people
 
