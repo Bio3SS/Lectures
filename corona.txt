@@ -63,6 +63,23 @@ Instantaneous rate of growth $r$
 
 ----------------------------------------------------------------------
 
+PIC FIG dd/coronaPlot.Rout-3.pdf
+
+----------------------------------------------------------------------
+
+PIC FIG dd/coronaPlot.Rout-1.pdf
+
+----------------------------------------------------------------------
+
+PIC FIG dd/coronaPlot.Rout-5.pdf
+
+----------------------------------------------------------------------
+
+DOUBLEFIG dd/coronaPlot.Rout-1.pdf dd/coronaPlot.Rout-1.pdf
+
+----------------------------------------------------------------------
+
+
 Finite rate of growth $\lambda$
 
 	Why do we want this? 
