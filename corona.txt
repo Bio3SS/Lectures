@@ -79,7 +79,17 @@ PIC FIG dd/coronaPlot.Rout-5.pdf
 
 What's the difference?
 
-DOUBLEFIG dd/coronaPlot.Rout-1.pdf dd/coronaPlot.Rout-1.pdf
+DOUBLEFIG dd/coronaPlot.Rout-1.pdf dd/coronaPlot.Rout-5.pdf
+
+----------------------------------------------------------------------
+
+Cumulative curves
+
+	CORRECTION Make process look smoother by counting the same cases over and over
+
+	CORRECTION Can make communication clearer \ldots
+
+		CORRECTION or lead to false confidence and over-simplfication
 
 ----------------------------------------------------------------------
 
