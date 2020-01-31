@@ -928,6 +928,7 @@ CONT
 		ANS we resolve this by think of $\Ro$, $b(0)$, and $d(0)$ as limits
 
 			ANS What are the values when density is very low?
+
 ----------------------------------------------------------------------
 
 Invasion
