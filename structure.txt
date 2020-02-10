@@ -524,19 +524,19 @@ REPSLIDE Example: biennial dandelions
 
 QSLIDE Dandelion life table
 
-INPUT life_tables/dandy.skeleton.tab.tex
+INPUT Life_tables/dandy.skeleton.tab.tex
 
 ----------------------------------------------------------------------
 
 REPSLIDE Dandelion life table
 
-INPUT life_tables/dandy.empty.tab.tex
+INPUT Life_tables/dandy.empty.tab.tex
 
 ----------------------------------------------------------------------
 
 ASLIDE Dandelion life table
 
-INPUT life_tables/dandy.tab.tex
+INPUT Life_tables/dandy.tab.tex
 
 ----------------------------------------------------------------------
 
@@ -572,7 +572,7 @@ CLASS FIG webpix/grey_squirrel.jpg
 
 QSLIDE Gray squirrel population example
 
-INPUT life_tables/sq.empty.tab.tex
+INPUT Life_tables/sq.empty.tab.tex
 
 ----------------------------------------------------------------------
 
@@ -592,7 +592,7 @@ Squirrel observations
 
 ASLIDE Gray squirrel population example
 
-INPUT life_tables/sq.tab.tex
+INPUT Life_tables/sq.tab.tex
 
 ----------------------------------------------------------------------
 
@@ -636,13 +636,13 @@ Salmon example
 
 QSLIDE Salmon example
 
-INPUT life_tables/salmon.empty.tab.tex
+INPUT Life_tables/salmon.empty.tab.tex
 
 ----------------------------------------------------------------------
 
 ASLIDE Salmon example
 
-INPUT life_tables/salmon.tab.tex
+INPUT Life_tables/salmon.tab.tex
 
 ----------------------------------------------------------------------
 
@@ -726,13 +726,13 @@ REPSLIDE Example: biennial dandelions
 
 ASLIDE Dandelion life table
 
-INPUT life_tables/pre.tab.tex
+INPUT Life_tables/pre.tab.tex
 
 ----------------------------------------------------------------------
 
 ASLIDE Counting \emph{after} reproduction
 
-INPUT life_tables/post.tab.tex
+INPUT Life_tables/post.tab.tex
 
 COMMENT There are two different approaches
 

@@ -17,7 +17,7 @@ current: target
 vim_session:
 	bash -cl "vmt README.md"
 
-Sources += Makefile content.mk README.md notes.md
+Sources += Makefile README.md notes.md
 
 ## Keeping track of schedule
 Sources += lectures.txt
@@ -26,7 +26,9 @@ Sources += lectures.txt
 
 # mdirs += age boxes competition dd exploitation life_history life_tables sims structure
 
-pardirs += exponential ts web compensation bd_models WA_Ebola_Outbreak dd
+pardirs += exponential ts web
+pardirs += compensation bd_models WA_Ebola_Outbreak dd
+pardirs += Life_tables structure age
 
 pushdir = web/materials/
 
