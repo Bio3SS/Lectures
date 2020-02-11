@@ -398,11 +398,9 @@ Long-term dynamics
 
 		ANS Exponential growth or exponential decline
 
-	CLASS HREF http://tinyurl.com/DandelionModel2019 Spreadsheet
+	HREF http://tinyurl.com/DandelionModel2020 Spreadsheet
 
-	NOTES HLINK http://tinyurl.com/DandelionModel2019
-
-	ADD Make a command for this; it's cool
+	ADD Update year
 
 ----------------------------------------------------------------------
 
@@ -1377,11 +1375,3 @@ Dynamics
 		$\ell_x$, and
 
 		whether the population has been growing or declining recently
-
-----------------------------------------------------------------------
-
-EXTRA
-
-	Better conclusion?
-
-	More balance with non-exponential populations?
