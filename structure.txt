@@ -10,7 +10,8 @@ TSEC Introduction
 
 	POLL  What assumption are we making?
 
-		ANS All individuals are similar enough to be counted together
+		ANS All individuals are similar enough to be counted as if they are the
+		same
 
 			ANS Always (continuous time) 
 
