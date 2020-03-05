@@ -24,11 +24,11 @@ Sources += lectures.txt
 
 ######################################################################
 
-# mdirs += age boxes competition dd exploitation life_history life_tables sims structure
+# mdirs += age boxes competition dd exploitation life_tables sims structure
 
 pardirs += exponential ts web
 pardirs += compensation bd_models WA_Ebola_Outbreak dd
-pardirs += Life_tables structure age
+pardirs += Life_tables structure life_history age
 
 pushdir = web/materials/
 
