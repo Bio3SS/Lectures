@@ -100,7 +100,6 @@ structure.handouts.pdf: structure.txt
 structure.complete.pdf: structure.txt
 
 # Unit 5 (Life history)
-## life_history.pollclean: 
 life_history.poll.csv: life_history.txt pollcsv.pl
 life_history.html: life_history.step
 life_history.outline.pdf: life_history.txt
