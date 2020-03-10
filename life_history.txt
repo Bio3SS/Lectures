@@ -330,6 +330,12 @@ Responses to Cole
 
 PSLIDE Responses to Cole
 
+SIDEFIG webpix/tomato.jpg
+
+----------------------------------------------------------------------
+
+PSLIDE Responses to Cole
+
 SIDEFIG webpix/jungle.jpg
 
 ----------------------------------------------------------------------
@@ -722,6 +728,8 @@ Applications
 		time in a stable environment
 
 ----------------------------------------------------------------------
+
+CUTOFF
 
 TSEC Bet hedging
 

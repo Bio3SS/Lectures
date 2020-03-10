@@ -153,6 +153,7 @@ disease.complete.pdf: disease.txt
 ## Remember to search/destroy old CUTOFF before using
 ## If we keep these intermediate, they should disappear (and not be committed)
 ## nonlinear.cut.complete.pdf: nonlinear.txt
+## life_history.cut.complete.pdf: life_history.txt
 %.cut.txt: %.txt
 	perl -npe "last if /CUTOFF/" $< | perl -npe "s/UNIT.*/UNIT Extra notes/" > $@
 
