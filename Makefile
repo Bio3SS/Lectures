@@ -1,6 +1,6 @@
 ## This is 3SS/Lectures, a screens project directory
 
-## https://avenue.cllmcmaster.ca/d2l/home/273939
+https://avenue.cllmcmaster.ca/d2l/home/273939
 ## Request
 	##  http://avenue.mcmaster.ca/course/course_request_check.php
 ## Activate (cryptic):
