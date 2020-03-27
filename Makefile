@@ -29,6 +29,7 @@ Sources += lectures.txt
 pardirs += exponential ts web
 pardirs += compensation bd_models WA_Ebola_Outbreak dd
 pardirs += Life_tables structure life_history age competition
+pardirs += exploitation
 
 pushdir = web/materials/
 
