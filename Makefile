@@ -15,8 +15,9 @@ current: target
 ######################################################################
 
 vim_session:
-	bash -cl "vmt README.md"
+	bash -cl "vmt notes.md lectures.txt"
 
+## README is for people who might want to actually fork this; may not be up to date
 Sources += Makefile README.md notes.md
 
 ## Keeping track of schedule

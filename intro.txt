@@ -123,7 +123,7 @@ SS People
 
 ----------------------------------------------------------------------
 
-Li
+EXTRA Li
 
 	Ex-TA
 	
@@ -139,7 +139,6 @@ Li
 
 ----------------------------------------------------------------------
 
-
 Dushoff
 
 	Loves math
@@ -152,7 +151,7 @@ Dushoff
 
 		SHORT See notes for more info.
 		
-		NOTES HLINK http://lalashan.mcmaster.ca/theobio/DushoffLab/
+		NOTES HLINK https://mac-theobio.github.io/dushoff.html
 		
 		NOTES HLINK https://twitter.com/jd_mathbio
 
@@ -230,9 +229,7 @@ TAs
 
 	Steve Cygu
 
-	Zachery Dickson
-		
-	Danielle Montocchio
+	George Long
 
 ----------------------------------------------------------------------
 
@@ -1177,12 +1174,12 @@ Bacteriostasis analysis
 
 	Characteristic time is $T_c = 1/r = 50 \hr$
 
+		Number of bacteria / rate of change
+
+		$N/(rN)$
+
 	If experiment time $t \ll T_c$, then proportional decline $\approx
 	t/T_c$
-
-	The answer makes sense for short times and for long times
-
-	COMMENT We will come back to this
 
 ----------------------------------------------------------------------
 
@@ -1231,7 +1228,8 @@ CONT Euler's $e$
 		If two people go deal out two decks of cards simultaneously, what is the
 		probability they will never match cards?
 
-		If everyone picks up a backpack at random after a test, what's the probability nobody gets the right backpack? 
+		If everyone picks up a backpack at random after a test, what's the
+		probability nobody gets the right backpack? 
 
 ----------------------------------------------------------------------
 

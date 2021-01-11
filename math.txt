@@ -66,8 +66,8 @@ Problems
 
 	Also, word problems
 
-		If a population declines by 90% in 20 generations, what is its
-		reproductive number per generation?
+		If a population declines by 90% in 20 generations, by 
+		what proportion does it decline in one generation?
 
 ----------------------------------------------------------------------
 
