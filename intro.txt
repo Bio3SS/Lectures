@@ -188,11 +188,18 @@ WIDEFIG webpix/timHamilton.jpg
 
 ----------------------------------------------------------------------
 
-PSLIDE Ebola research
+PSLIDE Disease research
 
 WIDEFIG my_images/weitz_full.pdf
 
 ----------------------------------------------------------------------
+
+PSLIDE Disease research
+
+FIG dd/coronaCA.Rout-2.pdf
+
+----------------------------------------------------------------------
+
 
 EXTRA TAs
 
@@ -677,6 +684,27 @@ PRESLIDE Bacteriostasis
 		POLL   1 wk?
 
 ----------------------------------------------------------------------
+
+TSS Coronavirus
+
+DOUBLEFIG dd/coronaCA.Rout-2.pdf dd/coronaCA.Rout-3.pdf
+
+----------------------------------------------------------------------
+
+REPSLIDE Coronavirus
+
+FIG dd/coronaCA.Rout-2.pdf
+
+----------------------------------------------------------------------
+
+
+REPSLIDE Coronavirus
+
+FIG dd/coronaCA.Rout-3.pdf
+
+----------------------------------------------------------------------
+
+PRESLIDE
 
 TSEC Exponential growth
 
