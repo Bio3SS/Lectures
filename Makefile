@@ -53,6 +53,7 @@ intro.draft.pdf: intro.txt
 intro.final.pdf: intro.txt
 intro.handouts.pdf: intro.txt
 intro.complete.pdf: intro.txt
+intro.handouts.docx: intro.handouts.tex
 
 math.handouts.pdf: math.txt
 math.complete.pdf: math.txt
@@ -156,6 +157,13 @@ disease.final.pdf: disease.txt
 disease.draft.pdf: disease.txt
 disease.handouts.pdf: disease.txt
 disease.complete.pdf: disease.txt
+
+######################################################################
+
+pandoc_r = pandoc -o $@ $<
+
+%.handouts.docx: %.handouts.tex
+	$(pandoc_r)
 
 ######################################################################
 

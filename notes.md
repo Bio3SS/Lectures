@@ -1,5 +1,5 @@
-Share notes and math notes
 
-Make new spreadsheet and link to it directly from lecture
+Test reMarkable
 
-Upload new polls
+test channeling
+
