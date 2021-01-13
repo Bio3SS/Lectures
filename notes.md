@@ -1,5 +1,6 @@
 
-Test reMarkable
+Start p36
 
-test channeling
+Figure out something about docx communication
 
+Breakout rooms
