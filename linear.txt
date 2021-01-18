@@ -96,6 +96,11 @@ Parameters
 
 		Birth rate, death rate, fecundity, survival probability
 
+	Typically \emph{remain constant} while we are simulating a particular
+	scenario
+
+	\emph{Vary} when we compare different scenarios
+
 ----------------------------------------------------------------------
 
 How do populations change?
