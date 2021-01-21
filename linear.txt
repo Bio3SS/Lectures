@@ -1,5 +1,7 @@
 UNIT 2: Linear population models
 
+ADD More about model worlds?
+
 ----------------------------------------------------------------------
 
 SEC Constructing models
@@ -623,8 +625,9 @@ Thinking about units
 
 	What is $3\dd \cdot 3\dd$?
 
-		ANS $9\dd^2$ -- this \emph{could} make sense, but it's very
-		different from $9\dd$.
+		ANS $9\dd^2$ -- this \emph{could} make sense, but it's probably wrong
+
+		ANS \ldots very different from $9\dd$.
 
 ----------------------------------------------------------------------
 
@@ -857,7 +860,7 @@ BCC
 
 	Unitless
 
-	Population behaviour depends on the comparison $\R:1$
+	Population behaviour depends on the \textbf{comparison} $\R:1$
 
 		Equivalent to $f:\mu$
 
@@ -1043,6 +1046,8 @@ Characteristic time
 	Rule of thumb: population changes by a factor of 20 after 3
 	characteristic times
 
+		$\exp(3) = 20.1$
+
 ----------------------------------------------------------------------
 
 SEC Growth and regulation
@@ -1076,7 +1081,7 @@ EC
 
 Example: Human population growth
 
-	In the last 50,000 years, the population of modern humans has
+	In the last 50,000 years, the population of \textbf{modern humans} has
 	increased from about 1000 to about 7 billion
 
 	What value of $r$ does this correspond to?  If we use a time step of
