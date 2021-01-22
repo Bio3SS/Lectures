@@ -1348,15 +1348,13 @@ Doubling time
 	The doubling time plays the same role for exponential growth as the
 	half life does for exponential decline:
 
-		$T_h = \log_e(2) T_c$
-
-		It takes $T_c$ time for a declining population to decrease by a
+		It takes $T_c$ time for an increasing population to increase by a
 		factor of $e$
 
-		It takes $\log_e(2) T_c \approx 0.69 T_c$ to decrease by a factor
+		It takes $\log_e(2) T_c \approx 0.69 T_c$ to increase by a factor
 		of 2
 
-		We can write $T_h = \log_e(2) T_c$
+		We can write $T_d = \log_e(2) T_c$
 
 ----------------------------------------------------------------------
 
