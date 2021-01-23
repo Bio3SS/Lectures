@@ -242,6 +242,29 @@ Ignore += *.poll.csv
 
 ######################################################################
 
+## Video manipulation
+
+video/%: video
+video: dir = ~/Dropbox/courses/3SS/2021/videos/
+video:
+	$(linkdirname)
+
+
+out/Foundations.clip1.mp4: dl/Foundations17.mp4
+	ffmpeg -y -i $< -ss 5 -to 830 -acodec copy $@
+
+Ignore += *.mp4
+
+## Foundations DAIDD 2020 (just the Discussion part)
+0122.1.mp4: video/0122.mp4
+	ffmpeg -y -i $< -ss 7 -to 792 -acodec copy $@
+0122.2.mp4: video/0122.mp4
+	ffmpeg -y -i $< -ss 832 -acodec copy $@
+
+video/0122.edit.mp4: 0122.1.mp4 0122.2.mp4 0122.comb.txt
+
+######################################################################
+
 ### Makestuff
 
 Ignore += makestuff
@@ -256,6 +279,7 @@ makestuff/Makefile:
 -include makestuff/texi.mk
 -include makestuff/webpix.mk
 -include makestuff/hotcold.mk
+-include makestuff/video.mk
 
 -include makestuff/git.mk
 -include makestuff/visual.mk
