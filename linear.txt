@@ -667,6 +667,8 @@ Unitless quantities
 
 		ANS $\lambda$, $f$ and $p$. 
 
+		ANS These all depend on a time period
+
 ----------------------------------------------------------------------
 
 REPSLIDE Moth calculation

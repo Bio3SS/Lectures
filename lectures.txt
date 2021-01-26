@@ -11,7 +11,8 @@ Unit 1 (4.3 lectures!!)
 * p116
 
 Unit 2 ()
-* p15
+* p17
+* p27 (spreadsheet, stylus confusion)
 
 2020
 ====
