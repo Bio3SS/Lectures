@@ -725,6 +725,8 @@ Closing the loop
 
 			ANS Pupae are easy to count
 
+			ANS Egg masses, too (depending on species)
+
 	If we don't close the loop, we can't correctly move from step to step
 
 ----------------------------------------------------------------------
@@ -832,7 +834,7 @@ Lifespan
 
 		ANS $1/\mu$ 
 
-			ANS Roughly makes sense, and is also right
+			ANS Roughly makes sense, and is also right (but I'm not proving it)
 
 		ANS Average lifetime is $1/\mu * \Delta t$
 

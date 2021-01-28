@@ -1,4 +1,4 @@
-## This is 3SS/Lectures, a screens project directory
+## This is 3SS/Lectures
 
 ## https://avenue.cllmcmaster.ca/d2l/home/273939
 ## Request
