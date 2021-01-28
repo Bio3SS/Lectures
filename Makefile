@@ -244,11 +244,11 @@ Ignore += *.poll.csv
 
 ## Video manipulation
 
+Ignore += video
 video/%: video
 video: dir = ~/Dropbox/courses/3SS/2021/videos/
 video:
 	$(linkdirname)
-
 
 Ignore += *.mp4
 
