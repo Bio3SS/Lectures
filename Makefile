@@ -81,6 +81,8 @@ nonlinear.draft.pdf: nonlinear.txt
 nonlinear.handouts.pdf: nonlinear.txt
 nonlinear.complete.pdf: nonlinear.txt
 
+## delay.txt a suppressed section of nonlinear (2021)
+
 # Special lesson
 corona.poll.csv: corona.txt pollcsv.pl
 corona.html: corona.step

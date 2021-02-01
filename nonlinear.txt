@@ -3,6 +3,13 @@ UNIT 3 Non-linear population models
 
 ----------------------------------------------------------------------
 
+EXTRA
+
+ADD an Ebola or Covid example
+
+----------------------------------------------------------------------
+
+
 TSEC Introduction
 
 	In \textbf{linear} population models, per capita rates are independent of
@@ -12,7 +19,7 @@ TSEC Introduction
 
 	Why might per capita birth and death rates change with population size?
 
-	What does this imply about population \textbf{dynamics}
+	What does this imply about population \textbf{dynamics}?
 
 ----------------------------------------------------------------------
 
@@ -64,7 +71,6 @@ Long-term growth rates
 	This is almost certainly because factors affecting their growth rate
 	change with the size of population.  
 
-
 ----------------------------------------------------------------------
 
 Changing growth rates
@@ -79,14 +85,17 @@ Changing growth rates
 
 		ANS Diseases
 
-			ANS Also but. But diseases are very likely to increase in large
-			populations.
+			ANS We have the same concer as above. But diseases are 
+			\emph{very} likely to
+			increase in large populations.
 
 		ANS Insufficient resources
 
 			ANS Limitation: e.g., oak trees use all the available light
 
 			ANS Destruction: gypsy moths kill all the oak trees
+
+		ANS Not everything that harms the species is density dependent!
 
 ----------------------------------------------------------------------
 
@@ -197,6 +206,26 @@ DOUBLEFIG WA_Ebola_Outbreak/liberia.npc.tsplot.Rout-0.pdf WA_Ebola_Outbreak/libe
 PRESLIDE Paramecia
 
 DOUBLEPDF ts/paramecia.plot.Rout
+
+----------------------------------------------------------------------
+
+PRESLIDE Coronavirus
+
+FIG dd/coronaCA.ON.Rout-0.pdf
+
+----------------------------------------------------------------------
+
+PRESLIDE Coronavirus
+
+FIG dd/coronaCA.ON.Rout-1.pdf
+
+----------------------------------------------------------------------
+
+PRESLIDE Coronavirus
+
+DOUBLEPDF dd/coronaCA.ON.Rout
+
+ADD This picture may be updated automatically
 
 ----------------------------------------------------------------------
 
@@ -518,6 +547,12 @@ Characteristic \emph{scale}
 	A characteristic scale for density dependence is analogous to a
 	characteristic time
 
+		It is a \emph{parameter} with the same units as a state variable, and
+		sets a standard by which we measure that variable
+
+		Nothing (with units) is big or small until it's compared to something
+		with the same units
+
 	For example: $b(N) = b_0 \exp(-N/N_b)$
 
 		$N_b$ is the characteristic scale of density-dependence in birth
@@ -586,7 +621,7 @@ What will this model do?
 
 BCC
 
-WIDEFIG bd_models/birth.bd.Rout-8.pdf 
+CFIG bd_models/birth.bd.Rout-8.pdf 
 
 NCC
 
@@ -1534,158 +1569,21 @@ Real populations
 
 		Cycles may be due to more complicated mechanisms
 
-----------------------------------------------------------------------
+	Time-delayed population models are cool!
 
-TSEC Delayed regulation
+		But not covered in class this year
 
-	One mechanism for population cycles might be if regulation is
-	\emph{delayed} in time
-
-		It takes time for individuals to complete their life cycle
-
-			Recall that the life cycle is implicit in our simple models
-
-		It takes time for the population to damage its resources or build
-		up natural enemies
 
 ----------------------------------------------------------------------
 
-Time-delayed continuous models
 
-	How would change a simple continuous-time model into a (relatively)
-	simple time-delayed model?
+EXTRA Time-delayed population models
 
-	Original model: $\bigeq \frac{dN}{dt} = (b(N)-d(N))N$
-
-	Be explicit about time: $\bigeq \frac{dN(t)}{dt} = (b(N(t))-d(N(t)))N(t)$
+delay.txt
 
 ----------------------------------------------------------------------
 
-CONT Time-delayed continuous models
 
-	Where should we add delays? Assume we leave the left-hand side alone
-	(that's what we're trying to model).
-
-		ANS \emph{rates} at time $t$ might depend on past conditions
-		(population at time $t-\tau$)
-
-		ANS \emph{population} at time $t$ is just population at time $t$ 
-		
-			ANS that is the population that is experiencing births and deaths
-
-		ANS $\bigeq \frac{dN(t)}{dt} = (b(N(t-\tau))-d(N(t-\tau)))N(t)$
-
-----------------------------------------------------------------------
-
-Our model
-
-	$\bigeq \frac{dN(t)}{dt} = (b(N(t-\tau))-d(N(t-\tau)))N(t)$
-
-	For simplicity, we assume that both rates are delayed by the same
-	amount of time
-
-	More realistic models might have different delays
-
-		or delay in only one quantity
-
-		or \emph{distributed} delays, so that the rate is some kind of
-		average
-
-----------------------------------------------------------------------
-
-PSLIDE Arrows with time delay
-
-FIG bd_models/birth.bd.Rout-8.pdf
-
-----------------------------------------------------------------------
-
-Model dynamics
-
-	POLL If a population is growing, what will happen as it approaches the equilibrium? | What happens as a growing population approaches equilibrium?
-
-		ANS It \emph{keeps} growing
-
-		ANS It needs to \emph{pass} the equilibrium and look back in time
-		before it will stop growing
-
-	So what happens in the long term?
-
-----------------------------------------------------------------------
-
-Time-delayed dynamics
-
-FIG bd_models/delay_sims.Rout-0.pdf
-
-----------------------------------------------------------------------
-
-Time-delayed dynamics
-
-FIG bd_models/delay_sims.Rout-1.pdf
-
-----------------------------------------------------------------------
-
-Time-delayed dynamics
-
-FIG bd_models/delay_sims.Rout-2.pdf
-
-----------------------------------------------------------------------
-
-Time-delayed population models
-
-	Delayed population models show:
-
-		{\bf Damped} oscillations (growing smaller and smaller) for
-		shorter delays
-
-			These could be so small that you wouldn't expect to notice
-			them
-
-		{\bf Persistent} oscillations for longer delays
-
-----------------------------------------------------------------------
-
-Time scales
-
-	Oscillations will be bigger (and will switch from damped to
-	persistent) if the time delay in the model is ``long''
-
-	Long compared to what?
-
-		ANS It must be something else in the model with units of time
-
-		ANS It should have something to do with behaviour near the
-		equilibrium
-
-		ANS In fact, we compare the time delay to the characteristic time
-		of approach to the carrying capacity (calculated by ignoring
-		the delays)
-
-----------------------------------------------------------------------
-
-Unitless quantities
-
-	The behaviour of any particular delay system is determined by one or
-	more unitless quantities
-
-	Our simple model is controlled by the ratio $\tau/t_c$, where $t_c$
-	is the characteristic time of approach to the carrying capacity in
-	the absence of delay
-
-	In fact, cycles are persistent when $\tau/t_c > \pi/2$!
-
-----------------------------------------------------------------------
-
-Time-delayed regulation
-
-	Time-delayed regulation produces simple cycles
-
-		Damped when delay is short \ldots
-
-		Persistent when delay is long \ldots
-
-	\ldots compared to characteristic time of approach to equilibrium
-
-----------------------------------------------------------------------
 
 SEC Small populations and stochasticity
 

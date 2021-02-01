@@ -198,6 +198,8 @@ PSLIDE Disease research
 
 FIG dd/coronaCA.Rout-2.pdf
 
+ADD This picture is not necessarily stable
+
 ----------------------------------------------------------------------
 
 
