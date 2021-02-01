@@ -186,6 +186,8 @@ DOUBLEPDF ts/elk.elkplot.Rout
 
 ----------------------------------------------------------------------
 
+EXTRA
+
 CSLIDE Ebola
 
 DOUBLEFIG WA_Ebola_Outbreak/liberia.npc.tsplot.Rout-0.pdf WA_Ebola_Outbreak/liberia.npc.tsplot.Rout-1.pdf

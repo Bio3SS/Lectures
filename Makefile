@@ -44,7 +44,6 @@ Sources += $(wildcard *.txt *.poll)
 
 # Unit 1 (Intro)
 
-## intro.pollclean: 
 intro.poll.csv: intro.txt pollcsv.pl
 intro.html: intro.step
 intro.outline.pdf: intro.txt
@@ -59,8 +58,6 @@ math.handouts.pdf: math.txt
 math.complete.pdf: math.txt
 
 # Unit 2 (Linear population growth)
-linear.pollnew: 
-## linear.pollclean: 
 linear.poll.csv: linear.txt pollcsv.pl
 linear.html: linear.step
 linear.outline.pdf: linear.txt
@@ -75,7 +72,6 @@ linear.handouts.docx.pd:
 linear.complete.pdf.pd:
 
 # Unit 3 (Non-linear population growth)
-nonlinear.pollnew: 
 nonlinear.poll.csv: nonlinear.txt pollcsv.pl
 nonlinear.html: nonlinear.step
 nonlinear.outline.pdf: nonlinear.txt
@@ -86,7 +82,6 @@ nonlinear.handouts.pdf: nonlinear.txt
 nonlinear.complete.pdf: nonlinear.txt
 
 # Special lesson
-corona.pollnew: 
 corona.poll.csv: corona.txt pollcsv.pl
 corona.html: corona.step
 corona.outline.pdf: corona.txt
@@ -117,7 +112,6 @@ life_history.handouts.pdf: life_history.txt
 life_history.complete.pdf: life_history.txt
 
 # Unit 6 (competition)
-## competition.pollclean: 
 competition.poll.csv: competition.txt pollcsv.pl
 competition.html: competition.step
 competition.outline.pdf: competition.txt
@@ -141,7 +135,6 @@ humble.draft.pdf: humble.txt
 humble.html: humble.step
 
 # Unit 7 (exploitation)
-## exploitation.pollclean: 
 exploitation.poll.csv: exploitation.txt pollcsv.pl
 exploitation.html: exploitation.step
 exploitation.outline.pdf: exploitation.txt
@@ -152,7 +145,6 @@ exploitation.handouts.pdf: exploitation.txt
 exploitation.complete.pdf: exploitation.txt
 
 # Unit 8 (Disease)
-## disease.pollclean: 
 disease.poll.csv: disease.txt pollcsv.pl
 disease.html: disease.step
 disease.outline.pdf: disease.txt
