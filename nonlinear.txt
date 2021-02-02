@@ -237,7 +237,7 @@ DOUBLEPDF ts/gm10165.plot.Rout
 
 Gypsy moths
 
-	POLL What are some factors that limit gypsy-moth populations?
+	What are some factors that limit gypsy-moth populations?
 
 	Which are likely to be affected by the moths?
 
@@ -1330,7 +1330,7 @@ Complex behaviour in our simulations
 
 		ANS We assume it goes down
 
-	POLL In our simple models, as $N_T$ increases, what happens to next year's population? | What happens to next year's population as N_T increases?
+	POLL In our simple models, as $N_T$ increases, what happens to next year's population? | What happens to next year's population as N_T increases? goes up; goes down; up then down; it depends
 
 		ANS $\Nprime = \lambda(N) N_T$
 
@@ -1486,7 +1486,7 @@ BC
 
 	Some plant populations are limited by water, and some by light
 
-	POLL Which is more likely to work out as a scramble?
+	POLL Which is more likely to work out as a scramble? Light; water
 
 		ANS Light is very likely to work out as a ``contest'' -- the
 		taller individuals will win and do OK
@@ -1807,7 +1807,8 @@ Allee effect summary
 
 	Population may go extinct if it drops below a certain threshold
 
-	POLL How come the population is there in the first place if there's an Allee effect?
+	POLL How come the population is there in the first place if there's an Allee
+	effect?
 
 		ANS Maybe it's a weak effect
 
