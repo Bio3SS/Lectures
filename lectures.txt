@@ -10,12 +10,15 @@ Unit 1 (4.3 lectures!!)
 * p77
 * p116
 
-Unit 2 (4.7 lectures?)
+Unit 2 (4.8 lectures)
 * p17
 * p27 (spreadsheet, stylus confusion)
 * p44
 * p61
 * p76
+
+Unit 3
+* p30
 
 2020
 ====
