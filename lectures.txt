@@ -19,6 +19,7 @@ Unit 2 (4.8 lectures)
 
 Unit 3
 * p30
+* p57
 
 2020
 ====

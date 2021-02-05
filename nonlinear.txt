@@ -737,6 +737,8 @@ REPSLIDE Decreasing birth rates
 
 FIG bd_models/birth.bd.Rout-0.pdf
 
+REMARK This is the model we've already seen; we could also imagine …
+
 ----------------------------------------------------------------------
 
 PSLIDE Increasing death rates
@@ -890,6 +892,8 @@ TSS Equilibria and time scales
 	Our simple model is $\bigeq \frac{dN}{dt} = (b(N)-d(N))N$
 
 	In this simple model, when does equilibrium occur?
+
+		ANS $(b(N)-d(N))N = 0$
 
 		ANS $b(N) = d(N)$ (the carrying capacity)
 
