@@ -1472,9 +1472,11 @@ BC
 
 		ANS Food can be depleted
 
-			ANS Making competition and turnover more likely
+			ANS Making scramble competition and turnover more likely
 
 		ANS Nest sites can be occupied, but they don't go away
+
+			ANS More like contest competition, less likely to have turnover
 
 NC
 
