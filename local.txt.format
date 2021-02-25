@@ -1,5 +1,17 @@
 
-## What are webnotes? destroy?
+## There is too much stuff in this file; how much can be moved up
+
+######################################################################
+
+## Adaptive content (time control)
+
+## Regular vs. short versions
+REGSLIDE NULLSLIDE
+SHORTCOMMENT ^CSLIDE %%
+SHORTSLIDE ^DEFHEAD %%
+
+REGULAR %!
+SHORT ^ %%
 
 ######################################################################
 
@@ -57,7 +69,6 @@ LONG %!
 
 ######################################################################
 
-
 ## Old formatting stuff. Merge into main file some day?
 
 CLASS %!
@@ -67,13 +78,13 @@ draft final: ^%%
 ASLIDE %!
 handouts: NULLSLIDE
 draft final: ^DEFHEAD {\sl \underline{%%}}
-webnotes complete: ^DEFHEAD {\underline{Answer slide}: \sl %%}
+complete: ^DEFHEAD {\underline{Answer slide}: \sl %%}
 
 # Comment slide (like an answer slide, but less important)
 CSLIDE %!
 handouts: NULLSLIDE
 draft final: ^DEFHEAD {\sl %%}
-webnotes complete: ^DEFHEAD {\underline{Comment slide}: \sl %%}
+complete: ^DEFHEAD {\underline{Comment slide}: \sl %%}
 
 # Question slide for class and _incomplete_ notes
 QSLIDE ^DEFHEAD %%
@@ -81,7 +92,7 @@ complete: NULLSLIDE
 
 # Continue a slide with the same heading
 CONT %!
-webnotes draft final: ^DEFHEAD {\sl %%}
+draft final: ^DEFHEAD {\sl %%}
 
 # Fit a highfig that doesn't fit in frame
 FIGHFIG ^HFIG 0.9 %%

@@ -210,10 +210,11 @@ Regulation
 
 CSLIDE Complexity
 
+ADD Better art!
+
 FIG webpix/bifurcation.png
 
 ----------------------------------------------------------------------
-
 
 Age-structured models
 
@@ -351,8 +352,6 @@ Closing the loop
 		$p_x$ has units [age $x+1$ indiv (at census time)]/[age $x$ indiv
 		(at census time)]
 
-	COMMENT Diagram
-
 ----------------------------------------------------------------------
 
 The structured model
@@ -399,13 +398,15 @@ Long-term dynamics
 
 		ANS Exponential growth or exponential decline
 
-	HREF http://tinyurl.com/DandelionModel2020 Spreadsheet
+	SHORT Skipping calculations, but you can poke if curious
 
-	ADD Update year
+	HREF http://tinyurl.com/DandelionModel2020 Spreadsheet link
+
+	REGULAR ADD Update year
 
 ----------------------------------------------------------------------
 
-Exception
+REGSLIDE Exception
 
 	Populations with \textbf{independent cohorts} do not tend to reach a
 	stable age distribution
@@ -426,7 +427,7 @@ Exception
 
 ----------------------------------------------------------------------
 
-Independent cohorts
+REGSLIDE Independent cohorts
 
 	Some populations might have independent cohorts:
 
@@ -577,7 +578,7 @@ INPUT Life_tables/sq.empty.tab.tex
 
 Squirrel observations
 
-	POLL  Do you notice anything strange about the squirrel life table?
+	POLL  Do you notice anything strange? | What is strange about the squirrel life table?
 
 		ANS Older age groups seem to be grouped for fecundity.
 
@@ -586,6 +587,8 @@ Squirrel observations
 
 		ANS Might be better to use a model where they keep track of 1
 		year, 2 year, and ``adult" -- not much harder.
+
+			ANS This is what we call stage structure
 
 ----------------------------------------------------------------------
 
@@ -625,7 +628,7 @@ WIDEFIG my_images/structure_cc.png
 
 ----------------------------------------------------------------------
 
-Salmon example
+REGSLIDE Salmon example
 
 	What happens when a population has independent cohorts?
 
@@ -633,44 +636,43 @@ Salmon example
 
 ----------------------------------------------------------------------
 
-QSLIDE Salmon example
+REGSLIDE QSLIDE Salmon example
 
 INPUT Life_tables/salmon.empty.tab.tex
 
 ----------------------------------------------------------------------
 
-ASLIDE Salmon example
+REGSLIDE ASLIDE Salmon example
 
 INPUT Life_tables/salmon.tab.tex
 
 ----------------------------------------------------------------------
 
-PSLIDE Salmon example
+REGSLIDE PSLIDE Salmon example
 
 WIDEFIG webpix/salmon.jpg
 
 ----------------------------------------------------------------------
 
-PSLIDE Salmon dynamics
+REGSLIDE PSLIDE Salmon dynamics
 
 FIG structure/salmon.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
-PSLIDE Salmon population dynamics
+REGSLIDE PSLIDE Salmon population dynamics
 
 FIG structure/salmon.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
-PSLIDE Salmon age dynamics
+REGSLIDE PSLIDE Salmon age dynamics
 
 FIG structure/salmon.Rout-2.pdf
 
 ----------------------------------------------------------------------
 
-
-Salmon dynamics
+REGSLIDE Salmon dynamics
 
 DOUBLEFIG structure/salmon.Rout-2.pdf structure/salmon.Rout-1.pdf
 
@@ -754,9 +756,7 @@ Calculating \R
 
 		Which ages have a large \emph{contribution} to \R?
 
-		POLL  Which values of $p_x$ and $f_x$ is \R\ sensitive to? | Which values of p_x and f_x is R sensitive to?
-
-			ANS The $p$s for young individuals affect all the $\ell$s.
+		How does \R\ respond to changes in various $p_x$ and $f_x$?
 
 ----------------------------------------------------------------------
 
@@ -798,7 +798,11 @@ EC
 
 ----------------------------------------------------------------------
 
-TSS Measuring growth rates
+SS Measuring growth rates
+
+----------------------------------------------------------------------
+
+SHORTCOMMENT Calculating $\lambda$
 
 	In a constant population, each age class replaces itself:
 
@@ -818,7 +822,7 @@ TSS Measuring growth rates
 
 ----------------------------------------------------------------------
 
-The Euler equation
+REGSLIDE The Euler equation
 
 	If the life table doesn't change, then $\lambda$ is given by $\sum_x
 	\ell_x f_x \lambda^{-x} = 1$
@@ -888,7 +892,7 @@ Time scales
 
 Studying population growth
 
-	$\lambda$ and \R\ give similar information about your population
+	$\lambda$ and \R\ give related information about your population
 
 	\R\ is easier to calculate, and more generally useful
 
@@ -1032,7 +1036,7 @@ TSS Fecundity
 
 		Offspring must survive from birth to counting
 
-	Remember to think clearly about gender when necessary
+	Remember to think clearly about sex when necessary
 
 		Are we tracking females, or everyone?
 
@@ -1057,7 +1061,9 @@ Fecundity patterns
 
 ----------------------------------------------------------------------
 
-TSEC Age distributions
+SHORTSLIDE Age distributions
+
+	Not covered this year
 
 	HLINK http://www.gapminder.org/population/tool/
 
@@ -1065,43 +1071,51 @@ TSEC Age distributions
 
 ----------------------------------------------------------------------
 
-CSLIDE Age distributions
+REGSLIDE TSEC Age distributions
+
+	HLINK http://www.gapminder.org/population/tool/
+
+	HLINK https://en.wikipedia.org/wiki/Population_pyramid
+
+----------------------------------------------------------------------
+
+REGSLIDE CSLIDE Age distributions
 
 WIDEFIG webpix/israelpop.png
 
 ----------------------------------------------------------------------
 
-CSLIDE Age distributions
+REGSLIDE CSLIDE Age distributions
 
 WIDEFIG webpix/cypruspop.png
 
 ----------------------------------------------------------------------
 
-CSLIDE Age distributions
+REGSLIDE CSLIDE Age distributions
 
 WIDEFIG webpix/iranpop.png
 
 ----------------------------------------------------------------------
 
-CSLIDE Age distributions
+REGSLIDE CSLIDE Age distributions
 
 WIDEFIG webpix/canadapop.jpg
 
 ----------------------------------------------------------------------
 
-CSLIDE Age distributions
+REGSLIDE CSLIDE Age distributions
 
 WIDEFIG webpix/bahrainpop.jpg
 
 ----------------------------------------------------------------------
 
-CSLIDE Age distributions
+REGSLIDE CSLIDE Age distributions
 
 WIDEFIG webpix/cambodiapop.png
 
 ----------------------------------------------------------------------
 
-Learning from the model
+REGSLIDE Learning from the model
 
 	If a population has constant size (ie., the same number of
 	individuals are born every year), what determines the proportion of
@@ -1118,7 +1132,7 @@ Learning from the model
 
 ----------------------------------------------------------------------
 
-Stable age distribution
+REGSLIDE Stable age distribution
 
 	If a population has reached a SAD, and is increasing at rate
 	$\lambda$ (given by the Euler equation):
@@ -1134,7 +1148,7 @@ Stable age distribution
 
 ----------------------------------------------------------------------
 
-Patterns
+REGSLIDE Patterns
 
 	Populations tend to be bottom-heavy (more individuals at lower age
 	classes)
@@ -1155,7 +1169,7 @@ Patterns
 
 ----------------------------------------------------------------------
 
-University cohorts
+REGSLIDE University cohorts
 
 	McMaster accepts only first-year students.  For any given stage
 	(e.g., end of third year) the same proportion drop out each year
@@ -1177,31 +1191,31 @@ University cohorts
 
 ----------------------------------------------------------------------
 
-REPSLIDE Changing survivorship
+REGSLIDE REPSLIDE Changing survivorship
 
 DOUBLEFIG age/arch.Rout-0.pdf age/arch.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
-Age distributions
+REGSLIDE Age distributions
 
 FIG age/arch_sad.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
-Age distributions
+REGSLIDE Age distributions
 
 FIG age/arch_sad.Rout-2.pdf
 
 ----------------------------------------------------------------------
 
-Age distributions
+REGSLIDE Age distributions
 
 FIG age/arch_sad.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
-REPSLIDE The Euler equation
+REGSLIDE REPSLIDE The Euler equation
 
 	If the life table doesn't change, then $\lambda$ is given by $\sum_x
 	\ell_x f_x \lambda^{-x} = 1$
@@ -1320,7 +1334,7 @@ Summary
 
 TSS Regulated growth
 
-	Our models up until now have assumed that individuals are independent
+	Our models in this unit assume that individuals are independent
 
 	In this case, we expect populations to grow (or decline)
 	exponentially
