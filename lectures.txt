@@ -17,12 +17,15 @@ Unit 2 (4.8 lectures)
 * p61
 * p76
 
-Unit 3
+Unit 3 (5.9 lectures; rushed at end)
 * p30
 * p57
 * p85
 * p116
 * p138
+
+Unit 4 (short version)
+* p16
 
 2020
 ====

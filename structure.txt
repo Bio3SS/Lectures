@@ -301,6 +301,8 @@ TSEC Constructing a model
 
 	Parameters: $p$ and $f$ \emph{for each age that we are modeling}
 
+	ADD Should we poll this? There's blue below that used to be a poll but now seems a bit silly since it's clarified here.
+
 ----------------------------------------------------------------------
 
 When to count
@@ -333,7 +335,8 @@ The conceptual model
 
 		We call these values $N_x(T+1)$
 
-	POLL  What do we need to know? | What do we need to know to calculate population for next time?
+	What do we need to know? | What do we need to know to calculate population
+	for next time?
 
 		ANS The survival probability of each age group: $p_x$
 
