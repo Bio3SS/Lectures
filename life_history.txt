@@ -1121,7 +1121,7 @@ Variation in reproductive success
 
 Sexual roles
 
-	POLL What do you expect to happen in a population where males contributing more to raising offspring than females do?
+	POLL What do you expect to happen in a population where males contribute more to raising offspring than females do?
 
 		ANS All of these stories can be reversed
 
@@ -1210,8 +1210,8 @@ BC
 	Researchers tried to save the endangered kakapos by providing food to
 	females.
 
-	Females responded to these ``good years" by producing too many males making
-	population crisis worse
+	Females responded to these ``good years" by producing mostly males, making
+	population crisis worse!
 
 	Consistent with adaptation for resource balance
 

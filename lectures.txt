@@ -27,6 +27,7 @@ Unit 3 (5.9 lectures; rushed at end)
 Unit 4 (short version)
 * p16
 * p40
+* p58
 
 2020
 ====
