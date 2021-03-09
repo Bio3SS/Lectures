@@ -24,10 +24,13 @@ Unit 3 (5.9 lectures; rushed at end)
 * p116
 * p138
 
-Unit 4 (short version)
+Unit 4 (short version; 5 lectures)
 * p16
 * p40
 * p58
+* p70
+
+Unit 5
 
 2020
 ====
