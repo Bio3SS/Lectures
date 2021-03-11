@@ -30,31 +30,14 @@ Unit 4 (short version; 5 lectures)
 * p58
 * p70
 
+2021 Mar 09 (Tue)
 Unit 5
-
-2020
-====
-
-Mike almost finished the Intro in 2 lectures (maybe too fast)
-
-
-2019
-====
-
-* Intro: 4 lectures
-* Linear: ~4?
-* Nonlinear: ~6
-* Midterm 1 after lecture 15.
-	* Instead we had a lecture cancelled and everything in chaos
-** Starting Life history on Mon 11 what?
+* p29
 
 ----------------------------------------------------------------------
 
 Updating
 ========
-
-POLL (something)
-* Seems to be lecture specific up until now
 
 RSLIDE ⇒
 * PSLIDE (generic, present)
@@ -62,17 +45,9 @@ RSLIDE ⇒
 * REPSLIDE (repeat)
 * FUNSLIDE (extra)
 
-ADD, COMMENT, EXTRA, REMARK, CORRECTION
+Look for ADD, COMMENT, EXTRA, REMARK, CORRECTION
 
 Make polls
 
 Distribute handouts
 
-2018
-====
-
-Unit 1 (Intro): 4.5 lectures!
-
-Unit 2 (Linear): Started halfway on Monday.
-
-D'oh!!! Use wayback technology?

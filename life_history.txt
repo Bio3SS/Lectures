@@ -279,7 +279,7 @@ Semelparity
 
 ----------------------------------------------------------------------
 
-NULLSLIDE PSLIDE Semele
+EXTRA PSLIDE Semele
 
 HIGHFIG webpix/semele.jpg
 
