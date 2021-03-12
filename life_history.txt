@@ -803,6 +803,8 @@ Example: plant Q
 
 		ANS The geometric mean of 6, 0.6 and 0.06: $\lambda=0.6$
 
+		ANS Effective survival is the geometric mean of 0.2, 0.02 and 0.002
+
 ----------------------------------------------------------------------
 
 Plant D
@@ -918,7 +920,8 @@ Why is it called bet hedging?
 		ANS If you don't disperse in space, or spread out risk in time,
 		you are ``betting" all of your offspring on a single environment
 
-		ANS If you bet on many different environments, you are reducing your risk, or ``hedging''
+		ANS If you bet on many different environments, you are reducing your
+		risk, or ``hedging''
 
 ----------------------------------------------------------------------
 
