@@ -1220,6 +1220,6 @@ BC
 
 NC
 
-	SIDEFIG webpix/kakapo_portrait.jpg
+SIDEFIG webpix/kakapo_portrait.jpg
 
 EC
