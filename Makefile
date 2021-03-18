@@ -133,16 +133,6 @@ competition.draft.pdf: competition.txt
 competition.handouts.pdf: competition.txt
 competition.complete.pdf: competition.txt
 
-## Shorter version for 2020
-compete.poll.csv: compete.txt pollcsv.pl
-compete.html: compete.step
-compete.outline.pdf: compete.txt
-
-compete.final.pdf: compete.txt
-compete.draft.pdf: compete.txt
-compete.handouts.pdf: compete.txt
-compete.complete.pdf: compete.txt
-
 humble.draft.pdf: humble.txt
 humble.html: humble.step
 

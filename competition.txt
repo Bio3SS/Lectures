@@ -7,7 +7,7 @@ SEC Introduction
 
 ----------------------------------------------------------------------
 
-Inter-species interactions
+REGSLIDE Inter-species interactions
 
 	Competition: interaction hurts the growth rate of both species
 
@@ -117,7 +117,7 @@ PSLIDE Outcomes of competition
 
 FIG webpix/confusum.jpg
 
-COMMENT The confused flour beetle
+REGULAR COMMENT The confused flour beetle
 
 ----------------------------------------------------------------------
 
@@ -367,20 +367,19 @@ FIG webpix/water_compete.jpg
 
 Balanced competition
 
-	POLL  What results do we expect from balanced competition? Bigger species wins; founder effects; coexistence; something else
+	POLL  What results do we expect from balanced competition? Bigger species
+	wins; founder effects; coexistence; something else
 
-		ANS It seems like the bigger species should win
-
-		ANS But that's not always the case
-
-	Balanced competition works just like equal competition
+		ANS Balanced competition works just like equal competition
 
 		ANS Both species experience total density in the same way
 
 		ANS So the species with the higher carrying capacity (compared
 		using the same units) will dominate
 
-	Balanced competition means (exactly) no tendency for founder
+		ANS This is not necessarily the bigger species
+
+	If competition is balanced, there is no tendency for founder
 	control or for coexistence
 
 ----------------------------------------------------------------------
@@ -607,9 +606,11 @@ TSS Invasion theory
 		ANS Founder control occurs when neither species can invade the
 		other
 
+	SHORT COMMENT This is assuming Allee effects are absent
+
 ----------------------------------------------------------------------
 
-Allee effects
+REGSLIDE Allee effects
 
 	This analysis assumes that species that can be successful under a
 	certain competitive environment can also invade that environment
@@ -746,7 +747,7 @@ Measuring competition
 
 ----------------------------------------------------------------------
 
-Neutral competition
+REGSLIDE Neutral competition
 
 	If competition is balanced, and neither species dominates, this is
 	called neutral competition
@@ -763,7 +764,7 @@ Neutral competition
 
 ----------------------------------------------------------------------
 
-Founder control 
+REGSLIDE Founder control 
 
 	Up until now, we've thought of founder control as a single outcome
 
@@ -780,25 +781,23 @@ Founder control
 
 ----------------------------------------------------------------------
 
-PSLIDE Growth rate and founder control
+REGSLIDE PSLIDE Growth rate and founder control
 
 FIG competition/rmutual.comp.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
-PSLIDE Growth rate and founder control
+REGSLIDE PSLIDE Growth rate and founder control
 
 FIG competition/rmutual.comp.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
-Growth rate and founder control
+REGSLIDE Growth rate and founder control
 
 DOUBLEFIG competition/rmutual.comp.Rout-0.pdf competition/rmutual.comp.Rout-1.pdf
 
 ----------------------------------------------------------------------
-
-CUTOFF
 
 TSS Colonization and co-existence
 
@@ -853,25 +852,11 @@ SEC Niches and coexistence
 
 Ecological niches
 
-BC
-
 	An ecological niche refers to the way an organism makes a living:
 
 		What resources does it need?
 
 		What sort of environmental conditions does it need?
-
-NC
-
-SIDEFIG my_images/Seuss.pdf
-
-EC
-
-----------------------------------------------------------------------
-
-PSLIDE Seuss
-
-HIGHFIG my_images/Seuss.pdf
 
 ----------------------------------------------------------------------
 
@@ -955,7 +940,7 @@ TSS The competitive exclusion principle
 
 ----------------------------------------------------------------------
 
-Exclusion and drift
+REGSLIDE Exclusion and drift
 
 	Even if the two species were \emph{exactly} equal
 	in efficiency, we expect one species to go extinct at random

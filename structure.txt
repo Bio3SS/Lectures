@@ -3,6 +3,13 @@ UNIT 4: Structured populations
 
 ----------------------------------------------------------------------
 
+EXTRA
+
+Clean up the logic here. Make sure you know what's in or out for the short version. Clarify when you're talking about long-term and year-to-year lambda
+
+----------------------------------------------------------------------
+
+
 TSEC Introduction
 
 	Up until now we've tracked populations with a single state variable
