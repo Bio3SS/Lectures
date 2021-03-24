@@ -171,6 +171,7 @@ pandoc_r = pandoc -o $@ $<
 ## If we keep these intermediate, they should disappear (and not be committed)
 ## nonlinear.cut.complete.pdf: nonlinear.txt
 ## life_history.cut.complete.pdf: life_history.txt
+## competition.cut.complete.pdf: competition.txt
 %.cut.txt: %.txt
 	perl -npe "last if /CUTOFF/" $< | perl -npe "s/UNIT.*/UNIT Extra notes/" > $@
 
