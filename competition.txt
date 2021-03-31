@@ -346,7 +346,7 @@ Balanced competition example
 
 	POLL  Which species is bigger? 1; 2
 
-		ANS $4 indiv_1$ have as much impact as $indiv_2$
+		ANS $4 \indiv_1$ have as much impact as $1 \indiv_2$
 
 		ANS Species 2 individuals are bigger
 
@@ -355,7 +355,9 @@ Balanced competition example
 
 		ANS $\alpha_{12} = 1\indiv_2/4\indiv_1$
 
-		ANS $1 indiv_2$ has as much impact as $4 indiv_1$
+		ANS $1 \indiv_2$ has as much impact as $4 \indiv_1$
+
+		ANS The two ratios convey the same information in this case
 
 ----------------------------------------------------------------------
 
@@ -406,9 +408,6 @@ Measuring competitive effects
 		for founder control)
 
 ----------------------------------------------------------------------
-
-CUTOFF
-
 
 TSS Unbalanced competition
 
