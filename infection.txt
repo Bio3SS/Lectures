@@ -32,7 +32,7 @@ Disease agents
 		Most \textbf{viruses} have just a handful of genes that allow
 		them to hijack a cell and get it to make virus copies
 
-			ANS influenza virus, Ebola virus, HIV, measles
+			ANS influenza virus, Ebola virus, HIV, SARS-CoV-2
 
 		\textbf{Bacteria} are independent, free-living cells with
 		hundreds or thousands of chemical pathways
@@ -69,9 +69,9 @@ Microparasites
 	For infections with small pathogens (viruses and bacteria), we don't
 	attempt to count pathogens, but instead divide disease into stages
 
-		Latently infected
+		Latently infected (infected but not yet infectious)
 
-		Productively infected
+		Infectious
 
 		Recovered
 
@@ -89,9 +89,13 @@ Microparasite models
 		\textbf{Resistant} individuals are not infected and cannot become
 		infected
 
-	More complicated models might include other states, such as
-	latently infected hosts who are infected with the pathogen but
-	cannot yet infect others
+	More complicated models include other states:
+
+		ANS Not yet infectious
+
+		ANS Severe infections
+
+		ANS Asymptomatic but infectious
 
 ----------------------------------------------------------------------
 
@@ -115,49 +119,138 @@ EC
 
 ----------------------------------------------------------------------
 
-TSEC Rate of spread
-
-	POLL  For many diseases, especially new diseases, we can \emph{observe}
-	and \emph{estimate} $r$. | What is r?
-
-		ANS Instantaneous rate of increase (per capita)
-
-			ANS Units of 1/t
-
-			ANS Gives the exponential rate of spread
-
-	POLL  Want to know what factors contribute to that, and how it relates to
-	\R. | What is R in a disease model?
-
-		ANS number of new cases per case
-
-		ANS Unitless
+SEC Rate of spread
 
 ----------------------------------------------------------------------
 
-Basic reproductive number
+REPSLIDE COVID in Ontario
 
-	People in the disease field love to talk specifically about \Ro
-
-	But they don't always mean the same thing when they say \Ro:
-
-		Actual value of \R\ before an epidemic
-
-		Hypothetical value assuming no immunity
-
-		Hypothetical value assuming no immunity and no control efforts whatsoever
-
-	Often easier to talk simply about \R.
+FIG covidCA/ON_class.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
-Example: the West African Ebola epidemic
+REPSLIDE COVID in Ontario
 
-DOUBLEPDF WA_Ebola_Outbreak/liberia.npc.tsplot.Rout
+FIG covidCA/ON_class.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
-LONGSLIDE Generation intervals
+COVID in Ontario
+
+DOUBLEFIG covidCA/ON_class.Rout-0.pdf covidCA/ON_class.Rout-1.pdf
+
+----------------------------------------------------------------------
+
+Scales
+
+	Which scale should we look at?
+
+		ANS Log scale is better for looking at trends
+
+		ANS Linear scale is better for looking at impacts
+
+----------------------------------------------------------------------
+
+Population biology
+
+	What quantities do we want to look at?
+
+		ANS Speed of exponential growth $r$
+
+		ANS Finite rate of increase $\lambda$
+
+			ANS Skipped this year
+
+		ANS Lifetime reproduction
+
+----------------------------------------------------------------------
+
+Instantaneous rate of growth $r$
+
+	What are the components?
+
+		ANS Birth rate
+
+			ANS Instantaneous rate of a case producing new cases 
+
+			ANS [case/(case $\cdot$ time]
+
+		ANS Death rate
+
+			ANS Virus-centered!
+
+			ANS Rate of death, recovery, or effective quarantine
+
+	How do you think we estimate?
+
+		ANS We estimate $r$ from the population-level
+		increase in disease
+		
+			ANS Then using that to estimate $b$
+
+		ANS Models go both directions!
+
+			Individuals $\leftrightarrow$ Populations
+
+----------------------------------------------------------------------
+
+REGSLIDE Finite rate of growth $\lambda$
+
+	Why do we want this? 
+
+		ANS to communicate with policy-makers or the public
+
+		ANS maybe to make concrete predictions, though we could use $r$
+
+	How do we calculate it?
+
+		ANS Pick a time step (week? year?)
+
+		ANS Use a formula $\lambda = \exp(r\Delta t)$
+
+----------------------------------------------------------------------
+
+REGSLIDE Example
+
+	$r \approx 0.14/\dd$ for early COVID spread
+
+	What is $\lambda$?
+
+		At a time scale of a day?
+
+		At a time scale of a week?
+
+----------------------------------------------------------------------
+
+Reproductive number $\R$
+
+	What is it?
+
+		ANS Expected number of new cases per case over the lifetime of a case
+
+	Why do we want this? 
+
+		ANS An important measure of how hard the epidemic will be to stop
+
+	How do we calculate it?
+
+		ANS $\R = b/d$; if we can estimate those
+
+----------------------------------------------------------------------
+
+Example
+
+	$r \approx 0.14/\dd$
+
+	What is our estimate of \R?
+
+		When average length of infection $L = 5\dd$?
+
+		When average length of infection $L = 10\dd$?
+
+----------------------------------------------------------------------
+
+Generation intervals
 
 BC
 
@@ -171,6 +264,8 @@ BC
 
 	The effective generation time $\hat G$ has units of time
 
+		And is hard to calculate, like $\lambda$ in a structured model
+
 NC
 
 SIDEFIG boxes/generationTime.Rout-0.pdf
@@ -179,13 +274,13 @@ EC
 
 ----------------------------------------------------------------------
 
-LONGSLIDE Generation intervals
+Generation intervals
 
 DOUBLEFIG boxes/generationTime.Rout-0.pdf boxes/generationTime.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
-LONGSLIDE Speed and risk
+Speed and risk
 
 BC
 
@@ -205,13 +300,13 @@ EC
 
 ----------------------------------------------------------------------
 
-LONGSLIDE PSLIDE Fighting Ebola
+PSLIDE Fighting Ebola
 
 FIG webpix/burial_team.jpg
 
 ----------------------------------------------------------------------
 
-LONGSLIDE Generation time and risk
+Generation time and risk
 
 	If we know $\R$, what does the generation time tell us about $r$?
 
@@ -228,25 +323,25 @@ LONGSLIDE Generation time and risk
 
 ----------------------------------------------------------------------
 
-LONGSLIDE RSLIDE Generation time and risk
+REPSLIDE Generation time and risk
 
 FIG boxes/steps.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
-LONGSLIDE RSLIDE Generation time and risk
+REPSLIDE Generation time and risk
 
 FIG boxes/steps.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
-LONGSLIDE Generation time and risk
+Generation time and risk
 
 DOUBLEPDF boxes/steps.Rout
 
 ----------------------------------------------------------------------
 
-LONGSLIDE Generation time and risk
+Generation time and risk
 
 	$\R = \exp(r \hat G)$
 
@@ -299,9 +394,9 @@ BC
 
 		ANS Disease burns out
 
-		ANS Everyone winds up either recovered or susceptible
+		ANS Everyone winds up either recovered \ldots
 
-		ANS Not everyone gets infected!
+			ANS or susceptible!
 
 NC
 
@@ -384,7 +479,7 @@ Parameters
 
 ----------------------------------------------------------------------
 
-RSLIDE Simulating the model
+REPSLIDE Simulating the model
 
 DOUBLEPDF sims/burnout.plots.Rout
 
@@ -450,87 +545,7 @@ Effective reproductive number
 
 ----------------------------------------------------------------------
 
-TSS Epidemic size
-
-	In this model, the epidemic always burns out
-
-		No source of new susceptibles
-
-	Epidemic size is determined by:
-
-		ANS \Ro: larger \Ro\ leads to a bigger epidemic
-
-		ANS The number of susceptibles at the beginning of the epidemic
-
-			ANS More susceptibles leads to a bigger epidemic
-
-			ANS \ldots and \emph{fewer} susceptibles at the end
-
-		LONG ANS The number of infected individuals at the beginning of the epidemic
-
-			LONG ANS Usually relatively small (and a relatively small effect)
-
-
-----------------------------------------------------------------------
-
-Overshoot 
-
-BC
-
-	Why does more susceptibles at the beginning mean fewer susceptibles at the end?
-
-		ANS More susceptibles $\implies$
-
-		ANS Faster initial growth $\implies$
-
-		ANS Bigger epidemic $\implies$
-
-		ANS More infections at peak (same number of susceptibles) $\implies$
-
-		ANS More generations needed for disease to fade out $\implies$
-
-		ANS More infections after peak \ldots
-
-NC
-
-SIDEFIG sims/burnouts.plots.Rout-4.pdf
-
-EC
-
-----------------------------------------------------------------------
-
-Ebola example
-
-BC
-
-	In September, the US CDC predicted ``as many as'' 1.5 million Ebola
-	cases in Liberia by January
-
-	In fact, their model predicted many \emph{more} cases than that by April
-
-	What happened?
-
-NC
-
-SIDEFIG WA_Ebola_Outbreak/liberia.npc.tsplot.Rout.pdf
-
-EC
-
-----------------------------------------------------------------------
-
-What limits epidemics?
-
-	POLL  What limits epidemics in our simple models?
-
-		ANS Depletion of susceptibles
-
-	POLL  What else limits epidemics in real life?
-
-		ANS Interventions
-
-		ANS Behaviour change
-
-		ANS Heterogeneity (differences between hosts, locations, etc.)
+LONGSLIDE TSS Epidemic size deleted (see disease.txt)
 
 ----------------------------------------------------------------------
 
@@ -600,10 +615,6 @@ EC
 
 ----------------------------------------------------------------------
 
-SS Dynamics
-
-----------------------------------------------------------------------
-
 Equilibrium
 
 	At equilibrium, we know that $\Reff=1$
@@ -623,11 +634,14 @@ Equilibrium
 
 CONT Equilibrium
 
-	Number of infectious individuals determined by number required to keep susceptibles in balance.
+	Number of infectious individuals determined by number required to keep
+	susceptibles in balance.
 
 	As susceptibles go up, what happens?
 
-		Per capita replenishment goes down
+		Rate of susceptible increase goes down
+
+			per capita, at least
 
 		Infections required goes down
 
@@ -635,7 +649,8 @@ CONT Equilibrium
 
 Reciprocal control
 
-	What happens to \emph{equilibrium} if we protect susceptibles (move them to $R$ class)?
+	What happens to \emph{equilibrium} if we protect susceptibles (move them to
+	$R$ class)?
 
 		ANS Equation for $dI/dt$ does not change
 
@@ -658,8 +673,9 @@ Reciprocal control
 
 Reciprocal control
 
-	POLL  What happens if we remove infectious individuals at a constant rate (find them and cure them or isolate them)?
-	What happens if we remove infectious individuals at a constant rate?
+	POLL  What happens if we remove infectious individuals at a constant rate
+	(find them and cure them or isolate them)? What happens if we remove
+	infectious individuals at a constant rate?
 
 		ANS We need more susceptibles to balance $dI/dt$
 
@@ -717,9 +733,7 @@ BC
 
 		ANS Weather
 
-			ANS Seasonality
-
-			ANS Environmental stochasticity
+			ANS Both seasonal effects and Environmental stochasticity
 
 		ANS School terms
 
@@ -737,106 +751,4 @@ EC
 
 ----------------------------------------------------------------------
 
-TSEC Reproductive numbers and risk
-
-	At equilibrium, the proportion of people who are susceptible to
-	disease should be approximately $S/N = 1/\Ro$
-
-	Proportion ``affected'' (infectious or immune) should be
-	approximately $V/N = 1-1/\Ro$
-
-	If you have a single, fast epidemic, the size is also predicted by
-	\Ro.
-
-----------------------------------------------------------------------
-
-RSLIDE Reproductive numbers and risk
-
-DOUBLEPDF sims/recurrent.plots.Rout
-
-----------------------------------------------------------------------
-
-CONT Reproductive numbers and risk
-
-DOUBLEPDF sims/fs.Rout
-
-----------------------------------------------------------------------
-
-Examples
-
-	Ronald Ross predicted 100 years ago that reducing mosquito densities
-	by a factor of 5 or so would \emph{eliminate} malaria
-
-	Gradual disappearance of polio, typhoid, etc., without risk factors
-	going to zero
-
-	Eradication of smallpox!
-
-----------------------------------------------------------------------
-
-Threshold for elimination
-
-	What proportion of the population should be vaccinated to eliminate
-	a disease?
-
-		ANS Transmission should be reduced by a factor of $\R$, so at least
-		fraction $1-1/\R$ should be vaccinated
-
-
-----------------------------------------------------------------------
-
-Examples: 
-
-	Polio has an $\Ro$ of about 5.
-
-	POLL  What proportion of the population
-	should be vaccinated to eliminate polio?
-
-		ANS At least 1-1/5 = 80%
-
-	Measles has an $\Ro$ of about 20. What proportion of the population
-	should be vaccinated to eliminate measles?
-
-		ANS At least 1-1/20 = 95%
-
-	If gonorrhea has an $\Ro$ of about 2, what proportion of unprotected sexual
-	encounters should be protected to eliminate gonorrhea?
-
-		ANS At least 1-1/2 = 50%
-
-----------------------------------------------------------------------
-
-Persistence of infectious disease
-
-	Why have infectious diseases persisted?
-
-		The pathogens \emph{evolve}
-
-		Human populations are \textbf{heterogeneous}
-
-			People differ in: nutrition, exposure, access to care
-
-		Information and misinformation
-
-			Vaccine scares, trust in health care in general
-
-----------------------------------------------------------------------
-
-Heterogeneity and persistence
-
-	Heterogeneity \emph{increases} \Ro
-
-		When disease is rare, it is concentrated in the most vulnerable
-		populations 
-
-			Cases per case is high	
-
-			Elimination is harder
-
-	Marginal populations
-
-		Heterogeneity could make it easier to concentrate on the most
-		vulnerable populations and eliminate disease
-
-		Humans rarely do this, however: the populations that need the
-		most support typically have the least access
+LONGSLIDE TSEC Reproductive numbers and risk (see disease.txt)

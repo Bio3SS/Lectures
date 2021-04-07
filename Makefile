@@ -30,7 +30,8 @@ Sources += lectures.txt
 pardirs += exponential ts web
 pardirs += compensation bd_models WA_Ebola_Outbreak dd
 pardirs += Life_tables structure life_history age competition
-pardirs += exploitation
+pardirs += exploitation sims boxes
+pardirs += covidCA
 
 pushdir = web/materials/
 
@@ -82,26 +83,6 @@ nonlinear.handouts.pdf: nonlinear.txt
 nonlinear.complete.pdf: nonlinear.txt
 
 ## delay.txt a suppressed section of nonlinear (2021)
-
-# Special lesson 2020 (early!)
-corona.poll.csv: corona.txt pollcsv.pl
-corona.html: corona.step
-corona.outline.pdf: corona.txt
-
-corona.final.pdf: corona.txt
-corona.draft.pdf: corona.txt
-corona.handouts.pdf: corona.txt
-corona.complete.pdf: corona.txt
-
-# Special lesson 2021
-voc.poll.csv: voc.txt pollcsv.pl
-voc.html: voc.step
-voc.outline.pdf: voc.txt
-
-voc.final.pdf: voc.txt
-voc.draft.pdf: voc.txt
-voc.handouts.pdf: voc.txt
-voc.complete.pdf: voc.txt
 
 # Unit 4 (Structured populations)
 structure.poll.csv: structure.txt pollcsv.pl
@@ -155,6 +136,28 @@ disease.final.pdf: disease.txt
 disease.draft.pdf: disease.txt
 disease.handouts.pdf: disease.txt
 disease.complete.pdf: disease.txt
+
+# Special lesson 2020 (early!)
+corona.poll.csv: corona.txt pollcsv.pl
+corona.html: corona.step
+corona.outline.pdf: corona.txt
+
+corona.final.pdf: corona.txt
+corona.draft.pdf: corona.txt
+corona.handouts.pdf: corona.txt
+corona.complete.pdf: corona.txt
+
+## Developing new unit for 2021 under severe time limitations
+## Prep time and lecture time!
+
+infection.poll.csv: infection.txt pollcsv.pl
+infection.html: infection.step
+infection.outline.pdf: infection.txt
+
+infection.final.pdf: infection.txt
+infection.draft.pdf: infection.txt
+infection.handouts.pdf: infection.txt
+infection.complete.pdf: infection.txt
 
 ######################################################################
 
