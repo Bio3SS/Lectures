@@ -141,6 +141,24 @@ DOUBLEFIG covidCA/ON_class.Rout-0.pdf covidCA/ON_class.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
+REPSLIDE COVID in Ontario
+
+FIG covidCA/ON_class.Rout-2.pdf
+
+----------------------------------------------------------------------
+
+REPSLIDE COVID in Ontario
+
+FIG covidCA/ON_class.Rout-3.pdf
+
+----------------------------------------------------------------------
+
+COVID in Ontario
+
+DOUBLEFIG covidCA/ON_class.Rout-2.pdf covidCA/ON_class.Rout-3.pdf
+
+----------------------------------------------------------------------
+
 Scales
 
 	Which scale should we look at?
@@ -274,7 +292,7 @@ EC
 
 ----------------------------------------------------------------------
 
-Generation intervals
+CONT Generation intervals
 
 DOUBLEFIG boxes/generationTime.Rout-0.pdf boxes/generationTime.Rout-1.pdf
 
@@ -335,13 +353,13 @@ FIG boxes/steps.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
-Generation time and risk
+CONT Generation time and risk
 
 DOUBLEPDF boxes/steps.Rout
 
 ----------------------------------------------------------------------
 
-Generation time and risk
+CONT Generation time and risk
 
 	$\R = \exp(r \hat G)$
 
@@ -510,7 +528,7 @@ Basic reproductive number
 
 ----------------------------------------------------------------------
 
-Basic reproductive number implications
+CONT Basic reproductive number
 
 	POLL  What happens early in the epidemic if $\Ro>1$?
 	What happens early in the epidemic if Ro>1?
@@ -553,8 +571,7 @@ TSEC Recurrent epidemic models
 
 BC
 
-	POLL 
-	If epidemics tend to burn out, why do we often see repeated
+	POLL If epidemics tend to burn out, why do we often see repeated
 	epidemics?
 
 		ANS People might lose immunity
@@ -569,7 +586,7 @@ EC
 
 ----------------------------------------------------------------------
 
-Recurrent epidemics
+CONT Recurrent epidemics
 
 FIG dd/ewmeas.Rout.pdf
 
@@ -689,19 +706,17 @@ Reciprocal control
 
 ----------------------------------------------------------------------
 
-Tendency to oscillate
+CONT Tendency to oscillate
 
 DOUBLEPDF sims/recurrent.plots.Rout
 
 ----------------------------------------------------------------------
 
-Tendency to oscillate
+CONT Tendency to oscillate
 
 	``Closed-loop'' SIR models (ie., with births or loss of immunity):
 
-		Tend to oscillate
-
-		Oscillations tend to be damped
+		Tend to show damped oscillations
 
 			System reaches an \textbf{endemic} equilibrium -- disease
 			persists
