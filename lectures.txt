@@ -17,7 +17,7 @@ Unit 2 (4.8 lectures)
 * p61
 * p76
 
-Unit 3 (5.9 lectures; rushed at end)
+Unit 3 (5.9 lectures; rushed at end) 15 total
 * p30
 * p57
 * p85
@@ -38,19 +38,22 @@ Unit 5
 * p76
 * Finished
 
-Competition (short version 3.4 lectures)
+Competition (short version 3.4 lectures) 28.3 total + some wasted time here
 * Very brief (technical difficulties)
 * p28 
 * p54
 * p74
 * Finished
 
-Exploitation
+Exploitation short version around 3 (plus wastage 31.7)
 * p22 (breakout groups)
 * p36 (working through equilibria; April Fools ☺)
 * p66
+* Finished
 
 Disease
+* p10
+* Long Q+A; p22
 
 ----------------------------------------------------------------------
 

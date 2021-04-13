@@ -128,15 +128,6 @@ exploitation.handouts.pdf: exploitation.txt
 exploitation.complete.pdf: exploitation.txt
 
 # Unit 8 (Disease)
-disease.poll.csv: disease.txt pollcsv.pl
-disease.html: disease.step
-disease.outline.pdf: disease.txt
-
-disease.final.pdf: disease.txt
-disease.draft.pdf: disease.txt
-disease.handouts.pdf: disease.txt
-disease.complete.pdf: disease.txt
-
 # Special lesson 2020 (early!)
 corona.poll.csv: corona.txt pollcsv.pl
 corona.html: corona.step
@@ -158,6 +149,16 @@ infection.final.pdf: infection.txt
 infection.draft.pdf: infection.txt
 infection.handouts.pdf: infection.txt
 infection.complete.pdf: infection.txt
+
+## Oldest version; don't revert, but maybe continue to cannibalize
+disease.poll.csv: disease.txt pollcsv.pl
+disease.html: disease.step
+disease.outline.pdf: disease.txt
+
+disease.final.pdf: disease.txt
+disease.draft.pdf: disease.txt
+disease.handouts.pdf: disease.txt
+disease.complete.pdf: disease.txt
 
 ######################################################################
 
