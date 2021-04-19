@@ -140,6 +140,7 @@ corona.complete.pdf: corona.txt
 
 ## Developing new unit for 2021 under severe time limitations
 ## Prep time and lecture time!
+## And did not finish (check moreinfection.txt)
 
 infection.poll.csv: infection.txt pollcsv.pl
 infection.html: infection.step
@@ -149,6 +150,9 @@ infection.final.pdf: infection.txt
 infection.draft.pdf: infection.txt
 infection.handouts.pdf: infection.txt
 infection.complete.pdf: infection.txt
+
+## Selected stuff mostly from disease or corona; never taught in this form
+moreinfection.draft.pdf: moreinfection.txt
 
 ## Oldest version; don't revert, but maybe continue to cannibalize
 disease.poll.csv: disease.txt pollcsv.pl
