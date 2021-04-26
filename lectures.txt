@@ -30,8 +30,7 @@ Unit 4 (short version; 5 lectures)
 * p58
 * p70
 
-2021 Mar 09 (Tue) (short version 4.9 lectures)
-Unit 5
+Unit 5 (Tue) (short version 4.9 lectures)
 * p29
 * p50
 * p63
@@ -45,13 +44,13 @@ Competition (short version 3.4 lectures) 28.3 total + some wasted time here
 * p74
 * Finished
 
-Exploitation short version around 3 (plus wastage 31.7)
+Exploitation short version around 3 (plus wastage)
 * p22 (breakout groups)
 * p36 (working through equilibria; April Fools ☺)
 * p66
 * Finished
 
-Disease
+Disease (1.8 +0.5 for QA)
 * p10
 * Long Q+A; p22
 
