@@ -1,6 +1,7 @@
 ## This is 3SS/Lectures
 
-## https://avenue.cllmcmaster.ca/d2l/home/273939
+## UPDATE this number EVERYWHERE!
+## https://avenue.cllmcmaster.ca/d2l/home/371137
 ## Request
 	##  http://avenue.mcmaster.ca/course/course_request_check.php
 ## Activate (cryptic):
