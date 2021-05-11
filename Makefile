@@ -26,6 +26,12 @@ Sources += lectures.txt
 
 ######################################################################
 
+## Resource documents (starting with course evaluations from 2021)
+resources:
+	$(Droplink)
+
+######################################################################
+
 # mdirs += boxes life_tables sims
 
 pardirs += exponential ts web
