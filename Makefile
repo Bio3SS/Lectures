@@ -28,7 +28,8 @@ Sources += lectures.txt
 
 ## Resource documents (starting with course evaluations from 2021)
 resources:
-	$(Droplink)
+	$(LN) /home/dushoff/Dropbox/resources/3SS/ $@
+
 
 ######################################################################
 

@@ -2,6 +2,9 @@
 2021
 ====
 
+resources/eval2021.pdf
+* Better SCHEDULING (when are assignments, when will things be returned)
+
 Make a spreadsheet and keep it updated??
 
 Unit 1 (4.3 lectures!!)
