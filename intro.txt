@@ -196,49 +196,15 @@ WIDEFIG my_images/weitz_full.pdf
 
 PSLIDE Disease research
 
-FIG dd/coronaCA.Rout-2.pdf
+FIG dd/coronaCA.Rout-0.pdf
 
 ADD This picture is not necessarily stable
 
 ----------------------------------------------------------------------
 
+TA
 
-EXTRA TAs
-
-BC
-
-	Morgan Kain
-
-		Current: ecology and evolution of infectious diseases
-
-		Forest ecology, animal behaviour
-
-			Focused on statistical approaches
-
-
-	Michael Li
-
-		Research: Disease forecasting and control
-
-		Interests: Math, science, business, politics, philosophy.
-
-			How everything is connected
-
-NC
-
-SIDEFIG my_images/kain_outside.jpg
-
-SIDEFIG my_images/li_peace.jpg
-
-EC
-
-----------------------------------------------------------------------
-
-TAs
-
-	Steve Cygu
-
-	George Long
+	Lajoie
 
 ----------------------------------------------------------------------
 
@@ -689,20 +655,15 @@ PRESLIDE Bacteriostasis
 
 TSS Coronavirus
 
-DOUBLEFIG dd/coronaCA.Rout-2.pdf dd/coronaCA.Rout-3.pdf
+ADD Pix needed!
 
 ----------------------------------------------------------------------
 
 REPSLIDE Coronavirus
 
-FIG dd/coronaCA.Rout-2.pdf
-
 ----------------------------------------------------------------------
 
-
 REPSLIDE Coronavirus
-
-FIG dd/coronaCA.Rout-3.pdf
 
 ----------------------------------------------------------------------
 

@@ -1,11 +1,14 @@
 ## This is 3SS/Lectures
 
+## :%s/413706/413706/g
+
 ## UPDATE this number EVERYWHERE!
-## https://avenue.cllmcmaster.ca/d2l/home/371137
+## https://avenue.cllmcmaster.ca/d2l/home/413706
 ## Request
 	##  http://avenue.mcmaster.ca/course/course_request_check.php
 ## Activate (cryptic):
 	## Course admin/course offering information/active (then save)
+## Swamp image: Drazen Nesic via pixnio
 
 current: target
 -include target.mk
@@ -30,6 +33,10 @@ Sources += lectures.txt
 resources:
 	$(LN) /home/dushoff/Dropbox/resources/3SS/ $@
 
+Ignore += swamp.jpg
+swamp.jpg: resources/swamp_orig.jpg Makefile
+	convert -crop 5760x2304+0+1000 -scale 41.67% $< $@
+	## convert -crop 5760x2304 -scale 41.67% $< $@
 
 ######################################################################
 
