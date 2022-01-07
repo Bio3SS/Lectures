@@ -22,7 +22,7 @@ vim_session:
 	bash -cl "vmt notes.md lectures.txt"
 
 ## README is for people who might want to actually fork this; may not be up to date
-Sources += Makefile README.md notes.md
+Sources += Makefile README.md notes.md hours.md
 
 ## Keeping track of schedule
 Sources += lectures.txt
