@@ -27,13 +27,9 @@ Communication
 
 	The professor is Jonathan Dushoff
 
-		{\tt dushoff@mcmaster.ca}
+		Contact via Teams classroom channel
 
-		Office hours will be announced
-
-		Or ask questions electronically
-
-			We need a forum!
+		or Teams chat
 
 ----------------------------------------------------------------------
 
@@ -45,10 +41,8 @@ Expectations of professor
 
 	Make clear what terminology and facts must be learned
 
-	Open to questions -- both in class (within reason) and at office
-	hours
-
-	Responsive to questions on class forums (to be decided)
+	Open to questions -- in class (within reason); office hours; classroom
+	channel
 
 ----------------------------------------------------------------------
 
@@ -65,13 +59,23 @@ Expectations of students
 
 	Attend the lecture, and the mandatory tutorials
 
+		Tutorials start week of 17 Jan
+
+----------------------------------------------------------------------
+
+Craziness
+
+	We expect to return in person for the week of 7 Feb
+
+	We will share additional information with you as soon as we get it
+
 ----------------------------------------------------------------------
 
 Texts
 
 	The primary text for this course is the lecture notes
 
-	You will be given readings, which will be posted to Avenue
+	Additional resources will be shared through the resource page
 
 ----------------------------------------------------------------------
 
@@ -149,7 +153,7 @@ Dushoff
 
 		HIV, rabies, ebola, influenza, \ldots
 
-		SHORT See notes for more info.
+		SHORTCLASS See notes for more info
 		
 		NOTES HLINK https://mac-theobio.github.io/dushoff.html
 		
@@ -204,7 +208,19 @@ ADD This picture is not necessarily stable
 
 TA
 
-	Lajoie
+BC
+
+PIC CFIG my_images/Lajoie.jpg
+
+NC
+
+	Celine Lajoie
+
+		Effects of forestry on mercury in boreal stream food webs
+
+		Also: how mercury risks may be mediated by beaver ponds 
+
+EC
 
 ----------------------------------------------------------------------
 
@@ -545,13 +561,9 @@ Stochastic version
 
 ----------------------------------------------------------------------
 
-ADD Investigate whether you really need divOffset in the numerator (bd.R)
-
 PSLIDE Stochastic model
 
 FIG exponential/dandelion.Rout-0.pdf
-
-ADD Put a page with just two traces…
 
 ----------------------------------------------------------------------
 
@@ -567,11 +579,17 @@ FIG exponential/dandelion.Rout-2.pdf
 
 ----------------------------------------------------------------------
 
+PSLIDE Stochastic model
+
+FIG exponential/dandelion.Rout-3.pdf
+
+----------------------------------------------------------------------
+
 Stochastic model
 
 BCC
 
-CFIG exponential/dandelion.Rout-2.pdf
+CFIG exponential/dandelion.Rout-3.pdf
 
 NCC
 
@@ -650,20 +668,6 @@ PRESLIDE Bacteriostasis
 		POLL   1 hr?
 
 		POLL   1 wk?
-
-----------------------------------------------------------------------
-
-TSS Coronavirus
-
-ADD Pix needed!
-
-----------------------------------------------------------------------
-
-REPSLIDE Coronavirus
-
-----------------------------------------------------------------------
-
-REPSLIDE Coronavirus
 
 ----------------------------------------------------------------------
 
@@ -931,13 +935,13 @@ DOUBLEFIG exponential/canada.Rout-2.pdf exponential/canada.Rout-3.pdf
 
 ----------------------------------------------------------------------
 
-PSLIDE Canada plus Room 1105
+PSLIDE Canada plus Room 137
 
 DOUBLEFIG exponential/canada.Rout-2.pdf exponential/canada.Rout-2.pdf
 
 ----------------------------------------------------------------------
 
-PSLIDE Canada plus Room 1105
+PSLIDE Canada plus Room 137
 
 DOUBLEFIG exponential/canada.Rout-2.pdf exponential/canada.Rout-4.pdf
 
@@ -1080,26 +1084,20 @@ CSLIDE Speeding in Taiwan
 
 		ANS But I do get extremely close (after several hours)
 
-	Does anyone remember Zeno's paradox?
-
-		ANS Don't worry about it, then
-
 ----------------------------------------------------------------------
 
 Characteristic times
 
-	If something is declining exponentially, the rate of change
-	(units [widgets/time]) is always proportional to the size of the
-	thing ([widgets]).
+	Characteristic time is the \emph{ratio} between the thing that is changing
+	(units [widgets]) and the rate of change ([widgets/time]).
 
-	The constant ratio between the rate of change and the thing that is
-	changing is:
+		ANS Units are [time]
 
-		the \textbf{characteristic time} (something/change), or
+	Exponential change is when the characteristic time stays constant:
 
-		the \textbf{rate of exponential decline} (change/something)
+		I'm always 1 hour away from the town of Speed
 
-	COMMENT I'm always 1 hour away from the town of Speed
+		So I'm approaching it exponentially
 
 ----------------------------------------------------------------------
 
@@ -1146,8 +1144,7 @@ Bacteriostasis answers
 
 	Bacteria wash out at the rate of 0.02/hr
 
-		ANS This can only make sense with concrete units if we think of
-		it as an instantaneous rate -- more soon
+		ANS This is the \textbf{rate of exponential decline}
 
 		ANS $N = N_0 exp(-rt)$
 
@@ -1165,12 +1162,12 @@ Bacteriostasis analysis
 
 	Characteristic time is $T_c = 1/r = 50 \hr$
 
-		Number of bacteria / rate of change
+	It is useful to think about time scales in exponential change by
+	\emph{comparing} elapsed time to characteristic time
 
-		$N/(rN)$
+		1 hour is short (almost linear decline)
 
-	If experiment time $t \ll T_c$, then proportional decline $\approx
-	t/T_c$
+		1 week is long (many exponential changes)
 
 ----------------------------------------------------------------------
 
@@ -1262,19 +1259,19 @@ FIG exponential/bacteria_scales.Rout-7.pdf
 
 ----------------------------------------------------------------------
 
-Half life
+Half life and doubling time
 
-	Some people prefer to think about half lives.
+	The characteristic time is how long it takes to change by a factor of $e$
 
-	Half life is similar to characteristic time, but doesn't
-	have the direct link to the instantaneous change.
+		Direct link to rate of instantaneous change.
 
-		It takes $T_c$ time to decrease by a factor of $e$
+	Half life (or doubling time) is how long to change (down or up) by a factor
+	of 2
 
-		It takes $\log_e(2) T_c \approx 0.69 T_c$ to decrease by a factor
+		If it takes $T_c$ time to change by a factor of $e$
+
+		It takes $\log_e(2) T_c \approx 0.69 T_c$ to change by a factor
 		of 2
-
-		We can write $T_h = \log_e(2) T_c$
 
 	You should be able to do this calculation
 
@@ -1303,21 +1300,6 @@ FIG exponential/bacteria_times.Rout-1.pdf
 ASLIDE Characteristic time and half life
 
 FIG exponential/bacteria_times.Rout-2.pdf
-
-----------------------------------------------------------------------
-
-Doubling time
-
-	The doubling time plays the same role for exponential growth as the
-	half life does for exponential decline:
-
-		It takes $T_c$ time for an increasing population to increase by a
-		factor of $e$
-
-		It takes $\log_e(2) T_c \approx 0.69 T_c$ to increase by a factor
-		of 2
-
-		We can write $T_d = \log_e(2) T_c$
 
 ----------------------------------------------------------------------
 

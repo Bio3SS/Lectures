@@ -1,6 +1,6 @@
 ## This is 3SS/Lectures
 
-## :%s/413706/413706/g
+## :%s/371137/413706/g
 
 ## UPDATE this number EVERYWHERE!
 ## https://avenue.cllmcmaster.ca/d2l/home/413706
