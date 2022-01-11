@@ -255,7 +255,9 @@ Ecology
 		ANS The study of how organisms interact with each other and with
 		the environment
 
-		ANS Ecology is not environmentalism 
+		ANS Studying ecology is not the same as protecting the environment
+
+			ANS But it can help if you want to protect the environment
 
 ----------------------------------------------------------------------
 
@@ -270,8 +272,8 @@ Population ecology
 
 		ANS Larger spatial scale, longer temporal scale
 
-		ANS We use \emph{dynamical models} to link from the individual level to
-		the population level
+		ANS We use \emph{dynamical models} to link from the individual
+		level to the population level
 
 ----------------------------------------------------------------------
 
