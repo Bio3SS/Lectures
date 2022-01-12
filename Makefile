@@ -167,9 +167,6 @@ infection.draft.pdf: infection.txt
 infection.handouts.pdf: infection.txt
 infection.complete.pdf: infection.txt
 
-## Selected stuff mostly from disease or corona; never taught in this form
-moreinfection.draft.pdf: moreinfection.txt
-
 ## Oldest version; don't revert, but maybe continue to cannibalize
 disease.poll.csv: disease.txt pollcsv.pl
 disease.html: disease.step
