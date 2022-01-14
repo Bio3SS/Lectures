@@ -599,6 +599,8 @@ NCC
 
 	If we run it again with the same parameters and starting conditions, we get a different answer
 
+	COMMENT N0 = 1; $\lambda=2.5$
+
 EC
 
 ----------------------------------------------------------------------
@@ -673,9 +675,7 @@ PRESLIDE Bacteriostasis
 
 ----------------------------------------------------------------------
 
-PRESLIDE
-
-TSEC Exponential growth
+TPSEC Exponential growth
 
 	What is exponential growth?
 
