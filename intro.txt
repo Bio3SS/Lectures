@@ -949,19 +949,19 @@ DOUBLEFIG exponential/canada.Rout-2.pdf exponential/canada.Rout-4.pdf
 
 ----------------------------------------------------------------------
 
-PSLIDE Canada plus room Room 1105?
+PSLIDE Canada plus room Room 137?
 
 DOUBLEFIG exponential/canada.Rout-3.pdf exponential/canada.Rout-3.pdf
 
 ----------------------------------------------------------------------
 
-PSLIDE Canada plus room Room 1105
+PSLIDE Canada plus room Room 137
 
 DOUBLEFIG exponential/canada.Rout-3.pdf exponential/canada.Rout-5.pdf
 
 ----------------------------------------------------------------------
 
-ASLIDE Canada plus room Room 1105
+ASLIDE Canada plus room Room 137
 
 DOUBLEFIG exponential/canada.Rout-4.pdf exponential/canada.Rout-5.pdf
 
