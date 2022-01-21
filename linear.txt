@@ -150,7 +150,9 @@ Linear population models
 
 		Linear models do not usually correspond to linear growth!
 
-		ANS They usually correspond to exponential growth
+		VPOLL What behaviour do we expect from a linear model?
+
+			ANS They usually correspond to exponential growth
 
 			ANS \ldots or exponential decline
 
@@ -452,12 +454,14 @@ Definitions
 
 	$r \equiv b-d$ is the {\bf instantaneous rate of increase}.
 
-	These quantities are not associated with a time period, but they
-	have units:
+	These quantities have true units:
 
 		ANS 1/[time]
 
 			ANS $\equiv$ (indiv/[time])/indiv
+
+	COMMENT With units, we don't need to mess with “associated with a time
+	period”
 
 ----------------------------------------------------------------------
 
@@ -485,10 +489,7 @@ Bacteria
 
 		In fact, simpler
 
-	But we can't do an infinite number of simulation steps on the
-	computer
-
-		 We need fancier methods
+	On the computer, it's a little more complicated to simulate
 
 ----------------------------------------------------------------------
 
@@ -497,7 +498,6 @@ CONT Bacteria
 DOUBLEFIG exponential/growth.Rout-0.pdf exponential/growth.Rout-1.pdf
 
 ----------------------------------------------------------------------
-
 
 Summary
 
@@ -801,7 +801,7 @@ Finite rate of increase
 
 	But it is \emph{associated with} the time step $\Delta t$
 
-		This means it is potentially confusing. It is often better to
+		Potentially confusing. It is often better to
 		use $\R$ or $r$ (see below).
 
 ----------------------------------------------------------------------
@@ -823,7 +823,7 @@ Reproductive number
 
 Lifespan
 
-	In this model world, how long do individuals live, on average in this model?
+	In this model world, how long do individuals live, on average?
 
 	If $p$ is the proportion of individuals that survive, then the
 	proportion that die is:
@@ -947,7 +947,7 @@ Instaneous rate of increase
 
 		ANS [1/time]
 
-	So how can $r=0$ be a criterion? 
+	VPOLL So how can $r=0$ be a criterion? 
 	
 		ANS Because 0 anything is unitless!
 
@@ -1129,69 +1129,18 @@ Long-term growth rate
 
 ----------------------------------------------------------------------
 
-Time scales
+Summary
 
-	Estimated characteristic time scales for exponential growth or decay
-	are usually a few (or a few tens) of generations
+	We can make simple model worlds where populations are composed of
+	individuals that reproduce and die independently
 
-		years to a few kiloyears
+		Discrete or continuous time
 
-	Species typically persist for far longer
+	We can do structured closed-loop calculations and predict how these
+	populations will change
 
-		many kiloyears to megayears
+	If individuals are independent, we expect populations to change
+	exponentially through time
 
-----------------------------------------------------------------------
-
-Balance
-
-	If populations grow and shrink proportionally to their size, why
-	don't they go exponentially to zero or infinity?
-
-		ANS \R\ is extremely close to 1 for every species
-
-	How is this possible?
-
-		ANS Growth rates change through time
-
-----------------------------------------------------------------------
-
-Changing growth rates
-
-	POLL  What sort of factors can make species growth rates change?
-
-		ANS Seasonality
-
-		ANS Environmental changes (gradual or dramatic)
-
-		ANS Competition within species
-
-		ANS Competition between species
-
-		ANS Predators and diseases
-
-		ANS Resources (food and space)
-
-----------------------------------------------------------------------
-
-Regulation
-
-	What do we expect to happen if a population's growth rate is
-	affected only by seasons and climate?
-
-		ANS In the long-term, it will grow or shrink according to some
-		average value
-
-		ANS We don't expect perfect balance, so we don't expect
-		population to stay under control
-
-	What sort of mechanism could keep a population in a reasonable range
-	for a long time?
-
-		ANS If the growth rate is directly or indirectly affected by the
-		size of the population
-
-		ANS There should be some mechanism that decreases population
-		growth rate when population is large
-
-	This is even true for modern humans!
-
+		ANS The rate at which the population changes is proportional to the size
+		of the population
