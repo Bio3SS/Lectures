@@ -38,6 +38,10 @@ POLL Poll: %| %!
 draft: {\color{pollcolor} %|} %!
 outline: %!
 
+## Polls added for virtual class; revisit whether to make them hand-raisy
+## Note that csv does not go through lecture.pl!
+VPOLL ^POLL %%
+
 ## Show poll question in notes before it's made. Flag in draft
 NEWPOLL Poll: %| %!
 draft: {\color{pollcolor}Unlinked poll!:} %| %!

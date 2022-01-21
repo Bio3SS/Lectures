@@ -1,7 +1,5 @@
 UNIT 2: Linear population models
 
-ADD More about model worlds?
-
 ----------------------------------------------------------------------
 
 SEC Constructing models
@@ -947,9 +945,9 @@ Instaneous rate of increase
 
 		ANS [1/time]
 
-	VPOLL So how can $r=0$ be a criterion? 
-	
-		ANS Because 0 anything is unitless!
+	VPOLL So how can $r=0$ be a criterion? | How can r=0 be a criterion?
+
+		ANS Because 0$\times$anything is unitless!
 
 		ANS Does 0km = 0cm?
 

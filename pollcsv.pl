@@ -4,8 +4,11 @@ use 5.10.0;
 $/ = "";
 my $tag = "POLL";
 
+## Decide here how closely to match tag
+## Fancier would be to make tag an array pointer and loop through it
 while (<>){
-	next unless s/^\s*$tag\b\s*//;
+	## next unless s/^\s*$tag\b\s*//;
+	next unless s/$tag\b\s*//;
 	chomp;
 
 	## Optionally have a pipe separating the lecture question from the everywhere question
