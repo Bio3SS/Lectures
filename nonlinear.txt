@@ -68,8 +68,13 @@ Long-term growth rates
 
 	Populations maintain long-term growth rates very close to $r=0$
 
-	This is almost certainly because factors affecting their growth rate
-	change with the size of population.  
+	This is not possible just by chance, or averaging:
+
+		Population size must affect its own growth rate
+
+		Directly or indirectly
+
+		Long term or short term
 
 ----------------------------------------------------------------------
 
@@ -329,7 +334,7 @@ Non-linear model
 
 ----------------------------------------------------------------------
 
-Recruitment
+REGSLIDE Recruitment
 
 	{\bf Recruitment} is when an organism moves from one life stage to
 	another:
@@ -596,6 +601,28 @@ Dynamics
 		near the equilibrium?
 
 		at a high value?
+
+----------------------------------------------------------------------
+
+PSLIDE A model
+
+FIG bd_models/birth.bd.Rout-0.pdf 
+
+----------------------------------------------------------------------
+
+What is the characteristic scale?
+
+BCC
+
+CFIG bd_models/birth.bd.Rout-0.pdf 
+
+NCC
+
+	No density dependence in death rate
+
+	Characteristic scale for birth rate is about 70 indiv
+
+EC
 
 ----------------------------------------------------------------------
 
@@ -885,7 +912,9 @@ DOUBLEFIG bd_models/birth.bd.Rout-1.pdf bd_models/birth.bd.Rout-3.pdf
 
 ----------------------------------------------------------------------
 
-TSS Equilibria and time scales
+TSS Equilibria
+
+REGULAR DEFHEAD TSS Equilibria and time scales
 
 	We define \textbf{equilibrium} as when the population is not changing
 
@@ -962,11 +991,11 @@ CONT
 
 		ANS $\Ro=b(0)/d(0)$
 
-	Does this make sene?
+	How do we interpret $b(0)$ and $d(0)$?
 
-		ANS Not really; nothing actually grows or dies when $N=0$
+		ANS Nothing actually grows or dies when $N=0$
 
-		ANS we resolve this by think of $\Ro$, $b(0)$, and $d(0)$ as limits
+		ANS We think of $b(0)$, and $d(0)$ (and $\Ro$) as limits
 
 			ANS What are the values when density is very low?
 
@@ -1064,7 +1093,7 @@ DEFHEAD \Ro\ and thresholds
 
 ----------------------------------------------------------------------
 
-Characteristic times
+REGSLIDE Characteristic times
 
 	Just like in the simple model, an equilibrium will have a
 	characteristic time
@@ -1077,13 +1106,13 @@ Characteristic times
 
 ----------------------------------------------------------------------
 
-PSLIDE Characteristic times
+REGSLIDE PSLIDE Characteristic times
 
 DOUBLEFIG bd_models/birth.bd.Rout-2.pdf bd_models/birth.bd.Rout-3.pdf
 
 ----------------------------------------------------------------------
 
-Dynamics of density-dependent populations
+Smooth dynamics
 
 	Populations following this model change \emph{smoothly}
 
@@ -1127,7 +1156,7 @@ Dynamics of real-world populations
 
 ----------------------------------------------------------------------
 
-Continuous-time regulation
+Summary
 
 	Continuous-time regulation in simple models makes useful predictions:
 
@@ -1589,9 +1618,7 @@ delay.txt
 
 ----------------------------------------------------------------------
 
-
-
-SEC Small populations and stochasticity
+SEC Small populations
 
 ----------------------------------------------------------------------
 
@@ -1789,11 +1816,11 @@ BC
 	If birth rates go down or death rates go up at low density, we
 	consider this an Allee effect
 
-	If $\Ro < 1$ we say it's a \emph{strong} Allee effect
+	If $\Ro < 1$ we say it's a \textbf{strong} Allee effect
 
 		ANS Population can't invade
 
-	If $\Ro > 1$ we say it's a \emph{weak} Allee effect
+	If $\Ro > 1$ we say it's a \textbf{weak} Allee effect
 
 NC
 
@@ -1860,10 +1887,14 @@ Example
 	storm, and lands by chance on a suitable island with no butterflies
 	What do you expect to happen?
 
-		ANS $\lambda=1.5$ (remember not to multiply by the sex ratio
+		ANS $\lambda=1.5$
+
+		REGULAR ANS(remember not to multiply by the sex ratio
 		twice!)
 
 		ANS Almost anything can happen 
+
+		COMMENT Try this calculation with units 
 
 ----------------------------------------------------------------------
 
@@ -1941,7 +1972,6 @@ HIDEFIG compensation/mothtest.Rout-2.pdf
 EC
 
 ----------------------------------------------------------------------
-
 
 Summary
 
