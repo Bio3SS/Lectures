@@ -47,6 +47,8 @@ PICSLIDE
 
 FIG webpix/ecoli.jpg
 
+ADD Why is this here?
+
 ----------------------------------------------------------------------
 
 The third law of population dynamics
