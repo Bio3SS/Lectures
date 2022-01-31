@@ -813,7 +813,7 @@ BC
 	metabolisms under density dependence, so that death rate
 	\emph{decreases}
 
-	How is this consistent with density dependence?
+	VPOLL How is this consistent with density dependence? How can decreasing death rate at high density be consistent with density dependence?
 
 		ANS Birth rate must decrease even faster
 
