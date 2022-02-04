@@ -1,14 +1,14 @@
 ## This is 3SS/Lectures
 
-## :%s/371137/413706/g
-
-## UPDATE this number EVERYWHERE!
-## https://avenue.cllmcmaster.ca/d2l/home/413706
 ## Request
 	##  http://avenue.mcmaster.ca/course/course_request_check.php
 ## Activate (cryptic):
 	## Course admin/course offering information/active (then save)
 ## Swamp image: Drazen Nesic via pixnio
+
+## UPDATE this number EVERYWHERE!
+## :%s/371137/413706/g
+## https://avenue.cllmcmaster.ca/d2l/home/413706
 
 current: target
 -include target.mk

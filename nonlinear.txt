@@ -987,7 +987,7 @@ Basic reproductive number
 
 ----------------------------------------------------------------------
 
-CONT
+CONT Basic reproductive number
 
 	POLL What is \Ro\ in our current model? | What is R0?
 
