@@ -209,13 +209,13 @@ Regulation
 	Here we will focus on understanding structured population models
 	\emph{without regulation}:
 
-		ANS Individuals behave independently, or (equivalently)
+		ANS Individuals behave independently, meaning…
 
 		ANS Average per capita rates do not depend on population size
 
 ----------------------------------------------------------------------
 
-CSLIDE Complexity
+REGSLIDE CSLIDE Complexity
 
 ADD Better art!
 
@@ -745,7 +745,7 @@ ASLIDE Counting \emph{after} reproduction
 
 INPUT Life_tables/post.tab.tex
 
-COMMENT There are two different approaches
+COMMENT There are two different approaches to the third age class
 
 ----------------------------------------------------------------------
 
