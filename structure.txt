@@ -125,7 +125,7 @@ REPSLIDE Example: biennial dandelions
 
 What determines $\lambda$?
 
-	If we have 20 adults before reproduction, how many do we expect to
+	If we have 20 adults \emph{before} reproduction, how many do we expect to
 	see next time?
 
 	$\lambda = p + f$ is the total number of individuals per individual
@@ -308,8 +308,6 @@ TSEC Constructing a model
 
 	Parameters: $p$ and $f$ \emph{for each age that we are modeling}
 
-	ADD Should we poll this? There's blue below that used to be a poll but now seems a bit silly since it's clarified here.
-
 ----------------------------------------------------------------------
 
 When to count
@@ -342,12 +340,14 @@ The conceptual model
 
 		We call these values $N_x(T+1)$
 
-	What do we need to know? | What do we need to know to calculate population
+	What are the parameters? | What do we need to know to calculate population
 	for next time?
 
 		ANS The survival probability of each age group: $p_x$
 
 		ANS The average fecundity of each age group: $f_x$
+
+ADD Above used to be a poll, but it's spoiled a few slides before
 
 ----------------------------------------------------------------------
 
@@ -883,12 +883,12 @@ Time scales
 	$\R$ gives the number of individuals per individual \emph{over a
 	lifetime}
 
-	POLL  What relationship do we expect for an annual population (individuals die every year)? |  What relationship do we expect for an annual population? R>lam; R<lam; R=lam; R between lam and 1; lam between R and 1.
+	POLL  What relationship do we expect for an annual population (life span = census interval)? |  What relationship do we expect for an annual population? R>lam; R<lam; R=lam; R between lam and 1; lam between R and 1.
 
 		ANS $\R=\lambda$; each organism observed reproduces \R\ offspring
 		on average, all in one time step
 
-	POLL  For a long-lived population? |  What relationship do we expect for a long-lived population? R>lam; R<lam; R=lam; R between lam and 1; lam between R and 1.
+	POLL  For a longer-lived population? |  What relationship do we expect for a longer-lived population? R>lam; R<lam; R=lam; R between lam and 1; lam between R and 1.
 
 		ANS The \R\ offspring are produced slowly, so population changes
 		slowly
