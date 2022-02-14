@@ -751,6 +751,8 @@ COMMENT There are two different approaches to the third age class: if we assume 
 
 CUTOFF
 
+----------------------------------------------------------------------
+
 Calculating \R
 
 	The reproductive number \R\ gives the average lifetime reproduction
