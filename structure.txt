@@ -745,9 +745,11 @@ ASLIDE Counting \emph{after} reproduction
 
 INPUT Life_tables/post.tab.tex
 
-COMMENT There are two different approaches to the third age class
+COMMENT There are two different approaches to the third age class: if we assume that we count the two-year old adults ($x=3$), we can write $p_2 = 0.5$; $f_3=0$, and get the same answer (with one extra row that has zero contribution).
 
 ----------------------------------------------------------------------
+
+CUTOFF
 
 Calculating \R
 
@@ -926,7 +928,7 @@ Growth and decline
 		In a declining population, what happens late in life is more
 		important to $\lambda$ than to \R.
 
-	POLL Which is likely to be more important to ecology and evolution?
+	POLL Which phase is likely to be more important to ecology and evolution?
 
 		ANS The two phases (growth and decline) will be roughly balanced
 
