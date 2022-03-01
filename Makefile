@@ -119,6 +119,7 @@ life_history.final.pdf: life_history.txt
 life_history.draft.pdf: life_history.txt
 life_history.handouts.pdf: life_history.txt
 life_history.complete.pdf: life_history.txt
+life_history.cut.complete.pdf: life_history.txt
 
 # Unit 6 (competition)
 competition.poll.csv: competition.txt pollcsv.pl
@@ -194,7 +195,7 @@ pandoc_r = pandoc -o $@ $<
 ## life_history.cut.complete.pdf: life_history.txt
 ## competition.cut.complete.pdf: competition.txt
 %.cut.txt: %.txt
-	perl -npe "last if /CUTOFF/" $< | perl -npe "s/UNIT.*/UNIT Extra notes/" > $@
+	perl -npe "last if /CUTOFF/" $< | perl -npe "s/UNIT.*/UNIT Provisional notes/" > $@
 
 ######################################################################
 
