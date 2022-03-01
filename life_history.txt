@@ -511,11 +511,11 @@ EC
 
 Measuring $K$
 
-	Which is the $K$ strategist: maple trees or marigolds?
+	Which is the $r$ strategist: maple trees or marigolds?
+
+		ANS Marigolds: they are faster at invading new environments
 
 		ANS Maple trees do better at competing under stable conditions
-
-		ANS Marigolds are faster at invading new environments
 
 	Which has a higher value of $\rmax$?
 
@@ -532,19 +532,7 @@ Measuring $K$
 
 		biomass; area covered; resource consumed
 
-----------------------------------------------------------------------
-
-PSLIDE Strategies
-
-BCC
-
-SIDEFIG webpix/giraffes.png
-
-NCC
-
-SIDEFIG webpix/cutters.jpg
-
-EC
+		We think of maples as the $K$ strategist here
 
 ----------------------------------------------------------------------
 
@@ -709,7 +697,7 @@ Changing life history
 
 ----------------------------------------------------------------------
 
-Applications
+REGSLIDE Applications
 
 	How would $r$ and $K$ strategists differ in their response to human
 	activities/disturbance?

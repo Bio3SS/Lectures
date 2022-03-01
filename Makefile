@@ -191,7 +191,7 @@ pandoc_r = pandoc -o $@ $<
 
 ## Remember to search/destroy old CUTOFF before using
 ## If we keep these intermediate, they should disappear (and not be committed)
-## nonlinear.cut.complete.pdf: nonlinear.txt
+## structure.cut.complete.pdf: structure.txt
 ## life_history.cut.complete.pdf: life_history.txt
 ## competition.cut.complete.pdf: competition.txt
 %.cut.txt: %.txt
