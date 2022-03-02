@@ -722,11 +722,6 @@ REGSLIDE Applications
 
 ----------------------------------------------------------------------
 
-EXTRA CUTOFF
-
-----------------------------------------------------------------------
-
-
 TSEC Bet hedging
 
 	In a risky world, you never want to put all your eggs in the same
