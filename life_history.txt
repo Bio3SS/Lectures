@@ -205,11 +205,6 @@ Evolution and optimization
 
 ----------------------------------------------------------------------
 
-CUTOFF
-
-----------------------------------------------------------------------
-
-
 Programmed optimization
 
 	Organisms pursue very sophisticated strategies to optimize fitness
