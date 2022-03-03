@@ -14,7 +14,7 @@ Unit 2 (74pp; 3.8 lectures)
 * p58
 * Done (0.8L)
 
-Unit 3 (166 pp;) ## Probably didn't shorten enough!; let's see (4.6 lectures!!)
+Unit 3 (166 pp; ## Probably didn't shorten enough!; let's see; 4.6 lectures!!)
 * Just started (p8) (0.2L)
 * p36
 * p80
@@ -22,11 +22,15 @@ Unit 3 (166 pp;) ## Probably didn't shorten enough!; let's see (4.6 lectures!!)
 * p153
 * Done (0.4L)
 
-Unit 4 (95 pp) 
+Unit 4 (95 pp; 4L ) 
 * p12 (0.6L)
 * p35
 * p57
 * p83
+* Done (0.4L)
+
+Unit 5 (90 pp)
+* p29 (0.6L)
 
 2021
 ====

@@ -317,11 +317,11 @@ Responses to Cole
 	What are some reasons why it makes evolutionary sense for organisms
 	to be iteroparous, in light of Cole's arguments?
 
-		ANS ``Closing the loop": $f$ is not seeds per plant, it's
-		plants per plant; not as high as you think
+		ANS $f$ is not seeds per plant, it's
+		plants per plant; Remember to close the loop
 
 		ANS Population regulation: the long-term average value of
-		$\lambda$ is 1, so increasing $f$ by 1 is a \emph{lot}
+		$\lambda$ is 1, so increasing $f$ by has to be a \emph{lot}
 
 		ANS Risky environments: long-lived organisms can deal better with
 		variation in offspring success. 
@@ -728,11 +728,6 @@ Applications
 		time in a stable environment
 
 ----------------------------------------------------------------------
-
-EXTRA CUTOFF
-
-----------------------------------------------------------------------
-
 
 TSEC Bet hedging
 
