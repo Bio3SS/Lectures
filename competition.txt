@@ -151,7 +151,7 @@ TSEC Population model with competition
 	The amount of competition seen by species 1 is $\tilde N_1 = N_1 +
 	\alpha_{21} N_2$
 
-	How should our equation change?
+	How should our single-species equation change?
 
 		ANS $\ds \frac{dN_1}{dt} = (b_1(\tilde N_1) - d_1(\tilde N_1))
 		N_1 $
@@ -168,7 +168,7 @@ Carrying capacity
 	Therefore, we expect each species to converge to its \emph{carrying
 	capacity} $K$ (or $K_1$ and $K_2$) when it is alone
 
-	How do we define carrying capacity in this system?
+	How do we define carrying capacity?
 
 		ANS The birth rate equals the death rate: $b(K) = d(K)$
 
@@ -190,16 +190,13 @@ Carrying capacity with competition
 
 Logistic model
 
-	You've probably learned about the logistic model, if not you may
-	learn about it later
+	One popular approach (as we discussed in non-linear models)
 
-	This model is similar to the logistic model, except:
+	As before, our model is similar to the logistic model, except:
 
 		Birth and death are tracked separately
 
 		We don't assume functions are straight lines
-
-	Everything we say about this model also applies to the logistic model
 
 ----------------------------------------------------------------------
 
