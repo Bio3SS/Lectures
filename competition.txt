@@ -181,10 +181,10 @@ Carrying capacity with competition
 
 	How can this population be at equilibrium?
 
-		ANS $\tilde N_1 = K_1$:  the species has the right amount of
-		competitive pressure to make $\R=1$
+		ANS $\tilde N_1 = K_1$ (carrying capacity):  the species has the
+		right amount of competitive pressure to make $\R=1$
 
-		ANS $N_1 = 0$: the species is not present
+		ANS $N_1 = 0$ (extinction): the species is not present
 
 ----------------------------------------------------------------------
 
@@ -325,7 +325,7 @@ Units of $\alpha$
 	
 	What are the units of $\alpha_{21}$?
 
-		ANS $\indiv_1/\indiv_2$
+		ANS $\indiv_1/\indiv_2$ (usually; depending on units of the $N$s)
 
 	Since $\alpha$ has units, we don't expect there to be anything
 	special about $\alpha=1$
@@ -570,6 +570,12 @@ WFIG 0.6 competition/mutual.comp.Rout-4.pdf
 
 ----------------------------------------------------------------------
 
+REPSLIDE Founder control phase plots
+
+DOUBLEFIG competition/mutual.comp.Rout-0.pdf competition/mutual.comp.Rout-1.pdf
+
+----------------------------------------------------------------------
+
 Results of competition
 
 	$C$ measures the relative effect of each species on each other, but
@@ -582,6 +588,9 @@ Results of competition
 	POLL  $C$ tells us what will happen \emph{if} neither species is dominating. What are the possible results, other than dominance? What are the possible results, other than dominance?
 
 		ANS Founder effects, neutrality or coexistence
+
+		ANS Like when we tune the conditions so that neither species of flour
+		beetle wins
 
 ----------------------------------------------------------------------
 
@@ -604,7 +613,7 @@ TSS Invasion theory
 		ANS Founder control occurs when neither species can invade the
 		other
 
-	SHORT COMMENT This is assuming Allee effects are absent
+		ANS In the absence of Allee effects, invasion is all you need to know
 
 ----------------------------------------------------------------------
 
