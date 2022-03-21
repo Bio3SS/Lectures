@@ -143,6 +143,7 @@ exploitation.draft.pdf: exploitation.txt
 exploitation.final.pdf: exploitation.txt
 exploitation.handouts.pdf: exploitation.txt
 exploitation.complete.pdf: exploitation.txt
+exploitation.cut.complete.pdf: exploitation.txt
 
 # Unit 8 (Disease)
 # Special lesson 2020 (early!)
