@@ -6,12 +6,12 @@
 ## Adaptive content (time control)
 
 ## Regular vs. short versions
-REGSLIDE NULLSLIDE
-SHORTCOMMENT ^CSLIDE %%
-SHORTSLIDE ^DEFHEAD %%
+REGSLIDE ^DEFHEAD %%
+SHORTCOMMENT ^CSLIDE SC %%
+SHORTSLIDE ^DEFHEAD SHORT %%
 
-REGULAR %!
-SHORT ^ %%
+REGULAR ^ %%
+SHORT ^ SHORT %%
 
 ######################################################################
 

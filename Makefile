@@ -145,21 +145,6 @@ exploitation.handouts.pdf: exploitation.txt
 exploitation.complete.pdf: exploitation.txt
 exploitation.cut.complete.pdf: exploitation.txt
 
-# Unit 8 (Disease)
-# Special lesson 2020 (early!)
-corona.poll.csv: corona.txt pollcsv.pl
-corona.html: corona.step
-corona.outline.pdf: corona.txt
-
-corona.final.pdf: corona.txt
-corona.draft.pdf: corona.txt
-corona.handouts.pdf: corona.txt
-corona.complete.pdf: corona.txt
-
-## Developing new unit for 2021 under severe time limitations
-## Prep time and lecture time!
-## And did not finish (check moreinfection.txt)
-
 infection.poll.csv: infection.txt pollcsv.pl
 infection.html: infection.step
 infection.outline.pdf: infection.txt
@@ -178,6 +163,17 @@ disease.final.pdf: disease.txt
 disease.draft.pdf: disease.txt
 disease.handouts.pdf: disease.txt
 disease.complete.pdf: disease.txt
+
+# Unit 8 (Disease)
+# Special lesson 2020 (early!)
+corona.poll.csv: corona.txt pollcsv.pl
+corona.html: corona.step
+corona.outline.pdf: corona.txt
+
+corona.final.pdf: corona.txt
+corona.draft.pdf: corona.txt
+corona.handouts.pdf: corona.txt
+corona.complete.pdf: corona.txt
 
 ######################################################################
 
