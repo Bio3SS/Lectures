@@ -5,13 +5,22 @@
 
 ## Adaptive content (time control)
 
+## It's hard to combine adaptive stuff in headings
+## e.g., if we use DEFHEAD we get it wrong if there's another command
+## if we don't we get it wrong if there's not
+## Don't use SLIDE when there's another command!
+
 ## Regular vs. short versions
 REGSLIDE ^DEFHEAD %%
 SHORTCOMMENT ^CSLIDE SC %%
 SHORTSLIDE ^DEFHEAD SHORT %%
 
-REGULAR ^ %%
+REGULAR ^%%
 SHORT ^ SHORT %%
+
+LONGSLIDE ^DEFHEAD %%
+
+LONG ^%%
 
 ######################################################################
 
@@ -62,14 +71,6 @@ MATREF ^HREF https://bio3ss.github.io/materials/% %%
 
 ADD %!
 draft: Aadd %%
-
-######################################################################
-
-### Adaptive control
-
-LONGSLIDE NULLSLIDE
-
-LONG %!
 
 ######################################################################
 

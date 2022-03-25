@@ -145,15 +145,6 @@ exploitation.handouts.pdf: exploitation.txt
 exploitation.complete.pdf: exploitation.txt
 exploitation.cut.complete.pdf: exploitation.txt
 
-infection.poll.csv: infection.txt pollcsv.pl
-infection.html: infection.step
-infection.outline.pdf: infection.txt
-
-infection.final.pdf: infection.txt
-infection.draft.pdf: infection.txt
-infection.handouts.pdf: infection.txt
-infection.complete.pdf: infection.txt
-
 ## Oldest version; don't revert, but maybe continue to cannibalize
 disease.poll.csv: disease.txt pollcsv.pl
 disease.html: disease.step
