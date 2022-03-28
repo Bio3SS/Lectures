@@ -238,7 +238,7 @@ Instantaneous rate of growth $r$
 		ANS We estimate $r$ from the population-level
 		increase in disease
 		
-			ANS Then using that to estimate $b$
+			ANS Then we use that to estimate $b = d+r$
 
 		ANS Models go both directions!
 
@@ -298,7 +298,19 @@ Example
 
 		When average length of infection $L = 5\dd$?
 
+			$d = 1/(5\dd) = 0.2/\dd$
+
+			$b = 0.14\dd + 0.2\dd = 0.34/\dd$
+
+			$\R = 0.34/0.2 = 1.7$
+
 		When average length of infection $L = 10\dd$?
+
+			$d = 1/(10\dd) = 0.1/\dd$
+
+			$b = 0.14\dd + 0.1\dd = 0.24/\dd$
+
+			$\R = 0.24/0.1 = 2.4$
 
 ----------------------------------------------------------------------
 
@@ -315,6 +327,8 @@ BC
 	Analogous to a life table
 
 	The effective generation time $\hat G$ has units of time
+
+		COMMENT $\hat G$ is fairly deep; we'll skip the details
 
 NC
 
