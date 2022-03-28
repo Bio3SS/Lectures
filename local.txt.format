@@ -9,18 +9,30 @@
 ## e.g., if we use DEFHEAD we get it wrong if there's another command
 ## if we don't we get it wrong if there's not
 ## Don't use SLIDE when there's another command!
+## Still not simple, because we need SLIDE to null the slide!!
 
-## Regular vs. short versions
+## Regular vs. short versions; make this more modular, so that we can swap orders
+## SHORT is sort of hanging for now, needs clarification
+## Regular subsection
 REGSLIDE ^DEFHEAD %%
 SHORTCOMMENT ^CSLIDE SC %%
 SHORTSLIDE ^DEFHEAD SHORT %%
-
 REGULAR ^%%
 SHORT ^ SHORT %%
 
-LONGSLIDE ^DEFHEAD %%
+## Short subsection
+REGSLIDE ^NULLSLIDE
+SHORTCOMMENT ^CSLIDE SC %%
+SHORTSLIDE ^DEFHEAD SHORT %%
+REGULAR ^%%
+SHORT ^ SHORT %%
 
+## Long vs. regular version
+LONGSLIDE ^DEFHEAD %%
 LONG ^%%
+
+## Midterm notes cutoff should be leaveable and ignored unless .cut notes are called for
+CUTOFF NULLSLIDE
 
 ######################################################################
 

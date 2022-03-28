@@ -1,4 +1,4 @@
-UNIT 8: Infectious disease
+UNIT 8A: Infectious disease
 
 ----------------------------------------------------------------------
 
@@ -169,7 +169,7 @@ FIG covidCA/ON_class.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
-COVID in Ontario
+PRESLIDE COVID in Ontario
 
 DOUBLEFIG covidCA/ON_class.Rout-0.pdf covidCA/ON_class.Rout-1.pdf
 
@@ -373,13 +373,13 @@ LONGSLIDE Generation time and risk
 
 ----------------------------------------------------------------------
 
-LONGSLIDE RSLIDE Generation time and risk
+LONG REPSLIDE Generation time and risk
 
 FIG boxes/steps.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
-LONGSLIDE RSLIDE Generation time and risk
+LONG REPSLIDE Generation time and risk
 
 FIG boxes/steps.Rout-1.pdf
 
@@ -410,6 +410,7 @@ LONGSLIDE Generation time and risk
 		ANS Less strength required (smaller $\R$)
 
 ----------------------------------------------------------------------
+
 
 TSEC Single-epidemic model
 
@@ -444,9 +445,9 @@ BC
 
 		ANS Disease burns out
 
-		ANS Everyone winds up either recovered \ldots
+		ANS Everyone winds up either recovered
 
-			ANS or susceptible!
+			ANS … or susceptible
 
 NC
 
@@ -530,191 +531,6 @@ Parameters
 ----------------------------------------------------------------------
 
 REPSLIDE Simulating the model
-
-DOUBLEPDF sims/burnout.plots.Rout
-
-----------------------------------------------------------------------
-
-Simulating the model
-
-DOUBLEFIG sims/burnouts.plots.Rout-0.pdf sims/burnouts.plots.Rout-4.pdf
-
-----------------------------------------------------------------------
-
-Basic reproductive number
-
-	POLL  What \emph{unitless} parameter can you make from the model above?
-	How can you make a unitless parameter reflecting disease spread?
-
-		ANS $\Ro = \beta D = \beta/\gamma$ is the \textbf{basic
-		reproductive number}
-
-		ANS The \emph{potential} number of infections caused by an
-		average infectious individual
-
-			ANS That is: the number they would cause on average if
-			everyone else were susceptible
-
-		ANS The product of the rate $\beta$ (units [1/t]) and the
-		duration $D$ ([t])
-
-----------------------------------------------------------------------
-
-CONT Basic reproductive number
-
-	POLL  What happens early in the epidemic if $\Ro>1$?
-	What happens early in the epidemic if Ro>1?
-
-		ANS Number of infected individuals grows exponentially
-
-	What happens early in the epidemic if $\Ro<1$?
-
-		ANS Number of infected individuals does not grow (disease cannot
-		invade)
-
-----------------------------------------------------------------------
-
-Effective reproductive number
-
-	The effective reproductive number gives the number of new infections
-	per infectious individual in a partially susceptible population:
-
-		ANS $\Reff = \Ro S/N$
-
-	Is the disease increasing or decreasing?
-
-		ANS It will increase when $\Reff > 1$ (more than one case per case)
-
-		ANS This happens when $S/N > 1/\Ro$
-
-	Why doesn't everyone get infected?
-
-		ANS When susceptibles are low enough $\Reff<1$
-
-		ANS When $\Reff<1$, the disease dies out on its own (less than
-		one case per case)
-
-----------------------------------------------------------------------
-
-TSEC Single-epidemic model
-
-PRESENT WIDEFIG boxes/sir.np.three.pdf
-
-	Susceptible $\to$ Infectious $\to$ Recovered
-
-	We also use $N$ to mean the total population
-
-----------------------------------------------------------------------
-
-Transition rates
-
-WIDEFIG boxes/sir.three.pdf
-
-	What factors govern movement through the boxes?
-
-		People get better independently
-
-		People get infected by infectious people
-
-----------------------------------------------------------------------
-
-Conceptual modeling
-
-BC
-
-	POLL  What happens in the long term if we introduce an infectious individual?
-
-		ANS The \emph{may be} an \textbf{epidemic} -- an outbreak of
-		disease
-
-		ANS Disease burns out
-
-		ANS Everyone winds up either recovered or susceptible
-
-		ANS Not everyone gets infected!
-
-NC
-
-SIDEFIG boxes/sir.three.pdf
-
-EC
-
-----------------------------------------------------------------------
-
-Interpreting
-
-	Why might there not be an epidemic?
-
-		ANS If the disease can't spread well enough in the population
-
-			ANS Could depend on season, or immunity \ldots
-
-		ANS Demographic stochasticity: if we only start with one
-		individual, we expect an element of chance
-
-	Why doesn't everyone get infected?
-
-		NOANS
-
-----------------------------------------------------------------------
-
-LONGSLIDE Implementing the model
-
-BC
-
-	The {simplest} way to implement this conceptual
-	model is with differential equations:
-
-		$$\frac{dS}{dt}  =  - \beta \frac{SI}{N} $$
-
-		$$\frac{dI}{dt}  = \beta \frac{SI}{N}- \gamma I $$
-
-		$$\frac{dR}{dt}  = \gamma I $$
-
-		$$ N = S+I+R $$
-
-NC
-
-SIDEFIG boxes/sir.three.pdf
-
-EC
-
-----------------------------------------------------------------------
-
-Quantities
-
-CLASS WIDEFIG boxes/sir.three.pdf
-
-State variables
-
-	$S, I, R, N$: [people] or [people/ha]
-
-
-----------------------------------------------------------------------
-
-CONT Quantities
-
-Parameters
-
-	Susceptible people have \textbf{potentially effective} contacts at rate
-	$\beta$ (units [1/time])
-
-		These are contacts that would lead to infection if the person
-		contacted is infectious
-
-		Total infection rate is $\beta I/N$, because $I/N$ is the
-		proportion of the population infectious
-
-	Infectious people recover at \emph{per capita}
-	rate $\gamma$ (units [1/time])
-
-		Total recovery rate is $\gamma I$
-
-		Mean time infectious is $D = 1/\gamma$ (units [time])
-
-----------------------------------------------------------------------
-
-PRESLIDE Simulating the model
 
 DOUBLEPDF sims/burnout.plots.Rout
 
@@ -1080,7 +896,7 @@ TSEC Reproductive numbers and risk
 
 ----------------------------------------------------------------------
 
-RSLIDE Reproductive numbers and risk
+REPSLIDE Reproductive numbers and risk
 
 DOUBLEPDF sims/recurrent.plots.Rout
 

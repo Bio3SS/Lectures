@@ -145,7 +145,7 @@ exploitation.handouts.pdf: exploitation.txt
 exploitation.complete.pdf: exploitation.txt
 exploitation.cut.complete.pdf: exploitation.txt
 
-## Oldest version; don't revert, but maybe continue to cannibalize
+## Merged version 2022 Mar 27 (Sun)
 disease.poll.csv: disease.txt pollcsv.pl
 disease.html: disease.step
 disease.outline.pdf: disease.txt
@@ -155,7 +155,7 @@ disease.draft.pdf: disease.txt
 disease.handouts.pdf: disease.txt
 disease.complete.pdf: disease.txt
 
-# Unit 8 (Disease)
+# Unit 9 (Corona supplement)
 # Special lesson 2020 (early!)
 corona.poll.csv: corona.txt pollcsv.pl
 corona.html: corona.step
