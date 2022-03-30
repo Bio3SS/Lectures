@@ -454,14 +454,16 @@ BC
 
 	POLL  What happens in the long term if we introduce an infectious individual?
 
-		ANS The \emph{may be} an \textbf{epidemic} -- an outbreak of
+		ANS There \emph{may be} an \textbf{epidemic} -- an outbreak of
 		disease
 
 		ANS Disease burns out
 
-		ANS Everyone winds up either recovered
+		ANS Everyone winds up recovered
 
 			ANS … or susceptible
+
+		ANS Or, there may not be an outbreak
 
 NC
 
