@@ -546,6 +546,79 @@ Parameters
 
 ----------------------------------------------------------------------
 
+REPSLIDE Implementing the model
+
+	$$\frac{dS}{dt}  =  - \beta \frac{SI}{N} $$
+
+	$$\frac{dI}{dt}  = \beta \frac{SI}{N}- \gamma I $$
+
+	$$\frac{dR}{dt}  = \gamma I $$
+
+	$$ N = S+I+R $$
+
+	This is a Hamiltonian dynamical system
+
+		ANS Apply Principle of Least Action
+	
+----------------------------------------------------------------------
+
+Principle of Least Action
+
+	If:
+
+		$$ \mathbf{q} : \mathbf{R} \to \mathbf{R}^N $$
+
+		$$ \mathcal{S}[\mathbf{q}, t_1, t_2] 
+= \int_{t_1}^{t_2} L(\mathbf{q}(t),\mathbf{\dot{q}}(t), t) dt $$
+
+	Then:
+
+		ANS  $$ \delta \mathcal{S} = 0 $$
+
+----------------------------------------------------------------------
+
+Hamilton's equation of motion
+
+
+	Write down the Lagrangian energy:
+
+		$$ E_{\cal L}(\boldsymbol{q},\boldsymbol{\dot q},t)\, \stackrel{\text{def}}{=}\, \sum^n_{i=1} \dot q^i \frac{\partial {\cal L}}{\partial \dot q^i} - {\cal L} $$
+
+	The inverse Legendre transform gives the Hamiltonian:
+
+		$$ {\cal H}\left(\frac{\partial {\cal L}}{\partial \boldsymbol{\dot q}},\boldsymbol{q},t\right) = E_{\cal L}(\boldsymbol{q},\boldsymbol{\dot q},t) $$
+
+	Dynamics conserve these level sets!
+
+----------------------------------------------------------------------
+
+The Lorenz attractor
+
+BCC
+
+CFIG webpix/butterfly.png
+
+NCC
+
+Calculate the (maximal) Lyapunov exponent as:
+
+	$$ \lambda = \lim_{t \to \infty} \lim_{|\delta \mathbf{Z}_0| \to 0}
+	\frac{1}{t} \ln\frac{| \delta\mathbf{Z}(t)|}{|\delta \mathbf{Z}_0|} $$
+
+EC
+
+----------------------------------------------------------------------
+
+REPSLIDE Quantities
+
+CLASS WIDEFIG boxes/sir.three.pdf
+
+State variables
+
+	$S, I, R, N$: [people] or [people/ha]
+
+----------------------------------------------------------------------
+
 REPSLIDE Simulating the model
 
 DOUBLEPDF sims/burnout.plots.Rout
