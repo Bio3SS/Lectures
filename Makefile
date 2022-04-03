@@ -156,7 +156,8 @@ disease.handouts.pdf: disease.txt
 disease.complete.pdf: disease.txt
 
 # Unit 9 (Corona supplement)
-# Special lesson 2020 (early!)
+# Special lesson 2020 (early!) All deleted
+# Supplement 2022 put in its place
 corona.poll.csv: corona.txt pollcsv.pl
 corona.html: corona.step
 corona.outline.pdf: corona.txt
