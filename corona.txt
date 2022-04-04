@@ -1,0 +1,394 @@
+UNIT 8B: Coronavirus
+
+----------------------------------------------------------------------
+
+EXTRA
+
+Done in great haste; should add simple models of human response to pathogen damage, among other things
+
+----------------------------------------------------------------------
+
+SEC Initial projections
+
+----------------------------------------------------------------------
+
+REPSLIDE Flattening the curve
+
+FIG dd/flatSimPlots.Rout-0.pdf
+
+----------------------------------------------------------------------
+
+REPSLIDE Flattening the curve
+
+FIG dd/flatSimPlots.Rout-1.pdf
+
+----------------------------------------------------------------------
+
+REPSLIDE Flattening the curve
+
+FIG dd/flatSimPlots.Rout-2.pdf
+
+----------------------------------------------------------------------
+
+REPSLIDE Flattening the curve
+
+FIG dd/flatSimPlots.Rout-3.pdf
+
+----------------------------------------------------------------------
+
+What happens when we flatten?
+
+BCC
+
+PIC CFIG dd/flatSimPlots.Rout-3.pdf
+
+NCC
+
+	POLL Which scenario has the lowest total number of cases shown (area under
+	the curve)? | Which scenario has the fewest total cases?: No control; 20%;
+	40%; all the same
+
+EC
+
+----------------------------------------------------------------------
+
+REPSLIDE Flattening the curve
+
+FIG dd/flatResponsePlots.Rout.pdf
+
+----------------------------------------------------------------------
+
+Flattening the curve
+
+DOUBLEFIG dd/flatSimPlots.Rout-3.pdf dd/flatResponsePlots.Rout.pdf
+
+----------------------------------------------------------------------
+
+Flattening the curve
+
+	More flattening than reduction in total
+
+		ANS As long as \Ro\ is medium-to-large we expect almost everyone to get
+		infected in a simple model
+
+		ANS Changes in \Ro\ don't affect area under the curve
+
+		ANS But they can have big effects on the peak
+
+	What are some benefits of just flattening?
+
+		ANS Less peak demand
+
+		ANS More time to find solutions:
+
+			ANS Better treatments
+
+			ANS Vaccines
+
+----------------------------------------------------------------------
+
+Behaviour and policy change
+
+	Why were our early models so wrong?
+
+		ANS People and governments changed behaviour much more than we expected
+
+			ANS Fear of overflowing hospitals and chaos in general
+
+		ANS Population heterogeneity played a smaller role
+
+----------------------------------------------------------------------
+
+TSEC Endemic coronavirus
+
+	POLL What does it mean for \scv\ to become ``endemic''
+
+		ANS Not going extinct
+
+		ANS Not \emph{too} much variation in annual incidence
+
+	What it doesn't mean:
+
+		ANS Not fluctuating
+
+		ANS Not dangerous
+
+	COMMENT A lot of double negatives, make sure you're clear!
+
+----------------------------------------------------------------------
+
+Disease burnout
+
+	A disease that has a big epidemic and leaves very few susceptibles behind
+	can go locally or globally extinct -- we call this burnout
+
+	Lots of evidence for influenza or measles burning out in isolated areas
+	during less global times
+
+----------------------------------------------------------------------
+
+REPSLIDE Disease burnout
+
+FIG sims/recurrent.plots.Rout.pdf
+
+----------------------------------------------------------------------
+
+REPSLIDE Disease burnout
+
+FIG sims/recurrent.newplots.Rout.pdf
+
+----------------------------------------------------------------------
+
+Disease burnout
+
+DOUBLEFIG sims/recurrent.plots.Rout.pdf sims/recurrent.newplots.Rout.pdf
+
+----------------------------------------------------------------------
+
+Adaptive responses
+
+	How do people respond to fear of \cnv?
+
+		ANS Masking, distancing, booster shots
+
+		ANS Mandates, lockdowns
+
+	What effects do we expect if people's worry levels about \scv\ fluctuate
+	with virus levels?
+
+		ANS Will increae spread when levels are high (or growing)
+
+		ANS Tendency to stabilize the dynamics
+
+----------------------------------------------------------------------
+
+Burnout and \scv
+
+	Burnout seems very rare in the global era
+
+	Adaptive responses work against burnout
+
+		When things are bad, people are more careful: less overshoot
+
+		When things are good, people are less careful: less chance to keep the
+		virus down
+
+----------------------------------------------------------------------
+
+TSEC Pathogen aggressiveness
+
+	POLL Should viruses evolve to become more or less dangerous?: more; less; it
+	depends
+
+		ANS It depends
+
+		ANS The virus evolves in the way that's best for the virus
+
+		ANS Host death and host recovery are equally bad!
+
+----------------------------------------------------------------------
+
+REPSLIDE Tradeoffs
+
+FIG life_history/frontier.Rout-2.pdf
+
+----------------------------------------------------------------------
+
+Which strain will win?
+
+	If the competing strains produce similar immune responses, this is exactly
+	like equal competition: infections are competing for a single resource:
+
+		ANS Susceptible humans
+
+	The winner will be the strain that has the highest ``carrying capacity'':
+
+		ANS Removes the largest number from susceptible pool
+
+		ANS Highest \Ro
+
+		ANS This could be more or less deadly
+
+		ANS The 1 or 2% of humans who die from \cnv\ disease may not be the most
+		important arena for evolution
+
+----------------------------------------------------------------------
+
+REPSLIDE Pathogen aggressiveness
+
+FIG life_history/aggressionPlots.Rout-0.pdf
+
+----------------------------------------------------------------------
+
+REPSLIDE Pathogen aggressiveness
+
+FIG life_history/aggressionPlots.Rout-1.pdf
+
+----------------------------------------------------------------------
+
+REPSLIDE Pathogen aggressiveness
+
+FIG life_history/aggressionPlots.Rout-2.pdf
+
+----------------------------------------------------------------------
+
+Pathogen aggressiveness
+
+BC
+
+CFIG life_history/aggressionPlots.Rout-2.pdf
+
+NC
+
+	Pathogen will evolve to maximize \Ro.
+
+	Is not affected by whether duration $D$ is ended by host death, or by immune
+	system clearing the pathogen
+
+EC
+
+----------------------------------------------------------------------
+
+Human evolution
+
+	We have evolved very good immune systems, but we can't always stay ahead of
+	the viruses
+
+	Should people evolve to favor the spread of more or less dangerous viruses?
+
+		ANS Probably less dangerous
+
+		ANS Viruses that do well in the upper respiratory tract may spread better
+
+		ANS Viruses that do well in the lower respiratory tract are more dangerous
+
+----------------------------------------------------------------------
+
+Omicron example
+
+	Omicron spreads \emph{much} better than earlier \scv\ viruses
+
+	It does less well in the lungs and better in the upper airways
+
+	\scv\ \emph{may} be evolving in a less dangerous direction
+
+		There is no guarantee
+
+		Delta spread better and was \emph{more} dangerous than previous 
+
+----------------------------------------------------------------------
+
+SEC The future of \scv
+
+----------------------------------------------------------------------
+
+What is different about \scv?
+
+	What is the main difference between \scv\ and other colds and flus?
+
+		ANS There was almost no immunity before 2020
+
+		ANS It is still adapting to humans
+
+----------------------------------------------------------------------
+
+Human immunity
+
+	The immune system is very complicated and very effective
+
+		T cells and B cells recognize different parts of the \textbf{pathogen}
+
+		Even partial recognition often protects people against severe outcomes
+
+	Vaccines
+
+		Also likely to protect against severe outcomes
+
+----------------------------------------------------------------------
+
+Immunity and the virus
+
+	Our immune systems may see different variants of the virus differently:
+
+		Cross-immunity to a different strain might be less effective than direct
+		immunity to the strain I was infected with
+
+	How will this change our picture of competition?
+
+		ANS It makes it easier for different strains to co-exist
+
+		ANS We don't know yet how much easier. Some viruses (HPV) have dozens of
+		co-existing strains. Others (influenza A) have limited cross-immunity,
+		but strong population-level competition
+
+----------------------------------------------------------------------
+
+Herd immunity
+
+	POLL What is meant by herd immunity?
+
+		ANS A level of immunity in the population that interferes with \emph{the
+		spread of the pathogen}
+
+		ANS May or may not mean that the pathogen cannot survive
+
+	How much herd immunity do we need?
+
+		ANS About $1-1/\Ro$ for $\Reff\approx1$
+
+		ANS In the long run, we expect to see about the right number of
+		susceptibles to keep the infectious individuals in balance
+
+----------------------------------------------------------------------
+
+Can herd immunity drive \scv\ extinct?
+
+	What extinct viruses do we know about? How did they get there?
+
+		ANS Smallpox and rinderpest
+
+		ANS Vaccination!
+
+		ANS Causes herd immunity, is our only realistic hope for driving \scv\
+		extinct
+
+		ANS What about our luck with measles, mumps, polio, influenza, etc?
+
+----------------------------------------------------------------------
+
+Levels of disease
+
+	In the long run, how long we go between \cnv\ infections will likely depend
+	mostly on how long our immunity lasts, or else on
+
+		ANS how often we get vaccine boosters
+
+----------------------------------------------------------------------
+
+Just another seasonal coronavirus (JASC)
+
+	This is a \emph{theory} that lack of population immunity is the \emph{only}
+	difference between \scv\ and other viruses that cause common colds
+
+		Some versions of the theory account for \scv\ continuing to evolve in
+		that direction
+
+	POLL What do you think of this theory?
+
+		ANS We all had versions of the common cold viruses as young children
+
+		ANS The common cold viruses face a high level of population immunity and
+		can't have big outbreaks the way \scv\ does.
+
+			ANS Smaller doses may be correlated with less-severe cases
+
+----------------------------------------------------------------------
+
+Moving forward
+
+	We need to pay attention and figure out how strongly to prioritize \scv\
+	control
+
+	We also need to be thinking about detecting and responding to the next
+	pandemic!
+

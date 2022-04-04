@@ -53,6 +53,7 @@ Unit 7 (82 pp); maybe shortened too much. Took about 3.2?
 Unit 8a (76pp, started 28 Mar)
 * p24 (start with R vs. L activity)
 * p42 (ready for the R0 poll)
+* p65 (ready to ask about reciprocal control)
 
 2021
 ====
