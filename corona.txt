@@ -45,7 +45,7 @@ PIC CFIG dd/flatSimPlots.Rout-3.pdf
 NCC
 
 	POLL Which scenario has the lowest total number of cases shown (area under
-	the curve)? | Which scenario has the fewest total cases?: No control; 20%;
+	the curve)? | Which scenario has the fewest total cases? No control; 20%;
 	40%; all the same
 
 EC
@@ -101,7 +101,7 @@ Behaviour and policy change
 
 TSEC Endemic coronavirus
 
-	POLL What does it mean for \scv\ to become ``endemic''
+	POLL What does it mean for \scv\ to become ``endemic'' | What do we mean by endemic?
 
 		ANS Not going extinct
 
@@ -114,6 +114,12 @@ TSEC Endemic coronavirus
 		ANS Not dangerous
 
 	COMMENT A lot of double negatives, make sure you're clear!
+
+----------------------------------------------------------------------
+
+PRESLIDE Terminology
+
+FIG webpix/giantSpider.png
 
 ----------------------------------------------------------------------
 
@@ -133,13 +139,13 @@ FIG sims/recurrent.plots.Rout.pdf
 
 ----------------------------------------------------------------------
 
-REPSLIDE Disease burnout
+NSLIDE REPSLIDE Disease burnout
 
 FIG sims/recurrent.newplots.Rout.pdf
 
 ----------------------------------------------------------------------
 
-Disease burnout
+NSLIDE Disease burnout
 
 DOUBLEFIG sims/recurrent.plots.Rout.pdf sims/recurrent.newplots.Rout.pdf
 
@@ -177,7 +183,7 @@ Burnout and \scv
 
 TSEC Pathogen aggressiveness
 
-	POLL Should viruses evolve to become more or less dangerous?: more; less; it
+	POLL Should viruses evolve to become more or less dangerous? more; less; it
 	depends
 
 		ANS It depends
@@ -214,29 +220,29 @@ Which strain will win?
 
 ----------------------------------------------------------------------
 
-REPSLIDE Pathogen aggressiveness
+NSLIDE REPSLIDE Pathogen aggressiveness
 
 FIG life_history/aggressionPlots.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
-REPSLIDE Pathogen aggressiveness
+NSLIDE REPSLIDE Pathogen aggressiveness
 
 FIG life_history/aggressionPlots.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
-REPSLIDE Pathogen aggressiveness
+NSLIDE REPSLIDE Pathogen aggressiveness
 
 FIG life_history/aggressionPlots.Rout-2.pdf
 
 ----------------------------------------------------------------------
 
-Pathogen aggressiveness
+NSLIDE Pathogen aggressiveness
 
 BC
 
-CFIG life_history/aggressionPlots.Rout-2.pdf
+NOTESONLY CFIG life_history/aggressionPlots.Rout-2.pdf
 
 NC
 
