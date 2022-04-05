@@ -1039,6 +1039,8 @@ Examples:
 
 		ANS At least 1-1/2 = 50%
 
+		ANS Does not actually work, because of heterogeneity in sexual behaviour
+
 ----------------------------------------------------------------------
 
 Persistence of infectious disease
