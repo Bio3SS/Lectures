@@ -139,13 +139,13 @@ FIG sims/recurrent.plots.Rout.pdf
 
 ----------------------------------------------------------------------
 
-NSLIDE REPSLIDE Disease burnout
+REPSLIDE Disease burnout
 
 FIG sims/recurrent.newplots.Rout.pdf
 
 ----------------------------------------------------------------------
 
-NSLIDE Disease burnout
+Disease burnout
 
 DOUBLEFIG sims/recurrent.plots.Rout.pdf sims/recurrent.newplots.Rout.pdf
 
@@ -220,29 +220,29 @@ Which strain will win?
 
 ----------------------------------------------------------------------
 
-NSLIDE REPSLIDE Pathogen aggressiveness
+REPSLIDE Pathogen aggressiveness
 
 FIG life_history/aggressionPlots.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
-NSLIDE REPSLIDE Pathogen aggressiveness
+REPSLIDE Pathogen aggressiveness
 
 FIG life_history/aggressionPlots.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
-NSLIDE REPSLIDE Pathogen aggressiveness
+REPSLIDE Pathogen aggressiveness
 
 FIG life_history/aggressionPlots.Rout-2.pdf
 
 ----------------------------------------------------------------------
 
-NSLIDE Pathogen aggressiveness
+Pathogen aggressiveness
 
 BC
 
-NOTESONLY CFIG life_history/aggressionPlots.Rout-2.pdf
+CFIG life_history/aggressionPlots.Rout-2.pdf
 
 NC
 
