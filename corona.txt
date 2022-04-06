@@ -355,8 +355,8 @@ Can herd immunity drive \scv\ extinct?
 
 		ANS Vaccination!
 
-		ANS Causes herd immunity, is our only realistic hope for driving \scv\
-		extinct
+			ANS Herd immunity by vaccination is the only hope for
+			driving \scv\ extinct
 
 		ANS What about our luck with measles, mumps, polio, influenza, etc?
 
@@ -388,6 +388,10 @@ Just another seasonal coronavirus (JASC)
 
 			ANS Smaller doses may be correlated with less-severe cases
 
+		ANS It's good to hope, but we shouldn't count on it
+
+		ANS We don't know how \scv\ is going to evolve
+
 ----------------------------------------------------------------------
 
 Moving forward
@@ -398,3 +402,6 @@ Moving forward
 	We also need to be thinking about detecting and responding to the next
 	pandemic!
 
+		ANS Better surveillance
+
+		ANS Routine monitoring of viruses from patient samples
