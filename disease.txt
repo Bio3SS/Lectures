@@ -1039,7 +1039,7 @@ Examples:
 
 		ANS At least 1-1/2 = 50%
 
-		ANS Does not actually work, because of heterogeneity in sexual behaviour
+		ANS Does not actually work \ldots
 
 ----------------------------------------------------------------------
 

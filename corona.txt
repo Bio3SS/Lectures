@@ -95,7 +95,11 @@ Behaviour and policy change
 
 			ANS Fear of overflowing hospitals and chaos in general
 
-		ANS Population heterogeneity played a smaller role
+		ANS Population heterogeneity
+
+			ANS Not everyone mixes the same, or at the same time
+
+			ANS A less important effect so far
 
 ----------------------------------------------------------------------
 
@@ -114,12 +118,6 @@ TSEC Endemic coronavirus
 		ANS Not dangerous
 
 	COMMENT A lot of double negatives, make sure you're clear!
-
-----------------------------------------------------------------------
-
-PRESLIDE Terminology
-
-FIG webpix/giantSpider.png
 
 ----------------------------------------------------------------------
 
@@ -162,9 +160,11 @@ Adaptive responses
 	What effects do we expect if people's worry levels about \scv\ fluctuate
 	with virus levels?
 
-		ANS Will increae spread when levels are high (or growing)
+		ANS Will increase spread when levels are high (or growing)
 
 		ANS Tendency to stabilize the dynamics
+
+			ANS Smaller outbreaks, less chance of random extinction
 
 ----------------------------------------------------------------------
 
@@ -262,11 +262,13 @@ Human evolution
 
 	Should people evolve to favor the spread of more or less dangerous viruses?
 
-		ANS Probably less dangerous
+		ANS Less dangerous!
 
 		ANS Viruses that do well in the upper respiratory tract may spread better
 
 		ANS Viruses that do well in the lower respiratory tract are more dangerous
+
+		ANS Have we evolved to make this a tradeoff for viruses?
 
 ----------------------------------------------------------------------
 
@@ -368,6 +370,12 @@ Levels of disease
 	mostly on how long our immunity lasts, or else on
 
 		ANS how often we get vaccine boosters
+
+----------------------------------------------------------------------
+
+PRESLIDE Terminology
+
+FIG webpix/giantSpider.png
 
 ----------------------------------------------------------------------
 
