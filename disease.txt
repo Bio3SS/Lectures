@@ -546,7 +546,7 @@ Parameters
 
 ----------------------------------------------------------------------
 
-REPSLIDE Implementing the model
+APRIL REPSLIDE Implementing the model
 
 	$$\frac{dS}{dt}  =  - \beta \frac{SI}{N} $$
 
@@ -562,7 +562,7 @@ REPSLIDE Implementing the model
 	
 ----------------------------------------------------------------------
 
-Principle of Least Action
+APRIL Principle of Least Action
 
 	If:
 
@@ -577,7 +577,7 @@ Principle of Least Action
 
 ----------------------------------------------------------------------
 
-Hamilton's equation of motion
+APRIL Hamilton's equation of motion
 
 
 	Write down the Lagrangian energy:

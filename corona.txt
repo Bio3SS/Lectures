@@ -215,8 +215,8 @@ Which strain will win?
 
 		ANS This could be more or less deadly
 
-		ANS The 1 or 2% of humans who die from \cnv\ disease may not be the most
-		important arena for evolution
+		ANS Removal by killing and removal by recovery have similar effects on
+		the virus
 
 ----------------------------------------------------------------------
 
@@ -357,8 +357,10 @@ Can herd immunity drive \scv\ extinct?
 
 		ANS Vaccination!
 
-			ANS Herd immunity by vaccination is the only hope for
+			ANS Herd immunity by vaccination is the only realistic hope for
 			driving \scv\ extinct
+
+			ANS Burnout did not work!
 
 		ANS What about our luck with measles, mumps, polio, influenza, etc?
 
