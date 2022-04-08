@@ -592,7 +592,7 @@ APRIL Hamilton's equation of motion
 
 ----------------------------------------------------------------------
 
-The Lorenz attractor
+APRIL The Lorenz attractor
 
 BCC
 
