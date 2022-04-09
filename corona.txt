@@ -338,6 +338,9 @@ Herd immunity
 		ANS A level of immunity in the population that interferes with \emph{the
 		spread of the pathogen}
 
+			ANS In particular, the phenomenon of immune people protecting others
+			by reducing population-level spread
+
 		ANS May or may not mean that the pathogen cannot survive
 
 	How much herd immunity do we need?
@@ -346,6 +349,9 @@ Herd immunity
 
 		ANS In the long run, we expect to see about the right number of
 		susceptibles to keep the infectious individuals in balance
+
+		ANS If we can get above this level through vaccination, there is a chance
+		to drive the pathogen extinct, in theory
 
 ----------------------------------------------------------------------
 
@@ -363,6 +369,8 @@ Can herd immunity drive \scv\ extinct?
 			ANS Burnout did not work!
 
 		ANS What about our luck with measles, mumps, polio, influenza, etc?
+
+			ANS \scv\ is mutating more effectively than most of these!
 
 ----------------------------------------------------------------------
 
