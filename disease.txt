@@ -964,6 +964,8 @@ BC
 		
 			ANS People are more careful when disease levels are high
 
+		ANS Pathogen mutations
+
 NC
 
 SIDEFIG dd/ewmeas.Rout.pdf
