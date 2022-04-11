@@ -6,6 +6,8 @@ EXTRA
 
 Done in great haste; should add simple models of human response to pathogen damage, among other things
 
+Make it all more actionable
+
 ----------------------------------------------------------------------
 
 SEC Initial projections
