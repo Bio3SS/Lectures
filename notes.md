@@ -1,3 +1,8 @@
 
-Test web interface with teammates first
+Unit 8
 
+Life tables
+
+Turnover
+
+Exploitation equilibria
