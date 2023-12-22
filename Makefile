@@ -7,8 +7,8 @@
 ## Swamp image: Drazen Nesic via pixnio
 
 ## UPDATE this number EVERYWHERE!
-## :%s/371137/413706/g
-## https://avenue.cllmcmaster.ca/d2l/home/413706
+## :%s/413706/595825/g
+## https://avenue.cllmcmaster.ca/d2l/home/595825
 
 current: target
 -include target.mk
