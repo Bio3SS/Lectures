@@ -4,7 +4,6 @@
 	##  http://avenue.mcmaster.ca/course/course_request_check.php
 ## Activate (cryptic):
 	## Course admin/course offering information/active (then save)
-## Swamp image: Drazen Nesic via pixnio
 
 ## UPDATE this number EVERYWHERE!
 ## :%s/413706/595825/g
