@@ -1,16 +1,23 @@
 ## This is 3SS/Lectures
 
+current: target
+-include target.mk
+
+## https://avenue.cllmcmaster.ca/d2l/home/595825
+
+######################################################################
+
+## Getting started
+
 ## Request
-	##  http://avenue.mcmaster.ca/course/course_request_check.php
+####  http://avenue.mcmaster.ca/course/course_request_check.php
 ## Activate (cryptic):
-	## Course admin/course offering information/active (then save)
+#### Course admin/course offering information/active (then save)
 
 ## UPDATE this number EVERYWHERE!
 ## :%s/413706/595825/g
-## https://avenue.cllmcmaster.ca/d2l/home/595825
 
-current: target
--include target.mk
+######################################################################
 
 -include makestuff/newtalk.def
 -include makestuff/perl.def

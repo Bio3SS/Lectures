@@ -16,20 +16,16 @@ SS Course structure
 
 Communication
 
-	Lecture notes for each section will be available the afternoon
+	Lecture notes for each section will be available the night
 	before you need them
 
 		Check Avenue frequently for announcements and new information
 
-		All info will also be on the course resource page
-
-			HLINK http://bio3ss.github.io/
-
 	The professor is Jonathan Dushoff
 
-		Contact via Teams classroom channel
+		Contact via forum on Avenue
 
-		or Teams chat
+		or email
 
 ----------------------------------------------------------------------
 
@@ -41,8 +37,7 @@ Expectations of professor
 
 	Make clear what terminology and facts must be learned
 
-	Open to questions -- in class (within reason); office hours; classroom
-	channel
+	Open to questions -- in class (within reason); office hours; forum
 
 ----------------------------------------------------------------------
 
@@ -63,19 +58,11 @@ Expectations of students
 
 ----------------------------------------------------------------------
 
-Craziness
-
-	We expect to return in person for the week of 7 Feb
-
-	We will share additional information with you as soon as we get it
-
-----------------------------------------------------------------------
-
 Texts
 
 	The primary text for this course is the lecture notes
 
-	Additional resources will be shared through the resource page
+	Additional resources will be shared through Avenue
 
 ----------------------------------------------------------------------
 
@@ -115,9 +102,7 @@ Taking notes
 
 Polling
 
-	You can obtain extra credit by responding to in-class polls
-
-		Text from your cell phone, or answer on the web
+	Text from your cell phone, or answer on the web
 
 	POLL  Why are you taking this class? Fits my career plans; Prerequisite for another course; Need a biology elective; Fits my schedule; Interested in ecology; Interested in quantitative biology
 
@@ -203,24 +188,6 @@ PSLIDE Disease research
 FIG dd/coronaCA.Rout-0.pdf
 
 ADD This picture is not necessarily stable
-
-----------------------------------------------------------------------
-
-TA
-
-BC
-
-PIC CFIG my_images/Lajoie.jpg
-
-NC
-
-	Celine Lajoie
-
-		Effects of forestry on mercury in boreal stream food webs
-
-		Also: how mercury risks may be mediated by beaver ponds 
-
-EC
 
 ----------------------------------------------------------------------
 
@@ -450,7 +417,7 @@ BC
 
 		ANS 125?
 
-		HREF https://bio3ss.github.io/linear.html See spreadsheet on resource page
+		HREF http://tinyurl.com/DandelionModel2024 Dandelion spreadsheet
 
 	The spreadsheet is an implementation of a dynamical model!
 
@@ -618,7 +585,7 @@ TSS Bacteria
 		They die at a rate of 0.01/\hr
 
 	Rates are \textbf{per capita} (i.e., per individual) and
-	\textbf{instaneous} (they describe what is happening at each moment
+	\textbf{instantaeous} (they describe what is happening at each moment
 	of time)
 
 	We start with 10 bacteria/ml
