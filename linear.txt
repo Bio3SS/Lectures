@@ -105,8 +105,8 @@ Parameters
 
 How do populations change?
 
-	I survey a population in 2009, and again in 2013.  I get a different
-	answer the second time.
+	I survey a population of elk in northern Ontario in 2019, and again in 2023.
+	I get a different answer the second time.
 
 	POLL  What are some reasons why this answer might change?
 
@@ -148,7 +148,7 @@ Linear population models
 
 		Linear models do not usually correspond to linear growth!
 
-		VPOLL What behaviour do we expect from a linear model?
+		What behaviour do we expect from a linear model?
 
 			ANS They usually correspond to exponential growth
 
@@ -945,7 +945,7 @@ Instaneous rate of increase
 
 		ANS [1/time]
 
-	VPOLL So how can $r=0$ be a criterion? | How can r=0 be a criterion?
+	So how can $r=0$ be a criterion? | How can r=0 be a criterion?
 
 		ANS Because 0$\times$anything is unitless!
 

@@ -64,6 +64,7 @@ outline: %!
 
 ## Polls added for virtual class; revisit whether to make them hand-raisy
 ## Note that csv does not go through lecture.pl!
+## Meaning: if we mess with these we need to check the csv-side code as well
 VPOLL ^POLL %%
 
 ## Show poll question in notes before it's made. Flag in draft
