@@ -54,7 +54,7 @@ Expectations of students
 
 	Attend the lecture, and the mandatory tutorials
 
-		Tutorials start week of 17 Jan
+		CORRECTION Tutorials start week of 15 Jan
 
 ----------------------------------------------------------------------
 
@@ -904,31 +904,31 @@ DOUBLEFIG exponential/canada.Rout-2.pdf exponential/canada.Rout-3.pdf
 
 ----------------------------------------------------------------------
 
-PSLIDE Canada plus Room 137
+PSLIDE Canada plus this classroom
 
 DOUBLEFIG exponential/canada.Rout-2.pdf exponential/canada.Rout-2.pdf
 
 ----------------------------------------------------------------------
 
-PSLIDE Canada plus Room 137
+PSLIDE Canada plus this classroom
 
 DOUBLEFIG exponential/canada.Rout-2.pdf exponential/canada.Rout-4.pdf
 
 ----------------------------------------------------------------------
 
-PSLIDE Canada plus room Room 137?
+PSLIDE Canada plus this classroom?
 
 DOUBLEFIG exponential/canada.Rout-3.pdf exponential/canada.Rout-3.pdf
 
 ----------------------------------------------------------------------
 
-PSLIDE Canada plus room Room 137
+PSLIDE Canada plus this classroom
 
 DOUBLEFIG exponential/canada.Rout-3.pdf exponential/canada.Rout-5.pdf
 
 ----------------------------------------------------------------------
 
-ASLIDE Canada plus room Room 137
+ASLIDE Canada plus this classroom
 
 DOUBLEFIG exponential/canada.Rout-4.pdf exponential/canada.Rout-5.pdf
 
@@ -1051,7 +1051,7 @@ CSLIDE Speeding in Taiwan
 
 		ANS No. I am always an hour away!
 
-		ANS But I do get extremely close (after several hours)
+		ANS But I do get extremely close (in terms of distance)
 
 ----------------------------------------------------------------------
 
