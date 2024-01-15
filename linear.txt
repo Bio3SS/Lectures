@@ -63,6 +63,8 @@ Dynamical models
 	\emph{changes} lead to conclusions about what the system \emph{does}
 	over longer time periods
 
+	ADD should be “how these”
+
 ----------------------------------------------------------------------
 
 States and state variables
