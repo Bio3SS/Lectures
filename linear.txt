@@ -832,7 +832,9 @@ Lifespan
 
 		ANS $1/\mu$ 
 
-			ANS Roughly makes sense, and is also right (but I'm not proving it)
+			ANS Roughly makes sense, and is also right (trust me)
+
+			ANS \ldots\ or ask me
 
 		ANS Average lifetime is $1/\mu * \Delta t$
 
@@ -844,11 +846,11 @@ Calculating \R
 
 	$\R = f/\mu = f/(1-p)$
 
-	Why do we multiply by time \emph{steps} instead of lifetime?
+	Both $f$ and $1/(1-p)$ are unitless (but associated with the time step)!
 
-		ANS Because $f$ is also measured per time step
+		ANS Offspring per time steps
 
-		ANS \R\ must be unitless
+		ANS Life span in time steps
 
 ----------------------------------------------------------------------
 
@@ -930,10 +932,10 @@ Calculating death rate
 
 		Units of [1/time]
 
-	Is there a concern with these units?
+	What happens to the individuals?
 
-		ANS Not really. The individuals dying are exactly the same ones we're
-		counting.
+		ANS The units cancel: individuals show up in the deaths part and in the
+		population part.
 
 ----------------------------------------------------------------------
 
@@ -949,7 +951,7 @@ Instaneous rate of increase
 
 		ANS Because 0$\times$anything is unitless!
 
-		ANS Does 0km = 0cm?
+		ANS 0km = 0cm!
 
 ----------------------------------------------------------------------
 
