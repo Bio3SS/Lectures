@@ -623,7 +623,9 @@ Thinking about units
 
 	What is $3\dd \cdot 3\dd$?
 
-		ANS $9\dd^2$ -- this \emph{could} make sense, but it's probably wrong
+		ANS $9\dd^2$ -- this \emph{could} make sense
+
+			ANS but you probably asked the wrong question
 
 		ANS \ldots very different from $9\dd$.
 
@@ -1000,7 +1002,7 @@ Is the population increasing?
 	What does $r$ tell us about whether the population is
 	increasing?
 
-		ANS Population is increasing at any particular time step when
+		ANS Population is increasing at any instant in time when
 		$r>0$
 
 	What does $\R$ tell us about whether the population is increasing?
