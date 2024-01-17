@@ -63,6 +63,8 @@ Dynamical models
 	\emph{changes} lead to conclusions about what the system \emph{does}
 	over longer time periods
 
+	ADD should be “how these”
+
 ----------------------------------------------------------------------
 
 States and state variables
@@ -105,8 +107,8 @@ Parameters
 
 How do populations change?
 
-	I survey a population in 2009, and again in 2013.  I get a different
-	answer the second time.
+	I survey a population of elk in northern Ontario in 2019, and again in 2023.
+	I get a different answer the second time.
 
 	POLL  What are some reasons why this answer might change?
 
@@ -148,7 +150,7 @@ Linear population models
 
 		Linear models do not usually correspond to linear growth!
 
-		VPOLL What behaviour do we expect from a linear model?
+		What behaviour do we expect from a linear model?
 
 			ANS They usually correspond to exponential growth
 
@@ -834,7 +836,9 @@ Lifespan
 
 		ANS $1/\mu$ 
 
-			ANS Roughly makes sense, and is also right (but I'm not proving it)
+			ANS Roughly makes sense, and is also right (trust me)
+
+			ANS \ldots\ or ask me
 
 		ANS Average lifetime is $1/\mu * \Delta t$
 
@@ -846,11 +850,11 @@ Calculating \R
 
 	$\R = f/\mu = f/(1-p)$
 
-	Why do we multiply by time \emph{steps} instead of lifetime?
+	Both $f$ and $1/(1-p)$ are unitless (but associated with the time step)!
 
-		ANS Because $f$ is also measured per time step
+		ANS Offspring per time steps
 
-		ANS \R\ must be unitless
+		ANS Life span in time steps
 
 ----------------------------------------------------------------------
 
@@ -932,10 +936,10 @@ Calculating death rate
 
 		Units of [1/time]
 
-	Is there a concern with these units?
+	What happens to the individuals?
 
-		ANS Not really. The individuals dying are exactly the same ones we're
-		counting.
+		ANS The units cancel: individuals show up in the deaths part and in the
+		population part.
 
 ----------------------------------------------------------------------
 
@@ -947,11 +951,11 @@ Instaneous rate of increase
 
 		ANS [1/time]
 
-	VPOLL So how can $r=0$ be a criterion? | How can r=0 be a criterion?
+	So how can $r=0$ be a criterion? | How can r=0 be a criterion?
 
 		ANS Because 0$\times$anything is unitless!
 
-		ANS Does 0km = 0cm?
+		ANS 0km = 0cm!
 
 ----------------------------------------------------------------------
 
