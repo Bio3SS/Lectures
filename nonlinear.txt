@@ -92,9 +92,7 @@ Changing growth rates
 
 		ANS Diseases
 
-			ANS We have the same concer as above. But diseases are 
-			\emph{very} likely to
-			increase in large populations.
+			ANS Same concern as above.
 
 		ANS Insufficient resources
 
@@ -103,6 +101,8 @@ Changing growth rates
 			ANS Destruction: gypsy moths kill all the oak trees
 
 		ANS Not everything that harms the species is density dependent!
+
+			ANS Seasonal and climatic fluctuations don't \emph{regulate}
 
 ----------------------------------------------------------------------
 
@@ -484,7 +484,7 @@ Exponential-rates vs.\ logistic
 
 		Rates always stay positive 
 
-	The logistic \emph{looks} less scary
+	\emph{Looks} a little more scary than the logistic, but it really isn't
 
 ----------------------------------------------------------------------
 
