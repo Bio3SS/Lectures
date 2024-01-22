@@ -38,6 +38,10 @@ The second law of population dynamics
 
 	Exponential growth (or decline) cannot continue forever
 
+		Size changes would be too extreme:
+
+		$>20000 \times$ after 10 characteristic times
+
 	Something is changing the average rate at which populations we
 	observe grow
 
@@ -47,7 +51,7 @@ PICSLIDE
 
 FIG webpix/ecoli.jpg
 
-ADD Why is this here?
+REMARK Often something to do with crowding
 
 ----------------------------------------------------------------------
 
@@ -92,7 +96,7 @@ Changing growth rates
 
 		ANS Diseases
 
-			ANS Same concern as above.
+			ANS Usually able to increase in proportion to a population
 
 		ANS Insufficient resources
 
@@ -565,10 +569,10 @@ Characteristic \emph{scale}
 		$N_b$ is the characteristic scale of density-dependence in birth
 		rate
 
-		If $N \ll N_b$, density dependence is linear (and relatively
+		When $N \ll N_b$, density dependence is linear (and relatively
 		small)
 
-		If $N \gg N_b$, density dependence is exponential, and very
+		When $N \gg N_b$, density dependence is exponential, and very
 		large (virtually no births)
 
 ----------------------------------------------------------------------
@@ -916,8 +920,6 @@ DOUBLEFIG bd_models/birth.bd.Rout-1.pdf bd_models/birth.bd.Rout-3.pdf
 
 TSS Equilibria
 
-REGULAR DEFHEAD TSS Equilibria and time scales
-
 	We define \textbf{equilibrium} as when the population is not changing
 
 	Our simple model is $\bigeq \frac{dN}{dt} = (b(N)-d(N))N$
@@ -1132,13 +1134,13 @@ Smooth dynamics
 
 ----------------------------------------------------------------------
 
-Paramecia
+REPSLIDE Paramecia
 
 DOUBLEPDF ts/paramecia.plot.Rout
 
 ----------------------------------------------------------------------
 
-Elk
+REPSLIDE Elk
 
 DOUBLEPDF ts/elk.elkplot.Rout
 
@@ -1274,7 +1276,7 @@ Behaviours
 
 		Two-year cycles (high \rec low \rec high \rec low)
 
-		All kinds of other stuff
+		All \emph{kinds} of other stuff
 
 ----------------------------------------------------------------------
 
@@ -1289,19 +1291,19 @@ TSS Simulating this system
 
 PRESLIDE What dynamics do we expect?
 
-FIG compensation/stable.plots.Rout-0.pdf
+FIG compensation/stablePer.plots.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
 PRESLIDE What dynamics do we expect?
 
-FIG compensation/stable.plots.Rout-1.pdf
+FIG compensation/stablePer.plots.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
 We expect simple dynamics
 
-DOUBLEPDF compensation/stable.plots.Rout
+DOUBLEPDF compensation/stablePer.plots.Rout
 
 ----------------------------------------------------------------------
 
@@ -1311,25 +1313,25 @@ PSLIDE What dynamics do we get?
 
 REPSLIDE Simple dynamics
 
-DOUBLEPDF compensation/stable.plots.Rout
+DOUBLEPDF compensation/stablePer.plots.Rout
 
 ----------------------------------------------------------------------
 
 Damped oscillations
 
-DOUBLEPDF compensation/damped.plots.Rout
+DOUBLEPDF compensation/dampedPer.plots.Rout
 
 ----------------------------------------------------------------------
 
 Persistent oscillations
 
-DOUBLEPDF compensation/two.plots.Rout
+DOUBLEPDF compensation/twoPer.plots.Rout
 
 ----------------------------------------------------------------------
 
 Lots of other behaviours
 
-DOUBLEPDF compensation/wild.plots.Rout
+DOUBLEPDF compensation/wildPer.plots.Rout
 
 ----------------------------------------------------------------------
 
@@ -1345,9 +1347,9 @@ BC
 
 NC
 
-HIDEFIG compensation/two.plots.Rout-0.pdf
+HIDEFIG compensation/twoPer.plots.Rout-0.pdf
 
-HIDEFIG compensation/two.plots.Rout-1.pdf
+HIDEFIG compensation/twoPer.plots.Rout-1.pdf
 
 EC
 
@@ -1355,7 +1357,7 @@ EC
 
 REPSLIDE Interpreting complex behaviour 
 
-DOUBLEPDF compensation/two.plots.Rout
+DOUBLEPDF compensation/twoPer.plots.Rout
 
 ----------------------------------------------------------------------
 
@@ -1378,7 +1380,7 @@ Complex behaviour in our simulations
 
 Response to population increase
 
-DOUBLEFIG compensation/stable.plots.Rout-2.pdf compensation/stable.plots.Rout-3.pdf
+DOUBLEFIG compensation/stablePer.plots.Rout-2.pdf compensation/stablePer.plots.Rout-3.pdf
 
 ----------------------------------------------------------------------
 
@@ -1395,7 +1397,7 @@ BC
 
 NC
 
-SIDEFIG compensation/stable.plots.Rout-3.pdf
+SIDEFIG compensation/stablePer.plots.Rout-3.pdf
 
 EC
 
@@ -1403,19 +1405,19 @@ EC
 
 Simple dynamics
 
-DOUBLEFIG compensation/stable.plots.Rout-3.pdf compensation/stable.plots.Rout-1.pdf
+DOUBLEFIG compensation/stablePer.plots.Rout-3.pdf compensation/stablePer.plots.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
 Damped oscillations
 
-DOUBLEFIG compensation/damped.plots.Rout-3.pdf compensation/damped.plots.Rout-1.pdf
+DOUBLEFIG compensation/dampedPer.plots.Rout-3.pdf compensation/dampedPer.plots.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
 Persistent oscillations
 
-DOUBLEFIG compensation/two.plots.Rout-3.pdf compensation/two.plots.Rout-1.pdf
+DOUBLEFIG compensation/twoPer.plots.Rout-3.pdf compensation/twoPer.plots.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
@@ -1610,9 +1612,7 @@ Real populations
 
 		But not covered in class this year
 
-
 ----------------------------------------------------------------------
-
 
 EXTRA Time-delayed population models
 

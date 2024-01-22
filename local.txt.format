@@ -4,6 +4,8 @@
 ######################################################################
 
 ## Adaptive content (time control)
+## 2024 Jan 21 (Sun) I guess I'm doing short versions for now
+## Need to fix up some commands now, and some will need to be fixed later
 
 ## It's hard to combine adaptive stuff in headings
 ## e.g., if we use DEFHEAD we get it wrong if there's another command
@@ -11,28 +13,24 @@
 ## Don't use SLIDE when there's another command!
 ## Still not simple, because we need SLIDE to null the slide!!
 
-## Regular vs. short versions; make this more modular, so that we can swap orders
-## SHORT is sort of hanging for now, needs clarification
-## Regular subsection
+## Long lectures
+## This is clearly a nonsense; pay attention if we see any of these
+## It's at the top because we want to override it
+LONGSLIDE ^DEFHEAD %%
+LONG ^%%
+
+## Regular lectures
 REGSLIDE ^DEFHEAD %%
-SHORTCOMMENT ^CSLIDE SC %%
-SHORTSLIDE ^DEFHEAD SHORT %%
 REGULAR ^%%
-SHORT ^ SHORT %%
 
-## April Fools!
-APRIL ^NULLSLIDE
-
-## Short subsection
+## Short lectures (current)
 REGSLIDE ^NULLSLIDE
 SHORTCOMMENT ^CSLIDE SC %%
 SHORTSLIDE ^DEFHEAD SHORT %%
-REGULAR ^%%
-SHORT ^ SHORT %%
+REGULAR ^%!
 
-## Long vs. regular version
-LONGSLIDE ^DEFHEAD %%
-LONG ^%%
+## April Fools!
+APRIL ^NULLSLIDE
 
 ## Midterm notes cutoff should be leaveable and ignored unless .cut notes are called for
 CUTOFF NULLSLIDE
