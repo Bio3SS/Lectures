@@ -222,19 +222,19 @@ DOUBLEPDF ts/paramecia.plot.Rout
 
 PRESLIDE Coronavirus
 
-FIG dd/coronaCA.ON.Rout-0.pdf
+FIG dd/coronaCA.ON-0.pdf
 
 ----------------------------------------------------------------------
 
 PRESLIDE Coronavirus
 
-FIG dd/coronaCA.ON.Rout-1.pdf
+FIG dd/coronaCA.ON-1.pdf
 
 ----------------------------------------------------------------------
 
 PRESLIDE Coronavirus
 
-DOUBLEPDF dd/coronaCA.ON.Rout
+DOUBLEPDF dd/coronaCA.ON
 
 ADD This picture may be updated automatically
 
