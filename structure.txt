@@ -27,6 +27,8 @@ TSEC Introduction
 	What are some organisms for which this seems like a good
 	approximation?
 
+		ANS Short-lived and/or don't grow much
+
 		ANS Dandelions, bacteria, insects
 
 	What are some organisms that don't work so well?
@@ -295,7 +297,7 @@ DEFHEAD \ldots in structured models
 
 	Continuous time with structure gives people headaches
 
-		So we won't do it here, even though it may be better for many applications
+		So we won't do it here, only for the sake of time and simplicity
 
 ----------------------------------------------------------------------
 
@@ -410,9 +412,9 @@ Long-term dynamics
 
 	SHORT Skipping calculations, but you can poke if curious
 
-	HREF http://tinyurl.com/DandelionModel2020 Spreadsheet link
+	HREF http://tinyurl.com/DandelionModel2024 Spreadsheet link
 
-	REGULAR ADD Update year
+	ADD Update year
 
 ----------------------------------------------------------------------
 
@@ -715,8 +717,10 @@ When do we start counting?
 
 		In this course, we will start from age class 1
 
+		How many times have we seen you (not, how old are you)?
+
 		If we count right {\em after} reproduction, this means we are
-		calling newborns age class 1.  Don't get confused.
+		calling newborns age class 1. 
 
 ----------------------------------------------------------------------
 
