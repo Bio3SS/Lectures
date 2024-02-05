@@ -349,8 +349,6 @@ The conceptual model
 
 		ANS The average fecundity of each age group: $f_x$
 
-ADD Above used to be a poll, but it's spoiled a few slides before
-
 ----------------------------------------------------------------------
 
 Closing the loop
