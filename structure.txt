@@ -595,8 +595,8 @@ Squirrel observations
 		ANS Strange pattern in survivorship; do we really believe
 		nobody survives past the last year?
 
-		ANS Might be better to use a model where they keep track of 1
-		year, 2 year, and ``adult" -- not much harder.
+		ANS Might be better to use a model where they keep track of first year,
+		second year, and ``adult" -- not much harder.
 
 			ANS This is what we call stage structure
 
