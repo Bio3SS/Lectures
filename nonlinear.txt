@@ -1037,27 +1037,37 @@ Invasion examples
 
 	POLL What are some examples of biological invasions?
 
-		NOANS
+		HREF https://avenue.cllmcmaster.ca/d2l/le/news/595825/849579/view?ou=595825 See examples posted by Julianna
 
-		NOANS
+		Thanks to the contributors
 
-		NOANS
+	ADD Update
 
-		NOANS
+----------------------------------------------------------------------
+
+EXTRA
+
+NOANS
+
+NOANS
+
+NOANS
+
+NOANS
 
 ----------------------------------------------------------------------
 
 Different behaviours
 
-	When $\Ro>1$, the population invades
+When $\Ro>1$, the population invades
 
-		Zero equilibrium is unstable, carrying capacity equilibrium is
-		stable
+Zero equilibrium is unstable, carrying capacity equilibrium is
+stable
 
-	When $\Ro<1$, the population fails to invade
+When $\Ro<1$, the population fails to invade
 
-		Zero equilibrium is stable, carrying capacity equilibrium does
-		not exist
+Zero equilibrium is stable, carrying capacity equilibrium does
+not exist
 
 ----------------------------------------------------------------------
 
@@ -1065,7 +1075,7 @@ Individual perspective
 
 DOUBLEFIG bd_models/fail.bd.Rout-0.pdf bd_models/fail.bd.Rout-2.pdf
 
-	When $\Ro<1$ population always decreases
+When $\Ro<1$ population always decreases
 
 ----------------------------------------------------------------------
 
@@ -1073,7 +1083,7 @@ Population perspective
 
 DOUBLEFIG bd_models/fail.bd.Rout-1.pdf bd_models/fail.bd.Rout-3.pdf
 
-	When $\Ro<1$ population always decreases
+When $\Ro<1$ population always decreases
 
 ----------------------------------------------------------------------
 
@@ -1081,7 +1091,7 @@ REPSLIDE Individual perspective
 
 DOUBLEFIG bd_models/birth.bd.Rout-0.pdf bd_models/birth.bd.Rout-2.pdf
 
-	When $\Ro>1$ population increases when it is small
+When $\Ro>1$ population increases when it is small
 
 ----------------------------------------------------------------------
 
@@ -1089,38 +1099,38 @@ REPSLIDE Population perspective
 
 DOUBLEFIG bd_models/birth.bd.Rout-1.pdf bd_models/birth.bd.Rout-3.pdf
 
-	When $\Ro>1$ population increases when it is small
+When $\Ro>1$ population increases when it is small
 
 ----------------------------------------------------------------------
 
 DEFHEAD \Ro\ and thresholds
 
-	A population with $\Ro<1$ in general cannot survive in an area
+A population with $\Ro<1$ in general cannot survive in an area
 
-	As conditions get worse for a species in a
-	particular area, or along a particular gradient:
+As conditions get worse for a species in a
+particular area, or along a particular gradient:
 
-		It will suddenly disappear at the population level
+It will suddenly disappear at the population level
 
-		Even while it can still survive and reproduce at an individual
-		level
+Even while it can still survive and reproduce at an individual
+level
 
-	This is why there are no white spruce trees in Cootes Paradise
+This is why there are no white spruce trees in Cootes Paradise
 
-	And no malaria in the mainland United States
+And no malaria in the mainland United States
 
 ----------------------------------------------------------------------
 
 REGSLIDE Characteristic times
 
-	Just like in the simple model, an equilibrium will have a
-	characteristic time
+Just like in the simple model, an equilibrium will have a
+characteristic time
 
-	If I'm close to an equilibrium, how long would it take:
+If I'm close to an equilibrium, how long would it take:
 
-		to go the distance to the equilibrium at my current ``speed''
+to go the distance to the equilibrium at my current ``speed''
 
-		to actually get $e$ times closer, or $e$ times farther
+to actually get $e$ times closer, or $e$ times farther
 
 ----------------------------------------------------------------------
 
@@ -1132,18 +1142,18 @@ DOUBLEFIG bd_models/birth.bd.Rout-2.pdf bd_models/birth.bd.Rout-3.pdf
 
 Smooth dynamics
 
-	Populations following this model change \emph{smoothly}
+Populations following this model change \emph{smoothly}
 
-		Equations tell how the population will change at each instant
+Equations tell how the population will change at each instant
 
-	They have no memory
+They have no memory
 
-		Birth rate and death rate are determined by population size alone
+Birth rate and death rate are determined by population size alone
 
-	Cycling is impossible
+Cycling is impossible
 
-		ANS If I went from A to B, I can't go from B to A by
-		following the same rules
+ANS If I went from A to B, I can't go from B to A by
+following the same rules
 
 
 ----------------------------------------------------------------------
@@ -1162,31 +1172,31 @@ DOUBLEPDF ts/elk.elkplot.Rout
 
 Dynamics of real-world populations
 
-	Initial exponential growth and leveling off frequently observed
+Initial exponential growth and leveling off frequently observed
 
-	Exponential approach to equilibrium hard to observe
+Exponential approach to equilibrium hard to observe
 
-		Real populations are subject to {\bf stochastic} (random) effects 
+Real populations are subject to {\bf stochastic} (random) effects 
 
-		Real populations are subject to changing conditions
+Real populations are subject to changing conditions
 
-	Some species seem to cycle predictably
+Some species seem to cycle predictably
 
 ----------------------------------------------------------------------
 
 Summary
 
-	Continuous-time regulation in simple models makes useful predictions:
+Continuous-time regulation in simple models makes useful predictions:
 
-		Threshold value for populations to survive
+Threshold value for populations to survive
 
-		Greatest population-level growth at intermediate density
+Greatest population-level growth at intermediate density
 
-		Greatest individual-level growth at low density
+Greatest individual-level growth at low density
 
-	Cannot explain complicated dynamics
+Cannot explain complicated dynamics
 
-		More mechanisms are needed
+More mechanisms are needed
 
 ----------------------------------------------------------------------
 
@@ -1196,110 +1206,110 @@ SEC Discrete-time regulation
 
 TSS A simple, discrete-time model
 
-	We extend our discrete-time model from the previous unit:
+We extend our discrete-time model from the previous unit:
 
-		$N_{T+1} = (p+f)N_T \equiv \lambda N_T$
+$N_{T+1} = (p+f)N_T \equiv \lambda N_T$
 
-		$t_{T+1} = t_T + \Delta t$ (does not change)
+$t_{T+1} = t_T + \Delta t$ (does not change)
 
-	To:
+To:
 
-		$N_{T+1} = (p(N_T)+f(N_T))N_T \equiv \lambda(N_T) N_T$
+$N_{T+1} = (p(N_T)+f(N_T))N_T \equiv \lambda(N_T) N_T$
 
-	This means:
+This means:
 
-		ANS $p$ and $f$ can change when $N$ changes
+ANS $p$ and $f$ can change when $N$ changes
 
 ----------------------------------------------------------------------
 
 Assumptions
 
-	The population is censused at regular time intervals $\Delta
-	t$
+The population is censused at regular time intervals $\Delta
+t$
 
-	All individuals are the same at the time of census
+All individuals are the same at the time of census
 
-	Population changes deterministically
+Population changes deterministically
 
 ----------------------------------------------------------------------
 
 Specific assumptions
 
-	For our examples, we will assume:
+For our examples, we will assume:
 
-		$f(N)=f_0 \exp(-N/N_f)$
+$f(N)=f_0 \exp(-N/N_f)$
 
-		$p(N) = p_0 \exp(-N/N_p)$
+$p(N) = p_0 \exp(-N/N_p)$
 
-	This is the simplest model that is smooth and keeps track
-	of birth and death rates separately
+This is the simplest model that is smooth and keeps track
+of birth and death rates separately
 
-		Fecundity goes down with characteristic scale $N_f$
+Fecundity goes down with characteristic scale $N_f$
 
-		Survival goes down with characteristic scale $N_p$
+Survival goes down with characteristic scale $N_p$
 
 ----------------------------------------------------------------------
 
 States and state variables
 
-	What variable or variables describe the state of this system?
+What variable or variables describe the state of this system?
 
-		The same as before: population size (or density)
+The same as before: population size (or density)
 
-		We are still assuming that's all we need to know
+We are still assuming that's all we need to know
 
 ----------------------------------------------------------------------
 
 Parameters
 
-	What quantities describe the rules for this system?
+What quantities describe the rules for this system?
 
-		ANS $f_0$ [1]
+ANS $f_0$ [1]
 
-		ANS $p_0$ [1]
+ANS $p_0$ [1]
 
-		ANS $N_f$ [indiv] (or [indiv/area])
+ANS $N_f$ [indiv] (or [indiv/area])
 
-		ANS $N_p$ [indiv] (or [indiv/area])
+ANS $N_p$ [indiv] (or [indiv/area])
 
 ----------------------------------------------------------------------
 
 What is \Ro?
 
-	\R\ is the fecundity multiplied by the lifespan
+\R\ is the fecundity multiplied by the lifespan
 
-		ANS Lifespan = $1/\mu = 1/(1-p)$
+ANS Lifespan = $1/\mu = 1/(1-p)$
 
-		ANS $\R = f/(1-p)$
+ANS $\R = f/(1-p)$
 
-	\Ro\ is \R\ in the limit where density is low
+\Ro\ is \R\ in the limit where density is low
 
-		ANS $f_0/(1-p_0)$
+ANS $f_0/(1-p_0)$
 
 ----------------------------------------------------------------------
 
 Behaviours
 
-	When $\Ro<1$ population always declines
+When $\Ro<1$ population always declines
 
-	When $\Ro>1$, population can show:
+When $\Ro>1$, population can show:
 
-		Smooth behaviour (like the continuous-time model)
+Smooth behaviour (like the continuous-time model)
 
-		Damped oscillations (like the delayed model)
+Damped oscillations (like the delayed model)
 
-		Two-year cycles (high \rec low \rec high \rec low)
+Two-year cycles (high \rec low \rec high \rec low)
 
-		All \emph{kinds} of other stuff
+All \emph{kinds} of other stuff
 
 ----------------------------------------------------------------------
 
 TSS Simulating this system
 
-	This system can be simulated very easily by following the rule for
-	$N_{T+1}$ as a function of $N_T$
+This system can be simulated very easily by following the rule for
+$N_{T+1}$ as a function of $N_T$
 
-	We can even do it in the spreadsheet if we have time
+We can even do it in the spreadsheet if we have time
 
 ----------------------------------------------------------------------
 
@@ -1353,11 +1363,11 @@ TSS Interpreting complex behaviour
 
 BC
 
-	In a simple cycle:
+In a simple cycle:
 
-		Low populations this year mean high populations next year
+Low populations this year mean high populations next year
 
-		and vice versa
+and vice versa
 
 NC
 
@@ -1377,18 +1387,18 @@ DOUBLEPDF compensation/twoPer.plots.Rout
 
 Complex behaviour in our simulations
 
-	In our simple models, as $N_T$ increases, what happens to $\lambda$?
+In our simple models, as $N_T$ increases, what happens to $\lambda$?
 
-		ANS We assume it goes down
+ANS We assume it goes down
 
-	POLL In our simple models, as $N_T$ increases, what happens to next year's population? | What happens to next year's population as N_T increases? goes up; goes down; up then down; it depends
+POLL In our simple models, as $N_T$ increases, what happens to next year's population? | What happens to next year's population as N_T increases? goes up; goes down; up then down; it depends
 
-		ANS $\Nprime = \lambda(N) N_T$
+ANS $\Nprime = \lambda(N) N_T$
 
-		ANS It's not obvious! $\lambda$ goes down, but $N$ goes up.
+ANS It's not obvious! $\lambda$ goes down, but $N$ goes up.
 
-		ANS In this model, $\Nprime$ always goes down eventually, but
-		other models may differ
+ANS In this model, $\Nprime$ always goes down eventually, but
+other models may differ
 
 ----------------------------------------------------------------------
 
@@ -1402,12 +1412,12 @@ Turnover
 
 BC
 
-	When $N_T$ is small, $\Nprime$ increases with $N$.
+When $N_T$ is small, $\Nprime$ increases with $N$.
 
-	Complex behaviour arises when the relationship between $N_T$ and
-	\Nprime\ \textbf{turns over} below the equilibrium value
+Complex behaviour arises when the relationship between $N_T$ and
+\Nprime\ \textbf{turns over} below the equilibrium value
 
-		A small population this year leads to a large population next year
+A small population this year leads to a large population next year
 
 NC
 
@@ -1437,49 +1447,49 @@ DOUBLEFIG compensation/twoPer.plots.Rout-3.pdf compensation/twoPer.plots.Rout-1.
 
 Complex behaviour in our conceptual model
 
-	Biologically, when might we expect \Nprime\ to ``turn over''?
+Biologically, when might we expect \Nprime\ to ``turn over''?
 
-		ANS If resources are \emph{depleted}
+ANS If resources are \emph{depleted}
 
-		ANS If there is a \emph{delayed} effect of individuals' not
-		having enough resources
+ANS If there is a \emph{delayed} effect of individuals' not
+having enough resources
 
-	When should the mapping \emph{not} turn over?
+When should the mapping \emph{not} turn over?
 
-		ANS When competition does not lead to depletion
+ANS When competition does not lead to depletion
 
-		ANS When effects of competition are immediate
+ANS When effects of competition are immediate
 
-		ANS When dominant individuals are not affected by crowding
+ANS When dominant individuals are not affected by crowding
 
 ----------------------------------------------------------------------
 
 Scramble competition
 
-	{\bf Scramble} competition refers to the case where all
-	individuals in a crowded population are gathering resources at
-	similar rates: as the density goes up there is less resource for
-	everyone, and everyone does less well
+{\bf Scramble} competition refers to the case where all
+individuals in a crowded population are gathering resources at
+similar rates: as the density goes up there is less resource for
+everyone, and everyone does less well
 
-		If there is any kind of delay, scramble competition can lead to
-		turning over
+If there is any kind of delay, scramble competition can lead to
+turning over
 
 ----------------------------------------------------------------------
 
 Contest competition
 
-	{\bf Contest} competition refers to a case where some individuals
-		successfully control key resources and do well no matter how
-		large the population is
+{\bf Contest} competition refers to a case where some individuals
+successfully control key resources and do well no matter how
+large the population is
 
-		Contest competition doesn't usually lead to turning over, even
-		with delay
+Contest competition doesn't usually lead to turning over, even
+with delay
 
-	How does contest competition square with regulation?
+How does contest competition square with regulation?
 
-		ANS Regulation means that $\lambda$ has to go down with $N_T$ \ldots
+ANS Regulation means that $\lambda$ has to go down with $N_T$ \ldots
 
-		ANS \emph{not} that \Nprime\ has to.
+ANS \emph{not} that \Nprime\ has to.
 
 ----------------------------------------------------------------------
 
@@ -1487,11 +1497,11 @@ PSLIDE Contest competition
 
 BC
 
-	How does contest competition square with regulation?
+How does contest competition square with regulation?
 
-		Regulation means that $\lambda$ has to go down with $N_T$ \ldots
+Regulation means that $\lambda$ has to go down with $N_T$ \ldots
 
-		\emph{not} that \Nprime\ has to.
+\emph{not} that \Nprime\ has to.
 
 NC
 
@@ -1513,17 +1523,17 @@ Songbirds
 
 BC
 
-	Some songbird populations are limited primarily by competition for
-	breeding sites, whereas others are limited primarily by competition
-	for insects to eat
+Some songbird populations are limited primarily by competition for
+breeding sites, whereas others are limited primarily by competition
+for insects to eat
 
-		ANS Food can be depleted
+ANS Food can be depleted
 
-			ANS Making scramble competition and turnover more likely
+ANS Making scramble competition and turnover more likely
 
-		ANS Nest sites can be occupied, but they don't go away
+ANS Nest sites can be occupied, but they don't go away
 
-			ANS More like contest competition, less likely to have turnover
+ANS More like contest competition, less likely to have turnover
 
 NC
 
@@ -1537,15 +1547,15 @@ Plants
 
 BC
 
-	Some plant populations are limited by water, and some by light
+Some plant populations are limited by water, and some by light
 
-	POLL Which is more likely to work out as a scramble? Light; water
+POLL Which is more likely to work out as a scramble? Light; water
 
-		ANS Light is very likely to work out as a ``contest'' -- the
-		taller individuals will win and do OK
+ANS Light is very likely to work out as a ``contest'' -- the
+taller individuals will win and do OK
 
-		ANS Water works as a scramble in some environments, and a contest
-		in others
+ANS Water works as a scramble in some environments, and a contest
+in others
 
 NC
 
@@ -1559,13 +1569,13 @@ Complex behaviour from a simple model
 
 BC
 
-	It's interesting that we can get complicated behaviour from such
-	a dead-simple model	
+It's interesting that we can get complicated behaviour from such
+a dead-simple model	
 
-	Complex dynamics may have simple causes
+Complex dynamics may have simple causes
 
-	People always tend to look for specific reasons, but sometimes the
-	changes we observe are just natural dynamics
+People always tend to look for specific reasons, but sometimes the
+changes we observe are just natural dynamics
 
 NC
 
@@ -1577,11 +1587,11 @@ EC
 
 Complex behaviour in real populations
 
-	We can plot $\lambda$ and \Nprime\ vs.\ $N$ for real population data
+We can plot $\lambda$ and \Nprime\ vs.\ $N$ for real population data
 
-	We expect $\lambda$ to decrease (on average)
+We expect $\lambda$ to decrease (on average)
 
-	We're curious about \Nprime.
+We're curious about \Nprime.
 
 ----------------------------------------------------------------------
 
@@ -1611,20 +1621,20 @@ DOUBLEFIG ts/elk.elkplot.Rout-3.pdf ts/elk.elkplot.Rout-2.pdf
 
 Real populations
 
-	It's hard to find examples of turnover from real population data.
+It's hard to find examples of turnover from real population data.
 
-	So how do we explain real population cycles?
+So how do we explain real population cycles?
 
-		Regulation may happen on a longer time scale
+Regulation may happen on a longer time scale
 
-		May be hard to see because of ``noise'' -- i.e., other sources of
-		variation
+May be hard to see because of ``noise'' -- i.e., other sources of
+variation
 
-		Cycles may be due to more complicated mechanisms
+Cycles may be due to more complicated mechanisms
 
-	Time-delayed population models are cool!
+Time-delayed population models are cool!
 
-		But not covered in class this year
+But not covered in class this year
 
 ----------------------------------------------------------------------
 
@@ -1642,13 +1652,13 @@ Example
 
 BC
 
-	POLL What would happen if I released one butterfly into a new, highly suitable habitat? | What happens to one happy butterfly?
+POLL What would happen if I released one butterfly into a new, highly suitable habitat? | What happens to one happy butterfly?
 
-		NOANS
+NOANS
 
-	What about two butterflies?
+What about two butterflies?
 
-		NOANS
+NOANS
 
 NC
 
@@ -1660,58 +1670,58 @@ EC
 
 Small populations
 
-	Population success (reproductive number) may be lower for very small
-	populations
+Population success (reproductive number) may be lower for very small
+populations
 
-		We've already assumed reproductive numbers are low for very large
-		populations
+We've already assumed reproductive numbers are low for very large
+populations
 
-	Small populations are likely to be harder to predict
+Small populations are likely to be harder to predict
 
-		More affected by stochasticity
+More affected by stochasticity
 
 ----------------------------------------------------------------------
 
 TSS Allee effects
 
-	Effects which cause small populations to have low per-capita growth
-	rates are called Allee effects
+Effects which cause small populations to have low per-capita growth
+rates are called Allee effects
 
-		Equivalent to saying that medium-sized populations have larger
-		per-capita growth rates than small ones
+Equivalent to saying that medium-sized populations have larger
+per-capita growth rates than small ones
 
 ----------------------------------------------------------------------
 
 CONT What causes Allee effects?
 
-	POLL Why might growth rates be low when populations are small?
+POLL Why might growth rates be low when populations are small?
 
-		ANS Individuals may have trouble finding mates
+ANS Individuals may have trouble finding mates
 
-		ANS Individuals in larger populations may protect each other from
-		predators (birds) or from weather (plants)
+ANS Individuals in larger populations may protect each other from
+predators (birds) or from weather (plants)
 
-		ANS Individuals in larger populations may hunt co-operatively
+ANS Individuals in larger populations may hunt co-operatively
 
-		ANS Genetic effects (inbreeding, loss of valuable variation)
+ANS Genetic effects (inbreeding, loss of valuable variation)
 
 ----------------------------------------------------------------------
 
 Types of Allee effect
 
-	Allee effects can affect the (per capita) birth rate
+Allee effects can affect the (per capita) birth rate
 
-		ANS if the rate is \emph{smaller} when density is low
+ANS if the rate is \emph{smaller} when density is low
 
-	... or the (per capita) death rate
+... or the (per capita) death rate
 
-		ANS if the rate is \emph{larger} when density is low
+ANS if the rate is \emph{larger} when density is low
 
 ----------------------------------------------------------------------
 
 EXTRA
 
-	ADD CUTOFF 2020 Jan 21 (Tue): what does this mean?
+ADD CUTOFF 2020 Jan 21 (Tue): what does this mean?
 
 ----------------------------------------------------------------------
 
@@ -1719,9 +1729,9 @@ Allee effect models
 
 BC
 
-	What will this model do, if the initial population is:
+What will this model do, if the initial population is:
 
-		low, medium or high?
+low, medium or high?
 
 NC
 
@@ -1765,11 +1775,11 @@ Allee effect in death rate
 
 BC
 
-	What is the difference between this example and the previous one?
+What is the difference between this example and the previous one?
 
-	What will this model do, if the initial population is:
+What will this model do, if the initial population is:
 
-		low, medium or high?
+low, medium or high?
 
 NC
 
@@ -1787,35 +1797,35 @@ DOUBLEFIG bd_models/death_allee.bd.Rout-0.pdf bd_models/death_allee.bd.Rout-2.pd
 
 More reproductive numbers
 
-	The reproductive number \R\ means the average lifetime number of
-	offspring per individual
+The reproductive number \R\ means the average lifetime number of
+offspring per individual
 
-		Should be unitless, so we consider offspring at the same stage as
-		the individual.
+Should be unitless, so we consider offspring at the same stage as
+the individual.
 
-	We can apply \R\ in general for any set of conditions, or we can
-	distinguish:
+We can apply \R\ in general for any set of conditions, or we can
+distinguish:
 
-		the \textbf{basic reproductive number \Ro}: \R\ in the limit when
-		the population is small, and
+the \textbf{basic reproductive number \Ro}: \R\ in the limit when
+the population is small, and
 
-		the \textbf{maximal reproductive number \Rmax}: \R\ at whatever
-		level is the peak
+the \textbf{maximal reproductive number \Rmax}: \R\ at whatever
+level is the peak
 
 ----------------------------------------------------------------------
 
 Invasion
 
-	We previously said that when $\Ro<1$, the population always went
-	extinct
+We previously said that when $\Ro<1$, the population always went
+extinct
 
-		A population that can't invade can never replace itself on average
+A population that can't invade can never replace itself on average
 
-	When Allee effects are present, it's no longer true that a species
-	that can't invade can't persist
+When Allee effects are present, it's no longer true that a species
+that can't invade can't persist
 
-		ANS If $\Ro<1$ population can't invade, but if $\Rmax>1$ it can
-		still persist
+ANS If $\Ro<1$ population can't invade, but if $\Rmax>1$ it can
+still persist
 
 ----------------------------------------------------------------------
 
@@ -1829,14 +1839,14 @@ Weak Allee effects
 
 BC
 
-	If birth rates go down or death rates go up at low density, we
-	consider this an Allee effect
+If birth rates go down or death rates go up at low density, we
+consider this an Allee effect
 
-	If $\Ro < 1$ we say it's a \textbf{strong} Allee effect
+If $\Ro < 1$ we say it's a \textbf{strong} Allee effect
 
-		ANS Population can't invade
+ANS Population can't invade
 
-	If $\Ro > 1$ we say it's a \textbf{weak} Allee effect
+If $\Ro > 1$ we say it's a \textbf{weak} Allee effect
 
 NC
 
@@ -1854,116 +1864,116 @@ DOUBLEFIG bd_models/weak.bd.Rout-0.pdf bd_models/weak.bd.Rout-2.pdf
 
 Allee effect summary
 
-	Population may go extinct if it drops below a certain threshold
+Population may go extinct if it drops below a certain threshold
 
-	POLL How come the population is there in the first place if there's an Allee
-	effect?
+POLL How come the population is there in the first place if there's an Allee
+effect?
 
-		ANS Maybe it's a weak effect
+ANS Maybe it's a weak effect
 
-		ANS Maybe conditions have changed (it used to be a weak effect,
-		or no effect)
+ANS Maybe conditions have changed (it used to be a weak effect,
+or no effect)
 
-		ANS Maybe a large initial group established by chance
+ANS Maybe a large initial group established by chance
 
-		ANS Maybe the population arrived recently (and won't necessarily stick
-		around)
+ANS Maybe the population arrived recently (and won't necessarily stick
+around)
 
 ----------------------------------------------------------------------
 
 TSS Stochastic effects
 
-	The world is complicated and biological populations are not
-	perfectly predictable
+The world is complicated and biological populations are not
+perfectly predictable
 
-	Real populations don't go smoothly to equilibria, instead they
-	bounce around (or sometimes do other wild stuff)
+Real populations don't go smoothly to equilibria, instead they
+bounce around (or sometimes do other wild stuff)
 
-	We divide stochastic (or random) effects into demographic and
-	environmental stochasticity
+We divide stochastic (or random) effects into demographic and
+environmental stochasticity
 
 ----------------------------------------------------------------------
 
 Example
 
-	Female butterflies of a certain species lay 200 eggs on average, of
-	which:
+Female butterflies of a certain species lay 200 eggs on average, of
+which:
 
-		Half are female
+Half are female
 
-		50% hatch successfully into larvae
+50% hatch successfully into larvae
 
-		10% of larvae successfully pupate
+10% of larvae successfully pupate
 
-		60% of pupae become adults
+60% of pupae become adults
 
-		Half of adult females successfully reproduce
+Half of adult females successfully reproduce
 
-	A single gravid (pregnant) female butterfly is blown away by a freak
-	storm, and lands by chance on a suitable island with no butterflies
-	What do you expect to happen?
+A single gravid (pregnant) female butterfly is blown away by a freak
+storm, and lands by chance on a suitable island with no butterflies
+What do you expect to happen?
 
-		ANS $\lambda=1.5$
+ANS $\lambda=1.5$
 
-		REGULAR ANS(remember not to multiply by the sex ratio
-		twice!)
+REGULAR ANS(remember not to multiply by the sex ratio
+twice!)
 
-		ANS Almost anything can happen 
+ANS Almost anything can happen 
 
-		COMMENT Try this calculation with units 
+COMMENT Try this calculation with units 
 
 ----------------------------------------------------------------------
 
 Butterfly example
 
-	Depending on unknown conditions, especially in that first season,
-	all of those probabilities could change dramatically
+Depending on unknown conditions, especially in that first season,
+all of those probabilities could change dramatically
 
-	Even if we knew the \emph{probabilities}, that would not guarantee an
-	exact result
+Even if we knew the \emph{probabilities}, that would not guarantee an
+exact result
 
-		ANS Population could be lucky or unlucky
+ANS Population could be lucky or unlucky
 
-	What if $\lambda<1$?
+What if $\lambda<1$?
 
-		ANS The population would go extinct eventually, even if it's lucky
+ANS The population would go extinct eventually, even if it's lucky
 
 ----------------------------------------------------------------------
 
 Demographic stochasticity
 
-	{\bf Demographic} stochasticity is stochasticity that operates at
-	the level of individuals
+{\bf Demographic} stochasticity is stochasticity that operates at
+the level of individuals
 
-		Individuals don't increase gradually, they die or give birth
+Individuals don't increase gradually, they die or give birth
 
-		Individuals don't produce 1.2 offspring: they produce 0, 1, 2 or
-		3 \ldots
+Individuals don't produce 1.2 offspring: they produce 0, 1, 2 or
+3 \ldots
 
-	Even if we control conditions perfectly, we can't exactly predict
-	the dynamics of small populations
+Even if we control conditions perfectly, we can't exactly predict
+the dynamics of small populations
 
-	Demographic stochasticity averages out in large populations
+Demographic stochasticity averages out in large populations
 
 ----------------------------------------------------------------------
 
 Environmental stochasticity
 
-	{\bf Environmental} stochasticity is stochasticity that operates at
-	the level of the population
+{\bf Environmental} stochasticity is stochasticity that operates at
+the level of the population
 
-		E.g,. weather, pollution
+E.g,. weather, pollution
 
-	Environmental stochasticity can have large effects on any population
+Environmental stochasticity can have large effects on any population
 
-		ANS A bad year is bad for everyone
+ANS A bad year is bad for everyone
 
-	But small populations are the ones in danger of going extinct
+But small populations are the ones in danger of going extinct
 
-		ANS Large populations can average out over \emph{time}
+ANS Large populations can average out over \emph{time}
 
-		ANS If the ``mean" value of $R_0$ is greater than 1, large
-		population should survive the ups and downs
+ANS If the ``mean" value of $R_0$ is greater than 1, large
+population should survive the ups and downs
 
 ----------------------------------------------------------------------
 
@@ -1971,13 +1981,13 @@ Simulations
 
 BC
 
-	We can simulate stochastic systems very easily
+We can simulate stochastic systems very easily
 
-	But if we do the same simulation twice, we can get different answers
+But if we do the same simulation twice, we can get different answers
 
-	Adds realism
+Adds realism
 
-		But harder to interpret
+But harder to interpret
 
 NC
 
@@ -1991,15 +2001,15 @@ EC
 
 Summary
 
-	Stochasticity is very important in real populations, but hard to
-	study
+Stochasticity is very important in real populations, but hard to
+study
 
-		Mathematical analysis is very difficult
+Mathematical analysis is very difficult
 
-		Simulations are useful, but hard to interpret
+Simulations are useful, but hard to interpret
 
-			Each time you simulate, you get a different answer
+Each time you simulate, you get a different answer
 
-	Ecologists need to learn to recognize and communicate our
-	uncertainty about the future
+Ecologists need to learn to recognize and communicate our
+uncertainty about the future
 

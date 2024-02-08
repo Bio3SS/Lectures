@@ -1358,6 +1358,8 @@ TSS Regulated growth
 	We do not expect that the long-term average value of \R\ or
 	$\lambda$ will be exactly 1.
 
+		ANS So we need regulation in real life
+
 ----------------------------------------------------------------------
 
 The value of simple models
@@ -1406,3 +1408,5 @@ Dynamics
 		$\ell_x$, and
 
 		whether the population has been growing or declining recently
+
+		COMMENT Not really covered this year
