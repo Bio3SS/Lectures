@@ -685,7 +685,7 @@ Changing conditions
 
 Changing life history
 
-	Some organisms have evolved to change their life history patterns in
+	Many organisms have evolved to change their life history patterns in
 	response to good or bad conditions
 
 		ANS Move slow when things are bad, and fast when things are good
@@ -731,8 +731,8 @@ Applications
 
 TSEC Bet hedging
 
-	In a risky world, you never want to put all your eggs in the same
-	basket
+	In a risky world, you never want to “put all of your eggs in the same
+	basket”
 
 		If all your offspring are born into similar conditions, they can all do
 		well together -- or they can all die together
@@ -837,7 +837,7 @@ Averaging
 		components from different places or time periods
 
 	The arithmetic mean is greater than the geometric mean.  When
-	variation is high, it can be much greater
+	variation is high, it can be \emph{much} greater
 
 		Therefore, organisms benefit from averaging within generations,
 		rather than between generations
