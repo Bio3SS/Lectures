@@ -30,6 +30,12 @@ SHORTSLIDE ^DEFHEAD %%
 REGULAR ^%!
 SHORT ^%%
 
+## Tag optional slides for turning on and off
+ONSLIDE ^DEFHEAD
+ON ^%%
+OFFSLIDE ^NULLSLIDE
+OFF ^%!
+
 ## April Fools!
 APRIL ^NULLSLIDE
 

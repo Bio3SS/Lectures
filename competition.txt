@@ -117,7 +117,7 @@ PSLIDE Outcomes of competition
 
 FIG webpix/confusum.jpg
 
-REGULAR COMMENT The confused flour beetle
+COMMENT The confused flour beetle
 
 ----------------------------------------------------------------------
 
@@ -617,7 +617,7 @@ TSS Invasion theory
 
 ----------------------------------------------------------------------
 
-REGSLIDE Allee effects
+ONSLIDE Allee effects
 
 	This analysis assumes that species that can be successful under a
 	certain competitive environment can also invade that environment
@@ -771,7 +771,7 @@ REGSLIDE Neutral competition
 
 ----------------------------------------------------------------------
 
-REGSLIDE Founder control 
+ONSLIDE Founder control 
 
 	Up until now, we've thought of founder control as a single outcome
 
@@ -788,19 +788,19 @@ REGSLIDE Founder control
 
 ----------------------------------------------------------------------
 
-REGSLIDE PSLIDE Growth rate and founder control
+ONSLIDE PSLIDE Growth rate and founder control
 
 FIG competition/rmutual.comp.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
-REGSLIDE PSLIDE Growth rate and founder control
+ONSLIDE PSLIDE Growth rate and founder control
 
 FIG competition/rmutual.comp.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
-REGSLIDE Growth rate and founder control
+ONSLIDE Growth rate and founder control
 
 DOUBLEFIG competition/rmutual.comp.Rout-0.pdf competition/rmutual.comp.Rout-1.pdf
 
