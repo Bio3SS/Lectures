@@ -321,10 +321,13 @@ Responses to Cole
 		plants per plant; Remember to close the loop
 
 		ANS Population regulation: the long-term average value of
-		$\lambda$ is 1, so increasing $f$ by has to be a \emph{lot}
+		$\lambda$ is 1, so increasing $f$ by 1 is actually a \emph{lot}
 
 		ANS Risky environments: long-lived organisms can deal better with
 		variation in offspring success. 
+
+		COMMENT Parenthood (taking care of offspring) not where we're going,
+		but is a relevant point
 
 ----------------------------------------------------------------------
 
