@@ -819,7 +819,7 @@ Plant D
 
 	POLL  What is the average growth rate of plant D?
 
-		ANS Average survival is the mean of 0.2, 0.02, and 0.002
+		ANS Average survival is the arithmetic mean of 0.2, 0.02, and 0.002
 
 		ANS Growth is the arithmetic mean of 3, 0.3 and 0.03: $\lambda=1.11$
 
