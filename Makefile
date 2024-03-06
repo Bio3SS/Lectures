@@ -142,7 +142,7 @@ competition.complete.pdf: competition.txt
 humble.draft.pdf: humble.txt
 humble.html: humble.step
 
-# Unit 7 (predation)
+# Unit 7 (exploitation)
 exploitation.poll.csv: exploitation.txt pollcsv.pl
 exploitation.html: exploitation.step
 exploitation.outline.pdf: exploitation.txt
