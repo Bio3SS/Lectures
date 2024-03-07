@@ -146,9 +146,6 @@ humble.html: humble.step
 exploitation.poll.csv: exploitation.txt pollcsv.pl
 exploitation.html: exploitation.step
 exploitation.outline.pdf: exploitation.txt
-
-## Enabled "REG*" slides 2024 Mar 06 (Wed)
-## Renaming to predation, since disease is a type of exploitation
 exploitation.draft.pdf: exploitation.txt
 exploitation.final.pdf: exploitation.txt
 exploitation.handouts.pdf: exploitation.txt
