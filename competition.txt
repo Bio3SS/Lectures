@@ -7,7 +7,7 @@ SEC Introduction
 
 ----------------------------------------------------------------------
 
-REGSLIDE Inter-species interactions
+OFFSLIDE Inter-species interactions
 
 	Competition: interaction hurts the growth rate of both species
 
@@ -525,13 +525,13 @@ COMMENT Changing the environment
 
 ----------------------------------------------------------------------
 
-CSLIDE Founder control
+PSLIDE Founder control
 
 FIG competition/mutual.comp.Rout-3.pdf
 
 ----------------------------------------------------------------------
 
-CSLIDE Founder control
+PSLIDE Founder control
 
 FIG competition/mutual.comp.Rout-5.pdf
 
@@ -543,13 +543,13 @@ DOUBLEFIG competition/mutual.comp.Rout-3.pdf competition/mutual.comp.Rout-5.pdf
 
 ----------------------------------------------------------------------
 
-CSLIDE Founder control phase plot
+PSLIDE Founder control phase plot
 
 FIG competition/mutual.comp.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
-CSLIDE Founder control phase plot (log scale)
+PSLIDE Founder control phase plot (log scale)
 
 FIG competition/mutual.comp.Rout-1.pdf
 
@@ -754,7 +754,7 @@ Measuring competition
 
 ----------------------------------------------------------------------
 
-REGSLIDE Neutral competition
+OFFSLIDE Neutral competition
 
 	If competition is balanced, and neither species dominates, this is
 	called neutral competition
@@ -947,7 +947,7 @@ TSS The competitive exclusion principle
 
 ----------------------------------------------------------------------
 
-REGSLIDE Exclusion and drift
+OFFSLIDE Exclusion and drift
 
 	Even if the two species were \emph{exactly} equal
 	in efficiency, we expect one species to go extinct at random
@@ -981,5 +981,5 @@ Competitive exclusion and biodiversity
 		ANS Co-existence may not be ``long term"!
 
 		ANS There may be stabilizing factors outside competitive dynamics
-		(e.g., natural enemies)
+		(e.g., natural enemies, mutualists, competition for mates)
 

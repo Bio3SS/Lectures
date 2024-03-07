@@ -19,10 +19,6 @@
 LONGSLIDE ^DEFHEAD %%
 LONG ^%%
 
-## Regular lectures
-REGSLIDE ^DEFHEAD %%
-REGULAR ^%%
-
 ## Short lectures (current)
 REGSLIDE ^NULLSLIDE
 SHORTCOMMENT ^CSLIDE %%
@@ -30,8 +26,12 @@ SHORTSLIDE ^DEFHEAD %%
 REGULAR ^%!
 SHORT ^%%
 
+## Regular lectures
+REGSLIDE ^%%
+REGULAR ^%%
+
 ## Tag optional slides for turning on and off
-ONSLIDE ^DEFHEAD
+ONSLIDE ^%%
 ON ^%%
 OFFSLIDE ^NULLSLIDE
 OFF ^%!
