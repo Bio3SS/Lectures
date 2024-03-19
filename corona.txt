@@ -125,11 +125,11 @@ TSEC Endemic coronavirus
 
 Disease burnout
 
-	A disease that has a big epidemic and leaves very few susceptibles behind
-	can go locally or globally extinct -- we call this burnout
+	A disease that has a big epidemic and leaves very few susceptibles
+	behind can go locally or globally extinct -- we call this burnout
 
-	Lots of evidence for influenza or measles burning out in isolated areas
-	during less global times
+	Lots of evidence for influenza or measles burning out in isolated
+	areas during less global times
 
 ----------------------------------------------------------------------
 
@@ -159,8 +159,8 @@ Adaptive responses
 
 		ANS Mandates, lockdowns
 
-	What effects do we expect if people's worry levels about \scv\ fluctuate
-	with virus levels?
+	What effects do we expect if people's worry levels about \scv\
+	fluctuate with virus levels?
 
 		ANS Will increase spread when levels are high (or growing)
 
@@ -178,15 +178,14 @@ Burnout and \scv
 
 		When things are bad, people are more careful: less overshoot
 
-		When things are good, people are less careful: less chance to keep the
-		virus down
+		When things are good, people are less careful: less chance to
+		keep the virus down
 
 ----------------------------------------------------------------------
 
 TSEC Pathogen aggressiveness
 
-	POLL Should viruses evolve to become more or less dangerous? more; less; it
-	depends
+	POLL Should viruses evolve to become more or less dangerous? more; less; it depends
 
 		ANS It depends
 
@@ -204,12 +203,14 @@ FIG life_history/frontier.Rout-2.pdf
 
 Which strain will win?
 
-	If the competing strains produce similar immune responses, this is exactly
-	like equal competition: infections are competing for a single resource:
+	If the competing strains produce similar immune responses, this is
+	exactly like equal competition: infections are competing for a
+	single resource:
 
 		ANS Susceptible humans
 
-	The winner will be the strain that has the highest ``carrying capacity'':
+	The winner will be the strain that has the highest ``carrying
+	capacity'':
 
 		ANS Removes the largest number from susceptible pool
 
@@ -217,8 +218,8 @@ Which strain will win?
 
 		ANS This could be more or less deadly
 
-		ANS Removal by killing and removal by recovery have similar effects on
-		the virus
+		ANS Removal by killing and removal by recovery have similar
+		effects on the virus
 
 ----------------------------------------------------------------------
 
@@ -306,9 +307,11 @@ Human immunity
 
 	The immune system is very complicated and very effective
 
-		T cells and B cells recognize different parts of the \textbf{pathogen}
+		T cells and B cells recognize different parts of the
+		\textbf{pathogen}
 
-		Even partial recognition often protects people against severe outcomes
+		Even partial recognition often protects people against severe
+		outcomes
 
 	Vaccines
 
@@ -318,18 +321,19 @@ Human immunity
 
 Immunity and the virus
 
-	Our immune systems may see different variants of the virus differently:
+	Our immune systems may see different variants of the virus
+	differently:
 
-		Cross-immunity to a different strain might be less effective than direct
-		immunity to the strain I was infected with
+		Cross-immunity to a different strain might be less effective than
+		direct immunity to the strain I was infected with
 
 	How will this change our picture of competition?
 
 		ANS It makes it easier for different strains to co-exist
 
-		ANS We don't know yet how much easier. Some viruses (HPV) have dozens of
-		co-existing strains. Others (influenza A) have limited cross-immunity,
-		but strong population-level competition
+		ANS We don't know yet how much easier. Some viruses (HPV) have
+		dozens of co-existing strains. Others (influenza A) have limited
+		cross-immunity, but strong population-level competition
 
 ----------------------------------------------------------------------
 
@@ -337,11 +341,11 @@ Herd immunity
 
 	POLL What is meant by herd immunity?
 
-		ANS A level of immunity in the population that interferes with \emph{the
-		spread of the pathogen}
+		ANS A level of immunity in the population that interferes with
+		\emph{the spread of the pathogen}
 
-			ANS In particular, the phenomenon of immune people protecting others
-			by reducing population-level spread
+			ANS In particular, the phenomenon of immune people protecting
+			others by reducing population-level spread
 
 		ANS May or may not mean that the pathogen cannot survive
 
@@ -352,8 +356,8 @@ Herd immunity
 		ANS In the long run, we expect to see about the right number of
 		susceptibles to keep the infectious individuals in balance
 
-		ANS If we can get above this level through vaccination, there is a chance
-		to drive the pathogen extinct, in theory
+		ANS If we can get above this level through vaccination, there is
+		a chance to drive the pathogen extinct, in theory
 
 ----------------------------------------------------------------------
 
@@ -370,7 +374,8 @@ Can herd immunity drive \scv\ extinct?
 
 			ANS Burnout did not work!
 
-		ANS What about our luck with measles, mumps, polio, influenza, etc?
+		ANS What about our luck with measles, mumps, polio, influenza,
+		etc?
 
 			ANS \scv\ is mutating more effectively than most of these!
 
@@ -378,8 +383,8 @@ Can herd immunity drive \scv\ extinct?
 
 Levels of disease
 
-	In the long run, how long we go between \cnv\ infections will likely depend
-	mostly on how long our immunity lasts, or else on
+	In the long run, how long we go between \cnv\ infections will likely
+	depend mostly on how long our immunity lasts, or else on
 
 		ANS how often we get vaccine boosters
 
@@ -393,18 +398,20 @@ FIG webpix/giantSpider.png
 
 Just another seasonal coronavirus (JASC)
 
-	This is a \emph{theory} that lack of population immunity is the \emph{only}
-	difference between \scv\ and other viruses that cause common colds
+	This is a \emph{theory} that lack of population immunity is the
+	\emph{only} difference between \scv\ and other viruses that cause
+	common colds
 
-		Some versions of the theory account for \scv\ continuing to evolve in
-		that direction
+		Some versions of the theory account for \scv\ continuing to
+		evolve in that direction
 
 	POLL What do you think of this theory?
 
-		ANS We all had versions of the common cold viruses as young children
+		ANS We all had versions of the common cold viruses as young
+		children
 
-		ANS The common cold viruses face a high level of population immunity and
-		can't have big outbreaks the way \scv\ does.
+		ANS The common cold viruses face a high level of population
+		immunity and can't have big outbreaks the way \scv\ does.
 
 			ANS Smaller doses may be correlated with less-severe cases
 
@@ -416,11 +423,11 @@ Just another seasonal coronavirus (JASC)
 
 Moving forward
 
-	We need to pay attention and figure out how strongly to prioritize \scv\
-	control
+	We need to pay attention and figure out how strongly to prioritize
+	\scv\ control
 
-	We also need to be thinking about detecting and responding to the next
-	pandemic!
+	We also need to be thinking about detecting and responding to the
+	next pandemic!
 
 		ANS Better surveillance
 

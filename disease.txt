@@ -1,4 +1,4 @@
-UNIT 8A: Infectious disease
+UNIT 8: Infectious disease
 
 ----------------------------------------------------------------------
 
@@ -175,21 +175,17 @@ DOUBLEFIG covidCA/ON_class.Rout-0.pdf covidCA/ON_class.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
-REPSLIDE COVID in Ontario
+OFFSLIDE REPSLIDE COVID in Ontario
 
 FIG covidCA/ON_class.Rout-2.pdf
 
+Blowup likely intended to show current conditions in 2022.
+
 ----------------------------------------------------------------------
 
-REPSLIDE COVID in Ontario
+OFFSLIDE REPSLIDE COVID in Ontario
 
 FIG covidCA/ON_class.Rout-3.pdf
-
-----------------------------------------------------------------------
-
-COVID in Ontario
-
-DOUBLEFIG covidCA/ON_class.Rout-2.pdf covidCA/ON_class.Rout-3.pdf
 
 ----------------------------------------------------------------------
 
@@ -211,7 +207,7 @@ Population biology
 
 		ANS Finite rate of increase $\lambda$
 
-			ANS Skipped this year
+			OFF ANS Skipped this year
 
 		ANS Lifetime reproduction
 
@@ -246,7 +242,7 @@ Instantaneous rate of growth $r$
 
 ----------------------------------------------------------------------
 
-REGSLIDE Finite rate of growth $\lambda$
+ONSLIDE Finite rate of growth $\lambda$
 
 	Why do we want this? 
 
@@ -262,7 +258,7 @@ REGSLIDE Finite rate of growth $\lambda$
 
 ----------------------------------------------------------------------
 
-REGSLIDE Example
+ONSLIDE Example
 
 	$r \approx 0.14/\dd$ for early COVID spread
 
@@ -298,23 +294,23 @@ Example
 
 		When average length of infection $L = 5\dd$?
 
-			$d = 1/(5\dd) = 0.2/\dd$
+			ANS $d = 1/(5\dd) = 0.2/\dd$
 
-			$b = 0.14\dd + 0.2\dd = 0.34/\dd$
+			ANS $b = 0.14\dd + 0.2\dd = 0.34/\dd$
 
-			$\R = 0.34/0.2 = 1.7$
+			ANS $\R = 0.34/0.2 = 1.7$
 
 		When average length of infection $L = 10\dd$?
 
-			$d = 1/(10\dd) = 0.1/\dd$
+			ANS $d = 1/(10\dd) = 0.1/\dd$
 
-			$b = 0.14\dd + 0.1\dd = 0.24/\dd$
+			ANS $b = 0.14\dd + 0.1\dd = 0.24/\dd$
 
-			$\R = 0.24/0.1 = 2.4$
+			ANS $\R = 0.24/0.1 = 2.4$
 
 ----------------------------------------------------------------------
 
-LONGSLIDE Generation intervals
+ONSLIDE Generation intervals
 
 BC
 
@@ -338,13 +334,13 @@ EC
 
 ----------------------------------------------------------------------
 
-LONGSLIDE Generation intervals
+ONSLIDE Generation intervals
 
 DOUBLEFIG boxes/generationTime.Rout-0.pdf boxes/generationTime.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
-LONGSLIDE Speed and risk
+ONSLIDE Speed and risk
 
 BC
 
@@ -364,13 +360,13 @@ EC
 
 ----------------------------------------------------------------------
 
-LONG PSLIDE Fighting Ebola
+ON PSLIDE Fighting Ebola
 
 FIG webpix/burial_team.jpg
 
 ----------------------------------------------------------------------
 
-LONGSLIDE Generation time and risk
+ONSLIDE Generation time and risk
 
 	If we know $\R$, what does the generation time tell us about $r$?
 
@@ -387,25 +383,25 @@ LONGSLIDE Generation time and risk
 
 ----------------------------------------------------------------------
 
-LONG REPSLIDE Generation time and risk
+ON REPSLIDE Generation time and risk
 
 FIG boxes/steps.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
-LONG REPSLIDE Generation time and risk
+ON REPSLIDE Generation time and risk
 
 FIG boxes/steps.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
-LONGSLIDE Generation time and risk
+ONSLIDE Generation time and risk
 
 DOUBLEPDF boxes/steps.Rout
 
 ----------------------------------------------------------------------
 
-LONGSLIDE Generation time and risk
+ONSLIDE Generation time and risk
 
 	$\R = \exp(r \hat G)$
 
@@ -490,7 +486,7 @@ Interpreting
 
 ----------------------------------------------------------------------
 
-LONGSLIDE Implementing the model
+ONSLIDE Implementing the model
 
 BC
 
@@ -517,7 +513,7 @@ Quantities
 
 CLASS WIDEFIG boxes/sir.three.pdf
 
-State variables
+\textbf{State variables}
 
 	$S, I, R, N$: [people] or [people/ha]
 
@@ -526,7 +522,7 @@ State variables
 
 CONT Quantities
 
-Parameters
+\textbf{Parameters}
 
 	Susceptible people have \textbf{potentially effective} contacts at rate
 	$\beta$ (units [1/time])
@@ -701,9 +697,9 @@ TSS Epidemic size
 
 			ANS \ldots and \emph{fewer} susceptibles at the end
 
-		LONG ANS The number of infected individuals at the beginning of the epidemic
+		ON ANS The number of infected individuals at the beginning of the epidemic
 
-			LONG ANS Usually relatively small (and a relatively small effect)
+			ON ANS Usually relatively small (and a relatively small effect)
 
 
 ----------------------------------------------------------------------
@@ -813,7 +809,7 @@ WIDEFIG boxes/sirbd.four.pdf
 
 ----------------------------------------------------------------------
 
-LONGSLIDE Births and deaths
+ONSLIDE Births and deaths
 
 BC
 
@@ -1017,8 +1013,10 @@ Threshold for elimination
 	a disease?
 
 		ANS Transmission should be reduced by a factor of $\R$, so at least
-		fraction $1-1/\R$ should be vaccinated
+		fraction $1-1/\R$ should be vaccinated (effectively)
 
+			ANS You may need to give vaccines to a larger fraction, since they
+			don't always work
 
 ----------------------------------------------------------------------
 
@@ -1030,6 +1028,8 @@ Examples:
 	should be vaccinated to eliminate polio?
 
 		ANS At least 1-1/5 = 80%
+
+		ANS Kind of worked in much of the world
 
 	Measles has an $\Ro$ of about 20. What proportion of the population
 	should be vaccinated to eliminate measles?
@@ -1079,6 +1079,4 @@ Heterogeneity and persistence
 
 		Humans rarely do this, however: the populations that need the
 		most support typically have the least access
-
-----------------------------------------------------------------------
 

@@ -178,6 +178,8 @@ corona.draft.pdf: corona.txt
 corona.handouts.pdf: corona.txt
 corona.complete.pdf: corona.txt
 
+Sources += germ.md
+
 ######################################################################
 
 pandoc_r = pandoc -o $@ $<
