@@ -152,6 +152,9 @@ exploitation.handouts.pdf: exploitation.txt
 exploitation.complete.pdf: exploitation.txt
 exploitation.cut.complete.pdf: exploitation.txt
 
+## 2022 had disease and a corona supplement; don't know how much was taught
+## It was not a disaster, but may be dated because we've gone so much further with corona now
+
 ## Merged version 2022 Mar 27 (Sun)
 disease.poll.csv: disease.txt pollcsv.pl
 disease.html: disease.step
@@ -162,7 +165,7 @@ disease.draft.pdf: disease.txt
 disease.handouts.pdf: disease.txt
 disease.complete.pdf: disease.txt
 
-# Unit 9 (Corona supplement)
+# Unit 8B (Corona supplement)
 # Special lesson 2020 (early!) All deleted
 # Supplement 2022 put in its place
 corona.poll.csv: corona.txt pollcsv.pl
