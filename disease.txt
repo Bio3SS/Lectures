@@ -157,19 +157,19 @@ DOUBLEPDF WA_Ebola_Outbreak/liberia.npc.tsplot.Rout
 
 ----------------------------------------------------------------------
 
-REPSLIDE COVID in Ontario
+PRESLIDE COVID in Ontario
 
 FIG covidCA/ON_class.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
-REPSLIDE COVID in Ontario
+PRESLIDE COVID in Ontario
 
 FIG covidCA/ON_class.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
-PRESLIDE COVID in Ontario
+COVID in Ontario
 
 DOUBLEFIG covidCA/ON_class.Rout-0.pdf covidCA/ON_class.Rout-1.pdf
 
@@ -927,7 +927,7 @@ Source of oscillations
 
 	Similar to predator-prey systems
 
-	What happens if we start with too many susceptibles?
+	What happens if we start with a lot of susceptibles?
 
 		ANS There will be a big epidemic
 
@@ -967,6 +967,22 @@ NC
 SIDEFIG dd/ewmeas.Rout.pdf
 
 EC
+
+----------------------------------------------------------------------
+
+Behaviour and policy change
+
+ADD Repeated pictures of oscillations and covid
+
+	Why did \scv\ not follow this pattern?
+
+		ANS People and governments changed behaviour
+
+			ANS Fear of overflowing hospitals and chaos in general
+
+		ANS Population heterogeneity
+
+			ANS Not everyone mixes the same, or at the same time
 
 ----------------------------------------------------------------------
 
@@ -1079,4 +1095,107 @@ Heterogeneity and persistence
 
 		Humans rarely do this, however: the populations that need the
 		most support typically have the least access
+
+----------------------------------------------------------------------
+TSEC Pathogen aggressiveness
+
+	POLL Should viruses evolve to become more or less dangerous? more; less; it depends
+
+		ANS It depends
+
+		ANS The virus evolves in the way that's best for the virus
+
+		ANS Host death and host recovery are equally bad!
+
+----------------------------------------------------------------------
+
+REPSLIDE Tradeoffs
+
+FIG life_history/frontier.Rout-2.pdf
+
+----------------------------------------------------------------------
+
+Which strain will win?
+
+	If the competing strains produce similar immune responses, this is
+	exactly like equal competition: infections are competing for a
+	single resource:
+
+		ANS Susceptible humans
+
+	The winner will be the strain that has the highest ``carrying
+	capacity'':
+
+		ANS Removes the largest number from susceptible pool
+
+		ANS Highest \Ro
+
+		ANS This could be more or less deadly
+
+		ANS Removal by killing and removal by recovery have similar
+		effects on the virus
+
+----------------------------------------------------------------------
+
+REPSLIDE Pathogen aggressiveness
+
+FIG life_history/aggressionPlots.Rout-0.pdf
+
+----------------------------------------------------------------------
+
+REPSLIDE Pathogen aggressiveness
+
+FIG life_history/aggressionPlots.Rout-1.pdf
+
+----------------------------------------------------------------------
+
+REPSLIDE Pathogen aggressiveness
+
+FIG life_history/aggressionPlots.Rout-2.pdf
+
+----------------------------------------------------------------------
+
+Pathogen aggressiveness
+
+BC
+
+CFIG life_history/aggressionPlots.Rout-2.pdf
+
+NC
+
+	Pathogen will evolve to maximize \Ro.
+
+	Pattern does not depend on whether duration $D$ is ended by host death, or
+	by immune system clearing the pathogen
+
+EC
+
+----------------------------------------------------------------------
+
+Human evolution
+
+	We have evolved very good immune systems, but we can't always stay ahead of
+	the viruses
+
+	Should people evolve to favor the spread of more or less dangerous viruses?
+
+		ANS Less dangerous!
+
+		ANS Viruses that do well in the upper respiratory tract may spread better
+
+		ANS Viruses that do well in the lower respiratory tract are more dangerous
+
+		ANS Have we evolved to make this a tradeoff for viruses?
+
+----------------------------------------------------------------------
+
+Omicron example
+
+	Omicron spreads \emph{much} better than earlier \scv\ viruses
+
+	It does less well in the lungs and better in the upper airways
+
+	\scv\ apparently evolved to be less dangerous
+
+		This is a pattern, but not a guarantee
 
