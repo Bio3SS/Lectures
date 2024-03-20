@@ -32,7 +32,7 @@ Disease agents
 		Most \textbf{viruses} have just a handful of genes that allow
 		them to hijack a cell and get it to make virus copies
 
-			ANS influenza virus, Ebola virus, HIV, measles
+			ANS \scv, influenza virus, HIV, measles
 
 		\textbf{Bacteria} are independent, free-living cells with
 		hundreds or thousands of chemical pathways
@@ -42,7 +42,7 @@ Disease agents
 		\textbf{Eukaryotic} pathogens are nucleated cells who are more
 		closely related to you than they are to bacteria
 
-			ANS Malaria, various worms
+			ANS Malaria, intestinal worms, trichomoniasis
 
 ----------------------------------------------------------------------
 
@@ -209,7 +209,7 @@ Population biology
 
 			OFF ANS Skipped this year
 
-		ANS Lifetime reproduction
+		ANS Lifetime reproduction, \Rx
 
 ----------------------------------------------------------------------
 
