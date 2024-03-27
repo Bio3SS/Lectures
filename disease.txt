@@ -902,6 +902,14 @@ Reciprocal control
 		ANS If we remove infectious individuals fast enough, the infection could
 		go extinct
 
+		ANS $\R_c S/N \leq 1$
+
+----------------------------------------------------------------------
+
+REPSLIDE Single-epidemic model
+
+FIG sims/burnouts.plots.Rout-4.pdf
+
 ----------------------------------------------------------------------
 
 Tendency to oscillate
