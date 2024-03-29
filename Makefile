@@ -187,8 +187,6 @@ helping.draft.pdf: helping.txt
 helping.handouts.pdf: helping.txt
 helping.complete.pdf: helping.txt
 
-
-
 ######################################################################
 
 Sources += germ.md
@@ -293,6 +291,8 @@ Ignore += *.mp4
 video/0122.edit.mp4: 0122.1.mp4 0122.2.mp4 0122.comb.txt
 
 ######################################################################
+
+Sources += drop.md
 
 ## drop.filemerge: drop.md
 
