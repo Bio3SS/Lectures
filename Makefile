@@ -179,6 +179,18 @@ corona.draft.pdf: corona.txt
 corona.handouts.pdf: corona.txt
 corona.complete.pdf: corona.txt
 
+helping.html: helping.step
+helping.outline.pdf: helping.txt
+
+helping.final.pdf: helping.txt
+helping.draft.pdf: helping.txt
+helping.handouts.pdf: helping.txt
+helping.complete.pdf: helping.txt
+
+
+
+######################################################################
+
 Sources += germ.md
 
 ######################################################################
@@ -282,6 +294,10 @@ video/0122.edit.mp4: 0122.1.mp4 0122.2.mp4 0122.comb.txt
 
 ######################################################################
 
+## drop.filemerge: drop.md
+
+######################################################################
+
 ### Makestuff
 
 Ignore += makestuff
@@ -297,6 +313,7 @@ makestuff/Makefile:
 -include makestuff/webpix.mk
 -include makestuff/hotcold.mk
 -include makestuff/video.mk
+-include makestuff/ldrop.mk
 
 -include makestuff/git.mk
 -include makestuff/visual.mk
