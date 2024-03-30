@@ -7,3 +7,8 @@ Egbert Leigh (seems excellent, I should do readings)
 * drop/LeighMutualism.pdf
 
 https://en.wikipedia.org/wiki/Prisoner%27s_dilemma
+
+Ecological theory of mutualism: Robust patterns of stability and thresholds in two-species population models
+Kayla R S Hale 1, Fernanda S Valdovinos 2
+Affiliations expand
+PMID: 35003630 PMCID: PMC8717353 DOI: 10.1002/ece3.8453

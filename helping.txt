@@ -1,65 +1,200 @@
 
-Helping and where it leads
+UNIT 9: Mutualistic interactions
 
-Altruism and paradox
-* examples: alarm calls, hunting
-* false examples: huddling together, dying
-* acacia ants
-* honey guides
-* fig wasps
+----------------------------------------------------------------------
 
-Grooming vs. alarm calls
+SS Introduction
+
+----------------------------------------------------------------------
+
+The fight to surivive
+
+----------------------------------------------------------------------
+
+Mutualism
+
+	Ask for examples
+
+----------------------------------------------------------------------
+
+Eukaryotic/multi-cellular
+
+	Ask again
+
+	Picture of world
+
+----------------------------------------------------------------------
+
+Alarming
+
+----------------------------------------------------------------------
+
+Grooming
+
+----------------------------------------------------------------------
+
+Prisoners dilemma
+
+----------------------------------------------------------------------
+
+Co-ordination
+
+----------------------------------------------------------------------
+
+Cheating
+
+----------------------------------------------------------------------
+
+Colicin
+
+----------------------------------------------------------------------
+
+SEC Co-operation
+
+----------------------------------------------------------------------
 
 Gradualism and clarity
-* white-tailed deer and so forth (call may be designed to warn off predator)
+
+	white-tailed deer
+
+	bird alarms and so forth (call may be designed to warn off predator)
+
+	Solves the co-ordination problem, but not necessarily the cheating problem
+
+----------------------------------------------------------------------
 
 Group selection
-* Cheating
+	Cheating
+
+----------------------------------------------------------------------
 
 Kin selection
-* Hamilton's rule
-* Relatedness complications
-	* FLoP
-* Enforcement
+	Hamilton's rule
+	Relatedness complications
+		FLoP
+	Enforcement
 
 Gene-level view
-* Kin Recognition
+	Kin Recognition
+
+Kin viscosity
 
 Disentangling kin from group
 
+----------------------------------------------------------------------
+
+Sociality
+
+----------------------------------------------------------------------
+
+Population regulation
+
+----------------------------------------------------------------------
+
+Multi-cellularity
+
+	Capture of fitness
+
+	Cancer
+
+----------------------------------------------------------------------
+
+Eusociality
+
+----------------------------------------------------------------------
+
+SS Mutualism
+
+----------------------------------------------------------------------
+
+One-way help
+
+	Birds nesting in trees
+
+	Poop provides food for dung beetles
+
+	Typically no cost to helper
+
+		ANS Since they get no benefit, there is strong selection against
+		paying a cost
+
+	Cheating is not possible in these cases
+
+		ANS \textbf{Beneficiary} is distinct from the helper
+
+----------------------------------------------------------------------
+
+Symmetric no-cost help
+
+	Mimicry, cheating
+
 Mullerian and Batesian mimicry
+
+----------------------------------------------------------------------
+
+Relative advantage
+
+	Fungus and plants
+
+	honey guides
+
+----------------------------------------------------------------------
+
+Fig wasps
+
+----------------------------------------------------------------------
 
 Symbiosis
 
+----------------------------------------------------------------------
+
 Transient interactions
-* Hummingbirds, what about figs?
-* seed dispersers and pollinators
-* elephants as ecosystem engineers?
+	Hummingbirds, what about figs?
+	seed dispersers and pollinators
+	elephants as ecosystem engineers?
+
+----------------------------------------------------------------------
 
 Metabolic stuff and trade analogy?
 
-colicin example
+----------------------------------------------------------------------
 
 dissolution
 
-Prisoners' dilemma
+Corals ejecting zooxanthellae
+
+----------------------------------------------------------------------
 
 obligate symbioses
-* symbiosis meaning
-* endosymbiosis
-* Buchnera are they somewhere on a pathway?
+	symbiosis meaning
+	endosymbiosis
+	Buchnera are they somewhere on a pathway?
+
+----------------------------------------------------------------------
 
 fungus-farming, aphid-tending
-* bacterial associations
+	bacterial associations
+
+----------------------------------------------------------------------
 
 Cheating works when rare
-* Batesian mimicry
-* Fake insect rewards in orchids
+	Batesian mimicry
+	Fake insect rewards in orchids
+
+----------------------------------------------------------------------
 
 Fruit overloading (sugar or fat)
-* avocado, plaintain, olive
+	avocado, plaintain, olive
+
+----------------------------------------------------------------------
 
 multi-cellularity
 
+----------------------------------------------------------------------
+
 eusociality
-* haplodiploidy
+	haplodiploidy
+
+----------------------------------------------------------------------
+
+dictyostelium and movies
