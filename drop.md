@@ -12,3 +12,7 @@ Ecological theory of mutualism: Robust patterns of stability and thresholds in t
 Kayla R S Hale 1, Fernanda S Valdovinos 2
 Affiliations expand
 PMID: 35003630 PMCID: PMC8717353 DOI: 10.1002/ece3.8453
+
+https://www.sciencedirect.com.libaccess.lib.mcmaster.ca/science/article/abs/pii/S0960077918301371
+
+https://www.researchgate.net.libaccess.lib.mcmaster.ca/publication/348480566_Mortality_risk_promotes_cooperation_of_wasps_when_paralysing_hosts

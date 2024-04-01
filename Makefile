@@ -169,7 +169,7 @@ disease.complete.pdf: disease.txt
 # Unit 8B (Corona supplement)
 # Special lesson 2020 (early!) All deleted
 # Supplement 2022 put in its place
-## 2024: Lifting pathogen aggressiveness
+## 2024: Lifting pathogen aggressiveness; probably pretty deprecated now
 corona.poll.csv: corona.txt pollcsv.pl
 corona.html: corona.step
 corona.outline.pdf: corona.txt

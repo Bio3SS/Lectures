@@ -344,6 +344,8 @@ SIDEFIG boxes/generationTime.Rout-0.pdf
 
 EC
 
+ADD We could have more about compound interest and variation
+
 ----------------------------------------------------------------------
 
 ONSLIDE Generation intervals
@@ -789,6 +791,8 @@ BC
 
 		ANS Births and deaths; newborns are susceptible
 
+		ANS Pathogen evolution
+
 NC
 
 SIDEFIG dd/ewmeas.Rout.pdf
@@ -1044,6 +1048,8 @@ TSEC Reproductive numbers and risk
 
 	If you have a single, fast epidemic, the size is also predicted by
 	\Ro.
+
+	ADD Prevalence and incidence
 
 ----------------------------------------------------------------------
 

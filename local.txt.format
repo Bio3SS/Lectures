@@ -124,5 +124,9 @@ complete: NULLSLIDE
 CONT %!
 draft final: ^DEFHEAD {\sl %%}
 
+## A heading just for the slide
+SLIDEHEAD %!
+draft final: ^DEFHEAD %%
+
 # Fit a highfig that doesn't fit in frame
 FIGHFIG ^HFIG 0.9 %%
