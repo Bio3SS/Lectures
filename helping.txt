@@ -37,7 +37,7 @@ Positive interactions
 
 PSLIDE The influence of mutualism
 
-ADD Picture of an ecosystem
+FIG mara.jpg
 
 ----------------------------------------------------------------------
 
@@ -61,6 +61,12 @@ The influence of mutualism
 		ANS Lots of good examples
 
 		ANS Multi-cellularity!
+
+----------------------------------------------------------------------
+
+PSLIDE Alarming
+
+
 
 ----------------------------------------------------------------------
 
