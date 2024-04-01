@@ -19,6 +19,8 @@ current: target
 
 ######################################################################
 
+-include allsteps.mk
+
 -include makestuff/newtalk.def
 -include makestuff/perl.def
 

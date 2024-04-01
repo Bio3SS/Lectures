@@ -1,4 +1,28 @@
 
+PSLIDE BIO3SS3: Population Ecology
+
+----------------------------------------------------------------------
+
+PSLIDE Pop quiz
+
+	Disease unit
+
+	Paper and pen, no calculator
+
+	Write your name and \emph{macid} across the top
+
+	Now write the date
+
+		The date is \emph{very important}
+
+		Today's date is 1 Apr 2023
+
+----------------------------------------------------------------------
+
+PICSLIDE FIG webpix/fool.jpg
+
+----------------------------------------------------------------------
+
 UNIT 9: Mutualistic interactions
 
 ----------------------------------------------------------------------
@@ -24,6 +48,10 @@ The fight to surivive
 
 ----------------------------------------------------------------------
 
+PICSLIDE FIG webpix/lionsHyenas.png
+
+----------------------------------------------------------------------
+
 Positive interactions
 
 	We will refer to interactions that benefit both sides as \textbf{mutualistic}
@@ -37,7 +65,7 @@ Positive interactions
 
 PSLIDE The influence of mutualism
 
-FIG mara.jpg
+FIG webpix/mara.jpeg
 
 ----------------------------------------------------------------------
 
@@ -66,7 +94,7 @@ The influence of mutualism
 
 PSLIDE Alarming
 
-
+HIGHFIG webpix/meerkat.jpg
 
 ----------------------------------------------------------------------
 
@@ -82,6 +110,18 @@ Example: Alarming
 	Plants and bacteria also spread alarms
 
 		ANS Chemical signalling
+
+----------------------------------------------------------------------
+
+Macaque grooming
+
+WIDEFIG webpix/macaqueGrooming.jpg
+
+----------------------------------------------------------------------
+
+Beaver grooming
+
+WIDEFIG webpix/beaverGrooming.jpg
 
 ----------------------------------------------------------------------
 
@@ -209,7 +249,7 @@ BCC
 
 NCC
 
-ADD deer
+SIDEFIG webpix/whiteTail.jpg
 
 EC
 
@@ -274,6 +314,8 @@ Hamilton's rule
 
 CSLIDE Review: Lifetime fitness 
 
+ADD This was a proposed April joke, but I did the pop quiz in 2024
+
 ----------------------------------------------------------------------
 
 Limitations 
@@ -288,7 +330,6 @@ Limitations
 
 		How much \emph{more} related is the altruist to the beneficiary than to
 		the average individual in the relevant population
-		with
 
 	Why do we assume we're always competing with a relevant population?
 
@@ -316,15 +357,23 @@ Kin Recognition
 
 Example: Plant recognition experiments
 
+BCC
+
 	Plants grown next to kin compete less aggressively
 
 	Work from Susan Dudley, McMaster Biology
 
-	ADD some sort of picture
+NCC
+
+SIDEFIG webpix/greenhouse.jpg
+
+EC
 
 ----------------------------------------------------------------------
 
 Kin viscosity
+
+BCC
 
 	Kin viscosity is the idea that any same-species individuals you encounter
 	are likely to be related
@@ -332,6 +381,12 @@ Kin viscosity
 	Activities that benefit the group are likely to favor your fitness
 
 	Many micro-organisms seem to do this, e.g., by building biofilms
+
+NCC 
+
+SIDEFIG webpix/lavaBiofilm.jpg
+
+EC
 
 ----------------------------------------------------------------------
 
@@ -379,7 +434,7 @@ Example: Prisoners' dilemma
 		best that it can
 
 	Additionally, real organisms don't know exactly how many times
-	they will to interact
+	they will interact
 
 ----------------------------------------------------------------------
 
