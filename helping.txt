@@ -1,7 +1,17 @@
 
-PSLIDE BIO3SS3: Population Ecology
+EXTRA
+
+Done in haste. Fill in. More tables and more discussion of game theory strategy.
+
+More concrete and fitness capture and so forth
 
 ----------------------------------------------------------------------
+
+EXTRA PSLIDE BIO3SS3: Population Ecology
+
+----------------------------------------------------------------------
+
+EXTRA
 
 PSLIDE Pop quiz
 

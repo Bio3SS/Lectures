@@ -7,6 +7,8 @@ EXTRA
 
 Clean up the logic here. Make sure you know what's in or out for the short version. Clarify when you're talking about long-term and year-to-year lambda
 
+Replace some content about age distributions and so forth
+
 ----------------------------------------------------------------------
 
 
