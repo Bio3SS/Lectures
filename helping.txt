@@ -425,6 +425,8 @@ Reciprocity
 
 		If I help you, you help me, and we both benefit
 
+	ADD More about sociality and so forth
+
 ----------------------------------------------------------------------
 
 Example: Prisoners' dilemma
@@ -445,6 +447,10 @@ Example: Prisoners' dilemma
 
 	Additionally, real organisms don't know exactly how many times
 	they will interact
+
+----------------------------------------------------------------------
+
+PICSLIDE HIGHFIG webpix/bonobos.jpg
 
 ----------------------------------------------------------------------
 
@@ -480,6 +486,12 @@ Enforcement
 
 ----------------------------------------------------------------------
 
+PSLIDE Mobbing
+
+FIG webpix/crowsMobHawk.jpg
+
+----------------------------------------------------------------------
+
 Balance
 
 	If a behaviour helps individuals (like calling to prevent predator
@@ -509,6 +521,12 @@ Social insects
 
 	Very complex adaptations keep this stable: allowing other very complex
 	adaptations for efficient colonies
+
+----------------------------------------------------------------------
+
+PSLIDE Termite mound
+
+FIG webpix/termite_mound.jpg
 
 ----------------------------------------------------------------------
 
@@ -592,6 +610,12 @@ Symmetric help
 
 ----------------------------------------------------------------------
 
+PSLIDE Mullerian mimicry
+
+WIDEFIG Heliconius_mimicry.cropped.png
+
+----------------------------------------------------------------------
+
 Batesian mimicry
 
 	Similar organisms that are \emph{not} poisonous also benefit from looking
@@ -602,6 +626,12 @@ Batesian mimicry
 		ANS Free riding
 
 	Batesian mimics tend to be rare: why?
+
+----------------------------------------------------------------------
+
+PSLIDE Batesian mimicry
+
+WIDEFIG webpix/hoverfly_mimic.png
 
 ----------------------------------------------------------------------
 
@@ -650,6 +680,12 @@ Trading
 
 ----------------------------------------------------------------------
 
+PSLIDE Hummingbird flower
+
+FIG webpix/hummingbird_flower.jpg
+
+----------------------------------------------------------------------
+
 Example: ant-plant mutualisms
 
 	Some trees provide resources to ants who live on them and defend them from
@@ -678,6 +714,13 @@ CONT Ant-plant mutualisms
 	mutualistic ants
 
 ----------------------------------------------------------------------
+
+PSLIDE Acacia ants
+
+FIG webpix/acacia_ants.jpg
+
+----------------------------------------------------------------------
+
 
 Evolution and co-evolution
 

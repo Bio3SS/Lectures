@@ -1,6 +1,6 @@
 
 Dictyostelium
-* https://www.youtube.com/watch?v=5h8WOWEqP6o&ab_channel=JeremyPickett-Heaps
+* https://www.youtube.com/watch?v=5h8WOWEqP6o
 
 drop/Arizona.pdf
 * http://eebweb.arizona.edu/faculty/dornhaus/courses/materials/7%20evolution%20of%20cooperation%20bw.pdf
