@@ -193,6 +193,7 @@ helping.complete.pdf: helping.txt
 
 ## webpix/dd
 
+Ignore += Heliconius_mimicry.cropped.png
 Heliconius_mimicry.cropped.png: webpix/Heliconius_mimicry.png Makefile
 	convert -crop 2100x1035+0+1072 $< $@
 
