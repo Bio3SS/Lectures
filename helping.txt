@@ -9,6 +9,8 @@ More concrete and fitness capture and so forth
 
 EXTRA PSLIDE BIO3SS3: Population Ecology
 
+Almost filled three lectures, going just a little slow (and being pretty excited)
+
 ----------------------------------------------------------------------
 
 EXTRA
@@ -29,7 +31,7 @@ PSLIDE Pop quiz
 
 ----------------------------------------------------------------------
 
-PICSLIDE FIG webpix/fool.jpg
+EXTRA PICSLIDE FIG webpix/fool.jpg
 
 ----------------------------------------------------------------------
 
@@ -818,3 +820,11 @@ Fruit overloading (sugar or fat)
 	avocado, plaintain, olive
 
 Horizontal vs vertical transmission
+
+From Tests:
+
+Something about EPS co-operation and RPS dynamics (or not)
+
+Could be two questions, because EPS parasites would need to balance, they couldn't take over
+
+
