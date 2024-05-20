@@ -9,6 +9,8 @@ More concrete and fitness capture and so forth
 
 EXTRA PSLIDE BIO3SS3: Population Ecology
 
+Almost filled three lectures, going just a little slow (and being pretty excited)
+
 ----------------------------------------------------------------------
 
 EXTRA
@@ -29,7 +31,7 @@ PSLIDE Pop quiz
 
 ----------------------------------------------------------------------
 
-PICSLIDE FIG webpix/fool.jpg
+EXTRA PICSLIDE FIG webpix/fool.jpg
 
 ----------------------------------------------------------------------
 
@@ -123,13 +125,13 @@ Example: Alarming
 
 ----------------------------------------------------------------------
 
-Macaque grooming
+PSLIDE Macaque grooming
 
 WIDEFIG webpix/macaqueGrooming.jpg
 
 ----------------------------------------------------------------------
 
-Beaver grooming
+PSLIDE Beaver grooming
 
 WIDEFIG webpix/beaverGrooming.jpg
 
@@ -322,7 +324,7 @@ Hamilton's rule
 
 ----------------------------------------------------------------------
 
-CSLIDE Review: Lifetime fitness 
+EXTRA CSLIDE Review: Lifetime fitness 
 
 ADD This was a proposed April joke, but I did the pop quiz in 2024
 
@@ -334,7 +336,7 @@ Limitations
 	be selected for, but it is hard to implement
 
 	Benefits and costs are hard to estimate (and may be hard for natural
-	processes to estimate as wel
+	processes to estimate as well)
 
 	What is the effective value of “relatedness”?
 
@@ -539,6 +541,8 @@ Cellular slime molds
 
 	Individual “amoebas” join up for dispersal and reproduction -- some make it
 	and some don't
+	
+	ADD Clarify above!!
 
 	A wide variety of mechanisms to make cheating difficult
 
@@ -707,7 +711,7 @@ CONT Ant-plant mutualisms
 
 		special nectaries and protein sources
 
-	They protect themselves from exploitation but not producing these things
+	They protect themselves from exploitation by not producing these things
 	unless the ants signal them
 
 	There are several species of cheater ants anyway; these mimic the
@@ -802,7 +806,7 @@ Example: Mitochondria
 		ANS Suppress production of offspring which don't include them
 
 		ANS For example, by favoring a female-biased sex ratio in less-complex
-		animals
+		eukaryotes
 
 ----------------------------------------------------------------------
 
@@ -816,3 +820,11 @@ Fruit overloading (sugar or fat)
 	avocado, plaintain, olive
 
 Horizontal vs vertical transmission
+
+From Tests:
+
+Something about EPS co-operation and RPS dynamics (or not)
+
+Could be two questions, because EPS parasites would need to balance, they couldn't take over
+
+
