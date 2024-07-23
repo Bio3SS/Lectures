@@ -209,6 +209,9 @@ imageDrop = ~/Dropbox/3SS
 Ignore += local.mk
 -include local.mk
 
+testsetup:
+	cp ../local.mk .
+
 ######################################################################
 
 ## Pixfiles (too many!!)
