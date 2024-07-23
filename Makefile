@@ -299,7 +299,7 @@ makestuff/Makefile:
 
 -include makestuff/os.mk
 -include makestuff/newtalk.mk
--include makestuff/texi.mk
+-include makestuff/texj.mk
 -include makestuff/webpix.mk
 -include makestuff/hotcold.mk
 -include makestuff/video.mk
