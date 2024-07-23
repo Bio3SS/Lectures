@@ -1,0 +1,830 @@
+
+EXTRA
+
+Done in haste. Fill in. More tables and more discussion of game theory strategy.
+
+More concrete and fitness capture and so forth
+
+----------------------------------------------------------------------
+
+EXTRA PSLIDE BIO3SS3: Population Ecology
+
+Almost filled three lectures, going just a little slow (and being pretty excited)
+
+----------------------------------------------------------------------
+
+EXTRA
+
+PSLIDE Pop quiz
+
+	Disease unit
+
+	Paper and pen, no calculator
+
+	Write your name and \emph{macid} across the top
+
+	Now write the date
+
+		The date is \emph{very important}
+
+		Today's date is 1 Apr 2023
+
+----------------------------------------------------------------------
+
+EXTRA PICSLIDE FIG webpix/fool.jpg
+
+----------------------------------------------------------------------
+
+UNIT 9: Mutualistic interactions
+
+----------------------------------------------------------------------
+
+SEC Introduction
+
+----------------------------------------------------------------------
+
+The fight to surivive
+
+	All organisms need resources
+
+		To survive, grow reproduce
+
+		We've all made it this far
+
+	Competition is the fight for resources
+
+	Exploitation is using other organisms as resources
+
+	But positive interactions have shaped the living world just as strongly as
+	antagonistic interactions
+
+----------------------------------------------------------------------
+
+PICSLIDE FIG webpix/lionsHyenas.png
+
+----------------------------------------------------------------------
+
+Positive interactions
+
+	We will refer to interactions that benefit both sides as \textbf{mutualistic}
+
+		People often use \textbf{mutualism} specifically to describe interactions
+		between different species
+
+		\textbf{Cooperation} is a more general term
+
+----------------------------------------------------------------------
+
+PSLIDE The influence of mutualism
+
+FIG webpix/mara.jpeg
+
+----------------------------------------------------------------------
+
+The influence of mutualism
+
+	Mutualistic and cooperative processes have strongly shaped all of the life
+	that we see
+
+	Between-species cooperation
+
+		ANS Lots of good examples
+
+		ANS Eukaryotic cells
+
+		ANS Plants
+
+			ANS Pollination and seed dispersal
+
+	Within-species cooperation
+
+		ANS Lots of good examples
+
+		ANS Multi-cellularity!
+
+----------------------------------------------------------------------
+
+PSLIDE Alarming
+
+HIGHFIG webpix/meerkat.jpg
+
+----------------------------------------------------------------------
+
+Example: Alarming
+
+	Individuals who spot predators may give alarm calls
+
+	These benefit other individuals who need to worry about the same
+	predators
+
+		Often works either within- or between- species
+
+	Plants and bacteria also spread alarms
+
+		ANS Chemical signalling
+
+----------------------------------------------------------------------
+
+PSLIDE Macaque grooming
+
+WIDEFIG webpix/macaqueGrooming.jpg
+
+----------------------------------------------------------------------
+
+PSLIDE Beaver grooming
+
+WIDEFIG webpix/beaverGrooming.jpg
+
+----------------------------------------------------------------------
+
+Grooming
+
+	Individuals help each other stay clean and free of insect parasites
+
+	Most commonly occurs within species, but there are exceptions
+
+		ANS Cleaner fish eat parasites from the skin of larger fish
+
+		ANS Cattle egrets eat parasites from cattle
+
+----------------------------------------------------------------------
+
+Prisoners dilemma
+
+BC
+
+	The prisoners' dilemma is a parable for why cooperation can be hard to
+	maintain
+
+	Two prisoners both know that they will be rewarded for speaking to the
+	police, but will be hurt if the other prisoner speaks to the police
+
+	What should a selfish prisoner do?
+
+	Why is this a dilemma?
+
+NC
+
+CFIG webpix/dilemma.png
+
+EC
+
+----------------------------------------------------------------------
+
+Co-ordination and cheating
+
+BC
+
+	The prisoners' dilemma provides a starting point for thinking about two
+	common problems in mutualistic interactions
+
+		Co-ordination: how does cooperation start?
+
+		Cheating: When can cooperators be taken advantage of?
+
+NC
+
+SIDEFIG webpix/dilemma.png
+
+EC
+
+----------------------------------------------------------------------
+
+Colicin
+
+	Many bacteria have the ability to produce a toxin called “colicin”, which
+	they release into the environment under certain circumstances 
+
+	These “producers” are not killed by the colicin, but “sensitive” relatives
+	are, giving producers an advantage
+
+	What does this have to do with co-operation?
+
+		ANS When bacteria produce colicin, they are helping any “resistant”
+		bacteria (not killed by colicin) in their area
+
+----------------------------------------------------------------------
+
+Colicin dynamics
+
+	Assume that producing colicin has a cost, and that resisting colicin has a
+	separate cost
+
+	A population of sensitive bacteria is invaded by a population of producers 
+
+		Killed off by toxin
+
+	What might happen next?
+
+		ANS resistant bacteria might successfully invade the producers (they are
+		more efficient)
+
+		ANS sensitive bacteria might successfully invade the resisters (same
+		reason)
+
+		ANS producers might invade again!
+
+			ANS rock-paper-scissors dynamics!
+
+----------------------------------------------------------------------
+
+SEC Cooperation within species
+
+----------------------------------------------------------------------
+
+Obstacles
+
+	How can helping evolve if there is a cost to the helper?
+
+	This is particularly hard to explain within species:
+
+		ANS Individuals of the same species are my strongest competitors
+
+		ANS There are less likely to be strong relative advantages (things I can
+		do that you can't)
+
+	What are some possible explanations?
+
+		NOANS
+	
+----------------------------------------------------------------------
+
+Absence of cost
+
+BCC
+
+	Behaviour that helps others may also help the focal individual
+
+	Alarm calls may have evolved to communicate with \emph{predators}
+
+		ANS I've seen you, don't bother me
+
+NCC
+
+SIDEFIG webpix/whiteTail.jpg
+
+EC
+
+----------------------------------------------------------------------
+
+SLIDEHEAD Co-ordination and cheating
+
+	Does absence of cost solve the co-ordination problem?
+
+		ANS Yes, I call for my own good and you for yours
+
+		ANS We can learn to respond to each others' calls
+
+	Does absence of cost solve the cheating problem?
+
+		ANS Not really, cheaters could rely on others to spot the predators
+
+----------------------------------------------------------------------
+
+Group selection
+
+	Costly behaviours might be selected for at the level of groups
+
+	Groups where cheaters arise might eventually be out-competed by groups where
+	they don't
+
+	Depends on the effective level at which selection is acting
+
+----------------------------------------------------------------------
+
+Kin selection
+
+	Costly behaviours can be selected if they benefit \emph{relatives}
+
+		Inclusive fitness
+
+			Fitness is eventually achieved through offspring
+
+			But full siblings are just as related to me as my offspring are!
+
+		Evolution selects to favor individuals reproducing their genes
+
+			not necessarily having their own offspring
+
+----------------------------------------------------------------------
+
+Hamilton's rule
+
+	More of a rule of thumb
+
+	Costly sharing is good if the relative benefit outweighs the cost
+
+	A costly act is favored by natural selection if $rb > c$:
+
+		Benefit to relatives multiplied by relatedness exceeds cost to individual
+
+	COMMENT I would gladly lay down my life for my two siblings
+
+		COMMENT or for eight cousins
+
+----------------------------------------------------------------------
+
+EXTRA CSLIDE Review: Lifetime fitness 
+
+ADD This was a proposed April joke, but I did the pop quiz in 2024
+
+----------------------------------------------------------------------
+
+Limitations 
+
+	Hamilton's rule suggests that pure altruism (paying a cost for others) can
+	be selected for, but it is hard to implement
+
+	Benefits and costs are hard to estimate (and may be hard for natural
+	processes to estimate as well)
+
+	What is the effective value of “relatedness”?
+
+		How much \emph{more} related is the altruist to the beneficiary than to
+		the average individual in the relevant population
+
+	Why do we assume we're always competing with a relevant population?
+
+		ANS Population regulation, the “third law” of population dynamics
+
+----------------------------------------------------------------------
+
+Kin Recognition
+
+	Kin-based selection suggests organisms should help kin more than non-kin
+
+	How do organisms recognize kin?
+
+		Siblings, parents and offspring from context
+
+		Chemical cues
+
+	Is there another reason many organisms have evolved to recognize kin?
+
+		ANS Avoidance of outbreeding
+
+		ANS if the recognition exists, it can be used for other purposes
+
+----------------------------------------------------------------------
+
+Example: Plant recognition experiments
+
+BCC
+
+	Plants grown next to kin compete less aggressively
+
+	Work from Susan Dudley, McMaster Biology
+
+NCC
+
+SIDEFIG webpix/greenhouse.jpg
+
+EC
+
+----------------------------------------------------------------------
+
+Kin viscosity
+
+BCC
+
+	Kin viscosity is the idea that any same-species individuals you encounter
+	are likely to be related
+
+	Activities that benefit the group are likely to favor your fitness
+
+	Many micro-organisms seem to do this, e.g., by building biofilms
+
+NCC 
+
+SIDEFIG webpix/lavaBiofilm.jpg
+
+EC
+
+----------------------------------------------------------------------
+
+Gene-level view
+
+	We've thought about the group level and the inclusive-fitness level
+
+	It might be that \emph{genes} are the right level, though
+
+	The real question about whether a gene for helping others will spread is
+	whether those others have that same gene
+
+		How would you know?
+
+		Does this select for sets of linked traits?
+
+		What about cheating?
+
+----------------------------------------------------------------------
+
+Reciprocity
+
+	Another way helping could be favored selectively is if they help each other
+
+		Two indivduals could explore each others' willingness to help out
+
+		If I help you, you help me, and we both benefit
+
+	ADD More about sociality and so forth
+
+----------------------------------------------------------------------
+
+Example: Prisoners' dilemma
+
+	According to simple logic, if you and I are going to play the Prisoners
+	dilemma 10 times, my best strategy is to be selfish
+
+		Obviously, whatever you do the 10th time, I should be selfish then
+
+		If I assume you have the same logic about the 10th time, then the same
+		logic applies to the 9th time as well ...
+
+	In experimental competitions, however, “virtual organisms” with intermediate
+	strategies do best.
+
+		This may reflect biology: evolution is not perfect, it is just doing the
+		best that it can
+
+	Additionally, real organisms don't know exactly how many times
+	they will interact
+
+----------------------------------------------------------------------
+
+PICSLIDE HIGHFIG webpix/bonobos.jpg
+
+----------------------------------------------------------------------
+
+Public goods
+
+	Does the idea of reciprocity apply equally to all forms of helping?
+
+		e.g., grooming vs.\ alarming
+
+		ANS Alarming is shared more generally
+
+	Widely shared \textbf{public goods} are subject to \textbf{free riding}:
+
+		A form of cheating -- I enjoy the benefits of help, but don't myself help
+
+		If free riders have higher fitness, what can happen?
+
+			ANS It's complicated
+
+----------------------------------------------------------------------
+
+Enforcement
+
+	Animals can take steps to \emph{punish} free riders
+
+		Meerkats that don't watch may be driven out 
+
+		lionesses that don't defend territory may be attacked
+
+		... evidence is limited
+
+	Social animals that cooperate may also be rewarded with higher status
+
+----------------------------------------------------------------------
+
+PSLIDE Mobbing
+
+FIG webpix/crowsMobHawk.jpg
+
+----------------------------------------------------------------------
+
+Balance
+
+	If a behaviour helps individuals (like calling to prevent predator
+	harassment), then free riding is unlikely to eliminate it
+
+	Cheating may be balanced, or eliminated, by kin selection
+
+----------------------------------------------------------------------
+
+Fitness capture
+
+	If evolutionary changes make it harder to cheat, then cooperative behaviours
+	may evolve more efficiently
+
+	Many colicin-expressing bacteria are stable; they have configurations that
+	make it hard for them to maintain resistance without at least sometimes
+	producing colicin
+
+----------------------------------------------------------------------
+
+Social insects
+
+	Some insects are highly social
+
+	Colonies of millions of workers, but all (or virtually all) fitness is via
+	the queen and the drones
+
+	Very complex adaptations keep this stable: allowing other very complex
+	adaptations for efficient colonies
+
+----------------------------------------------------------------------
+
+PSLIDE Termite mound
+
+FIG webpix/termite_mound.jpg
+
+----------------------------------------------------------------------
+
+Cellular slime molds
+
+	Are crazy!
+
+	Sometimes act like micro-organisms; sometimes like multi-cellular animals,
+	and sometimes like plants or fungi
+
+	Individual “amoebas” join up for dispersal and reproduction -- some make it
+	and some don't
+	
+	ADD Clarify above!!
+
+	A wide variety of mechanisms to make cheating difficult
+
+		Combined with kin selection
+
+----------------------------------------------------------------------
+
+Modern multi-cellular organisms
+
+	We've been through hundreds of millions of years of evolution since our
+	fitness became linked
+
+		Kidney cells or muscle cells are absolute, evolutionary dead ends
+
+		They only have kin-based fitness
+
+	Disease biology provides important insights into the process
+
+		Infected or cancerous cells may be targeted and killed by other cells
+
+		Or they may commit suicide!
+
+----------------------------------------------------------------------
+
+TSEC Mutualism between species
+
+	May evolve more easily than within a species
+
+		Often not competing directly for resources
+
+		More likely to have complementary abilities:
+
+			ANS Fungi and algae make lichens
+
+			ANS Plants can photosynthesize, but use animals to move themselves or
+			their pollen around
+
+	Still need to worry about co-ordination and cheating
+
+----------------------------------------------------------------------
+
+One-way help
+
+	Birds nesting in trees
+
+	Poop provides food for dung beetles
+
+	Typically no cost to helper
+
+		ANS Since they get no benefit, there is strong selection against
+		paying a cost
+
+	Cheating is not possible in these cases
+
+		ANS \textbf{Beneficiary} is distinct from the helper
+
+----------------------------------------------------------------------
+
+Symmetric help
+
+	Things that are poisonous or otherwise hard to eat benefit from looking
+	obvious, so that they don't get attacked
+
+		They also benefit from looking like \emph{each other}
+
+		This is called \textbf{Mullerian mimicry}
+
+	Co-ordination is not a problem, since each species wants to be recognized
+
+----------------------------------------------------------------------
+
+PSLIDE Mullerian mimicry
+
+WIDEFIG Heliconius_mimicry.cropped.png
+
+----------------------------------------------------------------------
+
+Batesian mimicry
+
+	Similar organisms that are \emph{not} poisonous also benefit from looking
+	like the nasty ones
+
+	This is an example of
+
+		ANS Free riding
+
+	Batesian mimics tend to be rare: why?
+
+----------------------------------------------------------------------
+
+PSLIDE Batesian mimicry
+
+WIDEFIG webpix/hoverfly_mimic.png
+
+----------------------------------------------------------------------
+
+Mixed flocks and schools
+
+	Different species of birds or fish may associate with each other and respond
+	to each others' alarm behaviours
+
+		Again, co-ordination is not a problem
+
+		What about free riding?
+
+			ANS Species or individuals relying on others to be alert
+
+----------------------------------------------------------------------
+
+Relative advantage
+
+	Different organisms with different abilities can work together
+
+		ANS Eukaryotes and their captured organelles
+
+			ANS Mitochondria, chloroplasts, apicoplasts
+
+		ANS Plants and pollen spreaders
+
+		ANS Plants and seed disperses
+
+		ANS So many others!
+
+----------------------------------------------------------------------
+
+Trading
+
+	Trades based on relative advantage very often have the possibility of
+	cheating
+
+	An organism may take advantage of provided resources without providing a
+	service
+
+		Hummingbirds may drink nectar without spreading pollen
+
+		Or orchids might attract insects without providing useful food resources
+
+			Sometimes by mimicking female insects
+
+----------------------------------------------------------------------
+
+PSLIDE Hummingbird flower
+
+FIG webpix/hummingbird_flower.jpg
+
+----------------------------------------------------------------------
+
+Example: ant-plant mutualisms
+
+	Some trees provide resources to ants who live on them and defend them from
+	other things that want to eat them
+
+	Some of these are highly developed, and \textbf{obligatory} for both species
+
+		Ants live nowhere else
+
+		Trees do not thrive without ants
+
+----------------------------------------------------------------------
+
+CONT Ant-plant mutualisms
+
+	Trees have a wide variety of resources just for the ants:
+
+		special thorns for them to live in
+
+		special nectaries and protein sources
+
+	They protect themselves from exploitation by not producing these things
+	unless the ants signal them
+
+	There are several species of cheater ants anyway; these mimic the
+	mutualistic ants
+
+----------------------------------------------------------------------
+
+PSLIDE Acacia ants
+
+FIG webpix/acacia_ants.jpg
+
+----------------------------------------------------------------------
+
+
+Evolution and co-evolution
+
+	Many species have elaborate defenses against cheaters
+
+		Bacteria have to pass a large number of tests to enter and survive in
+		squid light organs; squids expel them frequently anyway
+
+		Plants punish or reward bacterial nodules depending on how much nitrogen
+		they fix
+
+			If nitrogen is abundant, they may shut down the nodules entirely
+
+		Fruits with thick skins
+
+			ANS Less likely to be penetrated by small things that won't spread them
+
+----------------------------------------------------------------------
+
+Balance
+
+	Many mutualisms survive in balance with cheaters
+
+	Cheaters may do well only when in low abundance
+
+		Batesian mimics
+
+		“Pirates” of ant-plant interactions
+
+			Need to make a profit quickly and move on
+
+----------------------------------------------------------------------
+
+Linkage
+
+	Similar to within-species cooperation, there can be a lot of conflict when
+	fitness is not well linked, and more efficient evolution when species become
+	linked more closely
+
+	Some species can \emph{only} survive with particular mutualists
+
+		ants and some acacia trees
+
+		arbuscular fungi and most plants
+
+	Others might have very weak relationships
+
+		Vertebrates eating fruit from a particular plant
+
+----------------------------------------------------------------------
+
+Example: leaf-cutter ants
+
+	Leaf cutter ants have no ability to digest leaves
+
+	They are completely dependent on highly specialized fungi that they raise
+
+		These fungi have no ability to survive without ants
+
+	The association is highly evolved
+
+		The ants culture bacteria that attack cheating fungi, but not their own
+		fungi
+
+----------------------------------------------------------------------
+
+Example: Mitochondria
+
+	We don't think of mitochondria as having independent fitness, but there is
+	almost always some potential for conflict in biology
+
+	Most eukaryotes have mitochondria inherited from a single parent
+
+		ANS To reduce mitochondrial competition that would be bad for the
+		eukaryote
+
+	Sometimes mitochondria are able to cause conflict with the eukaryote anyway!
+
+		ANS Suppress production of offspring which don't include them
+
+		ANS For example, by favoring a female-biased sex ratio in less-complex
+		eukaryotes
+
+----------------------------------------------------------------------
+
+
+EXTRA
+
+fungus-farming, aphid-tending
+	bacterial associations
+
+Fruit overloading (sugar or fat)
+	avocado, plaintain, olive
+
+Horizontal vs vertical transmission
+
+From Tests:
+
+Something about EPS co-operation and RPS dynamics (or not)
+
+Could be two questions, because EPS parasites would need to balance, they couldn't take over
+
+

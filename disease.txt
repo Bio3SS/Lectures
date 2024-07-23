@@ -2,6 +2,22 @@ UNIT 8: Infectious disease
 
 ----------------------------------------------------------------------
 
+EXTRA
+
+Could flesh out more
+
+A bit more detail about reciprocal control/replenishment
+
+More on pathogen aggressiveness biology
+
+As much more heterogeneity as you want; at least the fragile-heterogeneity lines
+
+Case fatality
+
+Incidence and prevalence
+
+----------------------------------------------------------------------
+
 SEC Introduction
 
 ----------------------------------------------------------------------
@@ -331,6 +347,8 @@ NC
 SIDEFIG boxes/generationTime.Rout-0.pdf
 
 EC
+
+ADD We could have more about compound interest and variation
 
 ----------------------------------------------------------------------
 
@@ -757,9 +775,9 @@ What limits epidemics?
 
 	POLL  What else limits epidemics in real life?
 
-		ANS Interventions
+		ANS Interventions; changes in government policy, medicine, vaccines
 
-		ANS Behaviour change
+		ANS Behaviour change; people stay home, wear masks, avoid sick people
 
 		ANS Heterogeneity (differences between hosts, locations, etc.)
 
@@ -776,6 +794,8 @@ BC
 		ANS People might lose immunity
 
 		ANS Births and deaths; newborns are susceptible
+
+		ANS Pathogen evolution
 
 NC
 
@@ -902,6 +922,14 @@ Reciprocal control
 		ANS If we remove infectious individuals fast enough, the infection could
 		go extinct
 
+		ANS $\R_c S/N \leq 1$
+
+----------------------------------------------------------------------
+
+REPSLIDE Single-epidemic model
+
+FIG sims/burnouts.plots.Rout-4.pdf
+
 ----------------------------------------------------------------------
 
 Tendency to oscillate
@@ -970,6 +998,12 @@ EC
 
 ----------------------------------------------------------------------
 
+COVID in Ontario
+
+DOUBLEFIG covidCA/ON_class.Rout-0.pdf covidCA/ON_class.Rout-1.pdf
+
+----------------------------------------------------------------------
+
 Behaviour and policy change
 
 ADD Repeated pictures of oscillations and covid
@@ -984,6 +1018,28 @@ ADD Repeated pictures of oscillations and covid
 
 			ANS Not everyone mixes the same, or at the same time
 
+		ANS Is \scv\ following a similar pattern now?
+
+----------------------------------------------------------------------
+
+PRESLIDE Post-pandemic COVID
+
+FIG dd/covid_post.Rout-0.pdf
+
+----------------------------------------------------------------------
+
+PRESLIDE Post-pandemic COVID
+
+FIG dd/covid_post.Rout-1.pdf
+
+----------------------------------------------------------------------
+
+ASLIDE Post-pandemic COVID
+
+DOUBLEPDF dd/covid_post.Rout
+
+ADD Make this a regular slide; update time series?
+
 ----------------------------------------------------------------------
 
 TSEC Reproductive numbers and risk
@@ -996,6 +1052,8 @@ TSEC Reproductive numbers and risk
 
 	If you have a single, fast epidemic, the size is also predicted by
 	\Ro.
+
+	ADD Prevalence and incidence
 
 ----------------------------------------------------------------------
 

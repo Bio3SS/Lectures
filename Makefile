@@ -19,6 +19,8 @@ current: target
 
 ######################################################################
 
+-include allsteps.mk
+
 -include makestuff/newtalk.def
 -include makestuff/perl.def
 
@@ -35,7 +37,10 @@ Sources += lectures.txt
 
 ######################################################################
 
+## Kind of a mish-mash, and could maybe be merged
 ## Resource documents (starting with course evaluations from 2021)
+
+## resources/eval2024.pdf
 Ignore += resources
 resources:
 	$(LN) /home/dushoff/Dropbox/resources/3SS/ $@
@@ -44,6 +49,12 @@ Ignore += swamp.jpg
 swamp.jpg: resources/swamp_orig.jpg Makefile
 	convert -crop 5760x2304+0+1000 -scale 41.67% $< $@
 	## convert -crop 5760x2304 -scale 41.67% $< $@
+
+Sources += drop.md
+
+## drop.filemerge: drop.md
+
+######################################################################
 
 ######################################################################
 
@@ -169,7 +180,7 @@ disease.complete.pdf: disease.txt
 # Unit 8B (Corona supplement)
 # Special lesson 2020 (early!) All deleted
 # Supplement 2022 put in its place
-## 2024: Lifting pathogen aggressiveness
+## 2024: Lifting pathogen aggressiveness; probably pretty deprecated now
 corona.poll.csv: corona.txt pollcsv.pl
 corona.html: corona.step
 corona.outline.pdf: corona.txt
@@ -178,6 +189,24 @@ corona.final.pdf: corona.txt
 corona.draft.pdf: corona.txt
 corona.handouts.pdf: corona.txt
 corona.complete.pdf: corona.txt
+
+helping.html: helping.step
+helping.outline.pdf: helping.txt
+
+helping.final.pdf: helping.txt
+helping.draft.pdf: helping.txt
+helping.handouts.pdf: helping.txt
+helping.complete.pdf: helping.txt
+
+######################################################################
+
+## webpix/dd
+
+Ignore += Heliconius_mimicry.cropped.png
+Heliconius_mimicry.cropped.png: webpix/Heliconius_mimicry.png Makefile
+	convert -crop 2100x1035+0+1072 $< $@
+
+######################################################################
 
 Sources += germ.md
 
@@ -288,6 +317,7 @@ video/0122.edit.mp4: 0122.1.mp4 0122.2.mp4 0122.comb.txt
 
 ######################################################################
 
+
 ### Makestuff
 
 Ignore += makestuff
@@ -303,6 +333,7 @@ makestuff/Makefile:
 -include makestuff/webpix.mk
 -include makestuff/hotcold.mk
 -include makestuff/video.mk
+-include makestuff/ldrop.mk
 
 -include makestuff/git.mk
 -include makestuff/visual.mk
