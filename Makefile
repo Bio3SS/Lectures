@@ -247,6 +247,9 @@ Sources += local.txt.format
 Sources += copy.tex
 
 ## Directory-specific latex commands
+## I am using the pop.tex that is here and which is suspiciously similar to 
+## makestuff/lect/pop.tex; unify or otherwise figure out
+## I think the lect/ version is in other 3SS directories
 Sources += pop.tex localcomm.tex
 
 ######################################################################
