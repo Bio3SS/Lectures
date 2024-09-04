@@ -37,7 +37,10 @@ Sources += lectures.txt
 
 ######################################################################
 
+## Kind of a mish-mash, and could maybe be merged
 ## Resource documents (starting with course evaluations from 2021)
+
+## resources/eval2024.pdf
 Ignore += resources
 resources:
 	$(LN) /home/dushoff/Dropbox/resources/3SS/ $@
@@ -46,6 +49,12 @@ Ignore += swamp.jpg
 swamp.jpg: resources/swamp_orig.jpg Makefile
 	convert -crop 5760x2304+0+1000 -scale 41.67% $< $@
 	## convert -crop 5760x2304 -scale 41.67% $< $@
+
+Sources += drop.md
+
+## drop.filemerge: drop.md
+
+######################################################################
 
 ######################################################################
 
@@ -229,6 +238,9 @@ imageDrop = ~/Dropbox/3SS
 Ignore += local.mk
 -include local.mk
 
+testsetup:
+	cp ../local.mk .
+
 ######################################################################
 
 ## Pixfiles (too many!!)
@@ -267,6 +279,9 @@ Sources += local.txt.format
 Sources += copy.tex
 
 ## Directory-specific latex commands
+## I am using the pop.tex that is here and which is suspiciously similar to 
+## makestuff/lect/pop.tex; unify or otherwise figure out
+## I think the lect/ version is in other 3SS directories
 Sources += pop.tex localcomm.tex
 
 ######################################################################
@@ -302,11 +317,6 @@ video/0122.edit.mp4: 0122.1.mp4 0122.2.mp4 0122.comb.txt
 
 ######################################################################
 
-Sources += drop.md
-
-## drop.filemerge: drop.md
-
-######################################################################
 
 ### Makestuff
 
@@ -319,7 +329,7 @@ makestuff/Makefile:
 
 -include makestuff/os.mk
 -include makestuff/newtalk.mk
--include makestuff/texi.mk
+-include makestuff/texj.mk
 -include makestuff/webpix.mk
 -include makestuff/hotcold.mk
 -include makestuff/video.mk
