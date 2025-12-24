@@ -2,6 +2,13 @@ BIO3SS3: Population Ecology
 
 ----------------------------------------------------------------------
 
+EXTRA
+
+Update spreadsheet link
+
+----------------------------------------------------------------------
+
+
 UNIT 1: Introduction
 
 ----------------------------------------------------------------------
@@ -53,8 +60,6 @@ Expectations of students
 	Don't use the internet for non-class activities
 
 	Attend the lecture, and the mandatory tutorials
-
-		CORRECTION Tutorials start week of 15 Jan
 
 ----------------------------------------------------------------------
 
@@ -184,13 +189,13 @@ FIG my_images/macFeb21res.png
 
 ----------------------------------------------------------------------
 
-TAs
+PSLIDE TAs
 
 FIG my_images/mysteryTAs.png
 
 ----------------------------------------------------------------------
 
-Students
+PSLIDE Students
 
 	POLL   What year are you in? First; Second; Third; Fourth; other
 
@@ -416,7 +421,7 @@ BC
 
 		ANS 125?
 
-		HREF http://tinyurl.com/DandelionModel2024 Dandelion spreadsheet
+		HREF http://tinyurl.com/DandelionModel2026 Dandelion spreadsheet
 
 	The spreadsheet is an implementation of a dynamical model!
 
