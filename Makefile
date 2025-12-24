@@ -3,6 +3,7 @@
 current: target
 -include target.mk
 
+## https://avenue.cllmcmaster.ca/d2l/home/757445
 ## https://avenue.cllmcmaster.ca/d2l/home/595825
 
 ######################################################################
@@ -15,7 +16,9 @@ current: target
 #### Course admin/course offering information/active (then save)
 
 ## UPDATE this number EVERYWHERE!
-## :%s/413706/595825/g
+## Then put back one of the old ones maybe
+## https://avenue.cllmcmaster.ca/d2l/home/757445
+## :%s/757445/757445/g
 
 ######################################################################
 
@@ -80,15 +83,15 @@ Sources += $(wildcard *.txt *.poll)
 
 # Unit 1 (Intro)
 
-intro.poll.csv: intro.txt pollcsv.pl
-intro.html: intro.step
-intro.outline.pdf: intro.txt
+## intro.poll.csv: intro.txt pollcsv.pl
+## intro.html: intro.step
+## intro.outline.pdf: intro.txt
 
-intro.draft.pdf: intro.txt
-intro.final.pdf: intro.txt
-intro.handouts.pdf: intro.txt
-intro.complete.pdf: intro.txt
-intro.handouts.docx: intro.handouts.tex
+## intro.draft.pdf: intro.txt intro.draft.tex
+## intro.final.pdf: intro.txt
+## intro.handouts.pdf: intro.txt
+## intro.complete.pdf: intro.txt
+## intro.handouts.docx: intro.handouts.tex
 
 math.handouts.pdf: math.txt
 math.complete.pdf: math.txt

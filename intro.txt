@@ -112,22 +112,6 @@ SS People
 
 ----------------------------------------------------------------------
 
-EXTRA Li
-
-	Ex-TA
-	
-	Post-doc
-
-	Studies evolution and spread of infectious diseases
-
-		Rabies, ebola, influenza, \ldots
-
-		Statistics, math, theoretical biology, computations, \ldots 
-
-		Mechanisms and disease control
-
-----------------------------------------------------------------------
-
 Dushoff
 
 	Loves math
@@ -164,7 +148,6 @@ WIDEFIG webpix/mantenga.jpg
 
 --------------------------------------------------------------------
 
-
 PSLIDE Which country? 
 
 WIDEFIG webpix/101.jpg
@@ -185,9 +168,25 @@ WIDEFIG my_images/weitz_full.pdf
 
 PSLIDE Disease research
 
-FIG dd/coronaCA.Rout-0.pdf
+FIG my_images/macFeb21pre.png
 
-ADD This picture is not necessarily stable
+----------------------------------------------------------------------
+
+PSLIDE Disease research
+
+FIG my_images/macFeb21pre.png
+
+----------------------------------------------------------------------
+
+PSLIDE Disease research
+
+FIG my_images/macFeb21res.png
+
+----------------------------------------------------------------------
+
+TAs
+
+FIG my_images/mysteryTAs.png
 
 ----------------------------------------------------------------------
 
@@ -446,7 +445,7 @@ BC
 
 	A pest species that feeds on deciduous trees
 
-	Introduced to N. America from Europe ~ 150 years ago
+	Introduced to N. America from Europe 6000 years ago
 
 	Capable of wide-scale defoliation
 
