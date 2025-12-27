@@ -43,18 +43,20 @@ Sources += lectures.txt
 ## Kind of a mish-mash, and could maybe be merged
 ## Resource documents (starting with course evaluations from 2021)
 
-## resources/eval2024.pdf
-Ignore += resources
-resources:
-	$(LN) /home/dushoff/Dropbox/resources/3SS/ $@
-
 Ignore += swamp.jpg
 swamp.jpg: resources/swamp_orig.jpg Makefile
 	convert -crop 5760x2304+0+1000 -scale 41.67% $< $@
 	## convert -crop 5760x2304 -scale 41.67% $< $@
 
-## drop.filemerge: drop.md
+## Random subject resources
+mirrors += drop
 Sources += drop.md
+## drop.filemerge: drop.md
+
+## Admin style stuff
+## Evals are here, and classroom info should be here
+## Pictures are mostly in ../web/ (see Makefile)
+mirrors += resources
 
 ######################################################################
 
