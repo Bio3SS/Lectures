@@ -53,11 +53,8 @@ swamp.jpg: resources/swamp_orig.jpg Makefile
 	convert -crop 5760x2304+0+1000 -scale 41.67% $< $@
 	## convert -crop 5760x2304 -scale 41.67% $< $@
 
-Sources += drop.md
-
 ## drop.filemerge: drop.md
-
-######################################################################
+Sources += drop.md
 
 ######################################################################
 
@@ -320,15 +317,17 @@ video/0122.edit.mp4: 0122.1.mp4 0122.2.mp4 0122.comb.txt
 
 ######################################################################
 
-
 ### Makestuff
 
 Ignore += makestuff
 msrepo = https://github.com/dushoff
-Makefile: makestuff/Makefile
-makestuff/Makefile:
-	git clone $(msrepo)/makestuff
-	ls $@
+Makefile: makestuff/00.stamp
+makestuff/%.stamp: | makestuff
+	- $(RM) makestuff/*.stamp
+	cd makestuff && $(MAKE) pull
+	touch $@
+makestuff:
+	git clone --depth 1 $(msrepo)/makestuff
 
 -include makestuff/os.mk
 -include makestuff/newtalk.mk
@@ -336,7 +335,8 @@ makestuff/Makefile:
 -include makestuff/webpix.mk
 -include makestuff/hotcold.mk
 -include makestuff/video.mk
--include makestuff/ldrop.mk
+-include makestuff/mirror.mk
+## -include makestuff/ldrop.mk
 
 -include makestuff/git.mk
 -include makestuff/visual.mk

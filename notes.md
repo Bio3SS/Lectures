@@ -1,8 +1,4 @@
 
-Unit 8
+Ask for an avenue shell in early December
 
-Life tables
-
-Turnover
-
-Exploitation equilibria
+Follow instructions for echo360 course integration
