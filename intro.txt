@@ -8,7 +8,6 @@ Update spreadsheet link
 
 ----------------------------------------------------------------------
 
-
 UNIT 1: Introduction
 
 ----------------------------------------------------------------------
@@ -96,7 +95,7 @@ Taking notes
 	You will do best if you take notes
 
 		You should know by now what works for you
-		
+
 		Or else that you need to keep working on it
 
 	If a new concept is making sense to you right now, write something
@@ -108,8 +107,6 @@ Taking notes
 ----------------------------------------------------------------------
 
 Polling
-
-	Text from your cell phone, or answer on the web
 
 	POLL  Why are you taking this class? Fits my career plans; Prerequisite for another course; Need a biology elective; Fits my schedule; Interested in ecology; Interested in quantitative biology
 
@@ -130,9 +127,9 @@ Dushoff
 		HIV, rabies, ebola, influenza, \ldots
 
 		SHORTCLASS See notes for more info
-		
+
 		NOTES HLINK https://mac-theobio.github.io/dushoff.html
-		
+
 		NOTES HLINK https://twitter.com/jd_mathbio
 
 ----------------------------------------------------------------------
@@ -191,10 +188,23 @@ FIG my_images/macFeb21res.png
 
 ----------------------------------------------------------------------
 
-PSLIDE TAs
+EXTRA PSLIDE TAs
 
 FIG my_images/mysteryTAs.png
 
+----------------------------------------------------------------------
+
+PSLIDE TAs
+
+BCC
+
+CFIG webpix/tate.png
+
+NCC
+
+CFIG webpix/weeknd.jpg
+
+EC
 ----------------------------------------------------------------------
 
 PSLIDE Students
@@ -245,14 +255,15 @@ Population ecology
 
 		ANS Larger spatial scale, longer temporal scale
 
-		ANS We use \emph{dynamical models} to link from the individual
-		level to the population level
+		ADD Used to be here:  We use ...
 
 ----------------------------------------------------------------------
 
 Dynamical modeling
 
 BC
+
+	We use \emph{dynamical models} to link from the individual level to the population level
 
 	Investigates the links between local, short-term processes, and
 	large-scale, long-term outcomes
@@ -400,7 +411,6 @@ NC
 SIDEFIG webpix/dandy_field.jpg
 
 SIDEFIG webpix/dandy_flower.jpg
-
 
 EC
 

@@ -323,7 +323,7 @@ video/0122.edit.mp4: 0122.1.mp4 0122.2.mp4 0122.comb.txt
 
 Ignore += makestuff
 msrepo = https://github.com/dushoff
-Makefile: makestuff/00.stamp
+Makefile: makestuff/01.stamp
 makestuff/%.stamp: | makestuff
 	- $(RM) makestuff/*.stamp
 	cd makestuff && $(MAKE) pull
