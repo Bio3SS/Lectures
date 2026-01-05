@@ -2,6 +2,12 @@ BIO3SS3: Population Ecology
 
 ----------------------------------------------------------------------
 
+EXTRA
+
+Update spreadsheet link
+
+----------------------------------------------------------------------
+
 UNIT 1: Introduction
 
 ----------------------------------------------------------------------
@@ -16,7 +22,7 @@ SS Course structure
 
 Communication
 
-	Lecture notes for each section will be available the night
+	Lecture notes for each section will be available the afternoon
 	before you need them
 
 		Check Avenue frequently for announcements and new information
@@ -25,7 +31,9 @@ Communication
 
 		Contact via forum on Avenue
 
-		or email
+		CLASS or email
+
+		NOTES or email dushoff@mcmaster.ca 
 
 ----------------------------------------------------------------------
 
@@ -53,8 +61,6 @@ Expectations of students
 	Don't use the internet for non-class activities
 
 	Attend the lecture, and the mandatory tutorials
-
-		CORRECTION Tutorials start week of 15 Jan
 
 ----------------------------------------------------------------------
 
@@ -89,7 +95,7 @@ Taking notes
 	You will do best if you take notes
 
 		You should know by now what works for you
-		
+
 		Or else that you need to keep working on it
 
 	If a new concept is making sense to you right now, write something
@@ -102,29 +108,11 @@ Taking notes
 
 Polling
 
-	Text from your cell phone, or answer on the web
-
 	POLL  Why are you taking this class? Fits my career plans; Prerequisite for another course; Need a biology elective; Fits my schedule; Interested in ecology; Interested in quantitative biology
 
 ----------------------------------------------------------------------
 
 SS People
-
-----------------------------------------------------------------------
-
-EXTRA Li
-
-	Ex-TA
-	
-	Post-doc
-
-	Studies evolution and spread of infectious diseases
-
-		Rabies, ebola, influenza, \ldots
-
-		Statistics, math, theoretical biology, computations, \ldots 
-
-		Mechanisms and disease control
 
 ----------------------------------------------------------------------
 
@@ -139,9 +127,9 @@ Dushoff
 		HIV, rabies, ebola, influenza, \ldots
 
 		SHORTCLASS See notes for more info
-		
+
 		NOTES HLINK https://mac-theobio.github.io/dushoff.html
-		
+
 		NOTES HLINK https://twitter.com/jd_mathbio
 
 ----------------------------------------------------------------------
@@ -164,7 +152,6 @@ WIDEFIG webpix/mantenga.jpg
 
 --------------------------------------------------------------------
 
-
 PSLIDE Which country? 
 
 WIDEFIG webpix/101.jpg
@@ -185,13 +172,42 @@ WIDEFIG my_images/weitz_full.pdf
 
 PSLIDE Disease research
 
-FIG dd/coronaCA.Rout-0.pdf
-
-ADD This picture is not necessarily stable
+FIG my_images/macFeb21pre.png
 
 ----------------------------------------------------------------------
 
-Students
+PSLIDE Disease research
+
+FIG my_images/macFeb21pre.png
+
+----------------------------------------------------------------------
+
+PSLIDE Disease research
+
+FIG my_images/macFeb21res.png
+
+----------------------------------------------------------------------
+
+EXTRA PSLIDE TAs
+
+FIG my_images/mysteryTAs.png
+
+----------------------------------------------------------------------
+
+PSLIDE TAs
+
+BCC
+
+CFIG webpix/tate.png
+
+NCC
+
+CFIG webpix/weeknd.jpg
+
+EC
+----------------------------------------------------------------------
+
+PSLIDE Students
 
 	POLL   What year are you in? First; Second; Third; Fourth; other
 
@@ -239,14 +255,15 @@ Population ecology
 
 		ANS Larger spatial scale, longer temporal scale
 
-		ANS We use \emph{dynamical models} to link from the individual
-		level to the population level
+		ADD Used to be here:  We use ...
 
 ----------------------------------------------------------------------
 
 Dynamical modeling
 
 BC
+
+	We use \emph{dynamical models} to link from the individual level to the population level
 
 	Investigates the links between local, short-term processes, and
 	large-scale, long-term outcomes
@@ -395,7 +412,6 @@ SIDEFIG webpix/dandy_field.jpg
 
 SIDEFIG webpix/dandy_flower.jpg
 
-
 EC
 
 ----------------------------------------------------------------------
@@ -417,7 +433,7 @@ BC
 
 		ANS 125?
 
-		HREF http://tinyurl.com/DandelionModel2024 Dandelion spreadsheet
+		HREF http://tinyurl.com/DandelionModel2026 Dandelion spreadsheet
 
 	The spreadsheet is an implementation of a dynamical model!
 
@@ -446,7 +462,7 @@ BC
 
 	A pest species that feeds on deciduous trees
 
-	Introduced to N. America from Europe ~ 150 years ago
+	Introduced to N. America from Europe 6000 years ago
 
 	Capable of wide-scale defoliation
 

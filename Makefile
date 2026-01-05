@@ -3,6 +3,7 @@
 current: target
 -include target.mk
 
+## https://avenue.cllmcmaster.ca/d2l/home/757445
 ## https://avenue.cllmcmaster.ca/d2l/home/595825
 
 ######################################################################
@@ -15,7 +16,9 @@ current: target
 #### Course admin/course offering information/active (then save)
 
 ## UPDATE this number EVERYWHERE!
-## :%s/413706/595825/g
+## Then put back one of the old ones maybe
+## https://avenue.cllmcmaster.ca/d2l/home/757445
+## :%s/757445/757445/g
 
 ######################################################################
 
@@ -37,15 +40,23 @@ Sources += lectures.txt
 
 ######################################################################
 
+## Kind of a mish-mash, and could maybe be merged
 ## Resource documents (starting with course evaluations from 2021)
-Ignore += resources
-resources:
-	$(LN) /home/dushoff/Dropbox/resources/3SS/ $@
 
 Ignore += swamp.jpg
 swamp.jpg: resources/swamp_orig.jpg Makefile
 	convert -crop 5760x2304+0+1000 -scale 41.67% $< $@
 	## convert -crop 5760x2304 -scale 41.67% $< $@
+
+## Random subject resources
+mirrors += drop
+Sources += drop.md
+## drop.filemerge: drop.md
+
+## Admin style stuff
+## Evals are here, and classroom info should be here
+## Pictures are mostly in ../web/ (see Makefile)
+mirrors += resources
 
 ######################################################################
 
@@ -71,15 +82,15 @@ Sources += $(wildcard *.txt *.poll)
 
 # Unit 1 (Intro)
 
-intro.poll.csv: intro.txt pollcsv.pl
-intro.html: intro.step
-intro.outline.pdf: intro.txt
+## intro.poll.csv: intro.txt pollcsv.pl
+## intro.html: intro.step
+## intro.outline.pdf: intro.txt
 
-intro.draft.pdf: intro.txt
-intro.final.pdf: intro.txt
-intro.handouts.pdf: intro.txt
-intro.complete.pdf: intro.txt
-intro.handouts.docx: intro.handouts.tex
+## intro.draft.pdf: intro.txt intro.draft.tex
+## intro.final.pdf: intro.txt
+## intro.handouts.pdf: intro.txt
+## intro.complete.pdf: intro.txt
+## intro.handouts.docx: intro.handouts.tex
 
 math.handouts.pdf: math.txt
 math.complete.pdf: math.txt
@@ -229,6 +240,9 @@ imageDrop = ~/Dropbox/3SS
 Ignore += local.mk
 -include local.mk
 
+testsetup:
+	cp ../local.mk .
+
 ######################################################################
 
 ## Pixfiles (too many!!)
@@ -267,6 +281,9 @@ Sources += local.txt.format
 Sources += copy.tex
 
 ## Directory-specific latex commands
+## I am using the pop.tex that is here and which is suspiciously similar to 
+## makestuff/lect/pop.tex; unify or otherwise figure out
+## I think the lect/ version is in other 3SS directories
 Sources += pop.tex localcomm.tex
 
 ######################################################################
@@ -302,28 +319,26 @@ video/0122.edit.mp4: 0122.1.mp4 0122.2.mp4 0122.comb.txt
 
 ######################################################################
 
-Sources += drop.md
-
-## drop.filemerge: drop.md
-
-######################################################################
-
 ### Makestuff
 
 Ignore += makestuff
 msrepo = https://github.com/dushoff
-Makefile: makestuff/Makefile
-makestuff/Makefile:
-	git clone $(msrepo)/makestuff
-	ls $@
+Makefile: makestuff/01.stamp
+makestuff/%.stamp: | makestuff
+	- $(RM) makestuff/*.stamp
+	cd makestuff && $(MAKE) pull
+	touch $@
+makestuff:
+	git clone --depth 1 $(msrepo)/makestuff
 
 -include makestuff/os.mk
 -include makestuff/newtalk.mk
--include makestuff/texi.mk
+-include makestuff/texj.mk
 -include makestuff/webpix.mk
 -include makestuff/hotcold.mk
 -include makestuff/video.mk
--include makestuff/ldrop.mk
+-include makestuff/mirror.mk
+## -include makestuff/ldrop.mk
 
 -include makestuff/git.mk
 -include makestuff/visual.mk
