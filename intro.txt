@@ -503,7 +503,7 @@ PRESLIDE Moth calculation
 
 		ANS We end up with 15 moths
 
-		ANS On average
+		ANS Wrong!
 
 ----------------------------------------------------------------------
 
@@ -529,6 +529,8 @@ Moth calculation
 	What happens if we start with 10 moths?
 
 		ANS If 5 are female, we end up with an average of 7.5 moths
+
+		ANS On average
 
 ----------------------------------------------------------------------
 
