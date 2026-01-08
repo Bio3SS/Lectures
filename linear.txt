@@ -59,11 +59,9 @@ Dynamical models
 	\textbf{Dynamical models} describe rules for how a system changes at
 	each point in time
 
-	We will see what these assumptions about how the system
+	We will see how these assumptions about how the system
 	\emph{changes} lead to conclusions about what the system \emph{does}
 	over longer time periods
-
-	ADD should be “how these”
 
 ----------------------------------------------------------------------
 
