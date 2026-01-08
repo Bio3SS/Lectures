@@ -561,7 +561,7 @@ BC
 
 		ANS 86400 \uname{sec}/\uname{day}
 
-	NOTES http://www.alysion.org/dimensional/fun.htm
+	NOTES HREF http://www.alysion.org/dimensional/fun.htm Fun with dimensional analysis page!
 
 NC
 
@@ -708,12 +708,16 @@ Moths
 
 		ANS Not enough information to make a prediction!
 
-		ANS Need to multiply by something with units rF/rA to close the
-		loop
+			ANS We need a unitless quantity
 
 ----------------------------------------------------------------------
 
 Closing the loop
+
+	In this version, we need to know:
+
+		ANS what proportion of reproductive adults are female: 
+		$\uname{rF}/\uname{rA}$
 
 	Once we close the loop, it doesn't matter where we start:
 
