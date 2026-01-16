@@ -1058,6 +1058,10 @@ Characteristic time
 
 		$\exp(3) = 20.1$
 
+		ANS e.g., after 0.01 hr, I will be about 1% closer to the town of Speed
+
+		ANS after 3 hr, I will be about 20 times closer to the town of Speed
+
 ----------------------------------------------------------------------
 
 SEC Growth and regulation
