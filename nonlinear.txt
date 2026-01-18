@@ -1,5 +1,9 @@
 
-EXTRA
+EXTRA Update with information about 2026 student-contributed invasions
+
+----------------------------------------------------------------------
+
+EXTRA 2024 Invasions
 
 Common carp invading Cootes paradise
 
@@ -16,13 +20,6 @@ starlings in New York
 UNIT 3 Non-linear population models
 
 ----------------------------------------------------------------------
-
-EXTRA
-
-ADD an Ebola or Covid example
-
-----------------------------------------------------------------------
-
 
 TSEC Introduction
 
@@ -250,7 +247,7 @@ PRESLIDE Coronavirus
 
 DOUBLEPDF dd/coronaCA.ON
 
-ADD This picture may be updated automatically
+ADD Picked a cutoff date; talk about the testing regime maybe
 
 ----------------------------------------------------------------------
 
@@ -1037,37 +1034,40 @@ Invasion examples
 
 	POLL What are some examples of biological invasions?
 
-	ADD HREF https://avenue.cllmcmaster.ca/d2l/le/news/595825/849579/view?ou=595825 See examples posted by Julianna
+		NOANS
 
-		Thanks to the contributors
+		NOANS
 
-	ADD Update
+		NOANS
+
+		NOANS
+
 
 ----------------------------------------------------------------------
 
 EXTRA
 
-NOANS
+	Examples
 
-NOANS
+		Thanks to the contributors
 
-NOANS
+	Update
 
-NOANS
+	2024 update was very cool HREF https://avenue.cllmcmaster.ca/d2l/le/news/595825/849579/view?ou=595825 See examples posted by Julianna
 
 ----------------------------------------------------------------------
 
-Different behaviours
+Describing equilibria
 
-When $\Ro>1$, the population invades
+	When $\Ro>1$, the population invades
 
-Zero equilibrium is unstable, carrying capacity equilibrium is
-stable
+	Zero equilibrium is unstable, carrying capacity equilibrium is stable
 
-When $\Ro<1$, the population fails to invade
+	When $\Ro<1$, the population fails to invade
 
-Zero equilibrium is stable, carrying capacity equilibrium does
-not exist
+	Zero equilibrium is stable, carrying capacity equilibrium does not exist
+
+ADD Check!!
 
 ----------------------------------------------------------------------
 
@@ -1721,7 +1721,7 @@ ANS if the rate is \emph{larger} when density is low
 
 EXTRA
 
-ADD CUTOFF 2020 Jan 21 (Tue): what does this mean?
+CUTOFF 2020 Jan 21 (Tue): what does this mean? Presumably an exam-notes cutoff, why was that deep?
 
 ----------------------------------------------------------------------
 
