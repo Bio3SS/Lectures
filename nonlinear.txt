@@ -1,4 +1,8 @@
 
+Remember to look for OFFSLIDE/ONSLIDE
+
+----------------------------------------------------------------------
+
 EXTRA Update with information about 2026 student-contributed invasions
 
 ----------------------------------------------------------------------
@@ -351,7 +355,7 @@ Non-linear model
 
 ----------------------------------------------------------------------
 
-REGSLIDE Recruitment
+OFFSLIDE Recruitment
 
 	{\bf Recruitment} is when an organism moves from one life stage to
 	another:
@@ -1121,7 +1125,7 @@ And no malaria in the mainland United States
 
 ----------------------------------------------------------------------
 
-REGSLIDE Characteristic times
+OFFSLIDE Characteristic times
 
 Just like in the simple model, an equilibrium will have a
 characteristic time
@@ -1134,7 +1138,7 @@ to actually get $e$ times closer, or $e$ times farther
 
 ----------------------------------------------------------------------
 
-REGSLIDE PSLIDE Characteristic times
+OFFSLIDE PSLIDE Characteristic times
 
 DOUBLEFIG bd_models/birth.bd.Rout-2.pdf bd_models/birth.bd.Rout-3.pdf
 
@@ -1262,29 +1266,29 @@ We are still assuming that's all we need to know
 
 Parameters
 
-What quantities describe the rules for this system?
+	What quantities describe the rules for this system?
 
-ANS $f_0$ [1]
+		ANS $f_0$ [1]
 
-ANS $p_0$ [1]
+		ANS $p_0$ [1]
 
-ANS $N_f$ [indiv] (or [indiv/area])
+		ANS $N_f$ [indiv] (or [indiv/area])
 
-ANS $N_p$ [indiv] (or [indiv/area])
+		ANS $N_p$ [indiv] (or [indiv/area])
 
 ----------------------------------------------------------------------
 
 What is \Ro?
 
-\R\ is the fecundity multiplied by the lifespan
+	\R\ is the fecundity multiplied by the lifespan
 
-ANS Lifespan = $1/\mu = 1/(1-p)$
+	ANS Lifespan = $1/\mu = 1/(1-p)$
 
-ANS $\R = f/(1-p)$
+	ANS $\R = f/(1-p)$
 
-\Ro\ is \R\ in the limit where density is low
+	\Ro\ is \R\ in the limit where density is low
 
-ANS $f_0/(1-p_0)$
+	ANS $f_0/(1-p_0)$
 
 ----------------------------------------------------------------------
 
@@ -1387,18 +1391,18 @@ DOUBLEPDF compensation/twoPer.plots.Rout
 
 Complex behaviour in our simulations
 
-In our simple models, as $N_T$ increases, what happens to $\lambda$?
+	In our simple models, as $N_T$ increases, what happens to $\lambda$?
 
-ANS We assume it goes down
+		ANS We assume it goes down
 
-POLL In our simple models, as $N_T$ increases, what happens to next year's population? | What happens to next year's population as N_T increases? goes up; goes down; up then down; it depends
+	POLL In our simple models, as $N_T$ increases, what happens to next year's population? | What happens to next year's population as N_T increases? goes up; goes down; up then down; it depends
 
-ANS $\Nprime = \lambda(N) N_T$
+		ANS $\Nprime = \lambda(N) N_T$
 
-ANS It's not obvious! $\lambda$ goes down, but $N$ goes up.
+		ANS It's not obvious! $\lambda$ goes down, but $N$ goes up.
 
-ANS In this model, $\Nprime$ always goes down eventually, but
-other models may differ
+		ANS In this model, $\Nprime$ always goes down eventually, but other
+		models may differ
 
 ----------------------------------------------------------------------
 
@@ -1447,20 +1451,20 @@ DOUBLEFIG compensation/twoPer.plots.Rout-3.pdf compensation/twoPer.plots.Rout-1.
 
 Complex behaviour in our conceptual model
 
-Biologically, when might we expect \Nprime\ to ``turn over''?
+	Biologically, when might we expect \Nprime\ to ``turn over''?
 
-ANS If resources are \emph{depleted}
+		ANS If resources are \emph{depleted}
 
-ANS If there is a \emph{delayed} effect of individuals' not
-having enough resources
+		ANS If there is a \emph{delayed} effect of individuals' not
+		having enough resources
 
-When should the mapping \emph{not} turn over?
+	When should the mapping \emph{not} turn over?
 
-ANS When competition does not lead to depletion
+		ANS When competition does not lead to depletion
 
-ANS When effects of competition are immediate
+		ANS When effects of competition are immediate
 
-ANS When dominant individuals are not affected by crowding
+		ANS When dominant individuals are not affected by crowding
 
 ----------------------------------------------------------------------
 
