@@ -111,12 +111,11 @@ Changing growth rates
 
 		ANS Predators
 
-			ANS But! Unless the amount of predators increases as well, they might
-			do \emph{worse} at controlling the population
+			ANS Sometimes. Only if predator number can increase fast enough. 
 
 		ANS Diseases
 
-			ANS Usually able to increase in proportion to a population
+			ANS Usually can increase fast enough
 
 		ANS Insufficient resources
 
@@ -439,6 +438,8 @@ Reproductive numbers
 	When the population is crowded, individuals are stressed and
 	the reproductive number will typically go down.
 
+		ANS birth rates go down, death rates go up, or both
+
 ----------------------------------------------------------------------
 
 Carrying capacity
@@ -476,8 +477,9 @@ Logistic model
 
 		Units of $N$ must match units of $K$
 
-	Not a linear model, because \emph{population-level} rates are not
-	linear
+	We don't call this a linear model
+
+		* \emph{population-level} rates are not linear
 
 ----------------------------------------------------------------------
 
@@ -508,7 +510,7 @@ Exponential-rates vs.\ logistic
 
 		Rates always stay positive 
 
-	\emph{Looks} a little more scary than the logistic, but it really isn't
+	\emph{Looks} a little more scary than the logistic
 
 ----------------------------------------------------------------------
 
@@ -592,8 +594,8 @@ Characteristic \emph{scale}
 		When $N \ll N_b$, density dependence is linear (and relatively
 		small)
 
-		When $N \gg N_b$, density dependence is exponential, and very
-		large (virtually no births)
+		When $N \gg N_b$, density dependence is exponential, and has very
+		large effect
 
 ----------------------------------------------------------------------
 
@@ -640,7 +642,7 @@ What is the characteristic scale?
 
 BCC
 
-CFIG bd_models/birth.bd.Rout-0.pdf 
+PRESENT CFIG bd_models/birth.bd.Rout-0.pdf 
 
 NCC
 
@@ -807,9 +809,8 @@ BC
 	Increasing death rate might be a good model for organisms
 	that experience density dependence primarily as adults
 
-	For example, in some environments, mussel density might be limited
-	by adult crowding. Although juvenile mussels tend to have a hard
-	time, this might not be density dependent
+	For example, in some environments, mussel density might be regulated
+	primarily by adult crowding. 
 
 NC
 
@@ -922,7 +923,7 @@ Maximum growth rates
 
 		ANS Intermediate between low density and the carrying capacity.
 
-		ANS This is a something we learn from the model
+		ANS This is something we learn from the model
 
 ----------------------------------------------------------------------
 
