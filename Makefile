@@ -105,8 +105,10 @@ linear.draft.pdf: linear.txt
 linear.handouts.pdf: linear.txt
 linear.complete.pdf: linear.txt
 
+## This pathway exists but has issues; only try if somebody makes a specific request
+linear.handouts.docx:
+
 linear.handouts.pdf.pd:
-linear.handouts.docx.pd:
 linear.complete.pdf.pd:
 
 # Unit 3 (Non-linear population growth)
