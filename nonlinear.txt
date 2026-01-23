@@ -1054,6 +1054,20 @@ Invasion examples
 
 ----------------------------------------------------------------------
 
+EXTRA Invasion examples
+
+	kudzu
+
+	covid
+
+	rabbits in Australia
+
+		there was an attempt to control them with disease
+
+	starlings were released in at least one place just for fun
+
+----------------------------------------------------------------------
+
 Describing equilibria
 
 	When $\Ro>1$, the population invades
