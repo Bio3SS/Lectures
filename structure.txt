@@ -299,7 +299,7 @@ DEFHEAD \ldots in structured models
 
 	Continuous time with structure gives people headaches
 
-		So we won't do it here, only for the sake of time and simplicity
+		So we won't do it here, only for the sake of simplicity (and time)
 
 ----------------------------------------------------------------------
 
@@ -412,9 +412,17 @@ Long-term dynamics
 
 	SHORT Skipping calculations, but you can poke if curious
 
-	HREF http://tinyurl.com/DandelionModel2024 Spreadsheet link
+	HREF http://tinyurl.com/DandelionModel2026 Spreadsheet link
 
 	ADD Update year
+
+
+----------------------------------------------------------------------
+
+EXTRA
+
+	http://tinyurl.com/Dandelions2023 Spreadsheet link
+	http://tinyurl.com/DandelionModel2024 Spreadsheet link
 
 ----------------------------------------------------------------------
 
