@@ -5,7 +5,12 @@ UNIT 4: Structured populations
 
 EXTRA
 
-Clean up the logic here. Make sure you know what's in or out for the short version. Clarify when you're talking about long-term and year-to-year lambda
+Found in 2026 and didn't have much time to deal; update as you go.
+
+Clean up the logic here. Make sure you know what's in or out for the short version. 
+
+Clarify when you're talking about long-term and year-to-year lambda
+* Should be done 2026, check
 
 Replace some content about age distributions and so forth
 
@@ -143,8 +148,22 @@ What determines $\lambda$?
 
 		ANS 0.5 for 1-year-olds and 0 for 2-year-olds.
 
-		ANS We can't take an average, because we don't know the
+		ANS It can change from year to year!
+
+----------------------------------------------------------------------
+
+Long-term growth
+
+	Let's define $\bar\lambda$ as the long-term average rate of growth.
+
+		$ N \approx N_0 \bar\lambda^T $
+
+	Can we calculate $\bar\lambda$ if $p$ is changing?
+
+		ANS We can't take an average over ages until we know the
 		population structure
+
+		ANS Not easy to find the population structure until we know $\bar\lambda$
 
 ----------------------------------------------------------------------
 
@@ -169,12 +188,12 @@ What determines $\R$?
 
 ----------------------------------------------------------------------
 
-What does \R\ tell us about $\lambda$?
+What does \R\ tell us about $\bar\lambda$?
 
-	ANS Population increases when $\R>1$, so $\lambda>1$ exactly
+	ANS Population increases when $\R>1$, so $\bar\lambda>1$ exactly
 	when  $\R>1$
 
-	If $\R=1.2$, then $\lambda$
+	If $\R=1.2$, then $\bar\lambda$
 
 		ANS $>1$ -- the population is increasing
 
@@ -219,7 +238,7 @@ Regulation
 
 ----------------------------------------------------------------------
 
-REGSLIDE CSLIDE Complexity
+REGCOMMENT Complexity
 
 ADD Better art!
 
@@ -400,7 +419,9 @@ Long-term dynamics
 			the \emph{proportion} of individuals in each age class is
 			constant
 
-		a stable value of $\lambda$
+		a stable value of $\lambda_T$
+
+			ANS Multiplicative growth each step approaches a constant
 
 			if the proportions are constant, then we can average over
 			$f_x$ and $p_x$, and the system will behave like our simple
@@ -828,30 +849,30 @@ SS Measuring growth rates
 
 ----------------------------------------------------------------------
 
-SHORTCOMMENT Calculating $\lambda$
+SHORTCOMMENT Calculating $\bar\lambda$
 
 	In a constant population, each age class replaces itself:
 
 		$\R = \sum_x \ell_x f_x = 1$
 
 	In an exponentially changing population, each year's {\bf cohort} is
-	a factor of $\lambda$ bigger (or smaller) than the previous one
+	a factor of $\bar\lambda$ bigger (or smaller) than the previous one
 
-		$\lambda$ is the finite rate of increase, like before
+		$\bar\lambda$ is the finite rate of increase, like before
 
-	Looking back in time, the cohort $x$ years ago is $\lambda^{-x}$ as
+	Looking back in time, the cohort $x$ years ago is $\bar\lambda^{-x}$ as
 	large as the current one
 
 	The existing cohorts need to make the next one:
 
-		$\sum_x \ell_x f_x \lambda^{-x} = 1$
+		$\sum_x \ell_x f_x \bar\lambda^{-x} = 1$
 
 ----------------------------------------------------------------------
 
 REGSLIDE The Euler equation
 
-	If the life table doesn't change, then $\lambda$ is given by $\sum_x
-	\ell_x f_x \lambda^{-x} = 1$
+	If the life table doesn't change, then $\bar\lambda$ is given by $\sum_x
+	\ell_x f_x \bar\lambda^{-x} = 1$
 
 	We basically ask, if the population has the structure we would
 	expect from growing at rate $\lambda$, would it continue to grow at
@@ -869,32 +890,34 @@ REGSLIDE The Euler equation
 
 ----------------------------------------------------------------------
 
-DEFHEAD $\lambda$ and \R
+DEFHEAD $\bar\lambda$ and \R
 
-	If the life table doesn't change, then $\lambda$ is given by $\sum_x
-	\ell_x f_x \lambda^{-x} = 1$
+	If the life table doesn't change, then $\bar\lambda$ is given by $\sum_x
+	\ell_x f_x \bar\lambda^{-x} = 1$
 
-		What's the relationship between $\lambda$ and \R?
+		What's the relationship between $\bar\lambda$ and \R?
 
-	When $\lambda=1$, the left hand side is just \R.
+	When $\bar\lambda=1$, the left hand side is just \R.
 
 		If $\R>1$, the population more than replaces itself when
-		$\lambda=1$.  We must make $\lambda>1$ to decrease LHS and
+		$\bar\lambda=1$.  We must make $\bar\lambda>1$ to decrease LHS and
 		balance.
 
 		If $\R<1$, the population fails to replace itself when
-		$\lambda=1$.  We must make $\lambda<1$ to increase LHS and
+		$\bar\lambda=1$.  We must make $\bar\lambda<1$ to increase LHS and
 		balance.
 
-	So \R\ and $\lambda$ tell the same story about whether the population
+	So \R\ and $\bar\lambda$ tell the same story about whether the population
 	is increasing
 
 ----------------------------------------------------------------------
 
 Time scales
 
-	$\lambda$ gives the number of individuals per individual \emph{every
+	$\bar\lambda$ gives the number of individuals per individual \emph{every
 	year}
+
+		In the long term
 
 	$\R$ gives the number of individuals per individual \emph{over a
 	lifetime}
@@ -909,7 +932,7 @@ Time scales
 		ANS The \R\ offspring are produced slowly, so population changes
 		slowly
 
-			ANS $\lambda$ should be closer to 1 than \R\ is.
+			ANS $\bar\lambda$ should be closer to 1 than \R\ is.
 
 			ANS But on the same side (same answer about whether population
 			is growing)
@@ -918,11 +941,11 @@ Time scales
 
 Studying population growth
 
-	$\lambda$ and \R\ give related information about your population
+	$\bar\lambda$ and \R\ give related information about your population
 
 	\R\ is easier to calculate, and more generally useful
 
-	But $\lambda$ gives the actual rate of growth
+	But $\bar\lambda$ gives the actual rate of growth
 
 		More useful in cases where we expect the life table to be
 		constant with exponential growth or decline for a long time
@@ -932,15 +955,15 @@ Studying population growth
 Growth and decline
 
 	If we think a particular period of growth or decline is important,
-	we might want to study how factors affect $\lambda$
+	we might want to study how factors affect $\bar\lambda$
 
 		Complicated, but well-developed, theory
 
 		In a growing population, what happens early in life is more
-		important to $\lambda$ than to \R.
+		important to $\bar\lambda$ than to \R.
 
 		In a declining population, what happens late in life is more
-		important to $\lambda$ than to \R.
+		important to $\bar\lambda$ than to \R.
 
 	POLL Which phase is likely to be more important to ecology and evolution?
 
@@ -1097,7 +1120,11 @@ SHORTSLIDE Age distributions
 
 ----------------------------------------------------------------------
 
-REGSLIDE TSEC Age distributions
+SEC Age distributions
+
+----------------------------------------------------------------------
+
+LONGSLIDE Age distributions
 
 	HLINK http://www.gapminder.org/population/tool/
 
@@ -1105,19 +1132,19 @@ REGSLIDE TSEC Age distributions
 
 ----------------------------------------------------------------------
 
-REGSLIDE CSLIDE Age distributions
+LONGSLIDE CSLIDE Age distributions
 
 WIDEFIG webpix/israelpop.png
 
 ----------------------------------------------------------------------
 
-REGSLIDE CSLIDE Age distributions
+LONGSLIDE CSLIDE Age distributions
 
 WIDEFIG webpix/cypruspop.png
 
 ----------------------------------------------------------------------
 
-REGSLIDE CSLIDE Age distributions
+LONGSLIDE CSLIDE Age distributions
 
 WIDEFIG webpix/iranpop.png
 
@@ -1129,13 +1156,13 @@ WIDEFIG webpix/canadapop.jpg
 
 ----------------------------------------------------------------------
 
-REGSLIDE CSLIDE Age distributions
+LONGSLIDE CSLIDE Age distributions
 
 WIDEFIG webpix/bahrainpop.jpg
 
 ----------------------------------------------------------------------
 
-REGSLIDE CSLIDE Age distributions
+LONGSLIDE CSLIDE Age distributions
 
 WIDEFIG webpix/cambodiapop.png
 
@@ -1243,8 +1270,8 @@ FIG age/arch_sad.Rout-1.pdf
 
 REGSLIDE REPSLIDE The Euler equation
 
-	If the life table doesn't change, then $\lambda$ is given by $\sum_x
-	\ell_x f_x \lambda^{-x} = 1$
+	If the life table doesn't change, then $\bar\lambda$ is given by $\sum_x
+	\ell_x f_x \bar\lambda^{-x} = 1$
 
 	If the population has the structure we would
 	expect from growing at rate $\lambda$, would it continue to grow at
@@ -1335,7 +1362,7 @@ Unregulated growth
 
 	Similar to constant life table
 
-		Can calculate \R\ and $\lambda$ (will be consistent with each
+		Can calculate \R\ and $\bar\lambda$ (will be consistent with each
 		other)
 
 		Can calculate a stable stage distribution
@@ -1366,7 +1393,7 @@ TSS Regulated growth
 	exponentially
 
 	We do not expect that the long-term average value of \R\ or
-	$\lambda$ will be exactly 1.
+	$\bar\lambda$ will be exactly 1.
 
 		ANS So we need regulation in real life
 
@@ -1394,7 +1421,7 @@ Regulation and structure
 
 	We expect real populations to be regulated
 
-	The long-term average value of $\lambda$ under regulation
+	Under regulation, the value of $\bar\lambda$ under regulation
 	\emph{could} be exactly 1
 
 	There is also likely to be substantial variation from year to year,
