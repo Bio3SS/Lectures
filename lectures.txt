@@ -2,9 +2,14 @@
 2026
 ====
 
-## Intro
+## Intro (around 3 lectures)
 L1 to gypsy moth split-plot slide
 L2 to Provinces of Canada; try to finish next time?
+L3 Finished, I think
+
+## Linear (around 3 lectures)
+
+Nonlinear (around 5) plus a snow day 🙁
 
 ----------------------------------------------------------------------
 
@@ -14,6 +19,7 @@ Make rules for “lecture” slides, using lecture.fmt …
 Look for REG... and also ON... OFF... (maybe also LONG/SHORT)
 
 New paradigm is to move to ON and OFF and look at them each year.
+* Oops -- it does make sense but I haven't done it much
 
 https://docs.google.com/spreadsheets/d/14NOl4IfANoIfkI_2sWpobdLsy5-pZR2UfudAiMTmb6Q/edit#gid=0
 
