@@ -13,22 +13,17 @@
 ## Don't use SLIDE when there's another command!
 ## Still not simple, because we need SLIDE to null the slide!!
 
-## Long lectures
-## This is clearly a nonsense; pay attention if we see any of these
-## It's at the top because we want to override it
-LONGSLIDE ^DEFHEAD %%
-LONG ^%%
+SHORTCOMMENT ^OFFSLIDE %%
+SHORTSLIDE ^OFFSLIDE %%
+SHORT ^OFF %%
 
-## Short lectures (current)
-REGSLIDE ^NULLSLIDE
-SHORTCOMMENT ^CSLIDE %%
-SHORTSLIDE ^DEFHEAD %%
-REGULAR ^%!
-SHORT ^%%
+REGSLIDE ^ONSLIDE %%
+REGULAR ^ON %%
+REGCOMMENT ^CSLIDE %%
 
-## Regular lectures
-REGSLIDE ^%%
-REGULAR ^%%
+LONGCOMMENT ^OFFSLIDE %%
+LONGSLIDE ^OFFSLIDE %%
+LONG ^OFF %%
 
 ## Tag optional slides for turning on and off
 ONSLIDE ^DEFHEAD %%

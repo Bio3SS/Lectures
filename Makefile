@@ -128,8 +128,8 @@ structure.poll.csv: structure.txt pollcsv.pl
 structure.html: structure.step
 structure.outline.pdf: structure.txt
 
-structure.final.pdf: structure.txt
-structure.draft.pdf: structure.txt
+## structure.final.pdf: structure.txt
+## structure.draft.pdf: structure.txt structure.draft.tex
 structure.handouts.pdf: structure.txt
 structure.complete.pdf: structure.txt
 
@@ -325,7 +325,7 @@ video/0122.edit.mp4: 0122.1.mp4 0122.2.mp4 0122.comb.txt
 
 Ignore += makestuff
 msrepo = https://github.com/dushoff
-Makefile: makestuff/01.stamp
+Makefile: makestuff/02.stamp
 makestuff/%.stamp: | makestuff
 	- $(RM) makestuff/*.stamp
 	cd makestuff && $(MAKE) pull
