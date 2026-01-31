@@ -154,9 +154,11 @@ What determines $\lambda$?
 
 Long-term growth
 
-	Let's define $\bar\lambda$ as the long-term average rate of growth.
+	$\lambda$ changes when the population structure changes
 
-		$ N \approx N_0 \bar\lambda^T $
+	Define $\bar\lambda$ as the long-term average rate of growth.
+
+		$N \approx N_0 \bar\lambda^T $
 
 	Can we calculate $\bar\lambda$ if $p$ is changing?
 
@@ -164,6 +166,7 @@ Long-term growth
 		population structure
 
 		ANS Not easy to find the population structure until we know $\bar\lambda$
+		\ldots
 
 ----------------------------------------------------------------------
 
@@ -190,15 +193,19 @@ What determines $\R$?
 
 What does \R\ tell us about $\bar\lambda$?
 
-	ANS Population increases when $\R>1$, so $\bar\lambda>1$ exactly
-	when  $\R>1$
+	\R\ is easier to calculate than $\bar\lambda$
+
+	What is the connection?
+
+		ANS Population increases when $\R>1$, so $\bar\lambda>1$ exactly
+		when  $\R>1$
 
 	If $\R=1.2$, then $\bar\lambda$
 
 		ANS $>1$ -- the population is increasing
 
-		ANS $<1.2$ -- the life cycle takes more than 1 year, so it should
-		take more than one year for the population to increase 1.2 times
+		ANS $<1.2$ -- the life cycle takes more than 1 time step, so it 
+		take more than one time step for the population to increase 1.2 times
 
 ----------------------------------------------------------------------
 
@@ -750,6 +757,10 @@ When do we start counting?
 
 		If we count right {\em after} reproduction, this means we are
 		calling newborns age class 1. 
+
+		If we count right {\em before} reproduction
+
+			ANS Age class 1 is about one year old the first time we see them
 
 ----------------------------------------------------------------------
 

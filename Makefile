@@ -92,8 +92,8 @@ Sources += $(wildcard *.txt *.poll)
 ## intro.complete.pdf: intro.txt
 ## intro.handouts.docx: intro.handouts.tex
 
-math.handouts.pdf: math.txt
-math.complete.pdf: math.txt
+## math.handouts.pdf: math.txt
+## math.complete.pdf: math.txt
 
 # Unit 2 (Linear population growth)
 linear.poll.csv: linear.txt pollcsv.pl
@@ -130,7 +130,7 @@ structure.outline.pdf: structure.txt
 
 ## structure.final.pdf: structure.txt
 ## structure.draft.pdf: structure.txt structure.draft.tex
-structure.handouts.pdf: structure.txt
+## structure.handouts.pdf: structure.txt
 structure.complete.pdf: structure.txt
 
 # Unit 5 (Life history)
