@@ -245,7 +245,7 @@ Regulation
 
 ----------------------------------------------------------------------
 
-REGCOMMENT Complexity
+EXTRA REGCOMMENT Complexity
 
 ADD Better art!
 
