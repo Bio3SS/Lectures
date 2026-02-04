@@ -740,6 +740,8 @@ DEFHEAD $f_x$ vs.~$m_x$
 
 	POLL  How would I calculate one from the other? 
 
+		ANS How did we calculate $f$ in the dandelion example?
+
 		ANS To get $f_x$ we multiply $m_x$ by one or more survival terms,
 		depending on when the census is
 
@@ -777,7 +779,6 @@ REPSLIDE Example: biennial dandelions
 	What does the life table look like?
 
 ----------------------------------------------------------------------
-
 
 ASLIDE Dandelion life table
 
