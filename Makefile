@@ -132,6 +132,7 @@ structure.final.pdf: structure.txt
 structure.draft.pdf: structure.txt
 structure.handouts.pdf: structure.txt
 structure.complete.pdf: structure.txt
+structure.cut.complete.pdf: structure.txt
 
 # Unit 5 (Life history)
 life_history.poll.csv: life_history.txt pollcsv.pl

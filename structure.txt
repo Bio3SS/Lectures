@@ -219,7 +219,7 @@ Regulation
 
 ----------------------------------------------------------------------
 
-REGSLIDE CSLIDE Complexity
+OFFSLIDE CSLIDE Complexity
 
 ADD Better art!
 
@@ -695,6 +695,8 @@ FIG structure/salmon.Rout-2.pdf
 REGSLIDE Salmon dynamics
 
 DOUBLEFIG structure/salmon.Rout-2.pdf structure/salmon.Rout-1.pdf
+
+CUTOFF
 
 ----------------------------------------------------------------------
 
