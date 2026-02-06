@@ -1886,8 +1886,8 @@ Allee effect summary
 
 		ANS Maybe a large initial group established by chance
 
-		ANS Maybe the population arrived recently (and won't necessarily stick
-		around)
+		ANS Maybe the population arrived recently and hasn't had time to go
+		extinct yet.
 
 ----------------------------------------------------------------------
 
