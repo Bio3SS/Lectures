@@ -7,6 +7,8 @@ EXTRA
 
 Found in 2026 and didn't have much time to deal; update as you go.
 
+Go back and look at what's ON and OFF <SLIDE>, and reclassify
+
 Clean up the logic here. Make sure you know what's in or out for the short version. 
 
 Clarify when you're talking about long-term and year-to-year lambda
@@ -454,7 +456,7 @@ EXTRA
 
 ----------------------------------------------------------------------
 
-REGSLIDE Exception
+ONSLIDE Exception
 
 	Populations with \textbf{independent cohorts} do not tend to reach a
 	stable age distribution
@@ -475,7 +477,7 @@ REGSLIDE Exception
 
 ----------------------------------------------------------------------
 
-REGSLIDE Independent cohorts
+ONSLIDE Independent cohorts
 
 	Some populations might have independent cohorts:
 
@@ -676,7 +678,7 @@ WIDEFIG my_images/structure_cc.png
 
 ----------------------------------------------------------------------
 
-REGSLIDE Salmon example
+ONSLIDE Salmon example
 
 	What happens when a population has independent cohorts?
 
@@ -684,43 +686,43 @@ REGSLIDE Salmon example
 
 ----------------------------------------------------------------------
 
-REGSLIDE QSLIDE Salmon example
+ON QSLIDE Salmon example
 
 INPUT Life_tables/salmon.empty.tab.tex
 
 ----------------------------------------------------------------------
 
-REGSLIDE ASLIDE Salmon example
+ON ASLIDE Salmon example
 
 INPUT Life_tables/salmon.tab.tex
 
 ----------------------------------------------------------------------
 
-REGSLIDE PSLIDE Salmon example
+ON PSLIDE Salmon example
 
 WIDEFIG webpix/salmon.jpg
 
 ----------------------------------------------------------------------
 
-REGSLIDE PSLIDE Salmon dynamics
+ON PSLIDE Salmon dynamics
 
 FIG structure/salmon.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
-REGSLIDE PSLIDE Salmon population dynamics
+ON PSLIDE Salmon population dynamics
 
 FIG structure/salmon.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
-REGSLIDE PSLIDE Salmon age dynamics
+ON PSLIDE Salmon age dynamics
 
 FIG structure/salmon.Rout-2.pdf
 
 ----------------------------------------------------------------------
 
-REGSLIDE Salmon dynamics
+ONSLIDE Salmon dynamics
 
 DOUBLEFIG structure/salmon.Rout-2.pdf structure/salmon.Rout-1.pdf
 
@@ -881,7 +883,7 @@ SHORTCOMMENT Calculating $\bar\lambda$
 
 ----------------------------------------------------------------------
 
-REGSLIDE The Euler equation
+ONSLIDE The Euler equation
 
 	If the life table doesn't change, then $\bar\lambda$ is given by $\sum_x
 	\ell_x f_x \bar\lambda^{-x} = 1$
@@ -1162,7 +1164,7 @@ WIDEFIG webpix/iranpop.png
 
 ----------------------------------------------------------------------
 
-REGSLIDE CSLIDE Age distributions
+ON CSLIDE Age distributions
 
 WIDEFIG webpix/canadapop.jpg
 
@@ -1180,7 +1182,7 @@ WIDEFIG webpix/cambodiapop.png
 
 ----------------------------------------------------------------------
 
-REGSLIDE Learning from the model
+ONSLIDE Learning from the model
 
 	If a population has constant size (ie., the same number of
 	individuals are born every year), what determines the proportion of
@@ -1197,7 +1199,7 @@ REGSLIDE Learning from the model
 
 ----------------------------------------------------------------------
 
-REGSLIDE Stable age distribution
+ONSLIDE Stable age distribution
 
 	If a population has reached a SAD, and is increasing at rate
 	$\lambda$ (given by the Euler equation):
@@ -1213,7 +1215,7 @@ REGSLIDE Stable age distribution
 
 ----------------------------------------------------------------------
 
-REGSLIDE Patterns
+ONSLIDE Patterns
 
 	Populations tend to be bottom-heavy (more individuals at lower age
 	classes)
@@ -1234,7 +1236,7 @@ REGSLIDE Patterns
 
 ----------------------------------------------------------------------
 
-REGSLIDE University cohorts
+ONSLIDE University cohorts
 
 	McMaster accepts only first-year students.  For any given stage
 	(e.g., end of third year) the same proportion drop out each year
@@ -1256,31 +1258,31 @@ REGSLIDE University cohorts
 
 ----------------------------------------------------------------------
 
-REGSLIDE REPSLIDE Changing survivorship
+ON REPSLIDE Changing survivorship
 
 DOUBLEFIG age/arch.Rout-0.pdf age/arch.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
-REGSLIDE Age distributions
+ONSLIDE Age distributions
 
 FIG age/arch_sad.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
-REGSLIDE Age distributions
+ONSLIDE Age distributions
 
 FIG age/arch_sad.Rout-2.pdf
 
 ----------------------------------------------------------------------
 
-REGSLIDE Age distributions
+ONSLIDE Age distributions
 
 FIG age/arch_sad.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
-REGSLIDE REPSLIDE The Euler equation
+ON REPSLIDE The Euler equation
 
 	If the life table doesn't change, then $\bar\lambda$ is given by $\sum_x
 	\ell_x f_x \bar\lambda^{-x} = 1$
@@ -1296,6 +1298,12 @@ REGSLIDE REPSLIDE The Euler equation
 
 	Under this assumption, is the next generation $\lambda$ times bigger
 	again?
+
+----------------------------------------------------------------------
+
+ON CSLIDE Age distributions
+
+WIDEFIG webpix/canadapop.jpg
 
 ----------------------------------------------------------------------
 
@@ -1458,4 +1466,3 @@ Dynamics
 
 		whether the population has been growing or declining recently
 
-		COMMENT Not really covered this year
