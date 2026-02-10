@@ -301,7 +301,7 @@ BC
 	spending on reproduction, than to increase $p$, which can never be
 	larger than 1.
 
-	Raising $p$ from 0 to 1 becoming \emph{immortal} instead of annual,
+	Raising $p$ from 0 to 1 -- becoming \emph{immortal} instead of annual --
 	is only as good as increasing $f$ by 1
 
 NC
@@ -326,8 +326,8 @@ Responses to Cole
 		ANS Risky environments: long-lived organisms can deal better with
 		variation in offspring success. 
 
-		COMMENT Parenthood (taking care of offspring) not where we're going,
-		but is a relevant point
+		ANS For some organisms, parent(s) staying alive may be a key part of
+		offspring success
 
 ----------------------------------------------------------------------
 
