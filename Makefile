@@ -133,11 +133,11 @@ structure.outline.pdf: structure.txt
 ## structure.handouts.pdf: structure.txt
 ## structure.complete.pdf: structure.txt
 
-life_history.final.pdf: life_history.txt
-life_history.draft.pdf: life_history.txt
-life_history.handouts.pdf: life_history.txt
-life_history.complete.pdf: life_history.txt
-life_history.cut.complete.pdf: life_history.txt
+## life_history.final.pdf: life_history.txt
+## life_history.draft.pdf: life_history.txt
+## life_history.handouts.pdf: life_history.txt
+## life_history.complete.pdf: life_history.txt
+## life_history.cut.complete.pdf: life_history.txt
 
 # Unit 6 (competition)
 competition.poll.csv: competition.txt pollcsv.pl
