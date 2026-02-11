@@ -139,6 +139,7 @@ structure.outline.pdf: structure.txt
 ## life_history.complete.pdf: life_history.txt
 ## life_history.cut.complete.pdf: life_history.txt
 
+
 # Unit 6 (competition)
 competition.poll.csv: competition.txt pollcsv.pl
 competition.html: competition.step
