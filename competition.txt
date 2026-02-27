@@ -115,9 +115,9 @@ Flour beetles
 
 PSLIDE Outcomes of competition
 
-FIG webpix/confusum.jpg
+HFIG 0.7 webpix/umaine.jpg
 
-COMMENT The confused flour beetle
+COMMENT University of Maine
 
 ----------------------------------------------------------------------
 
