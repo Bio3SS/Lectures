@@ -154,14 +154,14 @@ humble.draft.pdf: humble.txt
 humble.html: humble.step
 
 # Unit 7 (predation)
-exploitation.poll.csv: exploitation.txt pollcsv.pl
-exploitation.html: exploitation.step
-exploitation.outline.pdf: exploitation.txt
-exploitation.draft.pdf: exploitation.txt
-exploitation.final.pdf: exploitation.txt
-exploitation.handouts.pdf: exploitation.txt
-exploitation.complete.pdf: exploitation.txt
-exploitation.cut.complete.pdf: exploitation.txt
+## exploitation.draft.pdf: exploitation.txt
+## exploitation.final.pdf: exploitation.txt
+## exploitation.handouts.pdf: exploitation.txt
+## exploitation.complete.pdf: exploitation.txt
+## exploitation.poll.csv: exploitation.txt pollcsv.pl
+## exploitation.html: exploitation.step
+## exploitation.outline.pdf: exploitation.txt
+## exploitation.cut.complete.pdf: exploitation.txt
 
 ## 2022 had disease and a corona supplement; don't know how much was taught
 ## It was not a disaster, but may be dated because we've gone so much further with corona now
