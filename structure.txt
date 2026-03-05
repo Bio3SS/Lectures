@@ -1389,8 +1389,6 @@ Unregulated growth
 
 		Can calculate a stable stage distribution
 
-		COMMENT \R\ is about the same as in age structured model
-
 	Unregulated growth cannot persist
 
 ----------------------------------------------------------------------

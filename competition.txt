@@ -115,9 +115,9 @@ Flour beetles
 
 PSLIDE Outcomes of competition
 
-FIG webpix/confusum.jpg
+HFIG 0.7 webpix/umaine.jpg
 
-COMMENT The confused flour beetle
+COMMENT University of Maine
 
 ----------------------------------------------------------------------
 
@@ -225,6 +225,11 @@ Equal competition
 		
 		ANS Dominance!
 
+----------------------------------------------------------------------
+
+REPSLIDE Equal?
+
+FIG webpix/larches.jpg
 ----------------------------------------------------------------------
 
 CSLIDE Dominance time plot
@@ -788,13 +793,13 @@ ONSLIDE Founder control
 
 ----------------------------------------------------------------------
 
-ONSLIDE PSLIDE Growth rate and founder control
+ONPRES Growth rate and founder control
 
 FIG competition/rmutual.comp.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
-ONSLIDE PSLIDE Growth rate and founder control
+ONPRES Growth rate and founder control
 
 FIG competition/rmutual.comp.Rout-1.pdf
 
@@ -850,6 +855,25 @@ Growth rates
 rK tradeoff
 
 FIG competition/rK.comp.Rout-4.pdf
+
+----------------------------------------------------------------------
+
+rK co-existence
+
+	What happens if we have an $r$ species and a $K$ species competing in a
+	single patch?
+
+		ANS $K$ species wins
+
+			ANS if conditions are stable
+
+	What if they are competing on a landscape with disturbance?
+
+		ANS $r$ species wins if disturbance is very high
+
+		ANS $K$ species wins if disturbance is very low
+
+		ANS Tendency for co-existence in between
 
 ----------------------------------------------------------------------
 
@@ -963,16 +987,12 @@ OFFSLIDE Exclusion and drift
 
 Competitive exclusion and biodiversity
 
-	Two species that use resources the same way cannot co-exist in a
-	stable environment in the long term due to their competitive
-	dynamics
+	Based on competitive dynamics, we don't expect two species that use resources
+	to co-exist in a given environment in the long term
 
-	This statement can be justified mathematically, and it has
-	important implications for real populations \ldots\
-	
-	\ldots but it must also break down 
+	This explains a lot about where species usually \emph{aren't} found
 
-	POLL  How? Why do we observe species co-existing?
+	But we also see a lot of species together and competing! How?
 
 		ANS Species may not use resources in the same way
 

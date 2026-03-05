@@ -25,12 +25,6 @@ LONGCOMMENT ^OFFSLIDE %%
 LONGSLIDE ^OFFSLIDE %%
 LONG ^OFF %%
 
-## Tag optional slides for turning on and off
-ONSLIDE ^DEFHEAD %%
-ON ^%%
-OFFSLIDE ^NULLSLIDE
-OFF ^%!
-
 ## April Fools!
 APRIL ^NULLSLIDE
 
@@ -125,3 +119,4 @@ draft final: ^DEFHEAD %%
 
 # Fit a highfig that doesn't fit in frame
 FIGHFIG ^HFIG 0.9 %%
+
