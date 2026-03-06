@@ -140,15 +140,17 @@ structure.outline.pdf: structure.txt
 ## life_history.cut.complete.pdf: life_history.txt
 
 # Unit 6 (competition)
-competition.poll.csv: competition.txt pollcsv.pl
-competition.html: competition.step
-competition.outline.pdf: competition.txt
 
 competition.final.pdf: competition.txt
 competition.draft.pdf: competition.txt
 competition.handouts.pdf: competition.txt
 competition.complete.pdf: competition.txt
 
+competition.poll.csv: competition.txt pollcsv.pl
+competition.html: competition.step
+competition.outline.pdf: competition.txt
+
+## April Fools!
 humble.draft.pdf: humble.txt
 humble.html: humble.step
 
