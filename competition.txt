@@ -988,7 +988,7 @@ OFFSLIDE Exclusion and drift
 Competitive exclusion and biodiversity
 
 	Based on competitive dynamics, we don't expect two species that use resources
-	to co-exist in a given environment in the long term
+	in the same way to co-exist in a given environment in the long term
 
 	This explains a lot about where species usually \emph{aren't} found
 
