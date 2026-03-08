@@ -124,14 +124,15 @@ nonlinear.complete.pdf: nonlinear.txt
 ## delay.txt a suppressed section of nonlinear (2021)
 
 # Unit 4 (Structured populations)
-structure.poll.csv: structure.txt pollcsv.pl
-structure.html: structure.step
-structure.outline.pdf: structure.txt
 
 ## structure.final.pdf: structure.txt
 ## structure.draft.pdf: structure.txt structure.draft.tex
 ## structure.handouts.pdf: structure.txt
 ## structure.complete.pdf: structure.txt
+
+## structure.poll.csv: structure.txt pollcsv.pl
+## structure.html: structure.step
+## structure.outline.pdf: structure.txt
 
 ## life_history.final.pdf: life_history.txt
 ## life_history.draft.pdf: life_history.txt
