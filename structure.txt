@@ -7,7 +7,7 @@ EXTRA
 
 Found in 2026 and didn't have much time to deal; update as you go.
 
-Go back and look at what's ON and OFF <SLIDE>, and reclassify
+Go back and look at what's ON and OFF <LINE/SLIDE>, and reclassify
 
 Clean up the logic here. Make sure you know what's in or out for the short version. 
 
@@ -17,7 +17,6 @@ Clarify when you're talking about long-term and year-to-year lambda
 Replace some content about age distributions and so forth
 
 ----------------------------------------------------------------------
-
 
 TSEC Introduction
 
@@ -444,14 +443,14 @@ Long-term dynamics
 
 	HREF http://tinyurl.com/DandelionModel2026 Spreadsheet link
 
-	ADD Update year
-
+		ADD Update year
 
 ----------------------------------------------------------------------
 
 EXTRA
 
 	http://tinyurl.com/Dandelions2023 Spreadsheet link
+
 	http://tinyurl.com/DandelionModel2024 Spreadsheet link
 
 ----------------------------------------------------------------------
@@ -686,37 +685,37 @@ ONSLIDE Salmon example
 
 ----------------------------------------------------------------------
 
-ON QSLIDE Salmon example
+ONCOMM QSLIDE Salmon example
 
 INPUT Life_tables/salmon.empty.tab.tex
 
 ----------------------------------------------------------------------
 
-ON ASLIDE Salmon example
+ONCOMM ASLIDE Salmon example
 
 INPUT Life_tables/salmon.tab.tex
 
 ----------------------------------------------------------------------
 
-ON PSLIDE Salmon example
+ONCOMM PSLIDE Salmon example
 
 WIDEFIG webpix/salmon.jpg
 
 ----------------------------------------------------------------------
 
-ON PSLIDE Salmon dynamics
+ONCOMM PSLIDE Salmon dynamics
 
 FIG structure/salmon.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
-ON PSLIDE Salmon population dynamics
+ONCOMM PSLIDE Salmon population dynamics
 
 FIG structure/salmon.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
-ON PSLIDE Salmon age dynamics
+ONCOMM PSLIDE Salmon age dynamics
 
 FIG structure/salmon.Rout-2.pdf
 
@@ -1160,7 +1159,7 @@ WIDEFIG webpix/iranpop.png
 
 ----------------------------------------------------------------------
 
-ON CSLIDE Age distributions
+ONCOMM CSLIDE Age distributions
 
 WIDEFIG webpix/canadapop.jpg
 
@@ -1254,7 +1253,7 @@ ONSLIDE University cohorts
 
 ----------------------------------------------------------------------
 
-ON REPSLIDE Changing survivorship
+ONCOMM REPSLIDE Changing survivorship
 
 DOUBLEFIG age/arch.Rout-0.pdf age/arch.Rout-1.pdf
 
@@ -1278,7 +1277,7 @@ FIG age/arch_sad.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
-ON REPSLIDE The Euler equation
+ONCOMM REPSLIDE The Euler equation
 
 	If the life table doesn't change, then $\bar\lambda$ is given by $\sum_x
 	\ell_x f_x \bar\lambda^{-x} = 1$
@@ -1297,7 +1296,7 @@ ON REPSLIDE The Euler equation
 
 ----------------------------------------------------------------------
 
-ON CSLIDE Age distributions
+ONCOMM CSLIDE Age distributions
 
 WIDEFIG webpix/canadapop.jpg
 
@@ -1342,7 +1341,6 @@ Forest size classes
 		certain times and places)
 
 ----------------------------------------------------------------------
-
 
 TSS Stage structure
 
