@@ -726,8 +726,6 @@ ONSLIDE Salmon dynamics
 
 DOUBLEFIG structure/salmon.Rout-2.pdf structure/salmon.Rout-1.pdf
 
-CUTOFF
-
 ----------------------------------------------------------------------
 
 SS Calculation details
@@ -795,10 +793,6 @@ ASLIDE Counting \emph{after} reproduction
 INPUT Life_tables/post.tab.tex
 
 COMMENT There are two different approaches to the third age class: if we assume that we count the two-year old adults ($x=3$), we can write $p_2 = 0.5$; $f_3=0$, and get the same answer (with one extra row that has zero contribution).
-
-----------------------------------------------------------------------
-
-CUTOFF
 
 ----------------------------------------------------------------------
 
