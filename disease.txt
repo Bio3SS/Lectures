@@ -378,7 +378,7 @@ EC
 
 ----------------------------------------------------------------------
 
-ON PSLIDE Fighting Ebola
+ONCOMM PSLIDE Fighting Ebola
 
 FIG webpix/burial_team.jpg
 
@@ -401,13 +401,13 @@ ONSLIDE Generation time and risk
 
 ----------------------------------------------------------------------
 
-ON REPSLIDE Generation time and risk
+ONCOMM REPSLIDE Generation time and risk
 
 FIG boxes/steps.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
-ON REPSLIDE Generation time and risk
+ONCOMM REPSLIDE Generation time and risk
 
 FIG boxes/steps.Rout-1.pdf
 
@@ -715,9 +715,9 @@ TSS Epidemic size
 
 			ANS \ldots and \emph{fewer} susceptibles at the end
 
-		ON ANS The number of infected individuals at the beginning of the epidemic
+		ONLINE ANS The number of infected individuals at the beginning of the epidemic
 
-			ON ANS Usually relatively small (and a relatively small effect)
+			ONLINE ANS Usually relatively small (and a relatively small effect)
 
 
 ----------------------------------------------------------------------

@@ -165,20 +165,16 @@ humble.html: humble.step
 ## exploitation.outline.pdf: exploitation.txt
 ## exploitation.cut.complete.pdf: exploitation.txt
 
-## 2022 had disease and a corona supplement; don't know how much was taught
-## It was not a disaster, but may be dated because we've gone so much further with corona now
+# disease.poll.csv: disease.txt pollcsv.pl
+# disease.html: disease.step
+# disease.outline.pdf: disease.txt
 
-## Merged version 2022 Mar 27 (Sun)
-disease.poll.csv: disease.txt pollcsv.pl
-disease.html: disease.step
-disease.outline.pdf: disease.txt
+# disease.final.pdf: disease.txt
+# disease.draft.pdf: disease.txt
+# disease.handouts.pdf: disease.txt
+# disease.complete.pdf: disease.txt
 
-disease.final.pdf: disease.txt
-disease.draft.pdf: disease.txt
-disease.handouts.pdf: disease.txt
-disease.complete.pdf: disease.txt
-
-# Unit 8B (Corona supplement)
+# Unit 8B (Corona supplement); outdated now
 # Special lesson 2020 (early!) All deleted
 # Supplement 2022 put in its place
 ## 2024: Lifting pathogen aggressiveness; probably pretty deprecated now
