@@ -4,8 +4,6 @@ UNIT 8: Infectious disease
 
 EXTRA
 
-Could flesh out more
-
 A bit more detail about reciprocal control/replenishment
 
 More on pathogen aggressiveness biology
@@ -15,6 +13,10 @@ As much more heterogeneity as you want; at least the fragile-heterogeneity lines
 Case fatality
 
 Incidence and prevalence
+
+2026: Switched from covidCA (based on WZ's repo) to dd/ COVID data from health-infobase.canada.ca. Both not updated for quite a while
+
+More summary material
 
 ----------------------------------------------------------------------
 
@@ -105,13 +107,16 @@ Microparasite models
 		\textbf{Resistant} individuals are not infected and cannot become
 		infected
 
-	More complicated models might include other states, such as
-	latently infected hosts who are infected with the pathogen but
-	cannot yet infect others
+	More complicated models can include other states
+
+		e.g., latently infected hosts who are infected with the pathogen but
+		cannot yet infect others
+
+		Not doing that this year
 
 ----------------------------------------------------------------------
 
-Models as tools
+REPSLIDE Models as tools
 
 BC
 
@@ -175,33 +180,19 @@ DOUBLEPDF WA_Ebola_Outbreak/liberia.npc.tsplot.Rout
 
 PRESLIDE COVID in Ontario
 
-FIG covidCA/ON_class.Rout-0.pdf
+FIG dd/covid_post.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
 PRESLIDE COVID in Ontario
 
-FIG covidCA/ON_class.Rout-1.pdf
+FIG dd/covid_post.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
-COVID in Ontario
+PRESLIDE COVID in Ontario
 
-DOUBLEFIG covidCA/ON_class.Rout-0.pdf covidCA/ON_class.Rout-1.pdf
-
-----------------------------------------------------------------------
-
-OFFSLIDE REPSLIDE COVID in Ontario
-
-FIG covidCA/ON_class.Rout-2.pdf
-
-Blowup likely intended to show current conditions in 2022.
-
-----------------------------------------------------------------------
-
-OFFSLIDE REPSLIDE COVID in Ontario
-
-FIG covidCA/ON_class.Rout-3.pdf
+DOUBLEPDF dd/covid_post.Rout
 
 ----------------------------------------------------------------------
 
@@ -222,8 +213,6 @@ Population biology
 		ANS Speed of exponential growth $r$
 
 		ANS Finite rate of increase $\lambda$
-
-			OFF ANS Skipped this year
 
 		ANS Lifetime reproduction, \Rx
 
@@ -347,8 +336,6 @@ NC
 SIDEFIG boxes/generationTime.Rout-0.pdf
 
 EC
-
-ADD We could have more about compound interest and variation
 
 ----------------------------------------------------------------------
 
@@ -1000,13 +987,11 @@ EC
 
 COVID in Ontario
 
-DOUBLEFIG covidCA/ON_class.Rout-0.pdf covidCA/ON_class.Rout-1.pdf
+DOUBLEPDF dd/covid_post.Rout
 
 ----------------------------------------------------------------------
 
 Behaviour and policy change
-
-ADD Repeated pictures of oscillations and covid
 
 	Why did \scv\ not follow this pattern?
 
@@ -1030,15 +1015,7 @@ FIG dd/covid_post.Rout-0.pdf
 
 PRESLIDE Post-pandemic COVID
 
-FIG dd/covid_post.Rout-1.pdf
-
-----------------------------------------------------------------------
-
-ASLIDE Post-pandemic COVID
-
-DOUBLEPDF dd/covid_post.Rout
-
-ADD Make this a regular slide; update time series?
+FIG dd/covid_post.Rout-2.pdf
 
 ----------------------------------------------------------------------
 
@@ -1052,8 +1029,6 @@ TSEC Reproductive numbers and risk
 
 	If you have a single, fast epidemic, the size is also predicted by
 	\Ro.
-
-	ADD Prevalence and incidence
 
 ----------------------------------------------------------------------
 
