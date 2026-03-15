@@ -13,8 +13,6 @@ Almost filled three lectures, going just a little slow (and being pretty excited
 
 ----------------------------------------------------------------------
 
-EXTRA
-
 PSLIDE Pop quiz
 
 	Disease unit
@@ -22,6 +20,8 @@ PSLIDE Pop quiz
 	Paper and pen, no calculator
 
 	Write your name and \emph{macid} across the top
+
+		Not your student number
 
 	Now write the date
 
@@ -31,7 +31,7 @@ PSLIDE Pop quiz
 
 ----------------------------------------------------------------------
 
-EXTRA PICSLIDE FIG webpix/fool.jpg
+PICSLIDE FIG webpix/fool.jpg
 
 ----------------------------------------------------------------------
 
@@ -361,7 +361,7 @@ Kin Recognition
 
 	Is there another reason many organisms have evolved to recognize kin?
 
-		ANS Avoidance of outbreeding
+		ANS Avoidance of inbreeding
 
 		ANS if the recognition exists, it can be used for other purposes
 
