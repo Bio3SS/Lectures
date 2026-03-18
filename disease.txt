@@ -4,15 +4,21 @@ UNIT 8: Infectious disease
 
 EXTRA
 
+Really do need more stuff; start earlier
+
+Redo simulations -- there are inconsistencies!
+
 A bit more detail about reciprocal control/replenishment
 
 More on pathogen aggressiveness biology
 
 As much more heterogeneity as you want; at least the fragile-heterogeneity lines
 
-Case fatality
+Sensible calculations:
 
-Incidence and prevalence
+	Case fatality
+
+	Incidence and prevalence
 
 2026: Switched from covidCA (based on WZ's repo) to dd/ COVID data from health-infobase.canada.ca. Both not updated for quite a while
 
