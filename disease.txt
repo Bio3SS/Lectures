@@ -245,6 +245,8 @@ Instantaneous rate of growth $r$
 		ANS We estimate $r$ from the population-level
 		increase in disease
 		
+		ANS and $d$ as $1/D$, the duration of infectiousness
+		
 			ANS Then we use that to estimate $b = d+r$
 
 		ANS Models go both directions!
