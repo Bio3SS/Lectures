@@ -165,14 +165,14 @@ humble.html: humble.step
 ## exploitation.outline.pdf: exploitation.txt
 ## exploitation.cut.complete.pdf: exploitation.txt
 
-# disease.poll.csv: disease.txt pollcsv.pl
-# disease.html: disease.step
-# disease.outline.pdf: disease.txt
-
 # disease.final.pdf: disease.txt
 # disease.draft.pdf: disease.txt
 # disease.handouts.pdf: disease.txt
 # disease.complete.pdf: disease.txt
+
+# disease.poll.csv: disease.txt pollcsv.pl
+# disease.html: disease.step
+# disease.outline.pdf: disease.txt
 
 # Unit 8B (Corona supplement)
 # Special lesson 2020 (early!) All deleted
