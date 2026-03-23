@@ -778,6 +778,25 @@ What limits epidemics?
 
 ----------------------------------------------------------------------
 
+CSLIDE Epidemic phase plane
+
+FIG sims/burnouts.plots.Rout-4.pdf
+
+----------------------------------------------------------------------
+
+CSLIDE Epidemic phase plane
+
+FIG sims/hetBurn.plots.Rout-4.pdf
+
+----------------------------------------------------------------------
+
+CSLIDE Epidemic phase plane
+
+FIG sims/fastBurn.plots.Rout-4.pdf
+
+----------------------------------------------------------------------
+
+
 TSEC Recurrent epidemic models
 
 BC
