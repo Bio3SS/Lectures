@@ -5,10 +5,6 @@ Done in haste. Fill in. More tables and more discussion of game theory strategy.
 
 More concrete and fitness capture and so forth
 
-----------------------------------------------------------------------
-
-EXTRA PSLIDE BIO3SS3: Population Ecology
-
 Almost filled three lectures, going just a little slow (and being pretty excited)
 
 ----------------------------------------------------------------------
@@ -62,6 +58,8 @@ The fight to surivive
 
 PICSLIDE FIG webpix/lionsHyenas.png
 
+REMARK Mostly to illustrate non-mutualistic interactions (another slide is coming)
+
 ----------------------------------------------------------------------
 
 Positive interactions
@@ -104,6 +102,38 @@ The influence of mutualism
 
 ----------------------------------------------------------------------
 
+Eukaryotic cells
+
+BCC
+
+	The eukaryotic cell descends from at least one ancient mutualism
+
+	Land plants descend from a further ancient mutualism
+
+NCC
+
+SIDEFIG webpix/humanCell.jpg
+
+EC
+
+----------------------------------------------------------------------
+
+Multi-cellularity
+
+BCC
+
+	Multi-cellular organisms descend from ancient communities of co-operators
+
+	Evolved separately in plants, animals, fungi and elsewhere
+
+NCC
+
+ADD Slime-mold picture? Other?
+
+EC
+
+----------------------------------------------------------------------
+
 PSLIDE Alarming
 
 HIGHFIG webpix/meerkat.jpg
@@ -117,7 +147,7 @@ Example: Alarming
 	These benefit other individuals who need to worry about the same
 	predators
 
-		Often works either within- or between- species
+		Commonly see both within- and between- species
 
 	Plants and bacteria also spread alarms
 
@@ -146,6 +176,12 @@ Grooming
 		ANS Cleaner fish eat parasites from the skin of larger fish
 
 		ANS Cattle egrets eat parasites from cattle
+
+----------------------------------------------------------------------
+
+EXTRA
+
+Multi-species grooming pix
 
 ----------------------------------------------------------------------
 
@@ -228,6 +264,10 @@ Colicin dynamics
 
 ----------------------------------------------------------------------
 
+EXTRA Colicin pix
+
+----------------------------------------------------------------------
+
 SEC Cooperation within species
 
 ----------------------------------------------------------------------
@@ -279,6 +319,9 @@ SLIDEHEAD Co-ordination and cheating
 
 		ANS Not really, cheaters could rely on others to spot the predators
 
+		ANS If all of the other zebra are watching for predators, I can just
+		watch the other zebra 
+
 ----------------------------------------------------------------------
 
 Group selection
@@ -288,7 +331,7 @@ Group selection
 	Groups where cheaters arise might eventually be out-competed by groups where
 	they don't
 
-	Depends on the effective level at which selection is acting
+	Depends on the effective level at which natural selection is acting
 
 ----------------------------------------------------------------------
 
@@ -310,8 +353,6 @@ Kin selection
 
 Hamilton's rule
 
-	More of a rule of thumb
-
 	Costly sharing is good if the relative benefit outweighs the cost
 
 	A costly act is favored by natural selection if $rb > c$:
@@ -321,6 +362,8 @@ Hamilton's rule
 	COMMENT I would gladly lay down my life for my two siblings
 
 		COMMENT or for eight cousins
+
+	You should see this as a loose guide
 
 ----------------------------------------------------------------------
 
@@ -333,10 +376,11 @@ ADD This was a proposed April joke, but I did the pop quiz in 2024
 Limitations 
 
 	Hamilton's rule suggests that pure altruism (paying a cost for others) can
-	be selected for, but it is hard to implement
+	be selected for
 
-	Benefits and costs are hard to estimate (and may be hard for natural
-	processes to estimate as well)
+	It is hard to apply Hamilton's rule quantitatively
+
+	Benefits and costs are hard to estimate
 
 	What is the effective value of “relatedness”?
 
@@ -385,16 +429,21 @@ EC
 
 Kin viscosity
 
-BCC
+BC
 
 	Kin viscosity is the idea that any same-species individuals you encounter
 	are likely to be related
 
 	Activities that benefit the group are likely to favor your fitness
 
-	Many micro-organisms seem to do this, e.g., by building biofilms
+	Many micro-organisms have behaviours that seem to follow this assumption
+	make use of this, e.g., by building biofilms
 
-NCC 
+		ANS Making antibiotics
+
+		ANS Building biofilms
+
+NC
 
 SIDEFIG webpix/lavaBiofilm.jpg
 
@@ -404,7 +453,7 @@ EC
 
 Gene-level view
 
-	We've thought about the group level and the inclusive-fitness level
+	We've thought about the group level and the kin-fitness level
 
 	It might be that \emph{genes} are the right level, though
 
@@ -421,7 +470,7 @@ Gene-level view
 
 Reciprocity
 
-	Another way helping could be favored selectively is if they help each other
+	Another way helping could be favored selectively is organisms help each other
 
 		Two indivduals could explore each others' willingness to help out
 
@@ -539,14 +588,16 @@ Cellular slime molds
 	Sometimes act like micro-organisms; sometimes like multi-cellular animals,
 	and sometimes like plants or fungi
 
-	Individual “amoebas” join up for dispersal and reproduction -- some make it
-	and some don't
-	
-	ADD Clarify above!!
+	Individual “amoebas” join up for dispersal and reproduction
+
+		Amoebas that wind up in the stalk of a fruiting body are sacrificing
+		their own reproduction
 
 	A wide variety of mechanisms to make cheating difficult
 
 		Combined with kin selection
+
+	NOTES HREF https://www.youtube.com/watch?v=bkVhLJLG7ug Movie
 
 ----------------------------------------------------------------------
 
