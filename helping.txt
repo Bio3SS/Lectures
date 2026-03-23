@@ -365,10 +365,6 @@ Hamilton's rule
 
 	You should see this as a loose guide
 
-		It's hard to directly measure fitness benefits
-
-		Also hard to figure out the baseline for “relatedness”
-
 ----------------------------------------------------------------------
 
 EXTRA CSLIDE Review: Lifetime fitness 
@@ -380,10 +376,11 @@ ADD This was a proposed April joke, but I did the pop quiz in 2024
 Limitations 
 
 	Hamilton's rule suggests that pure altruism (paying a cost for others) can
-	be selected for, but it is hard to implement
+	be selected for
 
-	Benefits and costs are hard to estimate (and may be hard for natural
-	processes to estimate as well)
+	It is hard to apply Hamilton's rule quantitatively
+
+	Benefits and costs are hard to estimate
 
 	What is the effective value of “relatedness”?
 
@@ -432,16 +429,21 @@ EC
 
 Kin viscosity
 
-BCC
+BC
 
 	Kin viscosity is the idea that any same-species individuals you encounter
 	are likely to be related
 
 	Activities that benefit the group are likely to favor your fitness
 
-	Many micro-organisms seem to do this, e.g., by building biofilms
+	Many micro-organisms have behaviours that seem to follow this assumption
+	make use of this, e.g., by building biofilms
 
-NCC 
+		ANS Making antibiotics
+
+		ANS Building biofilms
+
+NC
 
 SIDEFIG webpix/lavaBiofilm.jpg
 
@@ -451,7 +453,7 @@ EC
 
 Gene-level view
 
-	We've thought about the group level and the inclusive-fitness level
+	We've thought about the group level and the kin-fitness level
 
 	It might be that \emph{genes} are the right level, though
 
@@ -468,7 +470,7 @@ Gene-level view
 
 Reciprocity
 
-	Another way helping could be favored selectively is if they help each other
+	Another way helping could be favored selectively is organisms help each other
 
 		Two indivduals could explore each others' willingness to help out
 
@@ -586,14 +588,16 @@ Cellular slime molds
 	Sometimes act like micro-organisms; sometimes like multi-cellular animals,
 	and sometimes like plants or fungi
 
-	Individual “amoebas” join up for dispersal and reproduction -- some make it
-	and some don't
-	
-	ADD Clarify above!!
+	Individual “amoebas” join up for dispersal and reproduction
+
+		Amoebas that wind up in the stalk of a fruiting body are sacrificing
+		their own reproduction
 
 	A wide variety of mechanisms to make cheating difficult
 
 		Combined with kin selection
+
+	NOTES HREF https://www.youtube.com/watch?v=bkVhLJLG7ug Movie
 
 ----------------------------------------------------------------------
 

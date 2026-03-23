@@ -636,6 +636,8 @@ DOUBLEPDF sims/burnout.plots.Rout
 
 Simulating the model
 
+CORRECTION Figures updated from handout
+
 DOUBLEFIG sims/burnouts.plots.Rout-0.pdf sims/burnouts.plots.Rout-4.pdf
 
 ----------------------------------------------------------------------
@@ -782,20 +784,19 @@ CSLIDE Epidemic phase plane
 
 FIG sims/burnouts.plots.Rout-4.pdf
 
-----------------------------------------------------------------------
+CORRECTION You can tell $\Ro = 2$ because peaks when $S/N = 1/2$
 
-CSLIDE Epidemic phase plane
-
-FIG sims/hetBurn.plots.Rout-4.pdf
+ADD FIX all this!
 
 ----------------------------------------------------------------------
 
 CSLIDE Epidemic phase plane
 
-FIG sims/fastBurn.plots.Rout-4.pdf
+DOUBLEFIG sims/hetBurn.plots.Rout-4.pdf sims/fastBurn.plots.Rout-4.pdf
+
+CORRECTION Left: Heterogeneous epidemic is smaller; Right: Larger epidemic when $\Ro=3$ peaks when $S/N = 1/3$.
 
 ----------------------------------------------------------------------
-
 
 TSEC Recurrent epidemic models
 
@@ -936,7 +937,7 @@ Reciprocal control
 		ANS If we remove infectious individuals fast enough, the infection could
 		go extinct
 
-		ANS $\R_c S/N \leq 1$
+		CORRECTION $\Ro \leq 1$, after control measures
 
 ----------------------------------------------------------------------
 
