@@ -936,7 +936,7 @@ Reciprocal control
 		ANS If we remove infectious individuals fast enough, the infection could
 		go extinct
 
-		ANS $\R_c S/N \leq 1$
+			ANS If $\R_c S/N \leq 1$
 
 ----------------------------------------------------------------------
 
