@@ -337,7 +337,7 @@ Group selection
 
 Kin selection
 
-	Costly behaviours can be selected if they benefit \emph{relatives}
+	Costly behaviours can be selected if they benefit \emph{relatives} (kin)
 
 		Inclusive fitness
 
@@ -359,11 +359,11 @@ Hamilton's rule
 
 		Benefit to relatives multiplied by relatedness exceeds cost to individual
 
+	You should see this as a loose guide
+
 	COMMENT I would gladly lay down my life for my two siblings
 
 		COMMENT or for eight cousins
-
-	You should see this as a loose guide
 
 ----------------------------------------------------------------------
 
@@ -390,6 +390,8 @@ Limitations
 	Why do we assume we're always competing with a relevant population?
 
 		ANS Population regulation, the “third law” of population dynamics
+
+	It is hard to disentangle group selection from kin selection
 
 ----------------------------------------------------------------------
 
@@ -464,7 +466,12 @@ Gene-level view
 
 		Does this select for sets of linked traits?
 
+			ANS A trait that others can recognize, which signals the presence of a
+			co-operator gene
+
 		What about cheating?
+
+			ANS A gene that makes co-operators think you have the co-operator gene
 
 ----------------------------------------------------------------------
 
@@ -673,7 +680,7 @@ WIDEFIG Heliconius_mimicry.cropped.png
 
 Batesian mimicry
 
-	Similar organisms that are \emph{not} poisonous also benefit from looking
+	Similar organisms that are \emph{not} dangerous also benefit from looking
 	like the nasty ones
 
 	This is an example of
@@ -681,6 +688,8 @@ Batesian mimicry
 		ANS Free riding
 
 	Batesian mimics tend to be rare: why?
+
+		ANS Predators will learn not to be afraid if harmless species is common
 
 ----------------------------------------------------------------------
 
@@ -699,7 +708,7 @@ Mixed flocks and schools
 
 		What about free riding?
 
-			ANS Species or individuals relying on others to be alert
+			ANS Yes. Species or individuals could rely on others to be alert
 
 ----------------------------------------------------------------------
 
@@ -776,7 +785,6 @@ FIG webpix/acacia_ants.jpg
 
 ----------------------------------------------------------------------
 
-
 Evolution and co-evolution
 
 	Many species have elaborate defenses against cheaters
@@ -819,17 +827,19 @@ Linkage
 
 		ants and some acacia trees
 
-		arbuscular fungi and most plants
+		root fungi and plants
 
 	Others might have very weak relationships
 
 		Vertebrates eating fruit from a particular plant
 
+	ADD Pix
+
 ----------------------------------------------------------------------
 
 Example: leaf-cutter ants
 
-	Leaf cutter ants have no ability to digest leaves
+	Leaf cutter ants have no ability to digest leaves!
 
 	They are completely dependent on highly specialized fungi that they raise
 
@@ -840,6 +850,8 @@ Example: leaf-cutter ants
 		The ants culture bacteria that attack cheating fungi, but not their own
 		fungi
 
+	ADD Pix
+		
 ----------------------------------------------------------------------
 
 Example: Mitochondria
@@ -861,6 +873,25 @@ Example: Mitochondria
 
 ----------------------------------------------------------------------
 
+Conclusions
+
+	Positive interactions are pervasive 
+
+		And a major driver of evolution
+
+	Opportunities for conflict arise often
+
+		Much of life is a balance between co-operation and conflict
+
+	Sometimes, evolutionary changes can minimize conflict
+
+		endo-symbiosis, multi-cellularity
+
+		NOTES There are also examples where conflict emerges anyway!
+
+		ANS cancer and mitochondrial sex selection
+
+----------------------------------------------------------------------
 
 EXTRA
 
