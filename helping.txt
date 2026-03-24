@@ -31,7 +31,7 @@ PICSLIDE FIG webpix/fool.jpg
 
 ----------------------------------------------------------------------
 
-UNIT 9: Mutualistic interactions
+UNIT 9: Mutualism and co-operation
 
 ----------------------------------------------------------------------
 
@@ -479,11 +479,11 @@ Reciprocity
 
 	Another way helping could be favored selectively is organisms help each other
 
-		Two indivduals could explore each others' willingness to help out
+		Two individuals could explore each others' willingness to help out
 
 		If I help you, you help me, and we both benefit
 
-	ADD More about sociality and so forth
+	Social organisms may have many, many opportunities to interact
 
 ----------------------------------------------------------------------
 
@@ -800,6 +800,9 @@ Evolution and co-evolution
 		Fruits with thick skins
 
 			ANS Less likely to be penetrated by small things that won't spread them
+
+		COMMENT Avocadoes may be fatty to discourage consumption by
+		normal-sized things
 
 ----------------------------------------------------------------------
 
