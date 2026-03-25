@@ -187,13 +187,13 @@ corona.draft.pdf: corona.txt
 corona.handouts.pdf: corona.txt
 corona.complete.pdf: corona.txt
 
-## helping.final.pdf: helping.txt
-## helping.draft.pdf: helping.txt
-## helping.handouts.pdf: helping.txt
-## helping.complete.pdf: helping.txt
+helping.html: helping.step
+helping.outline.pdf: helping.txt
 
-## helping.html: helping.step
-## helping.outline.pdf: helping.txt
+helping.final.pdf: helping.txt
+helping.draft.pdf: helping.txt
+helping.handouts.pdf: helping.txt
+helping.complete.pdf: helping.txt
 
 ######################################################################
 

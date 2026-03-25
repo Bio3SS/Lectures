@@ -1027,11 +1027,11 @@ Behaviour and policy change
 
 			ANS Fear of overflowing hospitals and chaos in general
 
-		ANS Population heterogeneity
+		ANS Rapid evolution
 
-			ANS Not everyone mixes the same, or at the same time
+	ANS What will \scv\ do in the future?
 
-		ANS Is \scv\ following a similar pattern now?
+		ANS Maybe become more and more like other respiratory viruses
 
 ----------------------------------------------------------------------
 
