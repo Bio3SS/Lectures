@@ -9,7 +9,7 @@ Almost filled three lectures, going just a little slow (and being pretty excited
 
 ----------------------------------------------------------------------
 
-PSLIDE Pop quiz
+APRIL Pop quiz
 
 	Disease unit
 
@@ -27,7 +27,7 @@ PSLIDE Pop quiz
 
 ----------------------------------------------------------------------
 
-PICSLIDE FIG webpix/fool.jpg
+APRIL PICSLIDE FIG webpix/fool.jpg
 
 ----------------------------------------------------------------------
 
@@ -128,7 +128,7 @@ BCC
 
 NCC
 
-ADD Slime-mold picture? Other?
+SIDEFIG webpix/dictyCycle.png
 
 EC
 
@@ -409,7 +409,7 @@ Kin Recognition
 
 		ANS Avoidance of inbreeding
 
-		ANS if the recognition exists, it can be used for other purposes
+		ANS if recognition exists, it can be used for other purposes
 
 ----------------------------------------------------------------------
 
@@ -438,12 +438,12 @@ BC
 
 	Activities that benefit the group are likely to favor your fitness
 
-	Many micro-organisms have behaviours that seem to follow this assumption
-	make use of this, e.g., by building biofilms
-
-		ANS Making antibiotics
+	Many micro-organisms have behaviours that seem to 
+	make use of this:
 
 		ANS Building biofilms
+
+		ANS Making antibiotics
 
 NC
 
@@ -836,7 +836,11 @@ Linkage
 
 		Vertebrates eating fruit from a particular plant
 
-	ADD Pix
+----------------------------------------------------------------------
+
+PSLIDE
+
+HIGHFIG webpix/fruitOrang.jpg
 
 ----------------------------------------------------------------------
 
@@ -844,7 +848,7 @@ Example: leaf-cutter ants
 
 	Leaf cutter ants have no ability to digest leaves!
 
-	They are completely dependent on highly specialized fungi that they raise
+	tHey are completely dependent on highly specialized fungi that they raise
 
 		These fungi have no ability to survive without ants
 
@@ -853,9 +857,14 @@ Example: leaf-cutter ants
 		The ants culture bacteria that attack cheating fungi, but not their own
 		fungi
 
-	ADD Pix
-		
 ----------------------------------------------------------------------
+
+PSLIDE
+
+HIGHFIG webpix/antFungus.jpg
+
+----------------------------------------------------------------------
+
 
 Example: Mitochondria
 
@@ -890,7 +899,7 @@ Conclusions
 
 		endo-symbiosis, multi-cellularity
 
-		NOTES There are also examples where conflict emerges anyway!
+	There are also examples where conflict emerges anyway!
 
 		ANS cancer and mitochondrial sex selection
 

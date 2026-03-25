@@ -178,22 +178,23 @@ humble.html: humble.step
 # Special lesson 2020 (early!) All deleted
 # Supplement 2022 put in its place
 ## 2024: Lifting pathogen aggressiveness; probably pretty deprecated now
-corona.poll.csv: corona.txt pollcsv.pl
-corona.html: corona.step
-corona.outline.pdf: corona.txt
+## corona.poll.csv: corona.txt pollcsv.pl
+## corona.html: corona.step
+## corona.outline.pdf: corona.txt
 
-corona.final.pdf: corona.txt
-corona.draft.pdf: corona.txt
-corona.handouts.pdf: corona.txt
-corona.complete.pdf: corona.txt
+## corona.final.pdf: corona.txt
+## corona.draft.pdf: corona.txt
+## corona.handouts.pdf: corona.txt
+## corona.complete.pdf: corona.txt
 
-helping.html: helping.step
-helping.outline.pdf: helping.txt
+## Unit 9 Mutualism and co-operation 
+## helping.final.pdf: helping.txt
+## helping.draft.pdf: helping.txt
+## helping.handouts.pdf: helping.txt
+## helping.complete.pdf: helping.txt
 
-helping.final.pdf: helping.txt
-helping.draft.pdf: helping.txt
-helping.handouts.pdf: helping.txt
-helping.complete.pdf: helping.txt
+## helping.html: helping.step
+## helping.outline.pdf: helping.txt
 
 ######################################################################
 
