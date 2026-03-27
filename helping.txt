@@ -520,13 +520,15 @@ Public goods
 
 		ANS Alarming is shared more generally
 
+		ANS Harder to develop reciprocity
+
 	Widely shared \textbf{public goods} are subject to \textbf{free riding}:
 
 		A form of cheating -- I enjoy the benefits of help, but don't myself help
 
 		If free riders have higher fitness, what can happen?
 
-			ANS It's complicated
+			ANS It's complicated …
 
 ----------------------------------------------------------------------
 
@@ -708,7 +710,8 @@ Mixed flocks and schools
 
 		What about free riding?
 
-			ANS Yes. Species or individuals could rely on others to be alert
+			ANS It is a problem.
+			Species or individuals could rely on others to be alert
 
 ----------------------------------------------------------------------
 
