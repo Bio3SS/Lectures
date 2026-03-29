@@ -219,11 +219,11 @@ pandoc_r = pandoc -o $@ $<
 
 ## Midterm complete notes
 
-## Remember to search/destroy old CUTOFF before using
-## If we keep these intermediate, they should disappear (and not be committed)
+## Remember not to allow to CUTOFF magic words in same file
 ## structure.cut.complete.pdf: structure.txt
 ## life_history.cut.complete.pdf: life_history.txt
 ## competition.cut.complete.pdf: competition.txt
+## If we keep these intermediate, they should disappear (and not be committed)
 %.cut.txt: %.txt
 	perl -npe "last if /CUTOFF/" $< | perl -npe "s/UNIT.*/UNIT Provisional notes/" > $@
 

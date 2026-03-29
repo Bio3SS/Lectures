@@ -1731,7 +1731,7 @@ Types of Allee effect
 
 EXTRA
 
-	ADD CUTOFF 2020 Jan 21 (Tue): what does this mean?
+	Use magic word CUTOFF for exam notes as appropriate
 
 ----------------------------------------------------------------------
 
