@@ -108,18 +108,16 @@ linear.complete.pdf: linear.txt
 ## This pathway exists but has issues; only try if somebody makes a specific request
 linear.handouts.docx:
 
-linear.handouts.pdf.pd:
-linear.complete.pdf.pd:
-
 # Unit 3 (Non-linear population growth)
-nonlinear.poll.csv: nonlinear.txt pollcsv.pl
-nonlinear.html: nonlinear.step
-nonlinear.outline.pdf: nonlinear.txt
 
-nonlinear.final.pdf: nonlinear.txt
-nonlinear.draft.pdf: nonlinear.txt
-nonlinear.handouts.pdf: nonlinear.txt
-nonlinear.complete.pdf: nonlinear.txt
+# nonlinear.final.pdf: nonlinear.txt
+# nonlinear.draft.pdf: nonlinear.txt
+# nonlinear.handouts.pdf: nonlinear.txt
+# nonlinear.complete.pdf: nonlinear.txt
+
+# nonlinear.poll.csv: nonlinear.txt pollcsv.pl
+# nonlinear.html: nonlinear.step
+# nonlinear.outline.pdf: nonlinear.txt
 
 ## delay.txt a suppressed section of nonlinear (2021)
 
