@@ -72,7 +72,7 @@ pushdir = web/materials/
 
 hotdirs += $(pardirs)
 
-alldirs += $(pardirs)
+## alldirs += $(pardirs)
 
 ######################################################################
 
