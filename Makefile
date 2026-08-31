@@ -196,6 +196,11 @@ humble.html: humble.step
 
 ######################################################################
 
+## More confusion here; overlap with talks and workshops 2026 Aug 30 (Sun)
+Ignore += beamer.tmp
+
+######################################################################
+
 ## webpix/dd
 
 Ignore += Heliconius_mimicry.cropped.png
