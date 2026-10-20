@@ -38,6 +38,8 @@ Sources += Makefile README.md notes.md hours.md
 ## Keeping track of schedule
 Sources += lectures.txt
 
+Sources += claude.md
+
 ######################################################################
 
 ## Kind of a mish-mash, and could maybe be merged
@@ -86,8 +88,6 @@ Sources += $(wildcard *.txt *.poll)
 ## intro.poll.csv: intro.txt pollcsv.pl
 ## intro.html: intro.step
 ## intro.outline.pdf: intro.txt
-
-## claude.md
 
 ## intro.draft.pdf: intro.txt intro.draft.tex
 ## intro.final.pdf: intro.txt
