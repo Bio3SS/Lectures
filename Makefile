@@ -87,6 +87,8 @@ Sources += $(wildcard *.txt *.poll)
 ## intro.html: intro.step
 ## intro.outline.pdf: intro.txt
 
+## claude.md
+
 ## intro.draft.pdf: intro.txt intro.draft.tex
 ## intro.final.pdf: intro.txt
 ## intro.handouts.pdf: intro.txt
