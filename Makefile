@@ -40,6 +40,11 @@ Sources += lectures.txt
 
 Sources += claude.md
 
+## Markdown pipeline experiment (see mdtalk/mdtalk.mk)
+## linear.draft.md.pdf: linear.txt
+Sources += $(wildcard mdtalk/*.py mdtalk/*.fmt mdtalk/*.lua mdtalk/*.pandoc mdtalk/*.mk)
+-include mdtalk/mdtalk.mk
+
 ######################################################################
 
 ## Kind of a mish-mash, and could maybe be merged

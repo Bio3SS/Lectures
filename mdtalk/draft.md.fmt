@@ -1,0 +1,114 @@
+# SKETCH: draft rules for txt → md (pandoc beamer, --slide-level=3)
+## Covers the commands used in linear.txt, plus a few neighbours
+## Same syntax as usTests/test.format, with these additions (see notes at bottom)
+##   %     one word         %+    the rest of the paragraph, without using it up
+##   %|    up to the next |   NULLSLIDE   drop the whole slide (as now)
+
+################################################################
+
+# Specials
+
+!SEP -{30,}
+
+## Leading tabs become nested markdown items (depth n → 4(n-1) spaces + "- ")
+## Commands can follow the tabs (POLL, ANS); their output becomes the item text
+!TAB -
+
+## The first paragraph of a slide with no command is its title
+!TITLE DEFHEAD
+
+################################################################
+
+# Headings
+## Pandoc makes # and ## into \section and \subsection, and ### into a frame
+## so we no longer need NOFRAME, SLIDESTART, BSL or ESL
+
+## UNIT is not defined in the current format files; it just shows up as a slide title
+UNIT ### UNIT %%
+
+SEC # %%
+SS ## %%
+SSS ## %%
+TSEC # %%\n\n### %%
+TSS ## %%\n\n### %%
+
+DEFHEAD ### %%
+
+## Paragraphs with no command
+DEFCOMM %%
+
+################################################################
+
+# Slide variants (draft marks them; final and handouts would treat them differently)
+
+PSLIDE ^DEFHEAD *%% (present)*
+REPSLIDE ^DEFHEAD *%% (repeat)*
+PRESLIDE ^DEFHEAD *%% (preview)*
+CONT ^DEFHEAD *%%*
+CSLIDE ^DEFHEAD *%%*
+ASLIDE ^DEFHEAD [*%%*]{.uline}
+QSLIDE ^DEFHEAD %%
+EXTRA NULLSLIDE
+
+################################################################
+
+# Answers, comments, polls (spans: the Lua filter turns classes into LaTeX)
+
+ANS \* [%%]{.answer}
+NOANS \* [NOANS]{.answer}
+COMMENT [*%%*]{.short}
+CHANGE [**Change: %%**]{.change}
+REMARK [**Remark: %%**]{.change}
+
+## POLL label | question text: draft shows only the label
+POLL [%|]{.poll} %!
+
+## Notes-only and presentation-only paragraphs
+NOTES %!
+PRESENT ^%%
+
+## Pandoc reads \href as a link; url comes first, so we can't use [text](url)
+HREF \href{%}{%%}
+
+################################################################
+
+# Columns (fenced divs; pandoc writes the beamer columns)
+## spans.lua puts \small in every column, as the old format did
+
+BC :::: {.columns align=center}\n::: {.column width="54%"}
+NC :::\n::: {.column width="40%"}
+EC :::\n::::
+
+BCC :::: {.columns align=center}\n::: {.column width="47%"}
+NCC :::\n::: {.column width="47%"}
+ECC ^EC
+
+################################################################
+
+# Figures
+## Pandoc reads percent heights as fractions of \textheight and widths as fractions of \linewidth
+
+FIG ![](%){height=90%}
+HIGHFIG ![](%){height=100%}
+WIDEFIG ![](%){width=100%}
+SIDEFIG ^WIDEFIG %
+CFIG ^WIDEFIG %
+
+## Side by side. Old DBFIG set heights (\dfheight); this sets widths, so check tall images
+DOUBLEFIG ![](%){width=48%}\hfill![](%){width=48%}
+DOUBLEPDF ^DOUBLEFIG %+-0.pdf %-1.pdf
+
+################################################################
+
+# Pauses
+
+PAUSE \*
+
+################################################################
+
+## Notes on what lect.py would need, compared with the usTests version
+## * Split slides first, then paragraphs; check NULLSLIDE (and ENDTALK) per slide
+## * Tab conversion, with commands allowed after the tabs
+## * New patterns %, %+, %| (old lect.pl already has these meanings)
+## * Pass raw LaTeX in DEFCOMM text through (\emph, \textbf and math are fine);
+##   {\bf …} groups and the like need a sed pass, because pandoc escapes the braces

@@ -1,0 +1,34 @@
+\documentclass{beamer}
+
+%% 2024 Nov 15 (Fri) Something weird going on with these templates
+%% \input{LatexTemplates/ici3dTemplate.tex}
+%% \input{LatexTemplates/ici3dCurrent.tex}
+\input{talkdir/bulletspace.tex}
+
+%% If you enable Chinese, you need to also 
+%% latexEngine = xelatex
+
+%% \usepackage{talkdir/chinese}
+\newcommand{\chinese}[1]{}
+\usepackage{talkdir/slidecomm,talkdir/commands}
+\usepackage{graphicx,xspace}
+\usepackage{grffile}
+\usepackage{hyperref}
+\usepackage{url}
+
+\input{talkdir/section.tex}
+\input{talkdir/lengths.tex}
+\input{talkdir/colors.tex}
+\InputIfFileExists{./localcomm.tex}{}{}
+
+%% For pandoc output
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\providecommand{\pandocbounded}[1]{#1}
+
+\begin{document}
+
+$body$
+
+%% \input{LatexTemplates/ici3dClose.tex}
+
+\end{document}
